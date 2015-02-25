@@ -9,11 +9,11 @@
     \begin{tabular}{|p{2cm}|p{5cm}|p{5cm}|p{4cm}|}
         \hline
         \textbf{Test Series} & \textbf{Purpose of Test Series} & \textbf{Testing Strategy} & \textbf{Strategy Rationale}\\ \hline
-1 & Test the flow of control between user interfaces & Top-down testing & I habe chosen top-down testing as the flow of user interfaces is hierarchical due to the fact there are multiple interfaces which stem from an original, main interface \\ \hline
+1 & Test the flow of control between user interfaces & Top-down testing & I have chosen top-down testing as the flow of user interfaces is hierarchical due to the fact there are multiple interfaces which stem from an original, main interface \\ \hline
 2 & Validation of input data performed corrected & Bottom-up Testing & I have chosen bottom-up testing as I need to test the lower levels of data input to ensure the information has been entered into the database. Only then I will be able to test other areas that use that information from the database  \\ \hline
 3 & Test information input is stored in the correct place & White box testing & I have chosen white box testing as I will have to look into the database after I have inputted the data using the program to see that the data has been entered in the correct place \\ \hline
 4 & Test algorithms and SQL Queries to ensure the output is correct & Black box testing & I have chosen black box testing as I will see whether or not the algorithm/query has returned the correct values, without looking at the internal structure of the code \\ \hline
-5 & Test that the system fulfils the specification & Acceptance testing & I have chosen acceptance testing as this test is conducted to determine if the specification is met \\ \hline
+5 & Test that the system fulfills the specification & Acceptance testing & I have chosen acceptance testing as this test is conducted to determine if the specification is met \\ \hline
 
 
     \end{tabular}
@@ -176,7 +176,7 @@ There were no changes made to my outline plan.
 
 
 
-5 & Verify the program fulfills the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Add some information to the program, start a student test, and view the results of the test & Normal & Program fulfils the specification & & \\ \hline
+5 & Verify the program fulfills the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Add some information to the program, start a student test, and view the results of the test & Normal & Program fulfills the specification & & \\ \hline
 
     \end{longtable}
 \end{center}
@@ -489,6 +489,141 @@ Please see column 'Test Data' in subsection 'Changed Items From Detailed Plan' a
 \section{Annotated Samples}
 
 \subsection{Actual Results}
+
+The table below contains my finalised test plan, including the retained and changed test series.
+
+\begin{landscape}
+\begin{center}
+    \begin{longtable}{|p{1.5cm}|p{2.5cm}|p{2.5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        \textbf{Test Series} & \textbf{Purpose of Test} & \textbf{Test Description} & \textbf{Test Data} & \textbf{Test Data Type (Normal/ Erroneous/ Boundary)} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Evidence}\\ \hline
+1.00 & Test that the 'Profile' tab functions properly & This should load the profile window & Click the 'Profile' tab in the application & Normal & The profile window should be displayed & &  \\ \hline
+
+1.01 & Test the Change Name button on the profile window functions properly & The line edit will be available to edit and then once save is clicked, it will be read only  &  Click 'Edit' followed by 'Change Name', and then 'save' & Normal & The two name line edits should become available to edit & & \\ \hline
+
+1.02 & Test the Change Email button on the profile window functions properly & The line edit will be available to edit and then once save is clicked, it will be read only & Click 'Edit' followed by 'Change Email', and then 'save' & Normal &  The email line edit should be available to edit & &  \\ \hline
+
+1.03 & Test the Change Picture button on the profile window functions properly &  The default file browser for the system should open, allowing the user to select a jpeg image & click the 'Edit' button followed by the 'Change Picture' button & Normal & Default file browser should appear & &\\ \hline
+
+1.05 & Test the add trick button functions properly & This should load a side form to add a trick & Click the add trick button at the top left corner of the application & Normal & A side form prompting you to add a trick should appear &  \\ \hline
+
+1.06 & Test the Edit Trick function & CLI interface runs you through editing a selected trick & select edit trick in the CLI & Normal & The CLI will run through options to edit a selected trick &  \\ \hline
+
+1.07 & Test the Delete process functions properly & Once a row is selected and the delete button is pressed the row should be deleted & Select a row, press delete and click save & Normal & A pop-up should ask you whether you wish to delete that trick and once save is clicked the row will be deleted &  \\ \hline
+
+1.04 & Test that the 'Tricks' tab functions properly & This should load the tricks window & Click the 'Tricks' tab in the application & Normal & The Tricks window should be displayed & & \\ \hline
+
+1.08 & Test that the 'Skateparks' tab functions properly & This should load the skateparks window &Click the 'Skateparks' tab in the application & Normal & The Skateparks window should be displayed & & \\ \hline
+
+1.09 & Test the Add Skatepark button functions properly &  This should load a side form to add a skatepark & Click the add skatepark button at the top left corner of the application & Normal & A side form prompting you to add a skatepark should appear & &  \\ \hline
+
+1.10 & Test the Skatepark Location process functions properly & This should load a pop-up giving details about the skatepark & Hover over a location on a map & Normal & A pop-up giving you information about a skatepark & & \\ \hline
+
+1.11 & Test the Edit Skatepark process functions properly & CLI interface runs you through editing a selected skatepark & Select a skatepark to edit and enter new details & Normal & The CLI will run through options to edit a selected skatepark &  & \\ \hline
+
+1.12 &  Test the Delete skatepark process functions properly & CLI interface runs you through deleting a selected skatepark & Select a skatepark to delete and confirm & Normal & The CLI will run through options to delete a selected skatepark & & \\ \hline
+
+1.14 & Test that the 'Reviews' tab functions properly & This should load the reviews window & Click the 'Reviews' tab in the application & Normal & The Reviews window should be displayed & &  \\ \hline
+
+1.15 & Test the Add Review process functions properly &   CLI interface runs you through adding a review & Run through the add skatepark CLI & Normal & The CLI will run through fields to add a new review & &  \\ \hline
+
+1.16 & Test the Edit Review process functions properly & CLI interface runs you through editing a review &  Select a review to edit and enter new details & Normal & The CLI will run through options to edit a selected skatepark &  & \\ \hline
+
+1.17  & Test the Delete Review process functions properly &  CLI interface runs you through deleting a review &  Select a review to delete and confirm & Normal & The CLI will run through options to delete a selected skatepark & &  \\ \hline
+
+
+
+2.00 & Verify an appropriate name is entered to the 'Change Name' line edit. & Should not accept the name if it is not valid & 1.Ben 2.Keppie 3.   4.12345  5.Ben10 & 1.Normal 2.Normal 3.Erroneous 4.Erroneous 5.Erroneous & 1.Accept 2.Accept 3.Error (Presence) 4.Error (Numbers) 5.Error (Numbers) & & \\ \hline
+
+2.01 & Verify an appropriate picture is selected in the 'Change Picture' pop-out & Should only accept JPEG images & 1.Picture.JPEG 2.Picture.PNG 3.Picture.txt & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error (File Type) 3.Error (File Type) & & \\ \hline
+
+2.02 & Verify a valid email is entered to the 'Change Email' line edit & Should only accept a correct email format & 1.BenKeppie@hotmail.co.uk 2.BenKeppieEmail.com  3.Ji1290.co.uk & 1. Normal 2. Erroneous 3. Erroneous & 1. Accept 2. Error(Format) 3.Error(Format) & & \\ \hline
+
+2.03 & Verify presence for adding a tricks name & Checks something is entered & 1.Ollie 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick description & Checks something is entered & 1.Flips 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick obstacle & Checks something is entered & 1.Flat Ground 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick tutorial link & Checks something is entered and that it is a website link & 1.\url{http://www.youtube.com/watch?V=1} 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.05 & Verify an appropriate picture is selected in the 'add a trick' pop-out & Should only accept JPEG images & 1.Picture.JPEG 2.Picture.PNG 3.Picture.txt & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error (File Type) 3.Error (File Type) & & \\ \hline
+
+2.06 & Verify a difficulty is selected & Drop down box with 3 options & 1.Easy 2.Medium 3.Hard 4. & 1.Normal 2.Normal 3.Normal 4.Erroneous & 1.Accept 2.Accept 3.Accept 4.Error(Presence) & & \\ \hline
+
+
+2.08 & Verify presence for adding a skatepark name & Checks something is entered & 1.Cambourne 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline 
+
+
+
+2.10 & Verify presence for a skatepark description & Checks something is entered & 1.Halfpipe only 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.11 & Verify presence for a review description & Checks something is entered & 1.Amazing 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.12 & Verify presence and correct number range & Checks something is entered and the values are between 1 and 5 & 1.3 2.0 3. 4.r & 1.Normal 2.Boundary 3.Erroneous 4.Erroneous & 1.Accept 2.Error(Range) 3.Error(Presence) 4.Error(Character) & & \\ \hline
+
+2.13 & Verify a product brand is selected & Checks a value is selected & 1.ZERO 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.14 & Verify a product type is selected & Checks a value is selected & 1.Trucks 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.15 & Verify a product size is selected & Checks a value is selected & 1. 5.0" 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.16 & Verify a product name is selected & Checks a value is selected & 1.SpecOps 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+
+
+
+
+3.00 & Verify the first and last name are inputted into the database & The first and last name should be added to the database & 1.FirstName 2.LastName & 1.Normal 2.Normal & 1.Accept 2.Accept & &  \\ \hline
+
+3.01 & Verify the profile picture is inputted into the database & A jpeg image should be added to the database & JPEG image & Normal & Accept & & \\ \hline
+
+3.02 & Verify an email is inputted into the database & An email should be added to the database & BenKeppie@hotmail.co.uk & Normal & Accept  & & \\ \hline
+
+3.03 & Verify a trick name is inputted into the database & A trick name should be added to the database & Ollie & Normal & Accept & & \\ \hline
+
+3.04 & Verify a trick description is inputted into the database & A trick description should be added to the database & Board Rotates 360 & Normal & Accept & & \\ \hline
+
+3.05  & Verify a trick obstacle is inputted into the database & A trick obstacle should be added to the database & Flat ground & Normal & Accept & & \\ \hline
+
+3.06 & Verify a trick image is inputted into the database & A trick image should be added to the database & JPEG Image & Normal & Accept & & \\ \hline
+
+3.07 & Verify a trick tutorial link is inputted into the database & A trick tutorial link should be added to the database & \url{www.youtube.com/watch?v=?} & Normal & Accept & & \\ \hline
+
+3.08 & Verify a trick difficulty is inputted into the databse & A trick difficulty should be added to the database & Easy & Normal & Accept & & \\ \hline
+
+3.09 & Verify a skatepark name is inputted into the database & A skatepark name should be added to the database & Cambourne Skatepark & Normal & Accept & & \\ \hline
+
+3.10 & Verify skatepark coordinates are inputted into the database & Skatepark coordinates should be added to the database & 52.2200,0.0700 & Normal & Accept & & \\ \hline
+
+3.11 & Verify a skatepark description is inputted into the database & A skatepark description should be added into the database & Half pipe & Normal & Accept & & \\ \hline
+
+3.12 & Verify a review description is inputted into the databse & A review description should be entered into the database & Amazing product & Normal & Accept & & \\ \hline
+ 
+3.13 & Verify a product brand is inputted into the database & A product brand should be entered into the database & Product Brand (ZERO) & Normal & Accept & & \\ \hline
+
+3.14 & Verify a product size is inputted into the database & A product size should be entered into the database & Product Size (5.0") & Normal & Accept && \\ \hline
+
+3.15 & Verify a product name is inputted into the database & A product name should be entered into the database & Product Name (Spec Ops) & Normal & Accept & & \\ \hline
+
+3.16 & Verify a product type is inputted into the database & A product type should be entered into the database & Product Type (Truck) & Normal & Accept & & \\ \hline
+
+
+
+4.05 & Verify that the skatepark is added to the correct location on the map & Longitude and latitude will correspond to map location & 1.52.2200, 0.0700 & Normal & Skatepark will be displayed on the map & & \\ \hline
+
+
+
+
+5 & Verify the program fulfills the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Add some information to the program, start a student test, and view the results of the test & Normal & Program fulfills the specification & & \\ \hline
+
+
+
+	\end{longtable}
+
+\end{center}
+\end{landscape}
+
 
 \subsection{Evidence}
 
