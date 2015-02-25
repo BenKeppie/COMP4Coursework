@@ -1,0 +1,1335 @@
+\chapter{Design}
+
+\section{Overall System Design}
+
+\subsection{Short description of the main parts of the system}
+
+\underline{\textbf{Start-Up Wizard}}
+\begin{itemize}
+\item General User Interface
+\item Adding a Profile
+\end{itemize}
+
+\textbf{General User Interface for the Start-Up Wizard}
+
+The general user interface for the start-up wizard will consist of a paragraph of text, containing information on how to proceed with setting up a profile and 3 text boxes to enter your name and email. An additional 'browse' button is available to select a profile picture. A save button at the bottom of the window is there to save all the changes.
+
+\textbf{Adding a Profile}
+
+The start-up wizard appears if no profile information can be found in the database. The start-up wizard allows you to add your name and email and to select a profile picture. Once all the information has been filled in the changes will be saved and the actual application will load up, personalised with the information that you have entered in the start-up wizard. 
+
+\underline{\textbf{Profile}}
+\begin{itemize}
+\item General User Interface
+\item Editing Profile Information
+\end{itemize}
+
+\textbf{General User Interface for the Profile}
+
+The general user interface for the profile will consist of a picutre, name, email and recent completed tricks, above the main window there will be tabs containing the other areas of the system and above that will be an option to edit your profile. Additionally a progress bar showing the percentage of tricks completed will be displayed at the bottom of the window. 
+
+\textbf{Editing Profile Information}
+
+One the 'Edit profile' button is clicked on the menu bar a drop down appears with the options:
+\begin{itemize}
+\item Change Profile Picture
+\item Change Name
+\item Change Email
+\end{itemize}
+
+Once the 'Change Profile Picture' button is pressed you will be redirected to browse your documents for a picture, the picture will be resized to 160x160 pixels. When the 'Change Name' button is pressed a pop-out dialogue box will appear with the opportunity to change your name and a 'save' button below that to save your new name. When the 'Change Email' button is pressed a pop-out dialogue box will appear and present you with a text box to enter a new email, this is validated to ensure the email is correct, A 'save' button is displayed below and when clicked it will save your new email. 
+
+\underline{\textbf{Trick Table}}
+\begin{itemize}
+\item General User Interface
+\item Adding a Trick
+\item Deleting a Trick
+\item Editing a Trick
+\item Completing a Trick
+\item Progress Tracker 
+\end{itemize}
+\textbf{General User Interface for the Trick Table}
+
+The general user interface for the trick table will consist of a table in the middle of the application, search filters will be placed on the side of the application and options to add a trick at the top of the application. By the side of each trick there a choice to delete or edit existing tricks. The columns of the table will consist of: 
+\begin{itemize}
+\item Trick Creator (The Trick Creator contain the first and last name of the user who added the trick to the database)
+\item Trick Name (The Trick Name contains the name of the skateboard trick)
+\item Trick Description (The Trick Description will contain a short description of the trick)
+\item Trick Obstacle (The Trick obstacle will say if a specific obstacle is needed for the trick)
+\item Trick Image (The Trick Image will be contain a 670x503 pixel image of the trick)
+\item Trick Tutorial (The Trick Tutorial will contain a YouTube tutorial link to the trick)
+\item Trick Difficulty (The Trick Difficulty will contain either: Easy, Medium or hard depending on how difficult the trick is)
+\item Trick Completed (The Trick Copleted will contain a tick box along with the date that the tick box became ticked)
+\end{itemize}
+
+Below the option to add a new trick will be tabs containing other areas of the system.
+
+\textbf{Adding a Trick to the Trick Table}
+
+When the addition button (+) is pressed, a pop out will appear. This will automatically fill in the Trick Creator's name (first name and last name). Whilst the rest of the information will be readily available to edit. For example, Trick Name, Description, Obstacle and Tutorial will all have a text box to fill in freely, whilst the trick image will have an 'upload' button where you will be able to search your computer for an image which will automatically be re-sized to 670x503 pixels. The Trick Difficulty will be selected via a drop box with the three options: Easy, Medium and Hard and the Trick Completed will be a tick box. The Trick Tutorial text box will be checked for a correct youtube link. Once all the information has been added the trick will be added to the database and the trick will be able to be seen inside the table when on the Trick Database page. 
+
+\textbf{Deleting a Trick from the Trick Table}
+
+By the side of every trick in the Trick Table there will be a 'bin' icon which gives you the option to delete a trick from your table. Once this is clicked a confirmation will pop up to ensure that you want to permanently delete that trick. Once that trick is deleted it wil be removed from the database and you will no longer be able to view it in your table of tricks.
+
+\textbf{Editing a Trick in the Trick Table}
+
+By the side of every trick in the Trick Table there will be a 'pencil' icon which gives you the option to edit a trick in your table. Once this is clicked a pop up identical to the one that you are given when you click on the (+) button comes up; however all of the information is already filled in with the information from that trick. From this pop up you can edit that specific tricks information, just as you would if you were adding a trick.
+
+\textbf{Completing a Trick in the Trick Table}
+
+Once the user has ticked a trick to its completed state, the tick box will display a tick and below it will have the date that the trick has been ticked. This date will be generated via the computers date. 
+
+
+\textbf{Progress Tracker}
+
+At the bottom of the application a bar containing the status of the user's progress is displayed. This will contain information of how many tricks you have completed out of the tricks in the trick table.
+
+
+
+
+
+
+\underline{\textbf{Skatepark Map Marker}}
+\begin{itemize}
+\item General User Interface
+\item Adding a Skatepark
+\item Deleting a Skatepark
+\item Editing a Skatepark 
+\item Mapping From Location to a Skatepark
+\end{itemize}
+
+\textbf{General User Interface for the Skatepark Map Marker}
+
+The general interface for the Skatepark Map Marker is a Google maps image with markers locating skateparks and skate spots around the UK. Below the Google maps graph will be two text boxes where you will be able to type in two locations and a 'Map Journey' button to the right of both boxes. When a marker on the map is clicked on information about that skatepark is given in a dialogue box. Also in the dialogue box will be two options to edit and delete the skatepark, the symbols for these are a pencil and a bin, respectively. Above the graph will be an option to add a skatepark, shown by an addition sign. Below the option to add a new Skatepark will be tabs containing other areas of the system.
+
+\textbf{Adding a Skatepark}
+
+In the top menu bar of the Skatepark Map Marker window there will be an addition symbol (+), identical to that of the one in the Trick Table window with the functinality of adding a skatepark to the map. Once the symbol is pressed the user will be prompted with a pop-up which contains 3 text boxes and a confirm button. The three text boxes will allow the user to add the Name, Coordinates and Description of the skatepark that they are adding. The coordinates are validated by being in the correct format. The Name and Description are freely entered by the user. Once the confirm button is pressed the information for the skatepark is stored and a marker is placed on the map.
+
+\textbf{Deleting a Skatepark}
+
+When the bin symbol is pressed inside the marker dialogue box a pop-up will be displayed asking the user if they want to permenantly delete that skatepark. Once the skatepark is deleted you will no longer be able to view the marker of information on the map. 
+
+\textbf{Editing a Skatepark}
+
+ Once the pencil button is clicked a pop up identical to the one that you are given when you click on the (+) button comes up; however all of the information is already filled in with the information from that skatepark. From this pop up you can edit that specific skateparks information, just as you would if you were adding a skatepark.
+
+
+\textbf{Mapping From a Location to a Skatepark} 
+
+Below the map there are two text boxes where you can enter two addresses and then click on the 'Map Route' button to the right of both of these which will then show the route on the Google maps image above.
+
+
+\underline{\textbf{Review Window}}
+\begin{itemize}
+\item General User Interface 
+\item Add a Review
+\item Editing a Review
+\item Deleting a Review
+\item Filtering Reviews
+\end{itemize} 
+
+\textbf{General User Interface for the Review Window}
+
+The general user interface for the Review table will consist of a table in the middle of the application with search filters on the side of the application and options to add a review at the top of the application and if you're the creator of a review then a pencil will be beside your review so that you can edit the details of it and a bin so that you can delete your review. The columns of the table will consist of: 
+
+\begin{itemize}
+\item Product Type
+\item Product Size
+\item Product Brand
+\item Product Name 
+\item Rating
+\item Review
+\item Review Creator
+
+\end{itemize} 
+
+Below the option to add a new review will be tabs containing other areas of the system.
+
+\textbf{Adding a Review}
+
+
+When the addition button (+) is pressed (at the top of the window), a pop out will appear. This will automatically fill in the Review Creator (first name and last name). below this drop down boxes allowing you to choose the: Product Type, Product Size and Product Brand. Below the drop down boxes the information is inserted via a text box, the user can give a product a rating restricted to 1-5 and type out a review of up to 500 characters. Once all the information has been added the review will be added to the database and the review will be able to be seen inside the table when on the Review Database page. 
+
+
+\textbf{Editing a Review}
+
+By the side of any review that you have created there will be a 'pencil' icon which gives you the option to edit your in your table. Once this is clicked a pop up identical to the one that you are given when you click on the (+) button comes up; however all of the information is already filled in with the information from that review. From this pop up you can edit that specific reviews information, just as you would if you were adding a review.
+
+
+\textbf{Deleting a Review}
+
+By the side of any review that you have created there will be a 'bin' icon which gives you the option to delete a review from your table. Once this is clicked a confirmation will pop up to ensure that you want to permanently delete that review. Once that trick is deleted it wil be removed from the database and you will no longer be able to view it in your table of reviews.
+
+
+\textbf{Filtering Reviews}
+
+At the top of the application there are search filters represented by the drop down box, you can then click on each individual filter and select the appropriate values. There will be 3 search filters, Brand (the company that makes the product), Type (the part of the skateboard), Size (the size of the product). When the filters are selected it will systematically reduce the number of items in the table in response to the filters put in place. 
+
+
+\subsection{System flowcharts showing an overview of the complete system}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/FlowchartKey.pdf}
+    \caption{System Flowchart Key} \label{fig:System Flowchart Key}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/StartFlowchart.pdf}
+    \caption{Profile Window Flowchart} \label{fig:Profile Flowchart}
+\end{figure}
+
+The flowchart above shows the flow of operations between tabs.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ProfileFlowchart.pdf}
+    \caption{Profile Window Flowchart} \label{fig:Profile Flowchart}
+\end{figure}
+
+The flowchart above displays the profile windows flow of operations. This shows the user is able to change their information, such as: Name, email and picture.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/TrickFlowchart.pdf}
+    \caption{Trick Window Flowchart} \label{fig:Trick Flowchart}
+\end{figure}
+
+The flowchart above displays the trick windows flow of operations. This shows the user is able to: add, edit and delete tricks.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/SkateparkFlowchart.pdf}
+    \caption{Skatepark Window Flowchart} \label{fig:Skatepark Flowchart}
+\end{figure}
+
+The flowchart above displays the skatepark windows flow of operation. This shows the user can: add, edit and delete skateparks on and off of their map.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/SkateparkFlowchart2.pdf}
+    \caption{Skatepark Window Flowchart} \label{fig:Skatepark Flowchart}
+\end{figure}
+
+The flowchart above is continued on from the previous flowchart and shows the user can map a route from location to location.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ReviewFlowchart.pdf}
+    \caption{Review Window Flowchart} \label{fig:Review Flowchart}
+\end{figure}
+
+The flowchart above displays the review windows flow of operation. This shows the user can: add, edit and delete reviews.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ReviewFlowchart2.pdf}
+    \caption{Review Window Flowchart} \label{fig:Review Flowchart}
+\end{figure}
+
+
+The flowchart above is continued on from the previous flowchart and shows the user can filter reviews via: brands, size and type. 
+
+
+\section{User Interface Designs}
+
+The User Interface shown below occurs on a one off occasion when no profile information is found in the database. This screen allows the user to add a profile. This allows you to add your name, email and picture to your profile. A introductory message is also included to guide the user through the set-up process.
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/WizardUI.pdf}
+    \caption{The User Interface for the Start-Up Wizard} \label{fig:Wizard User Interface}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ProfileUI.pdf}
+    \caption{The User Interface for the profile section} \label{fig:Profile User Interface}
+\end{figure}
+
+
+This is the start-up page (the profile) of the application once a profile has been created. It contains the users profile with an image, name, email, progress tracker and a list of recently completed tricks. All of the information can be edited by the 'Edit' menu bar which contains 3 options (change profile picture, change name and change the email address). The tabs below the menu bar can be used to navigate between the windows of the application. These are displayed on each window and kept in the same position for ease of use. There is also a progress tracker at the bottom of the window where the user can see how many tricks they have completed out of the tricks in there table.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/TrickUI.pdf}
+    \caption{The User Interface for the trick section} \label{fig:Trick User Interface}
+\end{figure}
+
+The Tricks window of the application contains the same progress tracker as discussed in the profile user interface and a table in the main window full of tricks and their information. By the side of each trick there are icons including a pencil and a bin which represent 'edit' and 'delete'. I have decided to use these icons as they're recognisable, aesthetically pleasing and don't use up as much space as words, this allows for the table to be bigger. To add a trick the user can click the (+) symbol from the menu bar.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/SkateparkUI.pdf}
+    \caption{The User Interface for the skatepark section} \label{fig: SkateparkUser Interface}
+\end{figure}
+
+The skatepark window contains a Google maps image in the centre of the window with a start and finish destination which can be used to map a route on the Google maps image. Once a skatepark is clicked on the maps information about that skatepark is given and there are options to edit and delete it, represented by a pencil and bin. I have used these symbols continuously through my application so that the user knows what the symbols mean. In the menu bar there is a (+) symbol which is used to add a new skatepark. 
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ReviewsUI.pdf}
+    \caption{The User Interface for the review section} \label{fig:Review User Interface}
+\end{figure}
+
+Like the trick window the review window has a table in the main window with a pencil and bin next to each row, and a (+) symbol is used to add a review. This continuity and re-use of symbols is all in place for ease of use. See the next page for filtering the review table.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/ReviewsUI2.pdf}
+    \caption{The continued User Interface for the review section} \label{fig: Review User Interface Continued}
+\end{figure}
+
+In the menu bar there is a 'Filter' option which allows for the user to filter the table for: Type, Brand and Size. These filters are in place so that the user can easily filter and narrow down the table to find the reviews that you want.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/SupportUI.pdf}
+    \caption{The User Interface for the support section} \label{fig:Support User Interface}
+\end{figure}
+
+This window is available so that if there are any problems any user can contact the developer to fix them. 
+
+\section{Hardware Specification}
+
+The system will need to run on Stuart's laptop. This means the program will have to work with a 1360x768, 16:9 aspect ratio screen and also windows 7. This is important as I have to make sure my program will fit on this screen size as the program is being built to Stuarts laptop specifications. This is an important factor as all of the applications features will need to be aesthetically pleasing in many areas of the applcation such as the tables of information and the skatepark mapping section. A keyboard will be needed for inputting the information to the program, such as adding tricks or skateparks to the database. A track pad/mouse will be used to navigate around the program and the laptop screen will be used for the output of the program. The database and application data will be be stored on the hard drive of the user. The cost of extra hardware totals to £0 as my client has already purchased the necessary equipment. This is beneficial as no extra hardware needs to be purchased which makes it readily available and suitable for purpose. 
+
+\section{Program Structure}
+
+\subsection{Top-down design structure charts}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./design/HDiagrams/Profile.pdf}
+    \caption{Profile Top-Down Design Chart} \label{fig:Profile}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./design/HDiagrams/Tricks.pdf}
+    \caption{Tricks Top-Down Design Chart} \label{fig:Tricks}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./design/HDiagrams/Skateparks.pdf}
+    \caption{Skateparks Top-Down Design Chart} \label{fig:Skateparks}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./design/HDiagrams/Reviews.pdf}
+    \caption{Reviews Top-Down Design Chart} \label{fig:Reviews}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./design/HDiagrams/ReviewFilters.pdf}
+    \caption{Review Filters Top-Down Design Chart} \label{fig:Filters}
+\end{figure}
+
+\subsection{Algorithms in pseudo-code for each data transformation process}
+
+
+
+\begin{algorithm}[H]
+    \caption{Algorithm For The Progress Tracker Bar}
+\begin{algorithmic}[1]
+\Function{profile\_tracker}{CompletedTricks,AllTricks}
+\SET{LengthCompletedTricks}{\Call{len}{CompletedTricks}}
+\SET{LengthAllTricks}{\Call{len}{AllTricks}}
+\SET{ProgressPercentage}{LengthCompletedTricks/LengthAllTricks*100}
+\EndFunction
+
+\end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm}[H]
+    \caption{Algorithm For Mapping a Route}
+\begin{algorithmic}[1]
+\Function{map\_route}{StartLocation,EndLocation}
+\SET{StartLocationCoordinates}{\Call{Geocoding}{StartLocation}}
+\SET{EndLocationCoordinates}{\Call{Geocoding}{EndLocation}}
+\Call{MapRoute}{StartLocationCoordinates,EndLocationCoordinates}
+\EndFunction
+
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+    \caption{Algorithm For Adding a Skatepark Marker to the Map}
+\begin{algorithmic}[1]
+\Function{skatepark\_marker}{SkateparkLongitude,SkateparkLatitude}
+\SET{marker}{Google\_maps\_marker(SkateparkLongitude,SkateparkLatitude)}
+
+\EndFunction
+
+\end{algorithmic}
+\end{algorithm}
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Object Diagrams}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/RelationshipDiagram.pdf}
+    \caption{Relationship Diagram} \label{fig:Relationship Diagram}
+\end{figure}
+
+\subsection{Class Definitions}
+
+\begin{center}
+\begin{tabular}{|p{5cm}|}
+    \hline
+ \textbf{User} \\ \hline
+UserID\\
+UserPicture \\
+UserEmail \\
+Username \\ \hline
+get\_userid \\
+get\_user\_picture \\
+get\_user\_email \\
+get\_username \\
+ \hline 
+\end{tabular}
+\label{tab:User Class Definition}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|p{5cm}|}
+    \hline
+ \textbf{Trick} \\ \hline
+TrickName\\
+TrickDescription \\
+TrickDifficulty \\
+Trickobstacle \\
+TrickCompleted \\
+TrickImage \\
+TrickTutorialLink \\ \hline
+
+get\_trick\_name \\
+get\_trick\_description \\
+get\_trick\_obstacle \\
+get\_trick\_difficulty \\
+get\_trick\_state \\
+get\_trick\_image \\
+calculate\_tricks\_completed \\
+calculate\_tricks\_progress\_percentage \\
+get\_trick\_tutorial\_link\\ 
+\hline 
+\end{tabular}
+\label{tab:Trick Class Definition}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|p{5cm}|}
+    \hline
+ \textbf{SkatePark} \\ \hline
+SkateparkID \\
+SkateparkName \\
+SkateparkCoordinates\\
+SkateparkDescription \\
+ \hline 
+
+get\_skatepark\_id \\
+get\_skatepark\_name \\
+get\_skatepark\_coordinates \\
+get\_skatepark\_description \\ 
+add\_new\_skatepark \\
+edit\_existing\_skatepark \\
+delete\_existing\_skatepark \\
+set\_skatepark\_marker \\
+map\_skatepark\_route \\
+
+\hline
+
+\end{tabular}
+\label{tab:Skate Park Class Definition}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|p{5cm}|}
+    \hline
+ \textbf{Review} \\ \hline
+ReviewID\\
+
+\\ \hline 
+
+get\_review\_id \\
+add\_new\_review \\
+edit\_existing\_review \\
+delete\_existing\_review \\
+
+\hline
+
+\end{tabular}
+\label{tab:Review Class Definition}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|p{5cm}|}
+    \hline
+ \textbf{Product} \\ \hline
+ProductName \\
+ProductSize\\
+ProductBrand \\
+ProductType \\
+ProductReview \\
+\hline 
+
+get\_product\_name \\
+get\_product\_size \\
+get\_product\_brand \\
+get\_product\_type \\
+get\_product\_review \\
+filter\_product\_brand \\
+filter\_product\_type \\
+filter\_product\_size \\
+\hline
+
+\end{tabular}
+\label{tab:Review Class Definition}
+\end{center}
+
+
+
+
+
+\section{Prototyping}
+
+\textbf{\underline{Inserting a Webpage into PyQt}}
+
+For the 'Skateparks' seciton of my system I would need to be able to add Google maps into my application. For this to work I would need to be able to view a web page in the main window of my PyQt application. I successfully managed to integrate the web page into the main window, this can be seen below.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/Prototype/GoogleMaps.JPG}
+    \caption{Google Maps in Python Application} \label{fig:Google Maps}
+\end{figure}
+
+My code for this is shown below.
+
+\begin{python}
+import sys
+from PyQt4.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtWebKit import *
+
+class MainWindow(QMainWindow):
+    """The main window for my application"""
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Google Maps PyQt")
+        self.create_layout()
+
+    def create_layout(self):
+        self.label=QWebView()
+        self.label.load(QUrl("http://www.Google.com/maps"))
+        self.label.show()
+
+        self.layout=QVBoxLayout()
+        self.layout.addWidget(self.label)
+
+        self.widget=QWidget()
+        self.widget.setLayout(self.layout)
+        self.setCentralWidget(self.widget)
+        
+if __name__ == "__main__":
+    application=QApplication(sys.argv)
+    window=MainWindow()
+    window.show()
+    window.raise_()
+    application.exec_()
+
+\end{python}
+
+\textbf{\underline{Google Maps API}}
+
+For my skateparks section of my program I had to think about a way to represent all the skateparks on the map. I found out after researching about Google maps API, that embedding Google maps into my program using HTML would provide a better user interface then the whole web page as it cuts out the parts of the web page which are not needed. I also found out a way using HTML to place markers which is a possible way of representing the individual skateparks on the map. My code for this is shown below.
+
+\begin{python}
+self.Google_maps=QWebView()
+self.html=('''<iframe width="100%" height="100%" frameborder="0" style="border:0"
+src="https://www.Google.co.uk/maps/embed/v1/place?
+	key=AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg
+	&q=long+road+sixth+form+college
+	&attribution_source=Google+Maps+Embed+API
+	&attribution_web_url=http://www.butchartgardens.com/
+	&attribution_ios_deep_link_id=comGooglemaps://?daddr=long+road+sixth
+	+form+college"> </iframe>''')
+self.Google_maps.setHtml(self.html)
+\end{python}
+
+This places a marker on the map at my college, Long Road Sixth Form. The code produces an embedded map with a pin marker located at Long Road Sixth Form. This is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/Prototype/PinMarker.JPG}
+    \caption{Pin Marker on Embedded Google Maps} \label{fig:Tabs}
+\end{figure}
+
+\textbf{\underline{Using Tabs To Navigate Through Windows}}
+
+For my system I have decided to use a tabbed interface to navigate through my application. I have never used this form of navigation before and have decided to try and use this aesthetically pleasing and easy to use form of navigation. I investigated tabs and found that this was possible by using a QTabWidget. From this I then used my existing knowledge on how to add widgets to layouts and layouts to windows to produce this code:
+
+\begin{figure}[H]
+    \pythonfile[firstline=1]{./design/prototype/BlankTabInterface.py}
+    \caption{Tab Navigation Code} \label{fig:Tab Code}
+\end{figure}
+
+This code then produced the window below. This program allowed me to navigate through tabs.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/Prototype/TabbedInterface.JPG}
+    \caption{Tabbed Navigation in Python Application} \label{fig:Tabs}
+\end{figure}
+
+\textbf{\underline{Displaying a Database Table into a window}}
+
+For two areas of my system tables from my database have to be displayed, as this feature is key for my tricks and reviews section I have decided to prototype it. I had previous experience in reading databases and displaying tables but I had never designed a program to read the database automatically from program start-up and display the able instantly. To do this I found out that all I needed to do was manually code the file path to the database; however I needed this to work on every computer in order to make it possible to I used the code below in order to do this.
+
+\begin{python}
+self.path=("{0}{1}".format(os.getcwd(),"\skateboard_progress_tracker.db"))
+\end{python}
+
+
+
+\section{Definition of Data Requirements}
+
+\subsection{Identification of all data input items}
+
+\begin{center}
+\begin{tabular}{|p{3.5cm}|p{5cm}|} \hline
+\textbf{Data} & \textbf{Description} \\ \hline
+FirstName & The first name of the user \\ \hline
+LastName & The last name of the user \\ \hline
+UserPicture & The picture selected by the user for a profile picture \\ \hline
+UserEmail & The email address of the user \\ \hline
+TrickName & The name of a trick being added to the trick table \\ \hline
+TrickDescription & The description of the trick being added to the trick table \\ \hline 
+TrickObsitcle & Any obstacle needed to perform the trick being added to the trick table \\ \hline
+TrickImage & The picture selected by the user for the trick being added to the trick table \\ \hline
+TrickTutorialLink & The video link for a tutorial for the trick being added to the trick table \\ \hline
+TrickDifficulty & The difficulty of the trick being added to the trick table \\ \hline
+SkateparkName & The name of a skatepark being added to the skatepark table \\ \hline
+SkateparkCoordinates & The coordinates of the skatepark being added to the skatepark table \\ \hline
+SkateparkDescription & The description of the skatepark being added to the skatepark table \\ \hline
+ReviewDescription & The written review for a product \\ \hline
+ProductBrand & The brand of the product that is being reviewed \\ \hline
+ProductName & The name of the product being reviewed \\ \hline
+ProductSize & The size of the product being reviewed \\ \hline
+ReviewRating & The rating of the product being reviewed \\ \hline
+
+\end{tabular}
+\label{tab:Input Items}
+\end{center}
+
+
+\subsection{Identification of all data output items}
+
+
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{5cm}|} \hline
+\textbf{Data} & \textbf{Description} \\ \hline
+UserPicture & The picture selected by the user for a profile picture \\ \hline
+TrickImage & The picture selected by the user for the trick being added to the trick table \\ \hline
+TrickCompleted & A checkbox indicating a trick is completed \\ \hline
+TrickCompletedDate & A date indicating when the trick was completed \\ \hline
+ReviewDescription & The written review for a product will be displayed when the review filter fits the reviews criteria \\ \hline
+ProductBrand & The brand of the product that is being reviewed  will be displayed when the review filter fits the reviews criteria\\ \hline
+ProductName & The name of the product being reviewed  will be displayed when the review filter fits the reviews criteria\\ \hline
+ProductSize & The size of the product being reviewed  will be displayed when the review filter fits the reviews criteria\\ \hline
+ReviewRating & The rating of the product being reviewed  will be displayed when the review filter fits the reviews criteria\\ \hline
+
+
+
+
+\end{tabular}
+\label{tab:Output Items}
+\end{center}
+
+
+\subsection{Explanation of how data output items are generated}
+
+The UserPicture and TrickImage is displayed to the user by a file path which is selected by the user in the setting up of the profile and when the user is adding a trick.
+
+The TrickCompleted is generated by the user clicking the checkbox to show that they have completed that trick. This will then display the checkbox as being checked.
+
+The TrickCompletedDate is generated the the users clock on their computer. The date will be generated by the python function to call the time now. This date will then be displayed in the same column as the TrickCompleted checkbox.
+
+The ReviewDescription, ProductBrand, ProductName, ProductSize and ReviewRating are all placed through a query to determine whether the review fits the criteria of the specific filter. If the review data fits the review filter then the data will be displayed to the user.
+
+\subsection{Data Dictionary}
+
+My Data Dictionary is displayed below, this contains quite a few modifications since my analysis section. This is because I have realised that for filtering through information I would need more attributes so that users can't spell things such as brand names wrong. Additionally I have decided to add some more user features such as a user picture so that the user interface will be better to look at and more user friendly. 
+
+
+
+\subsubsection{Data dictionary}
+
+\begin{landscape}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2.5cm}|p{2cm}|p{3cm}|p{3cm}|}
+    \hline
+ \textbf{Name} & \textbf{Data Type} & \textbf{Length} & \textbf{Validation} & \textbf{Example Data} & \textbf{Comment} \\ \hline
+UserID & Interger & 10 Numbers & None & 1 & Unique identifier for a user \\ \hline
+FirstName & String & 20 Characters & Presence, no numbers, no special characters & Ben & None \\ \hline
+LastName & String & 20 Characters & Presence, no numbers, no special characters & Keppie & None \\ \hline
+UserPicture  & Image & N/A & 160x160 pixels & UserPicture.jpeg & None  \\ \hline
+UserEmail & string & 55 characters & contains @ and .com/.co.uk & BenKeppie@hotmail.co.uk & None   \\ \hline
+
+TrickCreator & String & 41 Characters & Adds First and last name & Ben Keppie & None \\ \hline 
+TrickID & Interger & 10 numbers & None & 1 & Unique identifier for a trick \\ \hline
+TrickName & String & 25 characters & None & Ollie & Linked to Description, image and tutorial link \\ \hline
+TrickDescription  & String & 100 characters & None & Board is turned around 180 degrees & Linked to trick, image and tutorial link \\ \hline
+Trickobstacle & String & 25 characters & None & Half Pipe & None \\ \hline
+TrickImage & Image & N/A & 670 x 503 pixels & Ollie.jpeg & None \\ \hline
+TrickTutorialLink  & String & 100 characters & Correct link & \url {http://www.youtube.com/watch?v=3809} & Linked to trick, description and image \\ \hline
+TrickDifficulty & string & 6 characters & easy, medium, hard & easy & colour coded \\ \hline
+TrickCompleted & Boolean & True/False & None & True & None \\ \hline
+TrickCompletedDate & String & 10 characters &  DD/MM/YYYY & 15/07/2014 & None \\ \hline
+
+
+
+
+
+
+
+\end{tabular}
+\label{tab:Data Dictionary}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2.5cm}|p{2cm}|p{3cm}|p{3cm}|}
+    \hline
+SkateparkID & interger & 10 numbers & None & 1 & Unique identifier for a skatepark \\ \hline
+SkateparkName & String & 25 characters & Correct Name & Cambourne Skatepark & None  \\ \hline
+SkateparkCoordinates  & Float & 20 characters & Correct coordinates & 52.2200 N, 0.0700 W & None  \\ \hline
+SkateparkDescription & String & 200 characters & Accurate description & Halfpipe only & None \\ \hline
+
+ReviewID & interger & 10 numbers & None & 1 & Unique identifier for a review \\ \hline 
+
+
+ReviewDescription   & String & 500 characters & Non-biased & These trucks are the best I have owned & Moderated \\ \hline
+ReviewRating & interger & range 1-5 & Non-biased & 1 & Moderated \\  \hline
+ReviewCreator  & String & 41 Characters & Adds First and last name & Ben Keppie & None \\ \hline 
+
+ProductID & interger & 10 numbers & None & 1 & Unique identifier for a product \\ \hline 
+ProductBrandID & interger & 10 numbers & None & 1 & Unique identifier for a brand \\ \hline
+ProductBrand & String & 20 characters & None & ZERO & Moderated \\ \hline
+ProductTypeID & interger & 10 numbers & None & 1 & Unique identifier for a skate board part \\ \hline
+ProductType & String & 20 characters & None & Deck & Moderated \\ \hline
+ProductName & String & 25 characters & None & Cosmic Tiger & Moderated \\ \hline
+ProductSizeID & interger & 10 numbers & None & 1 & Unique identifier for a size. \\ \hline
+ProductSize & String & 20 characters & None & 7.875" & Moderated \\ \hline
+
+\end{tabular}
+\label{tab:Data Dictonary}
+\end{center}
+
+\end{landscape}
+
+
+
+\subsection{Identification of appropriate storage media}
+
+A Hard Drive Disk (HDD) will be an appropriate storage media as the system and its data (database) needs to be stored in a way which is easily acessible for the system to use. As Stuart's laptop has a HDD built in as its main source of storage, this is the only suitable storage media for his situation. An external HDD will also allow for long term memory storage and allow for syncing between two computers, whilst also suiting the purpose of storing a back up. This is due to the external HDD's portability and security properties. 
+
+\section{Database Design}
+
+\subsection{Normalisation}
+
+
+
+
+
+
+
+
+\subsubsection{ER Diagrams}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Design/EntityRelationships2.pdf}
+    \caption{Entity-Relationship Diagram} \label{fig:Entity Diagram}
+\end{figure}
+
+\subsubsection{Entity Descriptions}
+
+User(\underline{UserID}, FirstName, LastName, UserPicture, UserEmail) \\ \\
+
+UserTrick( \underline{UserID}, \underline{ \emph{TrickID}}) \\ \\
+
+Trick(\underline{TrickID}, \emph{DifficultyID}, TrickCreator, TrickName, TrickDescription, Trickobstacle,  TrickImage, TrickTutorialLink, TrickCompleted, TrickCompletedDate)  \\ \\ 
+
+Difficulty(\underline{DifficultyID}, TrickDifficulty, DifficultyDescription) \\ \\ 
+
+UserReview(\underline{UserID},\underline{  \emph{ReviewID}}) \\ \\
+
+Review(\underline{ReviewID}, \emph{ProductID}, ReviewCreator, ReviewDescription, ReviewRating) \\ \\ 
+
+Product(\underline{ProductID}, \emph{ProductBrandID}, \emph{ProductTypeID}, \emph{ProductSizeID}, ProductName) \\ \\
+
+ProductBrand(\underline{ProductBrandID}, ProductBrand) \\ \\ 
+
+ProductType(\underline{ProductTypeID}, ProductType) \\ \\ 
+
+ProductSize(\underline{ProductSizeID}, ProductSize)  \\ \\ 
+
+UserSkatepark(\underline{UserID},\underline{  \emph{SkateparkID}}) \\ \\ 
+
+Skatepark(\underline{SkateparkID}, SkateparkName, SkateparkCoordinates, SkateparkDescription) \\ \\
+
+
+\subsubsection{1NF to 3NF}
+
+The stages below show how my data has gone from UNF to 3NF via the process of normalisation. 
+
+
+
+\begin{center}
+
+
+\begin{tabular}{|p{4cm}|}  \hline
+\textbf{Un-Normalised} \\ \hline
+UserID \\ 
+FirstName \\
+LastName \\ 
+UserPicture \\
+UserEmail \\
+TrickCreator (UserID) \\
+TrickID \\ 
+TrickName \\ 
+TrickDescription \\
+Trickobstacle \\
+TrickImage \\
+TrickTutorialLink \\
+DifficultyID \\
+TrickDifficulty \\
+DifficultyDescription \\
+TrickCompleted \\
+TrickCompletedDate \\
+SkateparkID \\
+SkateparkName \\ 
+SkateparkCoordinates \\
+SkateparkDescription \\
+ReviewID \\
+ReviewDescription \\
+ProductID \\
+ProductBrand \\
+ProductType \\
+ProductName \\
+ProductSize \\
+ReviewCreator (UserID) \\
+ReviewRating \\ \hline 
+
+\end{tabular}
+\label{tab:Un-Normalised Database}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{|p{4cm}|p{4cm}|}  \hline
+\textbf{1NF} & \\ \hline
+\textbf{Repeating} & \textbf{Non-Repeating} \\ \hline
+\underline{UserID} & \underline{UserID} \\ 
+\underline{TrickID} & FirstName \\ 
+TrickName & LastName \\
+TrickCreator (UserID) & UserPicture \\
+TrickDescription & UserEmail \\
+Trickobstacle & \\
+TrickImage & \\
+TrickTutorialLink & \\
+DifficultyID & \\
+DifficultyDescription & \\
+TrickDifficulty & \\ 
+TrickCompleted & \\
+TrickCompletedDate \\
+SkateparkID & \\
+SkateparkName & \\
+SkateparkCoordinates & \\
+SkateparkDescription & \\
+ReviewID & \\
+ReviewDescription & \\
+ProductID & \\
+ProductBrandID & \\
+ProductTypeID & \\
+ProductSizeID & \\
+ProductBrand & \\
+ProductType & \\
+ProductName & \\
+ProductSize & \\
+
+ReviewCreator (UserID) & \\
+ReviewDescription & \\
+ReviewRating & \\ \hline
+
+
+\end{tabular}
+\label{tab:1NF User Database}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{|p{4cm}|}  \hline
+\textbf{2NF} \\ \hline
+\underline{UserID} \\ 
+FirstName \\
+LastName \\
+UserPicture \\
+UserEmail \\
+\hline \\
+\hline
+
+\underline{UserID} \\
+\emph{TrickID} \\
+\hline \\
+\hline
+
+
+\underline{TrickID} \\ 
+TrickCreator (UserID) \\
+TrickName \\
+TrickDescription \\
+TrickObsitcle \\
+TrickImage \\
+TrickTutorialLink \\
+TrickDifficulty \\
+DifficultyID \\
+DifficultyDescription
+TrickCompleted \\
+TrickCompletedDate \\
+\hline \\
+\hline
+
+\underline{UserID} \\
+SkateparkID \\
+SkateparkName \\
+SkateparkCoordinates \\
+SkateparkDescription \\
+ReviewID \\ 
+ReviewDescription \\
+ProductID \\
+ProductBrandID \\
+ProductSizeID \\
+ProductTypeID \\
+ProductBrand \\
+ProductType \\
+ProductName \\
+ProductSize \\
+ReviewCreator (UserID)  \\
+ReviewRating \\ \hline 
+
+
+
+
+
+\end{tabular}
+\label{tab:2NF User Database}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{|p{4cm}|} \hline
+\textbf{3NF} \\ \hline
+
+\underline{UserID} \\ 
+FirstName \\
+LastName \\
+UserPicture \\
+UserEmail \\
+\hline \\
+\hline
+
+\underline{UserID} \\ 
+\emph{TrickID}\\
+\hline \\
+\hline 
+
+\underline{TrickID} \\
+\emph{DifficultyID} \\
+TrickCreator (UserID) \\
+TrickName \\
+TrickDescription \\
+Trickobstacle \\
+TrickImage \\
+TrickTutorialLink \\
+
+TrickCompleted \\
+TrickCompletedDate \\ \hline
+\\ \hline
+
+\underline{DifficultyID} \\
+TrickDifficulty \\
+DifficultyDescription\\ 
+ \hline \\
+
+\hline 
+\underline{UserID} \\
+\emph{ReviewID} \\
+
+ \hline \\ \hline 
+
+\underline{UserID} \\
+\emph{SkateparkID} \\
+\hline  \\ \hline 
+
+\underline{SkateparkID} \\
+SkateparkName \\
+SkateparkCoordinates \\
+SkateparkDescription \\ \hline
+\\ \hline 
+
+\underline{ProductID} \\
+
+\emph{ProductBrandID} \\
+\emph{ProductTypeID} \\
+\emph{ProductSizeID} \\ 
+ProductName \\ \hline
+
+
+
+
+
+
+
+
+
+
+\end{tabular}
+\label{tab:3NF User Database}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{|p{4cm}|} \hline 
+
+
+\underline{ReviewID} \\
+\emph{ProductID} \\ 
+ReviewDescription \\
+ReviewRating \\ 
+
+ReviewCreator (UserID) \\ \hline
+\\ \hline 
+
+
+\underline{ProductBrandID} \\
+ProductBrand \\ \hline
+\\ \hline 
+
+\underline{ProductTypeID} \\
+ProductType \\ \hline
+\\ \hline 
+
+\underline{ProductSizeID} \\
+ProductSize \\ \hline
+
+
+
+\end{tabular}
+\label{tab:3NF User Database}
+\end{center}
+
+
+\subsection{SQL Queries}
+
+For all of my SQL queries I will be using Python to format the SQL query text strings. 
+
+
+
+\textbf{Query to Show Filtering the Product Type}
+
+The query below shows the SQL query that will be used to filter the reviews for a specific product type. This takes all the information from a review (in the Review table) and displays it if the ProductTypeID (from the ProductType table) equals the filter that is set. The filter will be selected via a drop down box in the 'Filter reviews' pop-out.
+\begin{sql}
+SELECT * 
+FROM Review, Product
+WHERE Product.ProductTypeID=?
+\end{sql}
+
+
+
+\textbf{Query to Show Filtering the Product Size}
+
+The query below shows the SQL query that will be used to filter the reviews for a specific product size.This takes all the information from a review (in the Review table) and displays it if the ProductSizeID (from the ProductSize table) equals the filter that is set. The filter will be selected via a drop down box in the 'Filter reviews' pop-out.
+\begin{sql}
+SELECT * 
+FROM Review, Product
+WHERE Product.ProductSizeID=?
+\end{sql}
+
+
+
+\textbf{Query to Show Filtering the Product Brand}
+
+The query below shows the SQL query that will be used to filter the reviews for a specific product brand.This takes all the information from a review (in the Review table) and displays it if the ProductBrandID (from the ProductBrand table) equals the filter that is set. The filter will be selected via a drop down box in the 'Filter reviews' pop-out.
+\begin{sql}
+SELECT * 
+FROM Review, Product
+WHERE Product.ProductBrandID=?
+\end{sql}
+
+
+
+\textbf{Query to Show How Many Tricks Have Been Completed}
+
+The query below shows the SQL query that will be used to find how many tricks have been completed. This SQL query generates the basis for my progress tracker algorithm shown in a previous section.
+
+\begin{sql}
+SELECT TrickID
+FROM Trick
+WHERE TrickCompleted=True
+\end{sql}
+
+
+
+\textbf{Query to Show How Many Tricks are in the Trick Table}
+
+The query below shows the SQL query that will be used to find out how many tricks are in the trick table. This SQL query also generates the basis for my progress tracker algorithm shown in a previous section.
+\begin{sql}
+SELECT TrickID
+FROM Trick
+\end{sql}
+
+\textbf{Query to Order the Trick Database in Alphabetical Order}
+
+The query below shows how I will order the trick QTableView in my program to display all the tricks in alphabetical order.
+
+\begin{sql}
+SELECT *
+FROM Trick
+ORDER BY TrickName ASC
+\end{sql}
+
+
+
+
+
+\section{Security and Integrity of the System and Data}
+
+\subsection{Security and Integrity of Data}
+
+Due to the system containing some private information about a living individual (name and email), the new system will have to abide by the data protection act. Location data about the user will need to be secured as that information could be used to find out where a living person is going. To make sure that the data that is stored is also valid, at the input stage, drop down menus will be used when necessary e.g reviews brand. Wherever the user types in the information via the keyboard, the data will be checked to make sure that it is acceptable by the validation discussed in the next section. I will also need to make sure that I keep referential integrity in my database. I have desided to stick with the default: ON UPDATE RESTRICT ON DELETE RESTRICT as this will prevent users of my system from mistakenly altering the database in an unexpected way.
+\subsection{System Security}
+
+It is important that the system is protected from data theft, corruption and tampering. The database will be encrypted to avoid people accessing the information without the use of the system. As my program must abide by the data protection act I must ensure that the data:
+\begin{itemize}
+\item Will not be transferred to other countries.
+\item Will be secured securely so only authorised users can access it. To enforce this my database will be encrypted.
+\item Will be destroyed after 11 years  of collection. To enforce this after 11 years the user will be forced to re-enter the personal data that the program stores before being able to access the program (name and email address).
+\item Will be accurate and up to date. To enforce this, periodicly the program will display pop-ups reminding the user to ensure the information stored on the database is correct.
+\item Will be necessary. To enforce this, as the programmer I will only use the data for the specific purposes for which it was collected, e.g Profile Picture to display on the individuals users profile page.
+\end{itemize}
+
+\section{Validation}
+
+To avoid any incorrect data entries from being added to the database the system needs to carry out some validation searches to ensure that each piece of information being added to the database is in acceptable parameters. 
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline \textbf{Item} & \textbf{Example} & \textbf{Validation} & \textbf{Justification} \\ \hline
+FirstName & Ben & Presence, no numbers, no special characters & To ensure a first name is entered and with only acceptable characters \\ \hline
+LastName & Keppie & Presence, no numbers, no special characters & To ensure a last name is entered and with only acceptable characters \\ \hline
+UserPicture & Picture.jpeg & JPEG image (will be re-sized to 160x160) & To ensure a standard file type and picture size \\ \hline 
+UserEmail & BenKeppie@hotmail.co.uk & Ensure a standard format of email address & So only valid email addresses are entered \\ \hline
+TrickName & Ollie & Presence check & To ensure a trick name is entered \\ \hline
+TrickDescription & Board lifts off the ground & Presence check & To ensure a trick description is entered \\ \hline
+Trickobstacle & Flat Ground & Presence check & To ensure a trick obsitcle is entered \\ \hline
+TrickImage & Ollie.jpeg & JPEG image (will be re-sized to 670x503) & To ensure a standard file type and picture size \\ \hline
+TrickTutorialLink &\url{ http://www.youtube.com/watch?V=1} & Presence, ensure the text is a web address & To ensure a link to a trick tutorial is valid \\ \hline
+TrickDifficulty & Easy & Ensure an option is selected & To ensure that a difficulty is avaliable for a trick \\ \hline
+TrickCompletedDate & 15/08/2014 & Date is in the DD/MM/YYYY format & So a universal date format is available for completed tricks \\ \hline
+SkateparkName & Cambourne & Presence & So a name is entered for a skatepark \\ \hline
+Skatepark Coordinates & 52.2200 N, 0.0700 W & Presence and correct coordinate format & So a usable coordinate is entered \\ \hline
+SkateparkDescription & Halfpipe only & Presence &  To ensure a skatepark description is entered \\ \hline
+ReviewDescription & Amazing trucks, best I have owned & Presence & To ensure a review description is entered \\ \hline
+ReviewRating & 1 & Presence, and only numbers 1-5 allowed & To ensure a correct value is entered for a rating \\ \hline
+
+\end{tabular}
+\end{center} 
+
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|} \hline
+ProductBrand & ZERO & Presence & To ensure a brand is selected for a review \\ \hline
+ProductType & Trucks & Presence & To ensure a type is selected for a review \\ \hline
+ProductName & Spec Ops & Presence & To ensure a name is selected for the product of the review \\ \hline
+ProductSize & 5.0" & Presence & To ensure a size is selected for a review \\ \hline 
+\end{tabular}
+\end{center} 
+\section{Testing}
+
+\begin{landscape}
+\subsection{Outline Plan}
+
+\begin{center}
+    \begin{tabular}{|p{2cm}|p{5cm}|p{5cm}|p{4cm}|}
+        \hline
+        \textbf{Test Series} & \textbf{Purpose of Test Series} & \textbf{Testing Strategy} & \textbf{Strategy Rationale}\\ \hline
+1 & Test the flow of control between user interfaces & Top-down testing & I habe chosen top-down testing as the flow of user interfaces is hierarchical due to the fact there are multiple interfaces which stem from an original, main interface \\ \hline
+2 & Validation of input data performed corrected & Bottom-up Testing & I have chosen bottom-up testing as I need to test the lower levels of data input to ensure the information has been entered into the database. Only then I will be able to test other areas that use that information from the database  \\ \hline
+3 & Test information input is stored in the correct place & White box testing & I have chosen white box testing as I will have to look into the database after I have inputted the data using the program to see that the data has been entered in the correct place \\ \hline
+4 & Test algorithms and SQL Queries to ensure the output is correct & Black box testing & I have chosen black box testing as I will see whether or not the algorithm/query has returned the correct values, without looking at the internal structure of the code \\ \hline
+5 & Test that the system fulfils the specification & Acceptance testing & I have chosen acceptance testing as this test is conducted to determine if the specification is met \\ \hline
+
+
+    \end{tabular}
+\end{center}
+
+\subsection{Detailed Plan}
+
+\begin{center}
+    \begin{longtable}{|p{1.5cm}|p{2.5cm}|p{2.5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        \textbf{Test Series} & \textbf{Purpose of Test} & \textbf{Test Description} & \textbf{Test Data} & \textbf{Test Data Type (Normal/ Erroneous/ Boundary)} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Evidence}\\ \hline
+
+1.00 & Test that the 'Profile' tab functions properly & This should load the profile window & Click the 'Profile' tab in the application & Normal & The profile window should be displayed & &  \\ \hline
+
+1.01 & Test the Change Name button on the profile window functions properly & A pop-up with two text boxes should display prompting you to enter your first and last name. &  Click 'Edit' followed by 'Change Name'  & Normal & A pop-up with two text boxes should display prompting you to enter your first and last name. & & \\ \hline
+
+1.02 & Test the Change Email button on the profile window functions properly & A pop-up with a text box should display prompting you to enter your first and last name & Click 'Edit' followed by 'Change Email' & Normal &  A pop-up with a text box should display prompting you to enter your first and last name & &  \\ \hline
+
+1.03 & Test the Change Picture button on the profile window functions properly &  The default file browser for the system should open, allowing the user to select a jpeg image & click the 'Edit' button followed by the 'Change Picture' button & Normal & Default file browser should appear & &\\ \hline
+
+
+
+1.04 & Test that the 'Tricks' tab functions properly & This should load the tricks window & Click the 'Tricks' tab in the application & Normal & The Tricks window should be displayed & & \\ \hline
+
+1.05 & Test the add trick button functions properly & This should load a pop-up to add a trick & Click the (+) icon at the top left corner of the application & Normal & A pop-up prompting you to add a trick should appear &  \\ \hline
+
+1.06 & Test the Edit Trick button (pencil next to a trick) functions properly & This should load a pop-up to edit a trick & Click the pencil icon next to a trick & Normal & A pop-up prompting you to edit a trick should appear &  \\ \hline
+
+1.07 & Test the Delete Trick button (bin next to a trick) functions properly & This should load a pop-up to delete a trick & Click the bin icon next to a trick & Normal & A pop-up should ask you whether you wish to delete that trick &  \\ \hline
+
+
+
+1.08 & Test that the 'Skateparks' tab functions properly & This should load the skateparks window &Click the 'Skateparks' tab in the application & Normal & The Skateparks window should be displayed & & \\ \hline
+
+1.09 & Test the Add Skatepark button functions properly &  This should load a pop-up to add a skatepark & Click the (+) icon at the top left corner of the application & Normal & A pop-up prompting you to add a skatepark should appear & &  \\ \hline
+
+1.10 & Test the Skatepark Location button functions properly & This should load a pop-up giving details about the skatepark & Click a location on a map & Normal & A pop-up giving you information about a skatepark & & \\ \hline
+
+1.11 & Test the Edit Skatepark button (pencil in the existing skatepark pop-up) functions properly & This should load a pop-up to edit a skatepark & Click the pencil in the existing skatpark pop-up & Normal & A pop-up prompting you to edit a skatepark should appear &  & \\ \hline
+
+1.12 &  Test the Delete Skatepark button (bin icon in the existing skatepark pop-up) functions properly & This should load a pop-up to delete a skatepark & Click the bin icon in the existing skatpark pop-up & Normal & A pop-up prompting you to delete a skatepark should appear & & \\ \hline
+
+1.13 & Test the 'Map Journey' button functions properly & This should map a route on the map from the start and finish location &  Click the 'Map Journey' icon & Normal & A route will be displayed on the map &  \\ \hline
+
+
+
+1.14 & Test that the 'Reviews' tab functions properly & This should load the reviews window & Click the 'Reviews' tab in the application & Normal & The Reviews window should be displayed & &  \\ \hline
+
+1.15 & Test the Add Review button functions properly &  This should load a pop-up to add a review & Click the (+) icon at the top left corner of the application & Normal & A pop-up prompting you to add a review should appear & &  \\ \hline
+
+1.16 & Test the Edit Review button (pencil next to a review) functions properly & This should load a pop-up to edit a review &  Click the pencil icon next to a review & Normal & A pop-up prompting you to edit a review should appear &  & \\ \hline
+
+1.17  & Test the Delete Trick button (bin next to a review) functions properly & This should load a pop-up to delete a review &  Click the bin icon next to a review & Normal & A pop-up should ask you whether you wish to delete that review & &  \\ \hline
+
+1.18 & Test the Filter Type button functions properly & This sould load a pop-up to filter the type & Click the 'Filter' button then from the list select 'Filter Type' & Normal &  A pop-up should ask you to select a type &  &\\ \hline
+
+1.19 & Test the Filter Brand button functions properly & This sould load a pop-up to filter the brand & Click the 'Filter' button then from the list select 'Filter Brand' & Normal &  A pop-up should ask you to select a brand & & \\ \hline
+
+1.20 & Test the Filter Size button functions properly & This sould load a pop-up to filter the size &  Click the 'Filter' button then from the list select 'Filter Size' & Normal &  A pop-up should ask you to select a size & & \\ \hline
+
+
+
+2.00 & Verify an appropriate name is entered to the 'Change Name' pop-out. & Should not accept the name if it is not valid & 1.Ben 2.Keppie 3.   4.12345  5.Ben10 & 1.Normal 2.Normal 3.Erroneous 4.Erroneous 5.Erroneous & 1.Accept 2.Accept 3.Error (Presence) 4.Error (Numbers) 5.Error (Numbers) & & \\ \hline
+
+2.01 & Verify an appropriate picture is selected in the 'Change Picture' pop-out & Should only accept JPEG images & 1.Picture.JPEG 2.Picture.PNG 3.Picture.txt & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error (File Type) 3.Error (File Type) & & \\ \hline
+
+2.02 & Verify a valid email is entered to the 'Change Email' pop-out & Should only accept a correct email format & 1.BenKeppie@hotmail.co.uk 2.BenKeppieEmail.com & 3.Ji1290.co.uk & 1. Normal 2. Erroneous 3. Erroneous & 1. Accept 2. Error(Format) 3.Error(Format) \\ \hline
+
+2.03 & Verify presence for adding a tricks name & Checks something is entered & 1.Ollie 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick description & Checks something is entered & 1.Flips 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick obstacle & Checks something is entered & 1.Flat Ground 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.04 & Verify presence for adding a trick tutorial link & Checks something is entered and that it is a website link & 1.\url{http://www.youtube.com/watch?V=1} 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.05 & Verify an appropriate picture is selected in the 'add a trick' pop-out & Should only accept JPEG images & 1.Picture.JPEG 2.Picture.PNG 3.Picture.txt & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error (File Type) 3.Error (File Type) & & \\ \hline
+
+2.06 & Verify a difficulty is selected & Drop down box with 3 options & 1.Easy 2.Medium 3.Hard 4. & 1.Normal 2.Normal 3.Normal 4.Erroneous & 1.Accept 2.Accept 3.Accept 4.Error(Presence) & & \\ \hline
+
+2.07 & Verify the date is in the correct format & Format=DD/MM/YYY & 1.1/2/2014 2.10/12/2014 3/12/15/2014 & 1.Erroneous 2.Normal 3.Erroneous & 1.Error(Format) 2.Accept 3.Error(Format) & & \\ \hline 
+
+2.08 & Verify presence for adding a skatepark name & Checks something is entered & 1.Cambourne 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline 
+
+2.09 & Verify the correct format of coordinates are entered & Check that the coordinates are correct & 1.52.2200,0.0700 2.  3.30480839 & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error(Presence) 3.Error(Format) & & \\ \hline
+
+2.10 & Verify presence for a skatepark description & Checks something is entered & 1.Halfpipe only 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.11 & Verify presence for a review description & Checks something is entered & 1.Amazing 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.12 & Verify presence and correct number range & Checks something is entered and the values are between 1 and 5 & 1.3 2.0 3. 4.r & 1.Normal 2.Boundary 3.Erroneous 4.Erroneous & 1.Accept 2.Error(Range) 3.Error(Presence) 4.Error(Character) & & \\ \hline
+
+2.13 & Verify a product brand is selected & Checks a value is selected & 1.ZERO 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.14 & Verify a product type is selected & Checks a value is selected & 1.Trucks 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.15 & Verify a product size is selected & Checks a value is selected & 1. 5.0" 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+2.16 & Verify a product name is selected & Checks a value is selected & 1.SpecOps 2. & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & & \\ \hline
+
+
+
+3.00 & Verify the first and last name are inputted into the database & The first and last name should be added to the database & 1.FirstName 2.LastName & 1.Normal 2.Normal & 1.Accept 2.Accept & &  \\ \hline
+
+3.01 & Verify the profile picture is inputted into the database & A jpeg image should be added to the database & JPEG image & Normal & Accept & & \\ \hline
+
+3.02 & Verify an email is inputted into the database & An email should be added to the database & BenKeppie@hotmail.co.uk & Normal & Accept  & & \\ \hline
+
+3.03 & Verify a trick name is inputted into the database & A trick name should be added to the database & Ollie & Normal & Accept & & \\ \hline
+
+3.04 & Verify a trick description is inputted into the database & A trick description should be added to the database & Board Rotates 360 & Normal & Accept & & \\ \hline
+
+3.05  & Verify a trick obstacle is inputted into the database & A trick obstacle should be added to the database & Flat ground & Normal & Accept & & \\ \hline
+
+3.06 & Verify a trick image is inputted into the database & A trick image should be added to the database & JPEG Image & Normal & Accept & & \\ \hline
+
+3.07 & Verify a trick tutorial link is inputted into the database & A trick tutorial link should be added to the database & www.youtube.com/watch?v=? & Normal & Accept & & \\ \hline
+
+3.08 & Verify a trick difficulty is inputted into the databse & A trick difficulty should be added to the database & Easy & Normal & Accept & & \\ \hline
+
+3.09 & Verify a skatepark name is inputted into the database & A skatepark name should be added to the database & Cambourne Skatepark & Normal & Accept & & \\ \hline
+
+3.10 & Verify skatepark coordinates are inputted into the database & Skatepark coordinates should be added to the database & 52.2200,0.0700 & Normal & Accept & & \\ \hline
+
+3.11 & Verify a skatepark description is inputted into the database & A skatepark description should be added into the database & Half pipe & Normal & Accept & & \\ \hline
+
+3.12 & Verify a review description is inputted into the databse & A review description should be entered into the database & Amazing product & Normal & Accept & & \\ \hline
+ 
+3.13 & Verify a product brand is inputted into the database & A product brand should be entered into the database & Product Brand (ZERO) & Normal & Accept & & \\ \hline
+
+3.14 & Verify a product size is inputted into the database & A product size should be entered into the database & Product Size (5.0") & Normal & Accept && \\ \hline
+
+3.15 & Verify a product name is inputted into the database & A product name should be entered into the database & Product Name (Spec Ops) & Normal & Accept & & \\ \hline
+
+3.16 & Verify a product type is inputted into the database & A product type should be entered into the database & Product Type (Truck) & Normal & Accept & & \\ \hline
+
+
+
+4.00 & Verify that the product brand filter correctly returns the right reviews & Reviews with the product brand should be displayed & Select a brand filter (ZERO) & Normal & Only reviews that relate to the filter are displayed & & \\ \hline
+
+4.01 & Verify that the product type filter correctly returns the right reviews & Reviews with the product type should be displayed & Select a type filter (Trucks) & Normal & Only reviews that relate to the filter are displayed & & \\ \hline
+
+4.02 & Verify that the product size filter correctly returns the right reviews & Reviews with the product size should be displayed & Select a size filter (5.0") & Normal & Only reviews that relate to the filter are displayed & & \\ \hline
+
+4.03 & Verify that the progress tracker returns the correct amount of completed tricks & Tricks which are completed will be displayed & Length of tricks completed & Normal & Only tricks that are completed will be displayed & & \\ \hline
+
+4.04 & Verify that the progress tracker returns the correct amount of overall tricks & All tricks will be displayed & Length of tricks & Normal & All tricks will be displayed & & \\ \hline
+
+4.05 & Verify that the skatepark is added to the correct location on the map & Longitude and latitude will correspond to map location & 1.52.2200,0.0700 & Normal & Skatepark will be displayed on the map & & \\ \hline
+
+4.06 & Verify that the progress tracker displayed the correct percentage & Completed tricks divided by all tricks multiplied by 100  & Tricks & Correct percentage will be displayed & & \\ \hline
+
+4.07 & Verify that the route is correct & A correct route should be displated on the map & Start Location, End Location & Normal & A correct route is displayed & & \\ \hline
+
+
+
+5 & Verify the program fulfils the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Add some information to the program, start a student test, and view the results of the test & Normal & Program fulfils the specification & & \\ \hline
+
+    \end{longtable}
+\end{center}
+\end{landscape}
