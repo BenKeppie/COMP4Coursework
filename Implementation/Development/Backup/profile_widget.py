@@ -98,7 +98,7 @@ class DisplayProfileWidget(QWidget):
 
     def display_profile_toolbar_widget(self):
         if not hasattr(self,"profile_tool_bar"):
-            self.profile_tool_bar=DisplayProfileToolbar()
+            self.profile_tool_bar=DisplayProfileToolbar(self)
             self.profile_tool_bar.changedPicture.connect(self.refresh_picture)
             self.ToolBarWidgetLayout.addWidget(self.profile_tool_bar)
         self.ToolBarWidgetLayout.addWidget(self.LayoutWidget)
@@ -106,8 +106,10 @@ class DisplayProfileWidget(QWidget):
     def refresh_picture(self):
         print("Refresh Picture")
         self.profile_picture.picture()
+        self.parent.StatusBar.showMessage("Profile Picture Successfully Changed.", 2000)
 
     def edit_button_clicked(self):
+        self.parent.StatusBar.showMessage("Edit Mode")
         self.change_name_edit()
         self.change_email_edit()
 
@@ -125,6 +127,7 @@ class DisplayProfileWidget(QWidget):
         self.first_name.setReadOnly(True)
         self.last_name.setReadOnly(True)
         self.user_email.setReadOnly(True)
+        self.parent.StatusBar.clearMessage()
                                          
 
 

@@ -1,6 +1,6 @@
 import sys
+
 import time
-import os
 import subprocess
 import os.path
 from PyQt4.QtGui import *
@@ -10,6 +10,8 @@ from PyQt4.QtWebKit import *
 
 
 from menu_bar import *
+
+
 from profile_widget import *
 from profile_toolbar import *
 
@@ -21,6 +23,8 @@ from skateparks_toolbar import *
 
 from reviews_widget import *
 
+from support_widget import *
+
 
 class MainWindow(QMainWindow):
     """Class for the main window of my program"""
@@ -29,6 +33,11 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Skateboard Progress Tracker")
         self.app = QtGui.QApplication([])
         self.set_icon()
+        self.main_VBoxLayout=QVBoxLayout()
+        self.central_widget=QWidget()
+        self.ProgressBar=QProgressBar()
+        self.ProgressBarLabel=QLabel("Percentage of Tricks Completed.")
+
 
         #create tabs
         self.create_tabs()
@@ -40,6 +49,18 @@ class MainWindow(QMainWindow):
         #Create Statusbar
         self.StatusBar=QStatusBar()
         self.setStatusBar(self.StatusBar)
+
+        self.tabs.currentChanged.connect(self.progress_bar_hide)
+
+        
+    def progress_bar_hide(self):
+        if (self.tabs.currentIndex() >=2):
+            self.ProgressBarLabel.hide()
+            self.ProgressBar.hide()
+        else:
+            self.ProgressBar.show()
+            self.ProgressBarLabel.show()
+            
         
         
         
@@ -48,6 +69,8 @@ class MainWindow(QMainWindow):
         self.app_icon=QtGui.QIcon()
         self.app_icon.addFile("ProgramIcon.png",QSize(16,16))
         self.app.setWindowIcon(self.app_icon)
+
+        
         
         
 
@@ -62,7 +85,7 @@ class MainWindow(QMainWindow):
         self.tricks_tab=DisplayTricksWidget(self)
         self.skateparks_tab=DisplaySkateparksWidget(self)
         self.reviews_tab=DisplayReviewsWidget(self)
-        self.support_tab=QWidget()
+        self.support_tab=DisplaySupportWidget(self)
 
         
         #Add Tabs
@@ -71,6 +94,11 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(self.skateparks_tab, "Skateparks")
         self.tabs.addTab(self.reviews_tab, "Reviews")
         self.tabs.addTab(self.support_tab, "Support")
+
+        self.main_VBoxLayout.addWidget(self.tabs)
+        self.main_VBoxLayout.addWidget(self.ProgressBarLabel)
+        self.main_VBoxLayout.addWidget(self.ProgressBar)
+        self.central_widget.setLayout(self.main_VBoxLayout)
 
         
 
@@ -81,7 +109,7 @@ class MainWindow(QMainWindow):
  
 
         #Add all to the main window
-        self.setCentralWidget(self.tabs)
+        self.setCentralWidget(self.central_widget)
         
 def splash_screen():
     splash_pix = QPixmap('SplashScreen1.png')

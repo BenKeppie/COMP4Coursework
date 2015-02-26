@@ -70,7 +70,7 @@ class DisplayTricksWidget(QWidget):
         self.dialog_VBoxLayout=QVBoxLayout()
         self.dialog_button_layout=QHBoxLayout()
         if not hasattr(self,"delete_message"):
-            self.delete_message=QLabel("Are you sure you wish to delte this trick?")
+            self.delete_message=QLabel("Are you sure you wish to delete this trick?")
             self.dialog_VBoxLayout.addWidget(self.delete_message)
         if not hasattr(self,"delete_cancel"):
             self.delete_cancel=QPushButton("Cancel")

@@ -11,8 +11,9 @@ from main_window import *
 
 class DisplayProfileToolbar(QToolBar):
     changedPicture=pyqtSignal()
-    def __init__(self):
+    def __init__(self,parent):
         super().__init__()
+        self.parent=parent
 
         self.change_picture=QAction("Change Picture",self)
 
@@ -22,11 +23,13 @@ class DisplayProfileToolbar(QToolBar):
         self.change_picture.triggered.connect(self.change_picture_connection)
 
     def change_picture_connection(self):
+        self.parent.parent.StatusBar.showMessage("Changing Profile Picture...")
         
         print("Find Picture")
         path=QFileDialog.getOpenFileName()
         if path=="":
             print("Picture not changed.")
+            self.parent.parent.StatusBar.showMessage("Profile Picture Not Changed.", 2000)
         else:
             replace="\."
             path=path.replace("/",replace[0])
