@@ -754,7 +754,7 @@ The screen shot above shows that the values of the database for the skatepark co
 
 \textbf{Test 5.00 Evidence}
 
-All of the previous annotated samples contribute to Test 5.00. There are elements of my program which work as intended e.g The name line edit did not contain the correct validation which lead to the failure of that test series  (Figure \ref{fig:Test 2.00} on page \pageref{fig:Test 2.00}). On the other hand most of my tests passed e.g saving tricks  (Figure \ref{fig:Test 2.03} on page \pageref{fig:Test 2.03}).
+All of the previous annotated samples contribute to Test 5.00. There are elements of my program which work as intended e.g The name line edit did not contain the correct validation which lead to the failure of that test series  (Figure \ref{fig:Test 2.00} on page \pageref{fig:Test 2.00}). On the other hand most of my tests passed e.g saving tricks  (Figure \ref{fig:Test 3.03} on page \pageref{fig:Test 3.03}).
 
 \section{Evaluation}
 
@@ -765,23 +765,28 @@ For each of my test series I used a different approach to testing. For my first 
 
 \subsection{Problems Encountered}
 
-\textbf{Test 2.00}
+Testing my program allowed me to identify areas of the system which did not work as intended. These tests are identified below, with an explanation. I will endeavour to fix all of the errors for the final release of my program which I will give to my client.
 
-\textbf{Test 2.01}
+\textbf{Test 2.00 and Test 2.02 }
 
-\textbf{Test 2.02}
+The line edits in the 'profile' tab which allow you to edit your first name, last name and email did not include any validation on them. This is a minor issue that could easily be fixed by a short validation method. 
 
-\textbf{Test 2.05}
+\textbf{Test 2.01 and Test 2.05}
+
+When uploading pictures for the program, the file type accepted was supposed to be limited to a .jpeg file; however the program accepted any file type. This is a minor problem, but can be annoying as file types that aren't .jpeg will not be displayed. For example, if a .txt file is uploaded for the profile picture, the profile picture will appear to be blank. This could easily be fixed by a short validation method and then a message being displayed on the status bar.
+
 
 \textbf{Test 5.00}
 
+The build up of minor errors, along with the fact that the graphical user interface is not complete within the reviews tab, has lead to the failure of this test. For this test to pass the whole program would have to be completed at a usable graphical user interface level, along with every test series passing. This means I am not that far off passing this test as all that needs to be done is a few validation methods in certain input areas and the review table input form functionality.
+
 \subsection{Strengths of Testing}
 
-I feel that my testing methods were particularly strong. This was partnered with the large amount of individual tests in each test series to show which parts of my program worked, and which parts didn't. The use of multiple different testing types allowed for my system to be tested in many different aspects which then gave a rigorous analysis of the functionality of my program.
+I feel that my testing methods were particularly strong. This was partnered with the large amount of individual tests in each test series to show which parts of my program worked, and which parts didn't. The use of multiple different testing types allowed for my system to be tested in many different aspects which then gave a rigorous analysis of the functionality of my program. My testing allowed me to see if the functions made the correct changes to the database and user interface.
 
 \subsection{Weaknesses of Testing}
 
-The weakness 
+The weakness of my testing is the fact that not every single aspect of my program was identified, therefore there could be some areas of my program which have errors in, of which I do not know about. My testing also doesn't look at the internal structure of the code. This means that there could be parts of my code which are inefficient and therefore could be coded in a much more efficient way which would lead to less processing power needing to be used as well as a faster program.
 
 \subsection{Reliability of Application}
 
