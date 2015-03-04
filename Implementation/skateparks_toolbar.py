@@ -6,6 +6,7 @@ from PyQt4.QtSql import *
 
 
 class DisplaySkateparksToolbar(QToolBar):
+    """A class to represent the skateparks tab toolbar"""
     def __init__(self,parent):
         super().__init__()
         self.parent=parent

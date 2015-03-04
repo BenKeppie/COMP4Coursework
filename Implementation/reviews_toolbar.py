@@ -6,6 +6,7 @@ from PyQt4.QtSql import *
 
 
 class DisplayReviewsToolbar(QToolBar):
+    """A class to create the toolbar for the review tab"""
     def __init__(self, parent):
         super().__init__()
         self.parent=parent

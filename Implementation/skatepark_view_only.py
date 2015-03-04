@@ -2,31 +2,37 @@ from PyQt4.QtWebKit import *
 import sqlite3
 from PyQt4.QtSql import *
 import time
-##google.maps.event.addListener(marker, 'mouseover', function(event) {
-##    infowindow.open(map,marker);
-##  });
-#        key = "AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg"
+
+#        my API key = "AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg"
 
 class CustomQWebPage(QWebPage):
+    """A class to act as the webpage for the google maps module"""
     def __init__(self):
         super().__init__()
         print("QWebPage constructor")
 
     def javaScriptConsoleMessage(self,message,lineNumber,sourceID):
+        #An overridden method to display a javascript console message
         print()
-        #print(message,lineNumber,sourceID)
-        #print("javascript console message^")
+        print(message,lineNumber,sourceID)
+        print("javascript console message^")
+        
 
 class ViewOnlyMap(QWebView):
+    """A class to create the google maps window"""
    
 
     def __init__(self,parent):
         super().__init__()
         self.parent=parent
+
+        #Changing web settings to access certain functionality
         self.settings().setAttribute(QWebSettings.JavascriptEnabled, True)
         self.settings().setAttribute(QWebSettings.JavascriptCanOpenWindows, True)
         self.settings().setAttribute(QWebSettings.JavascriptCanAccessClipboard, True)
         self.settings().setAttribute(QWebSettings.DeveloperExtrasEnabled, True)
+
+
         self.CustomPage=CustomQWebPage()
         self.Coordinates=None
         self.setPage(self.CustomPage)

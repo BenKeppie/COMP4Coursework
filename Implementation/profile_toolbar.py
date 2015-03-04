@@ -10,6 +10,7 @@ from main_window import *
 
 
 class DisplayProfileToolbar(QToolBar):
+    """A class to create the profile tabs' toolbar"""
     changedPicture=pyqtSignal()
     def __init__(self,parent):
         super().__init__()

@@ -1,185 +1,222 @@
-\contentsline {chapter}{\numberline {1}Analysis}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{6}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Client Identification}{6}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Define the current system}{6}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Describe the problems}{7}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}Section appendix}{7}{subsection.1.1.4}
-\contentsline {subsubsection}{Analysis section interview}{7}{section*.2}
-\contentsline {section}{\numberline {1.2}Investigation}{9}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}The current system}{9}{subsection.1.2.1}
-\contentsline {subsubsection}{Data sources and destinations}{10}{section*.3}
-\contentsline {subsubsection}{Algorithms}{11}{section*.4}
-\contentsline {subsubsection}{Data flow diagram}{13}{section*.5}
-\contentsline {subsubsection}{Input Forms, Output Forms, Report Formats}{16}{section*.6}
-\contentsline {subsection}{\numberline {1.2.2}The proposed system}{18}{subsection.1.2.2}
-\contentsline {subsubsection}{Data sources and destinations}{18}{section*.7}
-\contentsline {subsubsection}{Data flow diagram}{20}{section*.8}
-\contentsline {subsubsection}{Data dictionary}{26}{section*.9}
-\contentsline {subsubsection}{Volumetrics}{27}{section*.10}
-\contentsline {section}{\numberline {1.3}Objectives}{27}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}General Objectives}{27}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{28}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Core Objectives}{29}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Other Objectives}{29}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}ER Diagrams and Descriptions}{30}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}ER Diagram}{30}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Entity Descriptions}{30}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Object Analysis}{31}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Object Listing}{31}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Relationship diagrams}{32}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Class definitions}{32}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Other Abstractions and Graphs}{34}{section.1.6}
-\contentsline {section}{\numberline {1.7}Constraints}{34}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Hardware}{34}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Software}{35}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Time}{35}{subsection.1.7.3}
-\contentsline {subsection}{\numberline {1.7.4}User Knowledge}{35}{subsection.1.7.4}
-\contentsline {subsection}{\numberline {1.7.5}Access restrictions}{35}{subsection.1.7.5}
-\contentsline {section}{\numberline {1.8}Limitations}{36}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Areas which will not be included in computerisation}{36}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Areas considered for future computerisation}{36}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Solutions}{36}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Alternative solutions}{36}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Justification of chosen solution}{37}{subsection.1.9.2}
-\contentsline {chapter}{\numberline {2}Design}{39}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overall System Design}{39}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Short description of the main parts of the system}{39}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}System flowcharts showing an overview of the complete system}{45}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}User Interface Designs}{53}{section.2.2}
-\contentsline {section}{\numberline {2.3}Hardware Specification}{59}{section.2.3}
-\contentsline {section}{\numberline {2.4}Program Structure}{60}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Top-down design structure charts}{60}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Algorithms in pseudo-code for each data transformation process}{63}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Object Diagrams}{64}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Class Definitions}{64}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Prototyping}{66}{section.2.5}
-\contentsline {section}{\numberline {2.6}Definition of Data Requirements}{71}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Identification of all data input items}{71}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Identification of all data output items}{72}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Explanation of how data output items are generated}{72}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Data Dictionary}{73}{subsection.2.6.4}
-\contentsline {subsubsection}{Data dictionary}{73}{section*.11}
-\contentsline {subsection}{\numberline {2.6.5}Identification of appropriate storage media}{77}{subsection.2.6.5}
-\contentsline {section}{\numberline {2.7}Database Design}{78}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Normalisation}{78}{subsection.2.7.1}
-\contentsline {subsubsection}{ER Diagrams}{78}{section*.12}
-\contentsline {subsubsection}{Entity Descriptions}{79}{section*.13}
-\contentsline {subsubsection}{1NF to 3NF}{80}{section*.14}
-\contentsline {subsection}{\numberline {2.7.2}SQL Queries}{84}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Security and Integrity of the System and Data}{85}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Security and Integrity of Data}{85}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}System Security}{86}{subsection.2.8.2}
-\contentsline {section}{\numberline {2.9}Validation}{86}{section.2.9}
-\contentsline {section}{\numberline {2.10}Testing}{88}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Outline Plan}{90}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Detailed Plan}{91}{subsection.2.10.2}
-\contentsline {chapter}{\numberline {3}Testing}{105}{chapter.3}
-\contentsline {section}{\numberline {3.1}Test Plan}{105}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Original Outline Plan}{107}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Changes to Outline Plan}{108}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Original Detailed Plan}{108}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Retained Items From Detailed Plan}{121}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Changed Items From Detailed Plan}{128}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Removed Items From Detailed Plan}{133}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}Test Data}{138}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Original Test Data}{138}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Changes to Test Data}{138}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Annotated Samples}{138}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Actual Results}{138}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Evidence}{151}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Evaluation}{167}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Approach to Testing}{167}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Problems Encountered}{168}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Strengths of Testing}{168}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Weaknesses of Testing}{168}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Reliability of Application}{169}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Robustness of Application}{169}{subsection.3.4.6}
-\contentsline {chapter}{\numberline {4}System Maintenance}{170}{chapter.4}
+\contentsline {chapter}{\numberline {1}Analysis}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Client Identification}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Define the current system}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Describe the problems}{8}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Section appendix}{8}{subsection.1.1.4}
+\contentsline {subsubsection}{Analysis section interview}{8}{section*.2}
+\contentsline {section}{\numberline {1.2}Investigation}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The current system}{10}{subsection.1.2.1}
+\contentsline {subsubsection}{Data sources and destinations}{11}{section*.3}
+\contentsline {subsubsection}{Algorithms}{12}{section*.4}
+\contentsline {subsubsection}{Data flow diagram}{14}{section*.5}
+\contentsline {subsubsection}{Input Forms, Output Forms, Report Formats}{17}{section*.6}
+\contentsline {subsection}{\numberline {1.2.2}The proposed system}{19}{subsection.1.2.2}
+\contentsline {subsubsection}{Data sources and destinations}{19}{section*.7}
+\contentsline {subsubsection}{Data flow diagram}{21}{section*.8}
+\contentsline {subsubsection}{Data dictionary}{27}{section*.9}
+\contentsline {subsubsection}{Volumetrics}{28}{section*.10}
+\contentsline {section}{\numberline {1.3}Objectives}{28}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}General Objectives}{28}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{29}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Core Objectives}{30}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Other Objectives}{30}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}ER Diagrams and Descriptions}{31}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}ER Diagram}{31}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Entity Descriptions}{31}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Object Analysis}{32}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Object Listing}{32}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Relationship diagrams}{33}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Class definitions}{33}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Other Abstractions and Graphs}{35}{section.1.6}
+\contentsline {section}{\numberline {1.7}Constraints}{35}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Hardware}{35}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Software}{36}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Time}{36}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}User Knowledge}{36}{subsection.1.7.4}
+\contentsline {subsection}{\numberline {1.7.5}Access restrictions}{36}{subsection.1.7.5}
+\contentsline {section}{\numberline {1.8}Limitations}{37}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Areas which will not be included in computerisation}{37}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Areas considered for future computerisation}{37}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Solutions}{37}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Alternative solutions}{37}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}Justification of chosen solution}{38}{subsection.1.9.2}
+\contentsline {chapter}{\numberline {2}Design}{40}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overall System Design}{40}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Short description of the main parts of the system}{40}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}System flowcharts showing an overview of the complete system}{46}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}User Interface Designs}{54}{section.2.2}
+\contentsline {section}{\numberline {2.3}Hardware Specification}{60}{section.2.3}
+\contentsline {section}{\numberline {2.4}Program Structure}{61}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Top-down design structure charts}{61}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Algorithms in pseudo-code for each data transformation process}{64}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Object Diagrams}{65}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Class Definitions}{65}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Prototyping}{67}{section.2.5}
+\contentsline {section}{\numberline {2.6}Definition of Data Requirements}{72}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Identification of all data input items}{72}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Identification of all data output items}{73}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Explanation of how data output items are generated}{73}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Data Dictionary}{74}{subsection.2.6.4}
+\contentsline {subsubsection}{Data dictionary}{74}{section*.11}
+\contentsline {subsection}{\numberline {2.6.5}Identification of appropriate storage media}{78}{subsection.2.6.5}
+\contentsline {section}{\numberline {2.7}Database Design}{79}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Normalisation}{79}{subsection.2.7.1}
+\contentsline {subsubsection}{ER Diagrams}{79}{section*.12}
+\contentsline {subsubsection}{Entity Descriptions}{80}{section*.13}
+\contentsline {subsubsection}{1NF to 3NF}{81}{section*.14}
+\contentsline {subsection}{\numberline {2.7.2}SQL Queries}{85}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Security and Integrity of the System and Data}{86}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Security and Integrity of Data}{86}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}System Security}{87}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Validation}{87}{section.2.9}
+\contentsline {section}{\numberline {2.10}Testing}{89}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Outline Plan}{91}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Detailed Plan}{92}{subsection.2.10.2}
+\contentsline {chapter}{\numberline {3}Testing}{106}{chapter.3}
+\contentsline {section}{\numberline {3.1}Test Plan}{106}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Original Outline Plan}{108}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Changes to Outline Plan}{109}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Original Detailed Plan}{109}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Retained Items From Detailed Plan}{122}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Changed Items From Detailed Plan}{129}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Removed Items From Detailed Plan}{134}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}Test Data}{139}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Original Test Data}{139}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Changes to Test Data}{139}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Annotated Samples}{139}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Actual Results}{139}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Evidence}{152}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Evaluation}{168}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Approach to Testing}{168}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Problems Encountered}{169}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Strengths of Testing}{169}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Weaknesses of Testing}{169}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Reliability of Application}{170}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Robustness of Application}{170}{subsection.3.4.6}
+\contentsline {chapter}{\numberline {4}System Maintenance}{171}{chapter.4}
 \contentsline {section}{\numberline {4.1}Environment}{171}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Software}{171}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Usage Explanation}{171}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Features Used}{171}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}System Overview}{171}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}System Component}{171}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Code Structure}{171}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Particular Code Section}{171}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Variable Listing}{171}{section.4.4}
-\contentsline {section}{\numberline {4.5}System Evidence}{171}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}User Interface}{171}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}ER Diagram}{171}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Database Table Views}{171}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Database SQL}{171}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}SQL Queries}{171}{subsection.4.5.5}
-\contentsline {section}{\numberline {4.6}Testing}{171}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Summary of Results}{171}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Known Issues}{171}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Code Explanations}{171}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Difficult Sections}{171}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Self-created Algorithms}{171}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Settings}{171}{section.4.8}
-\contentsline {section}{\numberline {4.9}Acknowledgements}{171}{section.4.9}
-\contentsline {section}{\numberline {4.10}Code Listing}{171}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Module 1}{172}{subsection.4.10.1}
-\contentsline {chapter}{\numberline {5}User Manual}{173}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{174}{section.5.1}
-\contentsline {section}{\numberline {5.2}Installation}{174}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{174}{subsection.5.2.1}
-\contentsline {subsubsection}{Installing Python}{174}{section*.15}
-\contentsline {subsubsection}{Installing PyQt}{174}{section*.16}
-\contentsline {subsubsection}{Etc.}{174}{section*.17}
-\contentsline {subsection}{\numberline {5.2.2}System Installation}{174}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Running the System}{174}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Tutorial}{174}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Introduction}{174}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Assumptions}{174}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{174}{subsection.5.3.3}
-\contentsline {subsubsection}{Question 1}{174}{section*.18}
-\contentsline {subsubsection}{Question 2}{174}{section*.19}
-\contentsline {subsection}{\numberline {5.3.4}Saving}{174}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Limitations}{174}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Error Recovery}{174}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Error 1}{174}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Error 2}{174}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}System Recovery}{174}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{174}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{174}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Evaluation}{175}{chapter.6}
-\contentsline {section}{\numberline {6.1}Customer Requirements}{175}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{177}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{177}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{177}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{177}{subsection.6.1.4}
-\contentsline {subsection}{\numberline {6.1.5}Non-biased reviews.}{177}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Clear database with a list of tricks in.}{177}{subsection.6.1.6}
-\contentsline {subsection}{\numberline {6.1.7} Easy to filter through tricks known.}{177}{subsection.6.1.7}
-\contentsline {subsection}{\numberline {6.1.8}Display status bar messages at appropriate times to inform the user of changes *NEW*}{177}{subsection.6.1.8}
-\contentsline {subsection}{\numberline {6.1.9}Allow for the user to contact the developer *NEW*}{177}{subsection.6.1.9}
-\contentsline {subsection}{\numberline {6.1.10}Ensure that the profile picture can be changed easily *NEW*}{177}{subsection.6.1.10}
-\contentsline {subsection}{\numberline {6.1.11}Ensure that the profile name can be edited easily *NEW*}{177}{subsection.6.1.11}
-\contentsline {subsection}{\numberline {6.1.12}Ensure that the profile email can be edited easily *NEW*}{177}{subsection.6.1.12}
-\contentsline {subsection}{\numberline {6.1.13}Ensure that videos can be filtered by categories. e.g easy, medium, hard tricks.}{177}{subsection.6.1.13}
-\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{177}{subsection.6.1.14}
-\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{177}{subsection.6.1.15}
-\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{177}{subsection.6.1.16}
-\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{177}{subsection.6.1.17}
-\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{177}{subsection.6.1.18}
-\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{177}{subsection.6.1.19}
-\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{177}{subsection.6.1.20}
-\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{177}{subsection.6.1.21}
-\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{177}{subsection.6.1.22}
-\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{177}{subsection.6.1.23}
-\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{177}{subsection.6.1.24}
-\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{177}{subsection.6.1.25}
-\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{177}{subsection.6.1.26}
-\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{177}{subsection.6.1.27}
-\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{177}{subsection.6.1.28}
-\contentsline {section}{\numberline {6.2}Effectiveness}{177}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{177}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Learnability}{177}{section.6.3}
-\contentsline {section}{\numberline {6.4}Usability}{177}{section.6.4}
-\contentsline {section}{\numberline {6.5}Maintainability}{177}{section.6.5}
-\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{177}{section.6.6}
-\contentsline {section}{\numberline {6.7}End User Evidence}{177}{section.6.7}
-\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{177}{subsection.6.7.1}
-\contentsline {subsection}{\numberline {6.7.2}Graphs}{177}{subsection.6.7.2}
-\contentsline {subsection}{\numberline {6.7.3}Written Statements}{177}{subsection.6.7.3}
+\contentsline {subsection}{\numberline {4.1.3}Features Used}{173}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}System Overview}{173}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}General User Interface}{173}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Profile Tab User Interface}{174}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Editing Profile Table Information}{174}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Tricks Tab User Interface}{174}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Editing Trick Table Information}{174}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Skateparks Tab User Interface}{175}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Editing Skatepark Table Information}{175}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Reviews Tab User Interface}{175}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Editing Review Table Information}{175}{subsection.4.2.9}
+\contentsline {subsection}{\numberline {4.2.10}Support Tab User Interface}{175}{subsection.4.2.10}
+\contentsline {subsection}{\numberline {4.2.11}Reporting a Bug}{175}{subsection.4.2.11}
+\contentsline {section}{\numberline {4.3}Code Structure}{175}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Particular Code Section}{176}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Variable Listing}{176}{section.4.4}
+\contentsline {section}{\numberline {4.5}System Evidence}{177}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}User Interface}{177}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}ER Diagram}{177}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Database Table Views}{178}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Database SQL}{178}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}SQL Queries}{178}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Testing}{178}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Summary of Results}{178}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Known Issues}{178}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}Code Explanations}{178}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Difficult Sections}{178}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Self-created Algorithms}{178}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Settings}{178}{section.4.8}
+\contentsline {section}{\numberline {4.9}Acknowledgements}{178}{section.4.9}
+\contentsline {section}{\numberline {4.10}Code Listing}{178}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Main Window}{178}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Main Tabbed Widget}{182}{subsection.4.10.2}
+\contentsline {subsection}{\numberline {4.10.3}Menu Bar}{182}{subsection.4.10.3}
+\contentsline {subsection}{\numberline {4.10.4}Profile Widget}{184}{subsection.4.10.4}
+\contentsline {subsection}{\numberline {4.10.5}Profile Picture}{187}{subsection.4.10.5}
+\contentsline {subsection}{\numberline {4.10.6}Profile Toolbar}{188}{subsection.4.10.6}
+\contentsline {subsection}{\numberline {4.10.7}Profile SQL Connections}{189}{subsection.4.10.7}
+\contentsline {subsection}{\numberline {4.10.8}Tricks Widget}{192}{subsection.4.10.8}
+\contentsline {subsection}{\numberline {4.10.9}Tricks Toolbar}{199}{subsection.4.10.9}
+\contentsline {subsection}{\numberline {4.10.10}Tricks SQL Connections}{199}{subsection.4.10.10}
+\contentsline {subsection}{\numberline {4.10.11}Skateparks Widget}{201}{subsection.4.10.11}
+\contentsline {subsection}{\numberline {4.10.12}Skateparks Map}{206}{subsection.4.10.12}
+\contentsline {subsection}{\numberline {4.10.13}Skateparks Toolbar}{211}{subsection.4.10.13}
+\contentsline {subsection}{\numberline {4.10.14}Skateparks SQL Connections}{212}{subsection.4.10.14}
+\contentsline {subsection}{\numberline {4.10.15}Reviews Widget}{212}{subsection.4.10.15}
+\contentsline {subsection}{\numberline {4.10.16}Reviews Toolbar}{218}{subsection.4.10.16}
+\contentsline {subsection}{\numberline {4.10.17}Reviews SQL Connections}{218}{subsection.4.10.17}
+\contentsline {subsection}{\numberline {4.10.18}Support Widget}{220}{subsection.4.10.18}
+\contentsline {subsection}{\numberline {4.10.19}CLI Menu}{222}{subsection.4.10.19}
+\contentsline {subsection}{\numberline {4.10.20}CLI Get Menu Option}{223}{subsection.4.10.20}
+\contentsline {subsection}{\numberline {4.10.21}CLI Database Table Menu}{223}{subsection.4.10.21}
+\contentsline {subsection}{\numberline {4.10.22}CLI Create Database}{227}{subsection.4.10.22}
+\contentsline {subsection}{\numberline {4.10.23}CLI Profile Edit Options}{231}{subsection.4.10.23}
+\contentsline {subsection}{\numberline {4.10.24}CLI Trick Edit Options}{234}{subsection.4.10.24}
+\contentsline {subsection}{\numberline {4.10.25}CLI Skatepark Edit Options}{237}{subsection.4.10.25}
+\contentsline {subsection}{\numberline {4.10.26}CLI Review Edit Options}{239}{subsection.4.10.26}
+\contentsline {subsection}{\numberline {4.10.27}CLI Make New Difficulty}{242}{subsection.4.10.27}
+\contentsline {subsection}{\numberline {4.10.28}CLI Make New Product}{242}{subsection.4.10.28}
+\contentsline {chapter}{\numberline {5}User Manual}{245}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{246}{section.5.1}
+\contentsline {section}{\numberline {5.2}Installation}{246}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{246}{subsection.5.2.1}
+\contentsline {subsubsection}{Installing Python}{246}{section*.15}
+\contentsline {subsubsection}{Installing PyQt}{246}{section*.16}
+\contentsline {subsubsection}{Etc.}{246}{section*.17}
+\contentsline {subsection}{\numberline {5.2.2}System Installation}{246}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Running the System}{246}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Tutorial}{246}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Introduction}{246}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Assumptions}{246}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{246}{subsection.5.3.3}
+\contentsline {subsubsection}{Question 1}{246}{section*.18}
+\contentsline {subsubsection}{Question 2}{246}{section*.19}
+\contentsline {subsection}{\numberline {5.3.4}Saving}{246}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Limitations}{246}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Error Recovery}{246}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Error 1}{246}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Error 2}{246}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}System Recovery}{246}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{246}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{246}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Evaluation}{247}{chapter.6}
+\contentsline {section}{\numberline {6.1}Customer Requirements}{247}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{249}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{249}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{249}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{249}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Non-biased reviews.}{249}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Clear database with a list of tricks in.}{249}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7} Easy to filter through tricks known.}{249}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Display status bar messages at appropriate times to inform the user of changes *NEW*}{249}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Allow for the user to contact the developer *NEW*}{249}{subsection.6.1.9}
+\contentsline {subsection}{\numberline {6.1.10}Ensure that the profile picture can be changed easily *NEW*}{249}{subsection.6.1.10}
+\contentsline {subsection}{\numberline {6.1.11}Ensure that the profile name can be edited easily *NEW*}{249}{subsection.6.1.11}
+\contentsline {subsection}{\numberline {6.1.12}Ensure that the profile email can be edited easily *NEW*}{249}{subsection.6.1.12}
+\contentsline {subsection}{\numberline {6.1.13}Ensure that videos can be filtered by categories. e.g easy, medium, hard tricks.}{249}{subsection.6.1.13}
+\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{249}{subsection.6.1.14}
+\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{249}{subsection.6.1.15}
+\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{249}{subsection.6.1.16}
+\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{249}{subsection.6.1.17}
+\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{249}{subsection.6.1.18}
+\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{249}{subsection.6.1.19}
+\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{249}{subsection.6.1.20}
+\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{249}{subsection.6.1.21}
+\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{249}{subsection.6.1.22}
+\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{249}{subsection.6.1.23}
+\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{249}{subsection.6.1.24}
+\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{249}{subsection.6.1.25}
+\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{249}{subsection.6.1.26}
+\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{249}{subsection.6.1.27}
+\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{249}{subsection.6.1.28}
+\contentsline {section}{\numberline {6.2}Effectiveness}{249}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{249}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Learnability}{249}{section.6.3}
+\contentsline {section}{\numberline {6.4}Usability}{249}{section.6.4}
+\contentsline {section}{\numberline {6.5}Maintainability}{249}{section.6.5}
+\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{249}{section.6.6}
+\contentsline {section}{\numberline {6.7}End User Evidence}{249}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{249}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Graphs}{249}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}Written Statements}{249}{subsection.6.7.3}
