@@ -141,6 +141,31 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
 \begin{center}
 \begin{tabular}{|p{3.5cm}|p{6cm}|p{3.5cm}|} \hline
 \textbf{Variable} & \textbf{Purpose} & \textbf{Reference} \\ \hline
+splash_pix & Stores a QPixmap image of the programs splash screen & Subsection 4.10.1, line number 115
+replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303
+FirstName & A variable to temporarily hold the first name of the user & Subsection 4.10.7, line numbers:17,19,22.
+LastName & A variable to temporarily hold the last name of the user & Subsection 4.10.7, line numbers: 18,19,22.
+Email & A variable to temporarily hold the email address of the user & Subsection 4.10.7, line numbers: 32,36.
+cursor & a variable to act as the database cursor & subsection 4.10.7, line numbers: 24, 38, 52, 61, 68, 74.
+self.RedBorder & A style sheet used to give a QWidget a red border & Subsection 4.10.8, line numbers: 15, 133, 146, 157.
+self.GreenBorder & A style sheet used to give a QWidget a green border & Subsection 4.10.8, line numbers: 16, 130, 143, 154.
+query & holds a QSqlQuery object & Subsection 4.10.8, line numbers: 94, 95, 116.
+Text & Holds the text of a QLineEdit whilst the data entry is being validated &
+TrickNameExpression & Holds the compiled regular expression for the trick name &
+Match & Matches the Text of a QLineEdit against the appropriate regular expression &
+sql & holds the sql text for sqlite3 queries &
+self.LastMarker & Holds the coordinates of the last marker placed on the google map &
+self.html & Holds all of the HTML/Javascript for my google maps object &
+var markers & A Javascript list for holding the markers coordinates &
+var ContentString & A Javascript variable for holding the text description for each marker &
+Send & A variable to compile the SMTP protocol for sending an email &
+msg & A variable to format the email to send &
+result & Stores the result of an sqlite3 query &
+db_name & The name of the programs database &
+Choice & Stores the users choice whilst navigation the CLI &
+Finished & A while loop condition that changes to True once the conditions are satisfied & 
+
+
 
 \end{tabular}
 \label{tab:Variable List}
@@ -227,15 +252,21 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
 
 \subsection{Database Table Views}
 
+The figures below show all the entities and tables that I used in the creation of my program so far.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/UserTable.jpg}
     \caption{The user table of the database} \label{fig:User Table}
 \end{figure}
 
+The screen shot above shows the user table which contains information about the user.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/TrickTable.jpg}
     \caption{The trick table of the database} \label{fig:Trick Table}
 \end{figure}
+
+The screen shot above shows the tricks table which contains information about multiple tricks.
 
 
 \begin{figure}[H]
@@ -243,25 +274,55 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
     \caption{The skatepark table of the database} \label{fig:Skatepark Table}
 \end{figure}
 
+The screen shot above shows the skatepark table which contains information about multiple skateparks.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ReviewTable.jpg}
     \caption{The review table of the database} \label{fig:Review Table}
 \end{figure}
+
+The screen shot above shows the review table which contains information about multiple reviews.
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductBrandTable.jpg}
     \caption{The product brand table of the database} \label{fig:ProductBrand Table}
 \end{figure}
 
+The screen shot above shows the product brand table which contains information about different product brands which you can review.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductSizeTable.jpg}
     \caption{The product size table of the database} \label{fig:ProductSize Table}
 \end{figure}
 
+The screen shot above shows the product size table which contains information about different product sizes which you can review.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductTypeTable.jpg}
     \caption{The product type table of the database} \label{fig:ProductType Table}
 \end{figure}
+
+The screen shot above shows the product type table which contains information about different product types which you can review.
+
+\textbf{Unused Database Table Views}
+
+The figures below show the tables that I will use in the future to implement a multi-user system. However, currently the program is a single user system and therefore they do not have any data inside the tables.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/UserTrickTable.jpg}
+    \caption{The user trick table of the database} \label{fig:UserTrick Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/UserSkateparkTable.jpg}
+    \caption{The user skatepark table of the database} \label{fig:UserSkatepark Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/UserReviewTable.jpg}
+    \caption{The user review table of the database} \label{fig:UserReview Table}
+\end{figure}
+
 
 \subsection{Database SQL}
 
@@ -273,9 +334,13 @@ To create the entities I used the following SQL code:
 
 \section{Testing}
 
+To view my full test plan look at Figure \ref{tab:Testing} on page \pageref{tab:Testing}
+
 \subsection{Summary of Results}
 
 \subsection{Known Issues}
+
+-Flashing whilst loading.
 
 \section{Code Explanations}
 
