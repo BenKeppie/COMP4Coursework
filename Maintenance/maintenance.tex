@@ -120,54 +120,75 @@ A series of QLineEdits must be filled in, in order to send a message about a bug
 
 
 
+
+
+
 \section{Code Structure}
 
-My general code was structured around a graphical user interface where I have incorporated PyQt functions and object orientated programming concepts which I have developed over the past two years of learning python. 
+My general code was structured around a graphical user interface where I have incorporated PyQt functions and object orientated programming concepts which I have developed over the past two years of learning python. A sample of coding structures are shown below.
 
-%use as many subsections as necessary for the code sections
-\subsection{Particular Code Section}
-%the code below can be uncommented and used to get a code section from a particular file
-\begin{comment}
-\begin{figure}[H]
-    \pythonfile[firstline=5,lastline=10]{./tex/function_programs/print_function.py}
-    \caption{The print() function} \label{fig:print_function}
-\end{figure}
-\end{comment}
+
+\subsection{Main Window}
+
+\subsection{Tabs}
+
+\subsection{Menu Bar}
+
+\subsection{Tool Bar}
+
+\subsection{SQL Connections}
+
+\subsection{Validation}
+
+
+
+
+
+
+
+
+
+
 
 \section{Variable Listing}
 
 My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pageref{tab:Data Dictionary}. My other variables that I implemented in my program can be found in the table below.
 
 \begin{center}
-\begin{tabular}{|p{3.5cm}|p{6cm}|p{3.5cm}|} \hline
+\begin{longtable}{|p{3.5cm}|p{6cm}|p{3.5cm}|} \hline
 \textbf{Variable} & \textbf{Purpose} & \textbf{Reference} \\ \hline
-splash_pix & Stores a QPixmap image of the programs splash screen & Subsection 4.10.1, line number 115
-replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303
-FirstName & A variable to temporarily hold the first name of the user & Subsection 4.10.7, line numbers:17,19,22.
-LastName & A variable to temporarily hold the last name of the user & Subsection 4.10.7, line numbers: 18,19,22.
-Email & A variable to temporarily hold the email address of the user & Subsection 4.10.7, line numbers: 32,36.
-cursor & a variable to act as the database cursor & subsection 4.10.7, line numbers: 24, 38, 52, 61, 68, 74.
-self.RedBorder & A style sheet used to give a QWidget a red border & Subsection 4.10.8, line numbers: 15, 133, 146, 157.
-self.GreenBorder & A style sheet used to give a QWidget a green border & Subsection 4.10.8, line numbers: 16, 130, 143, 154.
-query & holds a QSqlQuery object & Subsection 4.10.8, line numbers: 94, 95, 116.
-Text & Holds the text of a QLineEdit whilst the data entry is being validated &
-TrickNameExpression & Holds the compiled regular expression for the trick name &
-Match & Matches the Text of a QLineEdit against the appropriate regular expression &
-sql & holds the sql text for sqlite3 queries &
-self.LastMarker & Holds the coordinates of the last marker placed on the google map &
-self.html & Holds all of the HTML/Javascript for my google maps object &
-var markers & A Javascript list for holding the markers coordinates &
-var ContentString & A Javascript variable for holding the text description for each marker &
-Send & A variable to compile the SMTP protocol for sending an email &
-msg & A variable to format the email to send &
-result & Stores the result of an sqlite3 query &
-db_name & The name of the programs database &
-Choice & Stores the users choice whilst navigation the CLI &
-Finished & A while loop condition that changes to True once the conditions are satisfied & 
+splash\_pix & Stores a QPixmap image of the programs splash screen. & Subsection 4.10.1, line number 115 \\ \hline
+replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303 \\ \hline
+FirstName & A variable to temporarily hold the first name of the user & Subsection 4.10.7, line numbers:17,19,22. \\ \hline
+LastName & A variable to temporarily hold the last name of the user & Subsection 4.10.7, line numbers: 18,19,22. \\ \hline
+Email & A variable to temporarily hold the email address of the user & Subsection 4.10.7, line numbers: 32,36. \\ \hline
+cursor & a variable to act as the database cursor & subsection 4.10.7, line numbers: 24, 38, 52, 61, 68, 74. \\ \hline
+self.RedBorder & A style sheet used to give a QWidget a red border & Subsection 4.10.8, line numbers: 15, 133, 146, 157. \\ \hline
+self.GreenBorder & A style sheet used to give a QWidget a green border & Subsection 4.10.8, line numbers: 16, 130, 143, 154. \\ \hline
+query & holds a QSqlQuery object & Subsection 4.10.8, line numbers: 94, 95, 116. \\ \hline
+Text & Holds the text of a QLineEdit whilst the data entry is being validated &Subsection 4.10.8, line numbers: 126, 128, 139, 141, 150, 152. Subsection 4.10.11, line numbers: 62, 64, 72, 73, 82, 83. \\ \hline
+TrickNameExpression & Holds the compiled regular expression for the trick name & Subsection 4.10.8, line numbers:127, 128. \\ \hline
+TrickDescriptionExpression & Holds the compiled regular expression for the trick description & Subsection 4.10.8, line numbers: 140, 141 \\ \hline
+TrickObsticleExpression & Holds the compiled regular expression for the trick obsticle &Subsection 4.10.8, line numbers: 151, 152. \\ \hline
+TrickTutorialExpression & Holds the compiled regular expression for the trick tutorial link & Subsection 4.10.8, line numbers: 162, 163. \\ \hline
+SkateparkNameExpression & Holds the compiled regular expression for the skatepark name& Subsection 4.10.11, line numbers: 63, 64. \\ \hline
+SkateparkDescriptionExpression & Holds the compiled regular expression for the skatepark description & Subsection 4.10.11, line numbers: 52 ,53. \\ \hline
+Match & Matches the Text of a QLineEdit against the appropriate regular expression & Subsection 4.10.8, line numbers: 128, 141, 152, 163. Subsection 4.10.11, line numbers: 53, 54, 64, 65. \\ \hline
+sql & holds the sql text for sqlite3 queries & Subsection 4.10.10, line numbers: 15, 43. Subsection 4.10.12, line numbers: 78. Subsection 4.10.14, line numbers: 13. \\ \hline
+self.LastMarker & Holds the coordinates of the last marker placed on the google map & Subsection 4.10.12, line numbers: 55, 57. \\ \hline
+self.html & Holds all of the HTML/Javascript for my google maps object & Subsection 4.10.12, line number: 100. \\ \hline
+var markers & A Javascript list for holding the markers coordinates & Subsection 4.10.12, line numbers: 118, 164, 187, 188, 195. \\ \hline
+var ContentString & A Javascript variable for holding the text description for each marker & Subsection 4.10.12, line number 166. \\ \hline
+Send & A variable to compile the SMTP protocol for sending an email & Subsection 4.10.18, line numbers: 32, 33, 34.  \\ \hline
+msg & A variable to format the email to send & Subsection 4.10.18, line numbers: 26, 27, 28, 29, 30. \\ \hline
+result & Stores the result of an sqlite3 query & \\ \hline
+db\_name & The name of the programs database & \\ \hline 
+Choice & Stores the users choice whilst navigation the CLI & \\ \hline 
+Finished & A while loop condition that changes to True once the conditions are satisfied & \\ \hline
 
 
 
-\end{tabular}
+\end{longtable}
 \label{tab:Variable List}
 \end{center}
 
@@ -330,17 +351,82 @@ To create the entities I used the following SQL code:
 
 \pythonfile[firstline=28, lastline=105]{./Implementation/CLI/database.py}
 
+To see the full code please look at Subsection 4.10.22.
+
 \subsection{SQL Queries}
 
+\subsubsection{Change Name SQL Query}
+
+\pythonfile[firstline=16,Lastline=27]{./Implementation/profile_sql_connections.py}
 \section{Testing}
+
+\subsubsection{Change Email SQL Query}
+\pythonfile[firstline=31,Lastline=41]{./Implementation/profile_sql_connections.py}
+
+\subsubsection{Change Picture SQL Query}
+\pythonfile[firstline=45,Lastline=54]{./Implementation/profile_sql_connections.py}
+
+\subsubsection{Select First Name SQL Query}
+\pythonfile[firstline=59,Lastline=65]{./Implementation/profile_sql_connections.py}
+
+\subsubsection{Select Last Name SQL Query}
+\pythonfile[firstline=66,Lastline=71]{./Implementation/profile_sql_connections.py}
+
+
+
+\subsubsection{Delete Trick Row SQL Query}
+\pythonfile[firstline=11,Lastline=17]{./Implementation/tricks\_sql\_connections.py}
+
+
+\subsubsection{Select All Tricks From the Trick Table SQL Query}
+\pythonfile[firstline=31,Lastline=35]{./Implementation/tricks\_sql\_connections.py}
+
+\subsubsection{Add Trick to Database SQL Query}
+\pythonfile[firstline=37,Lastline=48]{./Implementation/tricks\_sql\_connections.py}
+
+
+
+\subsubsection{Add Skatepark to Database SQL Query}
+\pythonfile[firstline=9,Lastline=18]{./Implementation/skateparks\_sql\_connections.py}
+
+
+
+\subsubsection{Select all Reviews Fom the Reviews Table SQL Query}
+\pythonfile[firstline=21,Lastline=25]{./Implementation/reviews\_sql\_connections.py}
+
+
+
+\section {Testing}
 
 To view my full test plan look at Figure \ref{tab:Testing} on page \pageref{tab:Testing}
 
 \subsection{Summary of Results}
 
+My testing showed that my program was not a fully GUI operated program. It also identified key, minor issues with validation which I will fix then the next version in my program.
+
 \subsection{Known Issues}
 
--Flashing whilst loading.
+There are a few known issues with my system. These are outlined below.
+
+\subsubsection{Flashing Tables on Start-Up}
+
+When starting up my program, the QSqlTableView objects load individually before loading the whole program (trick and review table). This doesn't cause a problem with the functionality of the program; however the start-up time is increased. Through interactive debugging using the pdb debugger I managed to find that the problem occurs when the model is set; however I do not know how to resolve this issue. I have attempted to move around the order of setting layouts as the problem would appear to be a problem in the order of setting the layout. However, doing this did not resolve the issue.
+
+\subsubsection{Validation}
+
+The validation involved with all of the file paths is not present in the code and the validation involved with the QLineEdit's on the profile tab are also not present. These would be fixed by a simple validation method similar to that of the 'add trick' and 'add skatepark' validation lines.
+
+\subsubsection{Incomplete GUI}
+
+My GUI is incomplete for my program as the review tabs functionality is not present. This would be fixed by an extended period of time for working on my program.
+
+
+
+
+
+
+
+
 
 \section{Code Explanations}
 
@@ -348,8 +434,21 @@ To view my full test plan look at Figure \ref{tab:Testing} on page \pageref{tab:
 
 \subsection{Self-created Algorithms}
 
+
+
+
+
+
+
+
+
+
+
+
+
 \section{Settings}
 
+No settings need to be changed on the client's computer to run my program. All of the neccesary modules required are supplied with python, PyQt and my public API key is used to run the google maps object.
 
 
 
