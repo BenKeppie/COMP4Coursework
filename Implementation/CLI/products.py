@@ -19,7 +19,7 @@ def create_product_brand():
     values=(ProductBrand,)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into ProductBrand(ProductBrand,) values (?,)"
+        sql="insert into ProductBrand(ProductBrand) values (?)"
         cursor.execute(sql,values)
         db.commit()
         print()
@@ -31,7 +31,7 @@ def create_product_size():
     values=(ProductSize,)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into Product(ProductSize,) values (?,)"
+        sql="insert into ProductSize(ProductSize) values (?)"
         cursor.execute(sql,values)
         db.commit()
         print()
@@ -43,7 +43,7 @@ def create_product_type():
     values=(ProductType,)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into ProductType(ProductType,) values (?,)"
+        sql="insert into ProductType(ProductType) values (?)"
         cursor.execute(sql,values)
         db.commit()
         print()
@@ -52,4 +52,9 @@ def create_product_type():
 
 
 
+
 if __name__ == "__main__":
+    while 1==1:
+        #create_product_brand()
+        #create_product_size()
+        create_product_type()

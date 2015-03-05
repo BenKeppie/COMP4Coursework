@@ -12,6 +12,7 @@ During the implementation of my program I used a variety of software items to he
 \item PyQt 4
 \item SQLite3
 \item smtplib
+\item pdb
 \item SQLite Inspector
 \item Notepad ++ v6.6.7
 \item Google Chrome
@@ -29,6 +30,7 @@ IDLE (python GUI) & This programming editor comes with the free installation of 
 PyQt 4 & This software is an add on to the python programming language which allowed for me to create a graphical user interface for my program. \\ \hline
 SQLite 3 & This software came along with the Python 3.4 library and I also had some previous experience of using it, therefore I used it to handle my SQL queries. \\ \hline
 smtplib & This module came along with the Python 3.4 library and allowed me to send emails to me (the developer) about any bugs in the program. \\ \hline
+pdb & This module came along with the python 3.4 library and was readily available to be imported \\ \hline
 SQLite Inspector & This piece of software allowed me to look inside my database and test SQL queries. This was available for me to use at college and home as my teacher created it. \\ \hline
 Notepad ++ v6.6.7 & This piece of software allowed me to test my JavaScript code and allowed me to debug any formatting errors as JavaScript isn't formatted nicely in IDLE. \\ \hline
 Google Chrome & I am familiar with using this web browser and it also has plenty of compatibility with lots of programming languages therefore I used this to view my Javascript script. \\ \hline
@@ -50,6 +52,7 @@ IDLE (python GUI) & I used IDLE to write out my code and save it as a python fil
 PyQt 4 & I used PyQT extensively, from using pre-programmed classes such as QVBoxLayout to rewriting some classes such as the QWebPage class. PyQT was used to create the graphical user interface of my program.\\ \hline
 SQLite 3 & I used this piece of software to write SQL queries that would allow me to add,edit, delete and retrieve data from my database and ensure referential integrity was enforced. \\ \hline
 smtplib & I used the email sending capabilities of this module. \\ \hline
+pbd & I used this module as an interactive debugger to help debug my code \\ \hline
 SQLite Inspector & I used SQLite inspector for two functions. First of all I used it to check that data had been added/edited/deleted properly. Secondly I used it to check that my SQL statements were correct. \\ \hline
 Notepad ++ v6.6.7 & I used this piece of software to debug and write the Javascript for my google maps integration found in the 'skatepark' tab of my program. \\ \hline
 Google Chrome & I used Google Chrome to check that my Javascript code functioned properly inside a web browser. I also took advantage of the 'developer' features of google chrome to debug my Javascript.\\ \hline
@@ -152,6 +155,54 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
 
 \subsection{User Interface}
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ChangePicture.pdf}
+    \caption{User interface, changing profile picture} \label{fig:Changing Picture UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/TricksTab.pdf}
+    \caption{User interface, switching to the tricks tab} \label{fig:Trick Tab UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/AddTrick.pdf}
+    \caption{User interface, adding a trick} \label{fig:Add Trick UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/SkateparkTab.pdf}
+    \caption{User interface, switching to the skateparks tab} \label{fig:Skatepark Tab UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/AddSkatepark.pdf}
+    \caption{User interface, adding a skatepark} \label{fig:Add Skatepark UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ReviewTab.pdf}
+    \caption{User interface, switching to the reviews tab} \label{fig:Review Tab UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/AddReview.pdf}
+    \caption{User interface, adding a review} \label{fig:Add Review UI}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/SupportTab.pdf}
+    \caption{User interface, switching to the support tab} \label{fig:Support Tab UI}
+\end{figure}
+
+
 
 
 
@@ -176,7 +227,47 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
 
 \subsection{Database Table Views}
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/UserTable.jpg}
+    \caption{The user table of the database} \label{fig:User Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/TrickTable.jpg}
+    \caption{The trick table of the database} \label{fig:Trick Table}
+\end{figure}
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/SkateparkTable.jpg}
+    \caption{The skatepark table of the database} \label{fig:Skatepark Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ReviewTable.jpg}
+    \caption{The review table of the database} \label{fig:Review Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductBrandTable.jpg}
+    \caption{The product brand table of the database} \label{fig:ProductBrand Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductSizeTable.jpg}
+    \caption{The product size table of the database} \label{fig:ProductSize Table}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductTypeTable.jpg}
+    \caption{The product type table of the database} \label{fig:ProductType Table}
+\end{figure}
+
 \subsection{Database SQL}
+
+To create the entities I used the following SQL code:
+
+\pythonfile[firstline=28, lastline=105]{./Implementation/CLI/database.py}
 
 \subsection{SQL Queries}
 
