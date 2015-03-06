@@ -130,17 +130,58 @@ My general code was structured around a graphical user interface where I have in
 
 \subsection{Main Window}
 
+The full main window code can be found in subsection 4.11.1.
+
+\pythonfile[firstline=29,lastline=101]{./Implementation/main_window.pyw}
+
+My main window sets up the basis for my application. I have structured it to be a class which means that it can be used and edited easily with broken up methods. My code structure splits up every different function of the main window into each method which allows for easy debugging and the ability to individually operate certain functions. My class extends QMainWindow and calls the super class to get all of the functionality of the PyQt object 'QMainWindow'.
+
+
 \subsection{Tabs}
 
+The code for the tabbed interface of my program can be  found in subsection 4.11.1, line numbers 77-112. And subsection 4.11.2.
+
+\pythonfile[firstline=5,lastline=12]{./Implementation/main_tab_widget.py}
+
+I created my own custom QTabWidget which allowed me to easily debug the problems which I was having in the early stages of programming my program. I pass 'parent' into the class so that when the CustomQTabWidget is instantiated I could call attributes and methods from the main window to aid the debugging of my program.
 \subsection{Menu Bar}
+
+The code for my whole menu bar can be found in subsection 4.11.3.
+
+My menu bar allowed for a shortcut to any functionality in the system from any page.
 
 \subsection{Tool Bar}
 
+My code for all the toolbars can be found in subsections: 4.11.6, 4.11.9, 4.11.13 and 4.11.16.
+
+\pythonfile[firstline=8,lastline=22]{./Implementation/tricks_toolbar.py}
+
+The code shown above is the code for my tricks toolbar. The structured approach I had to creating a toolbar was to first create an action, and then link that action to a connection which would carry out a particular function. In this case, clicking the 'add trick' action would display the 'add trick' stacked layout of the tricks tab. All my toolbar files took the same structured approach to allow for a universal, and easy to replicate piece of code.
+
 \subsection{SQL Connections}
+
+My code for all the SQL connections can be found in subsections: 4.11.7, 4.11.10, 4.11.14 and 4.11.17.
+
+\pythonfile[firstline=31,lastline=35]{./Implementation/tricks_sql_connections.py}
+
+The SQL method shown above is taken from the tricks SQL connection code. This code shows the structured process for preparing a query and passing the executed query back down to the widget, therefore allowing for the query results to be displayed in a QTableView.
 
 \subsection{Validation}
 
+My code for validation can be found in subsection 4.11.8, line numbers 102 - 169. And subsection 4.11.11, line numbers 50-87.
 
+\pythonfile[firstline=125,lastline=135]{./Implementation/tricks_widget.py}
+
+This validation method is taken from the tricks widget (subsection 4.11.8). This code shows the structured approach I took to validating each field. First I gathered the text to be validated from the appropriate widget and then compiled a regular expression to compare it to. If the text fit the regular expression the boolean value True was returned and the field was coloured green. If the text did not fit the regular expression the boolean value False was returned and the field was coloured red.
+
+
+\subsection{Main}
+
+My code for every main module can be found on every subsection of the Code Listing section, at the bottom of each pieces of code.
+
+\pythonfile[firstline=122,lastline=136]{./Implementation/main_window.pyw}
+
+This piece of code shows the main module for my main window.This is an example of the IF statement which is run at the start of almost every module. This allows the module to be run individually which is extremely useful for implementation and testing purposes. It is also used to launch the application once the main window file is run.
 
 
 
@@ -181,10 +222,10 @@ var markers & A Javascript list for holding the markers coordinates & Subsection
 var ContentString & A Javascript variable for holding the text description for each marker & Subsection 4.10.12, line number 166. \\ \hline
 Send & A variable to compile the SMTP protocol for sending an email & Subsection 4.10.18, line numbers: 32, 33, 34.  \\ \hline
 msg & A variable to format the email to send & Subsection 4.10.18, line numbers: 26, 27, 28, 29, 30. \\ \hline
-result & Stores the result of an sqlite3 query & \\ \hline
-db\_name & The name of the programs database & \\ \hline 
-Choice & Stores the users choice whilst navigation the CLI & \\ \hline 
-Finished & A while loop condition that changes to True once the conditions are satisfied & \\ \hline
+result & Stores the result of an sqlite3 query & Subsection 4.10.22, line numbers: 8, 11 \\ \hline
+db\_name & The name of the programs database & Subsection 4.11.22, line numbers: 5, 30, 32, 36, 38, 43, 46.\\ \hline 
+Choice & Stores the users choice whilst navigation the CLI & Subsection 4.11.19, line numbers: 22, 23, 26, 30, 33, 36, 39\\ \hline 
+Finished & A while loop condition that changes to True once the conditions are satisfied & Subsection 4.11.21, line numbers: 29, 30, 47, 91, 92, 98, 101, 103, 105, 107, 120,121. \\ \hline
 
 
 
@@ -260,9 +301,11 @@ Finished & A while loop condition that changes to True once the conditions are s
 
 \subsection{ER Diagram}
 
+This ER diagram is identical to the ER diagram shown in my design section (Figure \ref{fig:Entity Diagram} on page \pageref{fig:Entity Diagram}
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Design/EntityRelationships2.pdf}
-    \caption{Entity-Relationship Diagram} \label{fig:Entity Diagram}
+    \caption{Entity-Relationship Diagram} \label{fig:Entity Diagram2}
 \end{figure}
 
 
@@ -357,42 +400,42 @@ To see the full code please look at Subsection 4.10.22.
 
 \subsubsection{Change Name SQL Query}
 
-\pythonfile[firstline=16,Lastline=27]{./Implementation/profile_sql_connections.py}
+\pythonfile[firstline=16, lastline=27]{./Implementation/profile_sql_connections.py}
 \section{Testing}
 
 \subsubsection{Change Email SQL Query}
-\pythonfile[firstline=31,Lastline=41]{./Implementation/profile_sql_connections.py}
+\pythonfile[firstline=31, lastline=41]{./Implementation/profile_sql_connections.py}
 
 \subsubsection{Change Picture SQL Query}
-\pythonfile[firstline=45,Lastline=54]{./Implementation/profile_sql_connections.py}
+\pythonfile[firstline=45, lastline=54]{./Implementation/profile_sql_connections.py}
 
 \subsubsection{Select First Name SQL Query}
-\pythonfile[firstline=59,Lastline=65]{./Implementation/profile_sql_connections.py}
+\pythonfile[firstline=59, lastline=65]{./Implementation/profile_sql_connections.py}
 
 \subsubsection{Select Last Name SQL Query}
-\pythonfile[firstline=66,Lastline=71]{./Implementation/profile_sql_connections.py}
+\pythonfile[firstline=66, lastline=71]{./Implementation/profile_sql_connections.py}
 
 
 
 \subsubsection{Delete Trick Row SQL Query}
-\pythonfile[firstline=11,Lastline=17]{./Implementation/tricks\_sql\_connections.py}
+\pythonfile[firstline=11,lastline=17]{./Implementation/tricks_sql_connections.py}
 
 
 \subsubsection{Select All Tricks From the Trick Table SQL Query}
-\pythonfile[firstline=31,Lastline=35]{./Implementation/tricks\_sql\_connections.py}
+\pythonfile[firstline=31,lastline=35]{./Implementation/tricks_sql_connections.py}
 
 \subsubsection{Add Trick to Database SQL Query}
-\pythonfile[firstline=37,Lastline=48]{./Implementation/tricks\_sql\_connections.py}
+\pythonfile[firstline=37,lastline=48]{./Implementation/tricks_sql_connections.py}
 
 
 
 \subsubsection{Add Skatepark to Database SQL Query}
-\pythonfile[firstline=9,Lastline=18]{./Implementation/skateparks\_sql\_connections.py}
+\pythonfile[firstline=9,lastline=18]{./Implementation/skateparks_sql_connections.py}
 
 
 
 \subsubsection{Select all Reviews Fom the Reviews Table SQL Query}
-\pythonfile[firstline=21,Lastline=25]{./Implementation/reviews\_sql\_connections.py}
+\pythonfile[firstline=21,lastline=25]{./Implementation/reviews_sql_connections.py}
 
 
 
@@ -432,7 +475,61 @@ My GUI is incomplete for my program as the review tabs functionality is not pres
 
 \subsection{Difficult Sections}
 
+\subsubsection{Creating a Custom Webpage For Debugging}
+
+\pythonfile[firstline=8,lastline=18]{./Implementation/skatepark_view_only.py}
+
+As I was having issues with the javascript functioning correctly within the python webpage, I decided to override the QWebPage class in order to activate the Javascript console message method. From this I was able to print the error message along with the line number the error is on and the error messages source ID which helped me debug my Javascript code problem.
+
+\subsubsection{Google Maps Javascript}
+\pythonfile[firstline=100,lastline=206]{./Implementation/skatepark_view_only.py}
+
+For my program, I used multiple programming languages. For example: Python, Javascript, HTML and SQL. In my program I created an interactive google maps object in Javascript. I had to activate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg) to send requests to the Google maps server. My code above shows the HTML, Javascript hybrid I used to create the interactive google maps object. This code contains all of the functions involved in the processes that my map object can carry out. For example: adding markers, hiding markers and adding an info window to a marker.
+
+
+
+\subsubsection{Running Javascript From Python}
+\pythonfile[firstline=55,lastline=55]{./Implementation/skatepark_view_only.py}
+
+To run specific Javascript functions within my python file I had to access the custom pages' main frame and then run an 'evaluateJavaScript' function which then analyses my Javascript code and runs the corresponding function.
+
+
+\subsubsection{Mouse Press Event To Allow for Coordinates To Be Calculated}
+\pythonfile[firstline=45,lastline=57]{./Implementation/skatepark_view_only.py}
+
+My code above shows the python code for listening for a mouse click on the google maps object. If 'add skatepark' form on the side of the tab was open then the coordinates would be filled into the longitude and latitude QLineEdits. 
+
+
+
+\subsubsection{Deleting Rows From QTableView}
+
+Through setting the tricks result table selection behaviour to selecting rows (shown below) 
+\pythonfile[firstline=28,lastline=28]{./Implementation/tricks_widget.py}
+I was able to select the whole row and therefore gather all the information I needed to delete the row from the database.
+
+\pythonfile[firstline=59,lastline=64]{./Implementation/tricks_widget.py}
+
+The code above shows an overridden class that allowed me to monitor if the delete key had been pressed. If the delete key had been pressed the variable row would be assigned all of the relevant row information, and this is then passed into a QDialog method which allows the user to decide whether they wish to delete that row forever (QDialog code shown below).
+
+\pythonfile[firstline=68,lastline=96]{./Implementation/tricks_widget.py}
+
+Finally the code below shows the SQL query executed to delete the row. The results table automatically gets updated with any changes to the database.
+
+\pythonfile[firstline=11,lastline=18]{./Implementation/tricks_sql_connections.py}
+
+
+
+
+\subsubsection{Sending Emails}
+
+\pythonfile[firstline=25,lastline=34]{./Implementation/support_widget.py}
+
+The code above shows the python code I used to allow for an email to be sent to me with details about bugs in my program. First of all I set the MIMEText of the email to include the message that the user set, followed by their email address. I then set a preset subject of the email as 'Skateboard Progress Tracker Support' and then send the email from a specially make google email account, to my personal email. I then use Googles' SMTP protocols to automatically send the email from my google mail account to my personal email.
+
+
 \subsection{Self-created Algorithms}
+
+My program doesn't contain any complex, self-created algorithms.
 
 
 
