@@ -87,130 +87,130 @@
 \contentsline {section}{\numberline {3.3}Annotated Samples}{139}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Actual Results}{139}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Evidence}{152}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Evaluation}{169}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Approach to Testing}{169}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Problems Encountered}{169}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Strengths of Testing}{170}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Weaknesses of Testing}{170}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Reliability of Application}{170}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Robustness of Application}{171}{subsection.3.4.6}
-\contentsline {chapter}{\numberline {4}System Maintenance}{172}{chapter.4}
-\contentsline {section}{\numberline {4.1}Environment}{172}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Software}{172}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Usage Explanation}{172}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Features Used}{174}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}System Overview}{174}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}General User Interface}{174}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Profile Tab User Interface}{175}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Editing Profile Table Information}{175}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Tricks Tab User Interface}{175}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Editing Trick Table Information}{175}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Skateparks Tab User Interface}{176}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Editing Skatepark Table Information}{176}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Reviews Tab User Interface}{176}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Editing Review Table Information}{176}{subsection.4.2.9}
-\contentsline {subsection}{\numberline {4.2.10}Support Tab User Interface}{176}{subsection.4.2.10}
-\contentsline {subsection}{\numberline {4.2.11}Reporting a Bug}{176}{subsection.4.2.11}
-\contentsline {section}{\numberline {4.3}Code Structure}{176}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Main Window}{177}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Tabs}{179}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Menu Bar}{179}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Tool Bar}{179}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}SQL Connections}{180}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Validation}{180}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Main}{181}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}Variable Listing}{181}{section.4.4}
-\contentsline {section}{\numberline {4.5}System Evidence}{185}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}User Interface}{185}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}ER Diagram}{193}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Database Table Views}{193}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Database SQL}{200}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}SQL Queries}{203}{subsection.4.5.5}
-\contentsline {subsubsection}{Change Name SQL Query}{203}{section*.15}
-\contentsline {section}{\numberline {4.6}Testing}{203}{section.4.6}
-\contentsline {subsubsection}{Change Email SQL Query}{203}{section*.16}
-\contentsline {subsubsection}{Change Picture SQL Query}{204}{section*.17}
-\contentsline {subsubsection}{Select First Name SQL Query}{204}{section*.18}
-\contentsline {subsubsection}{Select Last Name SQL Query}{205}{section*.19}
-\contentsline {subsubsection}{Delete Trick Row SQL Query}{205}{section*.20}
-\contentsline {subsubsection}{Select All Tricks From the Trick Table SQL Query}{205}{section*.21}
-\contentsline {subsubsection}{Add Trick to Database SQL Query}{205}{section*.22}
-\contentsline {subsubsection}{Add Skatepark to Database SQL Query}{206}{section*.23}
-\contentsline {subsubsection}{Select all Reviews Fom the Reviews Table SQL Query}{206}{section*.24}
-\contentsline {section}{\numberline {4.7}Testing}{207}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Summary of Results}{207}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Known Issues}{207}{subsection.4.7.2}
-\contentsline {subsubsection}{Flashing Tables on Start-Up}{207}{section*.25}
-\contentsline {subsubsection}{Validation}{207}{section*.26}
-\contentsline {subsubsection}{Incomplete GUI}{207}{section*.27}
-\contentsline {section}{\numberline {4.8}Code Explanations}{208}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Difficult Sections}{208}{subsection.4.8.1}
-\contentsline {subsubsection}{Creating a Custom Webpage For Debugging}{208}{section*.28}
-\contentsline {subsubsection}{Google Maps Javascript}{208}{section*.29}
-\contentsline {subsubsection}{Running Javascript From Python}{211}{section*.30}
-\contentsline {subsubsection}{Mouse Press Event To Allow for Coordinates To Be Calculated}{211}{section*.31}
-\contentsline {subsubsection}{Deleting Rows From QTableView}{212}{section*.32}
-\contentsline {subsubsection}{Sending Emails}{213}{section*.33}
-\contentsline {subsection}{\numberline {4.8.2}Self-created Algorithms}{214}{subsection.4.8.2}
-\contentsline {section}{\numberline {4.9}Settings}{214}{section.4.9}
-\contentsline {section}{\numberline {4.10}Acknowledgements}{214}{section.4.10}
-\contentsline {section}{\numberline {4.11}Code Listing}{215}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}Main Window}{215}{subsection.4.11.1}
-\contentsline {subsection}{\numberline {4.11.2}Main Tabbed Widget}{218}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Menu Bar}{218}{subsection.4.11.3}
-\contentsline {subsection}{\numberline {4.11.4}Profile Widget}{221}{subsection.4.11.4}
-\contentsline {subsection}{\numberline {4.11.5}Profile Picture}{224}{subsection.4.11.5}
-\contentsline {subsection}{\numberline {4.11.6}Profile Toolbar}{224}{subsection.4.11.6}
-\contentsline {subsection}{\numberline {4.11.7}Profile SQL Connections}{226}{subsection.4.11.7}
-\contentsline {subsection}{\numberline {4.11.8}Tricks Widget}{228}{subsection.4.11.8}
-\contentsline {subsection}{\numberline {4.11.9}Tricks Toolbar}{235}{subsection.4.11.9}
-\contentsline {subsection}{\numberline {4.11.10}Tricks SQL Connections}{236}{subsection.4.11.10}
-\contentsline {subsection}{\numberline {4.11.11}Skateparks Widget}{237}{subsection.4.11.11}
-\contentsline {subsection}{\numberline {4.11.12}Skateparks Map}{242}{subsection.4.11.12}
-\contentsline {subsection}{\numberline {4.11.13}Skateparks Toolbar}{247}{subsection.4.11.13}
-\contentsline {subsection}{\numberline {4.11.14}Skateparks SQL Connections}{248}{subsection.4.11.14}
-\contentsline {subsection}{\numberline {4.11.15}Reviews Widget}{248}{subsection.4.11.15}
-\contentsline {subsection}{\numberline {4.11.16}Reviews Toolbar}{254}{subsection.4.11.16}
-\contentsline {subsection}{\numberline {4.11.17}Reviews SQL Connections}{255}{subsection.4.11.17}
-\contentsline {subsection}{\numberline {4.11.18}Support Widget}{256}{subsection.4.11.18}
-\contentsline {subsection}{\numberline {4.11.19}CLI Menu}{258}{subsection.4.11.19}
-\contentsline {subsection}{\numberline {4.11.20}CLI Get Menu Option}{259}{subsection.4.11.20}
-\contentsline {subsection}{\numberline {4.11.21}CLI Database Table Menu}{259}{subsection.4.11.21}
-\contentsline {subsection}{\numberline {4.11.22}CLI Create Database}{264}{subsection.4.11.22}
-\contentsline {subsection}{\numberline {4.11.23}CLI Profile Edit Options}{267}{subsection.4.11.23}
-\contentsline {subsection}{\numberline {4.11.24}CLI Trick Edit Options}{271}{subsection.4.11.24}
-\contentsline {subsection}{\numberline {4.11.25}CLI Skatepark Edit Options}{274}{subsection.4.11.25}
-\contentsline {subsection}{\numberline {4.11.26}CLI Review Edit Options}{275}{subsection.4.11.26}
-\contentsline {subsection}{\numberline {4.11.27}CLI Make New Difficulty}{278}{subsection.4.11.27}
-\contentsline {subsection}{\numberline {4.11.28}CLI Make New Product}{279}{subsection.4.11.28}
-\contentsline {chapter}{\numberline {5}User Manual}{281}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{281}{section.5.1}
-\contentsline {section}{\numberline {5.2}Installation}{282}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{282}{subsection.5.2.1}
-\contentsline {subsubsection}{Installing Python 3.4}{282}{section*.34}
-\contentsline {subsubsection}{Installing PyQt}{282}{section*.35}
-\contentsline {subsection}{\numberline {5.2.2}System Installation}{282}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Running the System}{284}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Tutorial}{286}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Introduction}{286}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Assumptions}{286}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{286}{subsection.5.3.3}
-\contentsline {subsubsection}{Question 1}{286}{section*.36}
-\contentsline {subsubsection}{Question 2}{286}{section*.37}
-\contentsline {subsection}{\numberline {5.3.4}Saving}{286}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Limitations}{286}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Error Recovery}{286}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Error 1}{286}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Error 2}{286}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}System Recovery}{286}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{286}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{286}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Evaluation}{287}{chapter.6}
-\contentsline {section}{\numberline {6.1}Customer Requirements}{287}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{289}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{289}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{289}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{289}{subsection.6.1.4}
+\contentsline {section}{\numberline {3.4}Evaluation}{170}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Approach to Testing}{170}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Problems Encountered}{171}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Strengths of Testing}{171}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Weaknesses of Testing}{172}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Reliability of Application}{172}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Robustness of Application}{172}{subsection.3.4.6}
+\contentsline {chapter}{\numberline {4}System Maintenance}{173}{chapter.4}
+\contentsline {section}{\numberline {4.1}Environment}{173}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Software}{173}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Usage Explanation}{173}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Features Used}{175}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}System Overview}{175}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}General User Interface}{175}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Profile Tab User Interface}{176}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Editing Profile Table Information}{176}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Tricks Tab User Interface}{176}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Editing Trick Table Information}{176}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Skateparks Tab User Interface}{177}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Editing Skatepark Table Information}{177}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Reviews Tab User Interface}{177}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Editing Review Table Information}{177}{subsection.4.2.9}
+\contentsline {subsection}{\numberline {4.2.10}Support Tab User Interface}{177}{subsection.4.2.10}
+\contentsline {subsection}{\numberline {4.2.11}Reporting a Bug}{177}{subsection.4.2.11}
+\contentsline {section}{\numberline {4.3}Code Structure}{177}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Main Window}{178}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Tabs}{180}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Menu Bar}{180}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Tool Bar}{180}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}SQL Connections}{181}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Validation}{181}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Main}{182}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Variable Listing}{182}{section.4.4}
+\contentsline {section}{\numberline {4.5}System Evidence}{186}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}User Interface}{186}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}ER Diagram}{194}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Database Table Views}{194}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Database SQL}{201}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}SQL Queries}{204}{subsection.4.5.5}
+\contentsline {subsubsection}{Change Name SQL Query}{204}{section*.15}
+\contentsline {section}{\numberline {4.6}Testing}{204}{section.4.6}
+\contentsline {subsubsection}{Change Email SQL Query}{204}{section*.16}
+\contentsline {subsubsection}{Change Picture SQL Query}{205}{section*.17}
+\contentsline {subsubsection}{Select First Name SQL Query}{205}{section*.18}
+\contentsline {subsubsection}{Select Last Name SQL Query}{206}{section*.19}
+\contentsline {subsubsection}{Delete Trick Row SQL Query}{206}{section*.20}
+\contentsline {subsubsection}{Select All Tricks From the Trick Table SQL Query}{206}{section*.21}
+\contentsline {subsubsection}{Add Trick to Database SQL Query}{206}{section*.22}
+\contentsline {subsubsection}{Add Skatepark to Database SQL Query}{207}{section*.23}
+\contentsline {subsubsection}{Select all Reviews Fom the Reviews Table SQL Query}{207}{section*.24}
+\contentsline {section}{\numberline {4.7}Testing}{208}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Summary of Results}{208}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Known Issues}{208}{subsection.4.7.2}
+\contentsline {subsubsection}{Flashing Tables on Start-Up}{208}{section*.25}
+\contentsline {subsubsection}{Validation}{208}{section*.26}
+\contentsline {subsubsection}{Incomplete GUI}{208}{section*.27}
+\contentsline {section}{\numberline {4.8}Code Explanations}{209}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Difficult Sections}{209}{subsection.4.8.1}
+\contentsline {subsubsection}{Creating a Custom Webpage For Debugging}{209}{section*.28}
+\contentsline {subsubsection}{Google Maps Javascript}{209}{section*.29}
+\contentsline {subsubsection}{Running Javascript From Python}{212}{section*.30}
+\contentsline {subsubsection}{Mouse Press Event To Allow for Coordinates To Be Calculated}{212}{section*.31}
+\contentsline {subsubsection}{Deleting Rows From QTableView}{213}{section*.32}
+\contentsline {subsubsection}{Sending Emails}{214}{section*.33}
+\contentsline {subsection}{\numberline {4.8.2}Self-created Algorithms}{215}{subsection.4.8.2}
+\contentsline {section}{\numberline {4.9}Settings}{215}{section.4.9}
+\contentsline {section}{\numberline {4.10}Acknowledgements}{215}{section.4.10}
+\contentsline {section}{\numberline {4.11}Code Listing}{216}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Main Window}{216}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Main Tabbed Widget}{219}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Menu Bar}{219}{subsection.4.11.3}
+\contentsline {subsection}{\numberline {4.11.4}Profile Widget}{222}{subsection.4.11.4}
+\contentsline {subsection}{\numberline {4.11.5}Profile Picture}{225}{subsection.4.11.5}
+\contentsline {subsection}{\numberline {4.11.6}Profile Toolbar}{225}{subsection.4.11.6}
+\contentsline {subsection}{\numberline {4.11.7}Profile SQL Connections}{227}{subsection.4.11.7}
+\contentsline {subsection}{\numberline {4.11.8}Tricks Widget}{229}{subsection.4.11.8}
+\contentsline {subsection}{\numberline {4.11.9}Tricks Toolbar}{236}{subsection.4.11.9}
+\contentsline {subsection}{\numberline {4.11.10}Tricks SQL Connections}{237}{subsection.4.11.10}
+\contentsline {subsection}{\numberline {4.11.11}Skateparks Widget}{238}{subsection.4.11.11}
+\contentsline {subsection}{\numberline {4.11.12}Skateparks Map}{243}{subsection.4.11.12}
+\contentsline {subsection}{\numberline {4.11.13}Skateparks Toolbar}{248}{subsection.4.11.13}
+\contentsline {subsection}{\numberline {4.11.14}Skateparks SQL Connections}{249}{subsection.4.11.14}
+\contentsline {subsection}{\numberline {4.11.15}Reviews Widget}{249}{subsection.4.11.15}
+\contentsline {subsection}{\numberline {4.11.16}Reviews Toolbar}{255}{subsection.4.11.16}
+\contentsline {subsection}{\numberline {4.11.17}Reviews SQL Connections}{256}{subsection.4.11.17}
+\contentsline {subsection}{\numberline {4.11.18}Support Widget}{257}{subsection.4.11.18}
+\contentsline {subsection}{\numberline {4.11.19}CLI Menu}{259}{subsection.4.11.19}
+\contentsline {subsection}{\numberline {4.11.20}CLI Get Menu Option}{260}{subsection.4.11.20}
+\contentsline {subsection}{\numberline {4.11.21}CLI Database Table Menu}{260}{subsection.4.11.21}
+\contentsline {subsection}{\numberline {4.11.22}CLI Create Database}{265}{subsection.4.11.22}
+\contentsline {subsection}{\numberline {4.11.23}CLI Profile Edit Options}{268}{subsection.4.11.23}
+\contentsline {subsection}{\numberline {4.11.24}CLI Trick Edit Options}{272}{subsection.4.11.24}
+\contentsline {subsection}{\numberline {4.11.25}CLI Skatepark Edit Options}{275}{subsection.4.11.25}
+\contentsline {subsection}{\numberline {4.11.26}CLI Review Edit Options}{276}{subsection.4.11.26}
+\contentsline {subsection}{\numberline {4.11.27}CLI Make New Difficulty}{279}{subsection.4.11.27}
+\contentsline {subsection}{\numberline {4.11.28}CLI Make New Product}{280}{subsection.4.11.28}
+\contentsline {chapter}{\numberline {5}User Manual}{282}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{282}{section.5.1}
+\contentsline {section}{\numberline {5.2}Installation}{283}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{283}{subsection.5.2.1}
+\contentsline {subsubsection}{Installing Python 3.4}{283}{section*.34}
+\contentsline {subsubsection}{Installing PyQt}{283}{section*.35}
+\contentsline {subsection}{\numberline {5.2.2}System Installation}{283}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Running the System}{285}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Tutorial}{287}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Introduction}{287}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Assumptions}{287}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{287}{subsection.5.3.3}
+\contentsline {subsubsection}{Question 1}{287}{section*.36}
+\contentsline {subsubsection}{Question 2}{287}{section*.37}
+\contentsline {subsection}{\numberline {5.3.4}Saving}{287}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Limitations}{287}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Error Recovery}{287}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Error 1}{287}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Error 2}{287}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}System Recovery}{287}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{287}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{287}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Evaluation}{288}{chapter.6}
+\contentsline {section}{\numberline {6.1}Customer Requirements}{288}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{288}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{288}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{288}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{288}{subsection.6.1.4}
 \contentsline {subsection}{\numberline {6.1.5}Non-biased reviews.}{289}{subsection.6.1.5}
 \contentsline {subsection}{\numberline {6.1.6}Clear database with a list of tricks in.}{289}{subsection.6.1.6}
 \contentsline {subsection}{\numberline {6.1.7} Easy to filter through tricks known.}{289}{subsection.6.1.7}
@@ -220,28 +220,28 @@
 \contentsline {subsection}{\numberline {6.1.11}Ensure that the profile name can be edited easily *NEW*}{289}{subsection.6.1.11}
 \contentsline {subsection}{\numberline {6.1.12}Ensure that the profile email can be edited easily *NEW*}{289}{subsection.6.1.12}
 \contentsline {subsection}{\numberline {6.1.13}Ensure that videos can be filtered by categories. e.g easy, medium, hard tricks.}{289}{subsection.6.1.13}
-\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{289}{subsection.6.1.14}
-\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{289}{subsection.6.1.15}
-\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{289}{subsection.6.1.16}
-\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{289}{subsection.6.1.17}
-\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{289}{subsection.6.1.18}
-\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{289}{subsection.6.1.19}
-\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{289}{subsection.6.1.20}
-\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{289}{subsection.6.1.21}
-\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{289}{subsection.6.1.22}
-\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{289}{subsection.6.1.23}
-\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{289}{subsection.6.1.24}
-\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{289}{subsection.6.1.25}
-\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{289}{subsection.6.1.26}
-\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{289}{subsection.6.1.27}
-\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{289}{subsection.6.1.28}
-\contentsline {section}{\numberline {6.2}Effectiveness}{289}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{289}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Learnability}{289}{section.6.3}
-\contentsline {section}{\numberline {6.4}Usability}{289}{section.6.4}
-\contentsline {section}{\numberline {6.5}Maintainability}{289}{section.6.5}
-\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{289}{section.6.6}
-\contentsline {section}{\numberline {6.7}End User Evidence}{289}{section.6.7}
-\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{289}{subsection.6.7.1}
-\contentsline {subsection}{\numberline {6.7.2}Graphs}{289}{subsection.6.7.2}
-\contentsline {subsection}{\numberline {6.7.3}Written Statements}{289}{subsection.6.7.3}
+\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{290}{subsection.6.1.14}
+\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{290}{subsection.6.1.15}
+\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{290}{subsection.6.1.16}
+\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{290}{subsection.6.1.17}
+\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{290}{subsection.6.1.18}
+\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{290}{subsection.6.1.19}
+\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{290}{subsection.6.1.20}
+\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{291}{subsection.6.1.21}
+\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{293}{subsection.6.1.22}
+\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{293}{subsection.6.1.23}
+\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{293}{subsection.6.1.24}
+\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{293}{subsection.6.1.25}
+\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{293}{subsection.6.1.26}
+\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{293}{subsection.6.1.27}
+\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{293}{subsection.6.1.28}
+\contentsline {section}{\numberline {6.2}Effectiveness}{293}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{293}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Learnability}{293}{section.6.3}
+\contentsline {section}{\numberline {6.4}Usability}{293}{section.6.4}
+\contentsline {section}{\numberline {6.5}Maintainability}{293}{section.6.5}
+\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{293}{section.6.6}
+\contentsline {section}{\numberline {6.7}End User Evidence}{293}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{293}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Graphs}{293}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}Written Statements}{293}{subsection.6.7.3}

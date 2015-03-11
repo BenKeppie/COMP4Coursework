@@ -488,7 +488,7 @@ Please see column 'Test Data' in subsection 'Changed Items From Detailed Plan' a
 
 \section{Annotated Samples}
 
-\subsection{Actual Results} %MORE?
+\subsection{Actual Results} 
 
 The table below contains my finalised test plan, including the retained and changed test series. In the 'actual results' column, the text in bold are tests that failed.
 
@@ -509,7 +509,7 @@ The table below contains my finalised test plan, including the retained and chan
 
 1.06 & Test the Edit Trick function & CLI interface runs you through editing a selected trick & select edit trick in the CLI & Normal & The CLI will run through options to edit a selected trick & The CLI ran through a series of input statements to edit a trick &  \\ \hline
 
-1.07 & Test the Delete process functions properly & Once a row is selected and the delete button is pressed the row should be deleted & Select a row, press delete and click save & Normal & A pop-up should ask you whether you wish to delete that trick and once save is clicked the row will be deleted & Row that was selected is deleted. & Figure \ref{fig:Test 1.07 p1} on page \pageref{fig:Test 1.07 p1}, Figure \ref{fig:Test 1.07 p2} on page \pageref{fig:Test 1.07 p2}  \\ \hline
+1.07 & Test the Delete process functions properly & Once a row is selected and the delete button is pressed the row should be deleted & Select a row, press delete and click save & Normal & A pop-up should ask you whether you wish to delete that trick and once save is clicked the row will be deleted & Row that was selected is deleted. & Figure \ref{fig:Test 1.07p1} on page \pageref{fig:Test 1.07p1}, Figure \ref{fig:Test 1.07 p2} on page \pageref{fig:Test 1.07 p2}  \\ \hline
 
 1.04 & Test that the 'Tricks' tab functions properly & This should load the tricks window & Click the 'Tricks' tab in the application & Normal & The Tricks window should be displayed & Tricks window was displayed & \\ \hline
 
@@ -533,7 +533,7 @@ The table below contains my finalised test plan, including the retained and chan
 
 
 
-2.00 & Verify an appropriate name is entered to the 'Change Name' line edit. & Should not accept the name if it is not valid & 1.Ben 2.Keppie 3.   4.12345  5.Ben10 & 1.Normal 2.Normal 3.Erroneous 4.Erroneous 5.Erroneous & 1.Accept 2.Accept 3.Error (Presence) 4.Error (Numbers) 5.Error (Numbers) & 1.Passed 2.Passed \textbf{3.Failed 4.Failed 5.Failed} &Figure \ref{fig:Test 2.00} on page \pageref{fig:Test 2.00} \\ \hline
+2.00 & Verify an appropriate name is entered to the 'Change Name' line edit. & Should not accept the name if it is not valid & 1.Ben 2.Keppie 3.   4.12345  5.Ben10 & 1.Normal 2.Normal 3.Erroneous 4.Erroneous 5.Erroneous & 1.Accept 2.Accept 3.Error (Presence) 4.Error (Numbers) 5.Error (Numbers) & 1.Passed 2.Passed \textbf{3.Failed 4.Failed 5.Failed} &Figure \ref{fig:Test 2.00 p1} on page \pageref{fig:Test 2.00 p1} and Figure\ref{fig:Test 2.00 p2} on page \pageref{fig:Test 2.00 p2}  \\ \hline
 
 2.01 & Verify an appropriate picture is selected in the 'Change Picture' pop-out & Should only accept Trick.JPGs & 1.Picture.JPEG 2.Picture.PNG 3.Picture.txt & 1.Normal 2.Erroneous 3.Erroneous & 1.Accept 2.Error (File Type) 3.Error (File Type) & 1.Passed \textbf{2.Failed 3.Failed} & \\ \hline
 
@@ -615,9 +615,9 @@ The table below contains my finalised test plan, including the retained and chan
 
 
 
-5 & Verify the program fulfills the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Ask the client if the program fulfills the specification, and pass all the test series in the detailed plan. & Normal & Program fulfills the specification & \textbf{Program partially fulfills the specification, some areas do not work.} & Please see all annotated samples and Stuarts' email. \\ \hline
+5 & Verify the program fulfills the specification & Run through the program, testing the different aspects to make sure they fit the objectives in the specification & Ask the client if the program fulfills the specification, and pass all the test series in the detailed plan. & Normal & Program fulfills the specification & \textbf{Program partially fulfills the specification, some areas do not work.} & Please see all annotated samples below and Stuarts' email (Figure \ref{fig:Test 5.00} on page \pageref{fig:Test 5.00}). \\ \hline
 
-\label{tab:Testing}
+\label{tab:TestingResults}
 
 	\end{longtable}
 
@@ -671,8 +671,13 @@ This test shows the command line interface process of deleting a skatepark withi
 \textbf{Test 2.00 Evidence}
 
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test200.pdf}
-    \caption{Evidence for Test 2.00} \label{fig:Test 2.00}
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test200p1.pdf}
+    \caption{Evidence for Test 2.00 Part 1} \label{fig:Test 2.00 p1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test200p2.pdf}
+    \caption{Evidence for Test 2.00 Part 2} \label{fig:Test 2.00 p2}
 \end{figure}
 
 This test shows how different names are accepted into the name line edits. Unfortunately the validation used was not present and therefore the erroneous values were accepted which means that this test failed.
@@ -754,7 +759,7 @@ The screen shot above shows that the values of the database for the skatepark co
 
 \textbf{Test 5.00 Evidence}
 
-All of the previous annotated samples contribute to Test 5.00. There are elements of my program which work as intended e.g The name line edit did not contain the correct validation which lead to the failure of that test series  (Figure \ref{fig:Test 2.00} on page \pageref{fig:Test 2.00}). On the other hand most of my tests passed e.g saving tricks  (Figure \ref{fig:Test 3.03} on page \pageref{fig:Test 3.03}). This was also brought to my attention by my client as shown by an email conversation below.
+All of the previous annotated samples contribute to Test 5.00. There are elements of my program which work as intended e.g The name line edit did not contain the correct validation which lead to the failure of that test series  (Figure \ref{fig:Test 2.00 p1} on page \pageref{fig:Test 2.00 p1} and Figure \ref{fig:Test 2.00 p2} on page \pageref{fig:Test 2.00 p2}). On the other hand most of my tests passed e.g saving tricks  (Figure \ref{fig:Test 3.03} on page \pageref{fig:Test 3.03}). This was also brought to my attention by my client as shown by an email conversation below.
 
 
 \begin{figure}[H]
@@ -766,14 +771,14 @@ All of the previous annotated samples contribute to Test 5.00. There are element
 
 \section{Evaluation}
 
-\subsection{Approach to Testing} %MORE JUSTIFICATION
+\subsection{Approach to Testing} 
 
-For each of my test series I used a different approach to testing. For my first test series I chose to use top-down testing as the flow of user interfaces was hierarchical. This was the best option as there are multiple interfaces which stem from the original interface. For my second test series I chose bottom-up testing as I needed to test the lower levels of data input to ensure the information had been entered into the database. Following this, it allows me to test other areas of my program which use the information from the database. For my third test series I chose to use white box testing as I for the individual tests I have to look inside the database after inputting information into the program, which then adds the data to the database. For my fourth test series I chose black box testing as I was checking to see if algorithms returned the correct value without looking at the internal structure of the code. Finally, for my fifth test series I chose acceptance testing as this is conducted to determine if the specification is met.
+For each of my test series I used a different approach to testing. For my first test series I chose to use top-down testing as the flow of user interfaces was hierarchical. This was the best option as there are multiple interfaces which stem from the original interface. Top-down testing was the most suitable approach as I could test the integration between the different tabs in my user interface. For my second test series I chose bottom-up testing as I needed to test the lower levels of data input to ensure the information had been entered into the database. Following this, it allows me to test other areas of my program which use the information from the database which is needed in order to ensure that the program works correctly. For my third test series I chose to use white box testing as for the individual tests I have to look inside the database after inputting information into the program, which then adds the data to the database. This was the most appropriate approach as its the only way to ensure that the fundamental programming asepcts of my program actually carry out the correct function. For my fourth test series I chose black box testing as I was checking to see if algorithms returned the correct value without looking at the internal structure of the code, this is important as I needed to make sure that the algorithms in place worked from a working aspect rather than dry-running the algorithms and therefore allowing for assumptions and human-errors to be made. Finally, for my fifth test series I chose acceptance testing as this is conducted to determine if the specification is met. This is the most important test as my program is being built for my client and therefore in order to pass this test I needed my clients approval.
 
 
-\subsection{Problems Encountered} %CROSS REFERENCE
+\subsection{Problems Encountered} 
 
-Testing my program allowed me to identify areas of the system which did not work as intended. These tests are identified below, with an explanation. I will endeavour to fix all of the errors for the final release of my program which I will give to my client.
+Testing my program allowed me to identify areas of the system which did not work as intended. These tests are identified below, with an explanation. I will endeavour to fix all of the errors for the final release of my program which I will give to my client. You can view my full testing table with results, this can be found as Figure \ref{tab:TestingResults} on page \pageref{tab:TestingResults}.
 
 \textbf{Test 2.00 and Test 2.02 }
 
@@ -796,10 +801,10 @@ I feel that my testing methods were particularly strong. This was partnered with
 
 The weakness of my testing is the fact that not every single aspect of my program was identified, therefore there could be some areas of my program which have errors in, of which I do not know about. My testing also doesn't look at the internal structure of the code. This means that there could be parts of my code which are inefficient and therefore could be coded in a much more efficient way which would lead to less processing power needing to be used as well as a faster program.
 
-\subsection{Reliability of Application} %EVIDENCE?
+\subsection{Reliability of Application} 
 
-The reliability of my program is questionable. It carries out most of the initial functions that I set for it to do; however some key features are missing and my testing has highlighted those areas. With a few minor tweaks, these issues would be rectified. The two main problems with the reliability of my program lie within the validation of some fields and the mixed program usage (graphical user interface and command line interface). As I didn't have time to complete the command line interface, some of the functionality (the review tab) is only available to use in a command line interface. This is not a problem within the functionality, but for my client, this form of information editing is not acceptable. None of the image parts of my program validate the file type which is a key contributing factor to the decreases reliability of my program. Looking back on my program I should have changed some of the entry field to fixed combo boxes as the some of the information that can be entered into the database could be inaccurate, and therefore my program is only as reliable if the data input is accurate.
+The reliability of my program is questionable. It carries out most of the initial functions that I set for it to do; however some key features are missing and my testing has highlighted those areas. With a few minor tweaks, these issues would be rectified. The two main problems with the reliability of my program lie within the validation of some fields (for example, test series 2.00, 2.01, and 2.02 which can be found on table \ref{tab:TestingResults} on page \pageref{tab:TestingResults} and the mixed program usage (graphical user interface and command line interface). As I didn't have time to complete the command line interface, some of the functionality (the review tab) is only available to use in a command line interface as outlined by tests 2.11-2.16 on table \ref{tab:TestingResults} on page \pageref{tab:TestingResults}. This is not a problem within the functionality, but for my client, this form of information editing is not acceptable. None of the image parts of my program validate the file type which is a key contributing factor to the decreases reliability of my program. Looking back on my program I should have changed some of the entry field to fixed combo boxes as the some of the information that can be entered into the database could be inaccurate, and therefore my program is only as reliable if the data input is accurate.
 
-\subsection{Robustness of Application} %EVIDENCE 
+\subsection{Robustness of Application}
 
-Even though my application failed a few of its test series, I would still deem my program robust. Regardless of whether parts of the program didn't work, at no time did this cause the program to crash, lose any data or start an infinite loop which would leave the program unable to use. With some of my input fields, even if data is not designed to go into an input field, an error message is displayed and the program continues as normal. This is a good quality of my program as the support section will allow for users to report errors that happen as the program doesn't crash due to the errors. This will then allow for me to identify the error, fix it and send out a new release of the program.
+Even though my application failed a few of its test series, for example test series 2.00, 2.01, and 2.02 which can be found on table \ref{tab:TestingResults} on page \pageref{tab:TestingResults}.  I would still deem my program robust. Regardless of whether parts of the program didn't work, at no time did this cause the program to crash, lose any data or start an infinite loop which would leave the program unable to use. With some of my input fields, even if data is not designed to go into an input field, an error message is displayed and the program continues as normal, for example test series 2.03 in table \ref{tab:TestingResults} on page \pageref{tab:TestingResults}. This is a good quality of my program as the support section will allow for users to report errors that happen as the program doesn't crash due to the errors. This will then allow for me to identify the error, fix it and send out a new release of the program.
