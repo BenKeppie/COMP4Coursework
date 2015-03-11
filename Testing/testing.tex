@@ -503,7 +503,7 @@ The table below contains my finalised test plan, including the retained and chan
 
 1.02 & Test the Change Email button on the profile window functions properly & The line edit will be available to edit and then once save is clicked, it will be read only & Click 'Edit' followed by 'Change Email', and then 'save' & Normal &  The email line edit should be available to edit & The email line edit became available to edit &  \\ \hline
 
-1.03 & Test the Change Picture button on the profile window functions properly &  The default file browser for the system should open, allowing the user to select a Trick.JPG & click the 'Edit' button followed by the 'Change Picture' button & Normal & Default file browser should appear & The default file browser appeared allowing you to pick a file &\\ \hline
+1.03 & Test the Change Picture button on the profile window functions properly &  The default file browser for the system should open, allowing the user to select a Trick.JPG & click the 'Edit' button followed by the 'Change Picture' button & Normal & Default file browser should appear & The default file browser appeared allowing you to pick a file & Figure \ref{fig:Test 1.03} on page \pageref{fig:Test 1.03}.\\ \hline
 
 1.05 & Test the add trick button functions properly & This should load a side form to add a trick & Click the add trick button at the top left corner of the application & Normal & A side form prompting you to add a trick should appear & A side form appeared on the left hand side prompting the user to add a trick & Figure \ref{fig:Test 1.05} on page \pageref{fig:Test 1.05} \\ \hline
 
@@ -552,7 +552,7 @@ The table below contains my finalised test plan, including the retained and chan
 2.06 & Verify a difficulty is selected & Drop down box with 3 options & 1.Easy 2.Medium 3.Hard 4. & 1.Normal 2.Normal 3.Normal 4.Erroneous & 1.Accept 2.Accept 3.Accept 4.Error(Presence) & 1.Passed 2.Passed 3.Passed 4.Passed & Figure \ref{fig:Test 2.06 p1} on page \pageref{fig:Test 2.06 p1}, Figure \ref{fig:Test 2.06 p2} on page \pageref{fig:Test 2.06 p2}, Figure \ref{fig:Test 2.06 p3} on page \pageref{fig:Test 2.06 p3} \\ \hline
 
 
-2.08 & Verify presence for adding a skatepark name & Checks something is entered & 1.Cambourne 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & 1.Passed 2.Passed & \\ \hline 
+2.08 & Verify presence for adding a skatepark name & Checks something is entered & 1.Cambourne 2.  & 1.Normal 2.Erroneous & 1.Accept 2.Error(Presence) & 1.Passed 2.Passed & Figure \ref{fig:Test 2.08 p1} on page \pageref{fig:Test 2.08 p1} and  Figure \ref{fig:Test 2.08 p2} on page \pageref{fig:Test 2.08 p2}. \\ \hline 
 
 
 
@@ -576,7 +576,7 @@ The table below contains my finalised test plan, including the retained and chan
 
 3.00 & Verify the first and last name are inputted into the database & The first and last name should be added to the database & 1.FirstName 2.LastName & 1.Normal 2.Normal & 1.Accept 2.Accept & 1.Passed 2.Passed & Figure \ref{fig:Test 3.00} on page \pageref{fig:Test 3.00}  \\ \hline
 
-3.01 & Verify the profile picture is inputted into the database & A Trick.JPG should be added to the database & ProfilePicture.JPG & Normal & Accept & File path was added to the database & \\ \hline
+3.01 & Verify the profile picture is inputted into the database & A Trick.JPG should be added to the database & ProfilePicture.JPG & Normal & Accept & File path was added to the database &  Figure \ref{fig:Test 3.01} on page \pageref{fig:Test 3.01} \\ \hline
 
 3.02 & Verify an email is inputted into the database & An email should be added to the database & BenKeppie@hotmail.co.uk & Normal & Accept  & Email was added to the database & \\ \hline
 
@@ -625,7 +625,7 @@ The table below contains my finalised test plan, including the retained and chan
 \end{landscape}
 
 
-\subsection{Evidence} %DO MORE TESTS
+\subsection{Evidence} 
 
 \textbf{Test 1.00 Evidence}
 
@@ -635,6 +635,20 @@ The table below contains my finalised test plan, including the retained and chan
 \end{figure}
 
 This test shows that when the 'profile' tab is clicked from a different tab, the profile window is displayed. This test was successful.
+
+
+
+
+\textbf{Test 1.03 Evidence}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test103.pdf}
+    \caption{Evidence for Test 1.03} \label{fig:Test 1.03}
+\end{figure}
+
+This test shows that in the profile tab, when the 'change picture' button on the toolbar is pressed, a QFileDialog appears. This dialog allows you to pick a file to use as your profile picture. This test was successful. 
+
+
 
 \textbf{Test 1.05 Evidence}
 
@@ -716,6 +730,31 @@ The screen shots above show that when adding a trick, the trick gets successfull
 The screen shots above show that the 'easy', 'medium' and 'hard' tricks have a corresponding integer value (1, 2 and 3 respectively) and when the trick is saved, the integer value is shown in the table. This test was therefore successful.
 
 
+
+
+
+\textbf{Test 2.08 Evidence}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test208p1.pdf}
+    \caption{Evidence for Test 2.08 Part 1} \label{fig:Test 2.08 p1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test208p2.pdf}
+    \caption{Evidence for Test 2.08 Part 2} \label{fig:Test 2.08 p2}
+\end{figure}
+
+The screen shots above show that in the 'add skatepark' functionality accepts the process of adding a skatepark when the skatepark name field is filled in; however if it is left empty the status bar displays an error message saying not all fields are valid, and also a red border is around the field, showing the user that the field is not valid. This test was successful.
+
+
+
+
+
+
+
+
+
 \textbf{Test 3.00 Evidence}
 
 \begin{figure}[H]
@@ -724,6 +763,22 @@ The screen shots above show that the 'easy', 'medium' and 'hard' tricks have a c
 \end{figure}
 
 The screen shot above shows that when a name is saved in the line edits on the 'profile' tab, the values are placed into the database. This test was successful.
+
+
+
+
+
+\textbf{3.01 Evidence}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Testing/AnnotatedSamples/Test301.pdf}
+    \caption{Evidence for Test 3.01} \label{fig:Test 3.01}
+\end{figure}
+
+The screen shot above shows that when an image file is chosen to change the profile picture it gets copied and stored into the database and 'ProfilePicture.jpg'. I chose to do this in case the user deleted the original image, therefore the profile of the program would still have an image to use. This test was successful.
+
+
+
 
 \textbf{Test 3.03 Evidence}
 
@@ -795,7 +850,7 @@ The build up of minor errors, along with the fact that the graphical user interf
 
 \subsection{Strengths of Testing} %MAKE MORE STATEMENTS AND BACK UP WITH EVIDENCE.
 
-I feel that my testing methods were particularly strong. This was partnered with the large amount of individual tests in each test series to show which parts of my program worked, and which parts didn't. The use of multiple different testing types allowed for my system to be tested in many different aspects which then gave a rigorous analysis of the functionality of my program. My testing allowed me to see if the functions made the correct changes to the database and user interface.
+I feel that my testing methods were particularly strong. This was partnered with the large amount of individual tests in each test series to show which parts of my program worked, and which parts didn't, for example I had 17 tests for my first test series (shown in my test table \ref{tab:TestingResults} on page \pageref{tab:TestingResults}. The use of multiple different testing types (Top-down, bottom-up,white box, black box and acceptance testing) allowed for my system to be tested in many different aspects which then gave a rigorous analysis of the functionality of my program. My testing allowed me to see if the functions made the correct changes to the database and user interface.
 
 \subsection{Weaknesses of Testing}
 
