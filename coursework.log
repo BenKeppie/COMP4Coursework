@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.11)  11 MAR 2015 12:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.12)  12 MAR 2015 11:47
 entering extended mode
 **U:/git/Comp4Coursework/coursework.tex
 (U:/git/Comp4Coursework/coursework.tex
@@ -682,8 +682,20 @@ LaTeX Warning: Label `tab:3NF User Database' multiply defined.
 
 ) (U:\git\Comp4Coursework\Testing\testing.aux)
 (U:\git\Comp4Coursework\Maintenance\maintenance.aux)
-(U:\git\Comp4Coursework\Manual\manual.aux)
-(U:\git\Comp4Coursework\Evaluation\evaluation.aux))
+(U:\git\Comp4Coursework\Manual\manual.aux
+
+LaTeX Warning: Label `fig:Change Name' multiply defined.
+
+
+LaTeX Warning: Label `fig:Change Name' multiply defined.
+
+
+LaTeX Warning: Label `fig:Change Name' multiply defined.
+
+
+LaTeX Warning: Label `fig:Change Name' multiply defined.
+
+) (U:\git\Comp4Coursework\Evaluation\evaluation.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -743,7 +755,7 @@ l.44 ...ter}{\numberline {2}Design}{40}{chapter.2}
                                                    [1
 
 ] [2] [3] [4]
-Overfull \hbox (0.13947pt too wide) in paragraph at lines 219--219
+Overfull \hbox (0.13947pt too wide) in paragraph at lines 228--228
  [][] [][]\OT1/cmr/m/n/10 Ensure that the pro-file pic-ture can be changed eas-
 ily *NEW*[] [][]  
  []
@@ -856,7 +868,7 @@ Overfull \hbox (15.98029pt too wide) in paragraph at lines 149--160
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 166.
 [11] [12]
-<./Analysis/YouTubeVideoSearch.pdf, id=1150, 597.23125pt x 426.59375pt>
+<./Analysis/YouTubeVideoSearch.pdf, id=1160, 597.23125pt x 426.59375pt>
 File: ./Analysis/YouTubeVideoSearch.pdf Graphic file (type pdf)
 
 <use ./Analysis/YouTubeVideoSearch.pdf>
@@ -864,7 +876,7 @@ Package pdftex.def Info: ./Analysis/YouTubeVideoSearch.pdf used on input line 2
 67.
 (pdftex.def)             Requested size: 345.0pt x 246.42862pt.
  [13]
-<./Analysis/WritingTricks.pdf, id=1159, 597.23125pt x 654.445pt>
+<./Analysis/WritingTricks.pdf, id=1169, 597.23125pt x 654.445pt>
 File: ./Analysis/WritingTricks.pdf Graphic file (type pdf)
 
 <use ./Analysis/WritingTricks.pdf>
@@ -877,7 +889,7 @@ Package pdftex.def Info: ./Analysis/WritingTricks.pdf used on input line 272.
                                                   \fi \fi 
 l.275 
        <U:/git/Comp4Coursework/Analysis/YouTubeVideoSearch.pdf>]
-<./Analysis/SearchingForSkatepark.pdf, id=1175, 597.23125pt x 483.8075pt>
+<./Analysis/SearchingForSkatepark.pdf, id=1185, 597.23125pt x 483.8075pt>
 File: ./Analysis/SearchingForSkatepark.pdf Graphic file (type pdf)
 
 <use ./Analysis/SearchingForSkatepark.pdf>
@@ -891,7 +903,7 @@ e 277.
                                                   \fi \fi 
 l.280 
        <U:/git/Comp4Coursework/Analysis/WritingTricks.pdf>]
-<./Analysis/SearchingForReviews.pdf, id=1190, 597.23125pt x 284.06125pt>
+<./Analysis/SearchingForReviews.pdf, id=1200, 597.23125pt x 284.06125pt>
 File: ./Analysis/SearchingForReviews.pdf Graphic file (type pdf)
 
 <use ./Analysis/SearchingForReviews.pdf>
@@ -916,7 +928,7 @@ l.289
 pdfTeX warning: pdflatex.EXE (file U:/git/Comp4Coursework/Analysis/SearchingFor
 Reviews.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
->] <./Analysis/Notepad.pdf, id=1214, 596.2275pt x 843.15pt>
+>] <./Analysis/Notepad.pdf, id=1224, 596.2275pt x 843.15pt>
 File: ./Analysis/Notepad.pdf Graphic file (type pdf)
 
 <use ./Analysis/Notepad.pdf>
@@ -1025,7 +1037,7 @@ Overfull \hbox (44.43304pt too wide) in paragraph at lines 308--345
  [] 
  []
 
-[19] <./Analysis/NewReviewSearch.pdf, id=1252, 597.23125pt x 469.755pt>
+[19] <./Analysis/NewReviewSearch.pdf, id=1262, 597.23125pt x 469.755pt>
 File: ./Analysis/NewReviewSearch.pdf Graphic file (type pdf)
 
 <use ./Analysis/NewReviewSearch.pdf>
@@ -1033,7 +1045,7 @@ Package pdftex.def Info: ./Analysis/NewReviewSearch.pdf used on input line 362.
 
 (pdftex.def)             Requested size: 345.0pt x 271.3614pt.
  [20]
-<./Analysis/AddingTricksToDatabase.pdf, id=1261, 597.23125pt x 452.69125pt>
+<./Analysis/AddingTricksToDatabase.pdf, id=1271, 597.23125pt x 452.69125pt>
 File: ./Analysis/AddingTricksToDatabase.pdf Graphic file (type pdf)
 
 <use ./Analysis/AddingTricksToDatabase.pdf>
@@ -1047,7 +1059,7 @@ ne 369.
                                                   \fi \fi 
 l.372 
        <U:/git/Comp4Coursework/Analysis/NewReviewSearch.pdf>]
-<./Analysis/ReadingTricksFromDatabase.pdf, id=1277, 597.23125pt x 426.59375pt>
+<./Analysis/ReadingTricksFromDatabase.pdf, id=1287, 597.23125pt x 426.59375pt>
 File: ./Analysis/ReadingTricksFromDatabase.pdf Graphic file (type pdf)
 
 <use ./Analysis/ReadingTricksFromDatabase.pdf>
@@ -1061,7 +1073,7 @@ Package pdftex.def Info: ./Analysis/ReadingTricksFromDatabase.pdf used on input
                                                   \fi \fi 
 l.379 
        <U:/git/Comp4Coursework/Analysis/AddingTricksToDatabase.pdf>]
-<./Analysis/NewTutorialSearch.pdf, id=1292, 597.23125pt x 483.8075pt>
+<./Analysis/NewTutorialSearch.pdf, id=1302, 597.23125pt x 483.8075pt>
 File: ./Analysis/NewTutorialSearch.pdf Graphic file (type pdf)
 
 <use ./Analysis/NewTutorialSearch.pdf>
@@ -1075,7 +1087,7 @@ Package pdftex.def Info: ./Analysis/NewTutorialSearch.pdf used on input line 38
                                                   \fi \fi 
 l.386 
        <U:/git/Comp4Coursework/Analysis/ReadingTricksFromDatabase.pdf>]
-<./Analysis/SkateparkSearch.pdf, id=1307, 597.23125pt x 711.65875pt>
+<./Analysis/SkateparkSearch.pdf, id=1317, 597.23125pt x 711.65875pt>
 File: ./Analysis/SkateparkSearch.pdf Graphic file (type pdf)
 
 <use ./Analysis/SkateparkSearch.pdf>
@@ -1174,7 +1186,7 @@ Overfull \vbox (30.20265pt too high) has occurred while \output is active []
 [27] [28
 
 ] [29]
-<./Analysis/EntityRelationships.pdf, id=1358, 597.23125pt x 426.59375pt>
+<./Analysis/EntityRelationships.pdf, id=1368, 597.23125pt x 426.59375pt>
 File: ./Analysis/EntityRelationships.pdf Graphic file (type pdf)
 
 <use ./Analysis/EntityRelationships.pdf>
@@ -1243,7 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
-<./Analysis/RelationshipDiagram.pdf, id=1379, 597.23125pt x 446.66875pt>
+<./Analysis/RelationshipDiagram.pdf, id=1389, 597.23125pt x 446.66875pt>
 File: ./Analysis/RelationshipDiagram.pdf Graphic file (type pdf)
 
 <use ./Analysis/RelationshipDiagram.pdf>
@@ -1271,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 622--626
 \OT1/cmr/m/n/10 get[]skatepark[]coordinates
  []
 
-<./Analysis/SkateparkMapping.pdf, id=1398, 597.23125pt x 446.66875pt>
+<./Analysis/SkateparkMapping.pdf, id=1408, 597.23125pt x 446.66875pt>
 File: ./Analysis/SkateparkMapping.pdf Graphic file (type pdf)
 
 <use ./Analysis/SkateparkMapping.pdf>
@@ -1325,14 +1337,14 @@ Chapter 2.
 
 
 ] [41] [42] [43] [44]
-<./Design/FlowchartKey.pdf, id=1456, 597.23125pt x 361.35pt>
+<./Design/FlowchartKey.pdf, id=1466, 597.23125pt x 361.35pt>
 File: ./Design/FlowchartKey.pdf Graphic file (type pdf)
 
 <use ./Design/FlowchartKey.pdf>
 Package pdftex.def Info: ./Design/FlowchartKey.pdf used on input line 175.
 (pdftex.def)             Requested size: 345.0pt x 208.73955pt.
  [45]
-<./Design/StartFlowchart.pdf, id=1461, 597.23125pt x 767.86874pt>
+<./Design/StartFlowchart.pdf, id=1471, 597.23125pt x 767.86874pt>
 File: ./Design/StartFlowchart.pdf Graphic file (type pdf)
 
 <use ./Design/StartFlowchart.pdf>
@@ -1345,7 +1357,7 @@ Package pdftex.def Info: ./Design/StartFlowchart.pdf used on input line 181.
                                                   \fi \fi 
 l.184 
        <U:/git/Comp4Coursework/Design/FlowchartKey.pdf>]
-<./Design/ProfileFlowchart.pdf, id=1476, 597.23125pt x 767.86874pt>
+<./Design/ProfileFlowchart.pdf, id=1486, 597.23125pt x 767.86874pt>
 File: ./Design/ProfileFlowchart.pdf Graphic file (type pdf)
 
 <use ./Design/ProfileFlowchart.pdf>
@@ -1358,7 +1370,7 @@ Package pdftex.def Info: ./Design/ProfileFlowchart.pdf used on input line 188.
                                                   \fi \fi 
 l.191 
        <U:/git/Comp4Coursework/Design/StartFlowchart.pdf>]
-<./Design/TrickFlowchart.pdf, id=1491, 597.23125pt x 767.86874pt>
+<./Design/TrickFlowchart.pdf, id=1501, 597.23125pt x 767.86874pt>
 File: ./Design/TrickFlowchart.pdf Graphic file (type pdf)
 
 <use ./Design/TrickFlowchart.pdf>
@@ -1371,7 +1383,7 @@ Package pdftex.def Info: ./Design/TrickFlowchart.pdf used on input line 196.
                                                   \fi \fi 
 l.199 
        <U:/git/Comp4Coursework/Design/ProfileFlowchart.pdf>]
-<./Design/SkateparkFlowchart.pdf, id=1507, 597.23125pt x 767.86874pt>
+<./Design/SkateparkFlowchart.pdf, id=1517, 597.23125pt x 767.86874pt>
 File: ./Design/SkateparkFlowchart.pdf Graphic file (type pdf)
 
 <use ./Design/SkateparkFlowchart.pdf>
@@ -1385,7 +1397,7 @@ Package pdftex.def Info: ./Design/SkateparkFlowchart.pdf used on input line 204
                                                   \fi \fi 
 l.207 
        <U:/git/Comp4Coursework/Design/TrickFlowchart.pdf>]
-<./Design/SkateparkFlowchart2.pdf, id=1522, 597.23125pt x 767.86874pt>
+<./Design/SkateparkFlowchart2.pdf, id=1532, 597.23125pt x 767.86874pt>
 File: ./Design/SkateparkFlowchart2.pdf Graphic file (type pdf)
 
 <use ./Design/SkateparkFlowchart2.pdf>
@@ -1399,7 +1411,7 @@ Package pdftex.def Info: ./Design/SkateparkFlowchart2.pdf used on input line 21
                                                   \fi \fi 
 l.215 
        <U:/git/Comp4Coursework/Design/SkateparkFlowchart.pdf>]
-<./Design/ReviewFlowchart.pdf, id=1537, 597.23125pt x 767.86874pt>
+<./Design/ReviewFlowchart.pdf, id=1547, 597.23125pt x 767.86874pt>
 File: ./Design/ReviewFlowchart.pdf Graphic file (type pdf)
 
 <use ./Design/ReviewFlowchart.pdf>
@@ -1412,7 +1424,7 @@ Package pdftex.def Info: ./Design/ReviewFlowchart.pdf used on input line 220.
                                                   \fi \fi 
 l.223 
        <U:/git/Comp4Coursework/Design/SkateparkFlowchart2.pdf>]
-<./Design/ReviewFlowchart2.pdf, id=1552, 597.23125pt x 767.86874pt>
+<./Design/ReviewFlowchart2.pdf, id=1562, 597.23125pt x 767.86874pt>
 File: ./Design/ReviewFlowchart2.pdf Graphic file (type pdf)
 
 <use ./Design/ReviewFlowchart2.pdf>
@@ -1425,7 +1437,7 @@ Package pdftex.def Info: ./Design/ReviewFlowchart2.pdf used on input line 228.
                                                   \fi \fi 
 l.231 
        <U:/git/Comp4Coursework/Design/ReviewFlowchart.pdf>]
-<./Design/WizardUI.pdf, id=1567, 597.23125pt x 668.4975pt>
+<./Design/WizardUI.pdf, id=1577, 597.23125pt x 668.4975pt>
 File: ./Design/WizardUI.pdf Graphic file (type pdf)
 
 <use ./Design/WizardUI.pdf>
@@ -1438,7 +1450,7 @@ Package pdftex.def Info: ./Design/WizardUI.pdf used on input line 240.
                                                   \fi \fi 
 l.242 \end{figure}
                    <U:/git/Comp4Coursework/Design/ReviewFlowchart2.pdf>]
-<./Design/ProfileUI.pdf, id=1582, 674.52pt x 711.65875pt>
+<./Design/ProfileUI.pdf, id=1592, 674.52pt x 711.65875pt>
 File: ./Design/ProfileUI.pdf Graphic file (type pdf)
 
 <use ./Design/ProfileUI.pdf>
@@ -1451,7 +1463,7 @@ Package pdftex.def Info: ./Design/ProfileUI.pdf used on input line 245.
                                                   \fi \fi 
 l.248 
        <U:/git/Comp4Coursework/Design/WizardUI.pdf>]
-<./Design/TrickUI.pdf, id=1601, 674.52pt x 711.65875pt>
+<./Design/TrickUI.pdf, id=1611, 674.52pt x 711.65875pt>
 File: ./Design/TrickUI.pdf Graphic file (type pdf)
 
 <use ./Design/TrickUI.pdf>
@@ -1464,7 +1476,7 @@ Package pdftex.def Info: ./Design/TrickUI.pdf used on input line 254.
                                                   \fi \fi 
 l.257 
        <U:/git/Comp4Coursework/Design/ProfileUI.pdf>]
-<./Design/SkateparkUI.pdf, id=1620, 674.52pt x 711.65875pt>
+<./Design/SkateparkUI.pdf, id=1630, 674.52pt x 711.65875pt>
 File: ./Design/SkateparkUI.pdf Graphic file (type pdf)
 
 <use ./Design/SkateparkUI.pdf>
@@ -1477,7 +1489,7 @@ Package pdftex.def Info: ./Design/SkateparkUI.pdf used on input line 262.
                                                   \fi \fi 
 l.265 
        <U:/git/Comp4Coursework/Design/TrickUI.pdf>]
-<./Design/ReviewsUI.pdf, id=1638, 674.52pt x 711.65875pt>
+<./Design/ReviewsUI.pdf, id=1648, 674.52pt x 711.65875pt>
 File: ./Design/ReviewsUI.pdf Graphic file (type pdf)
 
 <use ./Design/ReviewsUI.pdf>
@@ -1490,7 +1502,7 @@ Package pdftex.def Info: ./Design/ReviewsUI.pdf used on input line 269.
                                                   \fi \fi 
 l.272 
        <U:/git/Comp4Coursework/Design/SkateparkUI.pdf>]
-<./Design/ReviewsUI2.pdf, id=1663, 674.52pt x 711.65875pt>
+<./Design/ReviewsUI2.pdf, id=1673, 674.52pt x 711.65875pt>
 File: ./Design/ReviewsUI2.pdf Graphic file (type pdf)
 
 <use ./Design/ReviewsUI2.pdf>
@@ -1503,7 +1515,7 @@ Package pdftex.def Info: ./Design/ReviewsUI2.pdf used on input line 277.
                                                   \fi \fi 
 l.280 
        <U:/git/Comp4Coursework/Design/ReviewsUI.pdf>]
-<./Design/SupportUI.pdf, id=1686, 674.52pt x 711.65875pt>
+<./Design/SupportUI.pdf, id=1696, 674.52pt x 711.65875pt>
 File: ./Design/SupportUI.pdf Graphic file (type pdf)
 
 <use ./Design/SupportUI.pdf>
@@ -1523,7 +1535,7 @@ d, duplicate ignored
                                                   \fi \fi 
 l.293 
        <U:/git/Comp4Coursework/Design/SupportUI.pdf>]
-<./design/HDiagrams/Profile.pdf, id=1716, 811.03pt x 597.23125pt>
+<./design/HDiagrams/Profile.pdf, id=1726, 811.03pt x 597.23125pt>
 File: ./design/HDiagrams/Profile.pdf Graphic file (type pdf)
 
 <use ./design/HDiagrams/Profile.pdf>
@@ -1531,7 +1543,7 @@ Package pdftex.def Info: ./design/HDiagrams/Profile.pdf used on input line 299.
 
 (pdftex.def)             Requested size: 345.0pt x 254.06142pt.
 
-<./design/HDiagrams/Tricks.pdf, id=1717, 767.86874pt x 398.48875pt>
+<./design/HDiagrams/Tricks.pdf, id=1727, 767.86874pt x 398.48875pt>
 File: ./design/HDiagrams/Tricks.pdf Graphic file (type pdf)
 
 <use ./design/HDiagrams/Tricks.pdf>
@@ -1544,7 +1556,7 @@ Package pdftex.def Info: ./design/HDiagrams/Tricks.pdf used on input line 304.
                                                   \fi \fi 
 l.307 
        <U:/git/Comp4Coursework/design/HDiagrams/Profile.pdf>]
-<./design/HDiagrams/Skateparks.pdf, id=1733, 767.86874pt x 483.8075pt>
+<./design/HDiagrams/Skateparks.pdf, id=1743, 767.86874pt x 483.8075pt>
 File: ./design/HDiagrams/Skateparks.pdf Graphic file (type pdf)
 
 <use ./design/HDiagrams/Skateparks.pdf>
@@ -1552,7 +1564,7 @@ Package pdftex.def Info: ./design/HDiagrams/Skateparks.pdf used on input line 3
 09.
 (pdftex.def)             Requested size: 345.0pt x 217.37178pt.
 
-<./design/HDiagrams/Reviews.pdf, id=1734, 767.86874pt x 455.7025pt>
+<./design/HDiagrams/Reviews.pdf, id=1744, 767.86874pt x 455.7025pt>
 File: ./design/HDiagrams/Reviews.pdf Graphic file (type pdf)
 
 <use ./design/HDiagrams/Reviews.pdf>
@@ -1577,7 +1589,7 @@ work/design/HDiagrams/Skateparks.pdf
 pdfTeX warning: pdflatex.EXE (file U:/git/Comp4Coursework/design/HDiagrams/Skat
 eparks.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
->] <./design/HDiagrams/ReviewFilters.pdf, id=1758, 767.86874pt x 455.7025pt>
+>] <./design/HDiagrams/ReviewFilters.pdf, id=1768, 767.86874pt x 455.7025pt>
 File: ./design/HDiagrams/ReviewFilters.pdf Graphic file (type pdf)
 
 <use ./design/HDiagrams/ReviewFilters.pdf>
@@ -1620,7 +1632,7 @@ Overfull \hbox (1.71465pt too wide) in paragraph at lines 356--357
 rker(SkateparkLongitude,SkateparkLatitude) 
  []
 
-<./Design/RelationshipDiagram.pdf, id=1782, 597.23125pt x 446.66875pt>
+<./Design/RelationshipDiagram.pdf, id=1792, 597.23125pt x 446.66875pt>
 File: ./Design/RelationshipDiagram.pdf Graphic file (type pdf)
 
 <use ./Design/RelationshipDiagram.pdf>
@@ -1639,7 +1651,7 @@ Overfull \hbox (13.2587pt too wide) in paragraph at lines 419--420
                                                   \fi \fi 
 l.424 \end{center}
                    <U:/git/Comp4Coursework/Design/RelationshipDiagram.pdf>]
-[66] <./Design/Prototype/GoogleMaps.JPG, id=1810, 938.75719pt x 517.935pt>
+[66] <./Design/Prototype/GoogleMaps.JPG, id=1820, 938.75719pt x 517.935pt>
 File: ./Design/Prototype/GoogleMaps.JPG Graphic file (type jpg)
 
 <use ./Design/Prototype/GoogleMaps.JPG>
@@ -1681,7 +1693,7 @@ Overfull \hbox (133.79907pt too wide) in paragraph at lines 560--561
 ][][]  
  []
 
-<./Design/Prototype/PinMarker.JPG, id=1857, 647.41875pt x 469.755pt>
+<./Design/Prototype/PinMarker.JPG, id=1867, 647.41875pt x 469.755pt>
 File: ./Design/Prototype/PinMarker.JPG Graphic file (type jpg)
 
 <use ./Design/Prototype/PinMarker.JPG>
@@ -1700,7 +1712,7 @@ eady used, duplicate ignored
                                                   \fi \fi 
 l.580 
        <U:/git/Comp4Coursework/Design/Prototype/PinMarker.JPG>]
-<./Design/Prototype/TabbedInterface.JPG, id=1869, 371.13657pt x 233.37187pt>
+<./Design/Prototype/TabbedInterface.JPG, id=1879, 371.13657pt x 233.37187pt>
 File: ./Design/Prototype/TabbedInterface.JPG Graphic file (type jpg)
 
 <use ./Design/Prototype/TabbedInterface.JPG>
@@ -1908,7 +1920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 725--725
 Overfull \vbox (16.7999pt too high) has occurred while \output is active []
 
 
-[77] <./Design/EntityRelationships2.pdf, id=1948, 597.23125pt x 640.3925pt>
+[77] <./Design/EntityRelationships2.pdf, id=1958, 597.23125pt x 640.3925pt>
 File: ./Design/EntityRelationships2.pdf Graphic file (type pdf)
 
 <use ./Design/EntityRelationships2.pdf>
@@ -12703,7 +12715,7 @@ Overfull \hbox (15.4704pt too wide) in alignment at lines 585--622
  []
 
 [144] [145] [146] [147] [148] [149] [150] [151]
-<./Testing/AnnotatedSamples/Test100.pdf, id=2404, 457.71pt x 534.99875pt>
+<./Testing/AnnotatedSamples/Test100.pdf, id=2414, 457.71pt x 534.99875pt>
 File: ./Testing/AnnotatedSamples/Test100.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test100.pdf>
@@ -12711,7 +12723,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test100.pdf used on input l
 ine 633.
 (pdftex.def)             Requested size: 345.0pt x 403.2726pt.
 
-<./Testing/AnnotatedSamples/Test103.pdf, id=2405, 597.23125pt x 731.73375pt>
+<./Testing/AnnotatedSamples/Test103.pdf, id=2415, 597.23125pt x 731.73375pt>
 File: ./Testing/AnnotatedSamples/Test103.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test103.pdf>
@@ -12727,7 +12739,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.648 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test100.pdf>]
-<./Testing/AnnotatedSamples/Test105.pdf, id=2416, 457.71pt x 560.0925pt>
+<./Testing/AnnotatedSamples/Test105.pdf, id=2426, 457.71pt x 560.0925pt>
 File: ./Testing/AnnotatedSamples/Test105.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test105.pdf>
@@ -12741,7 +12753,7 @@ ine 656.
                                                   \fi \fi 
 l.659 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test103.pdf>]
-<./Testing/AnnotatedSamples/Test107p1.pdf, id=2427, 541.02126pt x 845.1575pt>
+<./Testing/AnnotatedSamples/Test107p1.pdf, id=2437, 541.02126pt x 845.1575pt>
 File: ./Testing/AnnotatedSamples/Test107p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test107p1.pdf>
@@ -12765,7 +12777,7 @@ Overfull \vbox (24.8961pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.668 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p1.pdf>]
-<./Testing/AnnotatedSamples/Test107p2.pdf, id=2457, 541.02126pt x 538.01pt>
+<./Testing/AnnotatedSamples/Test107p2.pdf, id=2467, 541.02126pt x 538.01pt>
 File: ./Testing/AnnotatedSamples/Test107p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test107p2.pdf>
@@ -12773,7 +12785,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test107p2.pdf used on input
  line 670.
 (pdftex.def)             Requested size: 345.0pt x 343.0856pt.
 
-<./Testing/AnnotatedSamples/Test112.pdf, id=2458, 552.0625pt x 753.81625pt>
+<./Testing/AnnotatedSamples/Test112.pdf, id=2468, 552.0625pt x 753.81625pt>
 File: ./Testing/AnnotatedSamples/Test112.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test112.pdf>
@@ -12787,7 +12799,7 @@ ine 679.
                                                   \fi \fi 
 l.682 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p2.pdf>]
-<./Testing/AnnotatedSamples/Test200p1.pdf, id=2475, 497.86pt x 731.73375pt>
+<./Testing/AnnotatedSamples/Test200p1.pdf, id=2485, 497.86pt x 731.73375pt>
 File: ./Testing/AnnotatedSamples/Test200p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test200p1.pdf>
@@ -12802,7 +12814,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test200p1.pdf used on input
 l.690 \end{figure}
                    <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test112.pdf
 >] [158]
-<./Testing/AnnotatedSamples/Test200p2.pdf, id=2492, 497.86pt x 731.73375pt>
+<./Testing/AnnotatedSamples/Test200p2.pdf, id=2502, 497.86pt x 731.73375pt>
 File: ./Testing/AnnotatedSamples/Test200p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test200p2.pdf>
@@ -12823,7 +12835,7 @@ l.696
                                                   \fi \fi 
 l.698 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test200p2.pdf>]
-<./Testing/AnnotatedSamples/Test203p1.pdf, id=2513, 597.23125pt x 711.65875pt>
+<./Testing/AnnotatedSamples/Test203p1.pdf, id=2523, 597.23125pt x 711.65875pt>
 File: ./Testing/AnnotatedSamples/Test203p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test203p1.pdf>
@@ -12831,7 +12843,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test203p1.pdf used on input
  line 702.
 (pdftex.def)             Requested size: 345.0pt x 411.10094pt.
 
-<./Testing/AnnotatedSamples/Test203p2.pdf, id=2514, 597.23125pt x 711.65875pt>
+<./Testing/AnnotatedSamples/Test203p2.pdf, id=2524, 597.23125pt x 711.65875pt>
 File: ./Testing/AnnotatedSamples/Test203p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test203p2.pdf>
@@ -12845,7 +12857,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test203p2.pdf used on input
                                                   \fi \fi 
 l.710 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p1.pdf>]
-<./Testing/AnnotatedSamples/Test206p1.pdf, id=2531, 597.23125pt x 589.20125pt>
+<./Testing/AnnotatedSamples/Test206p1.pdf, id=2541, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test206p1.pdf>
@@ -12859,7 +12871,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p1.pdf used on input
                                                   \fi \fi 
 l.719 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p2.pdf>]
-<./Testing/AnnotatedSamples/Test206p2.pdf, id=2550, 597.23125pt x 589.20125pt>
+<./Testing/AnnotatedSamples/Test206p2.pdf, id=2560, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test206p2.pdf>
@@ -12873,7 +12885,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p2.pdf used on input
                                                   \fi \fi 
 l.724 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p1.pdf>]
-<./Testing/AnnotatedSamples/Test206p3.pdf, id=2568, 597.23125pt x 589.20125pt>
+<./Testing/AnnotatedSamples/Test206p3.pdf, id=2578, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p3.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test206p3.pdf>
@@ -12887,7 +12899,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p3.pdf used on input
                                                   \fi \fi 
 l.729 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p2.pdf>]
-<./Testing/AnnotatedSamples/Test208p1.pdf, id=2586, 597.23125pt x 733.74126pt>
+<./Testing/AnnotatedSamples/Test208p1.pdf, id=2596, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test208p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test208p1.pdf>
@@ -12901,7 +12913,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test208p1.pdf used on input
                                                   \fi \fi 
 l.742 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p3.pdf>]
-<./Testing/AnnotatedSamples/Test208p2.pdf, id=2604, 597.23125pt x 733.74126pt>
+<./Testing/AnnotatedSamples/Test208p2.pdf, id=2614, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test208p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test208p2.pdf>
@@ -12915,7 +12927,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test208p2.pdf used on input
                                                   \fi \fi 
 l.747 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test208p1.pdf>]
-<./Testing/AnnotatedSamples/Test300.pdf, id=2620, 597.23125pt x 446.66875pt>
+<./Testing/AnnotatedSamples/Test300.pdf, id=2630, 597.23125pt x 446.66875pt>
 File: ./Testing/AnnotatedSamples/Test300.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test300.pdf>
@@ -12930,7 +12942,7 @@ ine 761.
 l.763 \end{figure}
                    <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test208p2.p
 df>]
-<./Testing/AnnotatedSamples/Test301.pdf, id=2636, 597.23125pt x 733.74126pt>
+<./Testing/AnnotatedSamples/Test301.pdf, id=2646, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test301.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test301.pdf>
@@ -12944,7 +12956,7 @@ ine 774.
                                                   \fi \fi 
 l.777 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test300.pdf>]
-<./Testing/AnnotatedSamples/Test303.pdf, id=2649, 597.23125pt x 589.20125pt>
+<./Testing/AnnotatedSamples/Test303.pdf, id=2659, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test303.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test303.pdf>
@@ -12958,7 +12970,7 @@ ine 786.
                                                   \fi \fi 
 l.789 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test301.pdf>]
-<./Testing/AnnotatedSamples/Test309.pdf, id=2661, 597.23125pt x 594.22pt>
+<./Testing/AnnotatedSamples/Test309.pdf, id=2671, 597.23125pt x 594.22pt>
 File: ./Testing/AnnotatedSamples/Test309.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test309.pdf>
@@ -12985,7 +12997,7 @@ ine 804.
                                                   \fi \fi 
 l.807 
        <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test309.pdf>]
-<./Testing/AnnotatedSamples/Test405.pdf, id=2695, 597.23125pt x 446.66875pt>
+<./Testing/AnnotatedSamples/Test405.pdf, id=2705, 597.23125pt x 446.66875pt>
 File: ./Testing/AnnotatedSamples/Test405.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test405.pdf>
@@ -12999,7 +13011,7 @@ ine 809.
                                                   \fi \fi 
 l.812 
       ]
-<./Testing/AnnotatedSamples/StuartEmail.jpg, id=2706, 770.12718pt x 448.67625pt
+<./Testing/AnnotatedSamples/StuartEmail.jpg, id=2716, 770.12718pt x 448.67625pt
 >
 File: ./Testing/AnnotatedSamples/StuartEmail.jpg Graphic file (type jpg)
  <use ./Testing/AnnotatedSamples/StuartEmail.jpg>
@@ -13282,7 +13294,7 @@ Overfull \hbox (60.8858pt too wide) in alignment at lines 219--232
  []
 
 [187] [188]
-<./Maintenance/Figures/ChangePicture.pdf, id=2926, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/ChangePicture.pdf, id=2936, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/ChangePicture.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/ChangePicture.pdf>
@@ -13300,7 +13312,7 @@ Overfull \vbox (62.97046pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.249 
        <U:/git/Comp4Coursework/Maintenance/Figures/ChangePicture.pdf>]
-<./Maintenance/Figures/TricksTab.pdf, id=2946, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/TricksTab.pdf, id=2956, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/TricksTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/TricksTab.pdf>
@@ -13318,7 +13330,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.255 
        <U:/git/Comp4Coursework/Maintenance/Figures/TricksTab.pdf>]
-<./Maintenance/Figures/AddTrick.pdf, id=2960, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/AddTrick.pdf, id=2970, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddTrick.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddTrick.pdf>
@@ -13336,7 +13348,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.261 
        <U:/git/Comp4Coursework/Maintenance/Figures/AddTrick.pdf>]
-<./Maintenance/Figures/SkateparkTab.pdf, id=2974, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/SkateparkTab.pdf, id=2984, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/SkateparkTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/SkateparkTab.pdf>
@@ -13354,7 +13366,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.267 
        <U:/git/Comp4Coursework/Maintenance/Figures/SkateparkTab.pdf>]
-<./Maintenance/Figures/AddSkatepark.pdf, id=2986, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/AddSkatepark.pdf, id=2996, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddSkatepark.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddSkatepark.pdf>
@@ -13372,7 +13384,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.273 
        <U:/git/Comp4Coursework/Maintenance/Figures/AddSkatepark.pdf>]
-<./Maintenance/Figures/ReviewTab.pdf, id=2998, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/ReviewTab.pdf, id=3008, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/ReviewTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/ReviewTab.pdf>
@@ -13390,7 +13402,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.279 
        <U:/git/Comp4Coursework/Maintenance/Figures/ReviewTab.pdf>]
-<./Maintenance/Figures/AddReview.pdf, id=3010, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/AddReview.pdf, id=3020, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddReview.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddReview.pdf>
@@ -13408,7 +13420,7 @@ Overfull \vbox (5.60939pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.285 
        <U:/git/Comp4Coursework/Maintenance/Figures/AddReview.pdf>]
-<./Maintenance/Figures/SupportTab.pdf, id=3022, 483.8075pt x 728.7225pt>
+<./Maintenance/Figures/SupportTab.pdf, id=3032, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/SupportTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/SupportTab.pdf>
@@ -13433,7 +13445,7 @@ Package pdftex.def Info: ./Design/EntityRelationships2.pdf used on input line 3
 07.
 (pdftex.def)             Requested size: 345.0pt x 369.93285pt.
 
-<./Maintenance/Figures/UserTable.jpg, id=3037, 435.12563pt x 262.73157pt>
+<./Maintenance/Figures/UserTable.jpg, id=3047, 435.12563pt x 262.73157pt>
 File: ./Maintenance/Figures/UserTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/UserTable.jpg>
@@ -13447,7 +13459,7 @@ Package pdftex.def Info: ./Maintenance/Figures/UserTable.jpg used on input line
                                                   \fi \fi 
 l.325 
       ]
-<./Maintenance/Figures/TrickTable.jpg, id=3043, 822.07124pt x 398.23781pt>
+<./Maintenance/Figures/TrickTable.jpg, id=3053, 822.07124pt x 398.23781pt>
 File: ./Maintenance/Figures/TrickTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/TrickTable.jpg>
@@ -13455,7 +13467,7 @@ Package pdftex.def Info: ./Maintenance/Figures/TrickTable.jpg used on input lin
 e 329.
 (pdftex.def)             Requested size: 345.0pt x 167.12505pt.
 
-<./Maintenance/Figures/SkateparkTable.jpg, id=3044, 822.07124pt x 401.24907pt>
+<./Maintenance/Figures/SkateparkTable.jpg, id=3054, 822.07124pt x 401.24907pt>
 File: ./Maintenance/Figures/SkateparkTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/SkateparkTable.jpg>
@@ -13476,7 +13488,7 @@ l.340
 l.340 
        <U:/git/Comp4Coursework/Maintenance/Figures/UserTable.jpg> <U:/git/Comp4
 Coursework/Maintenance/Figures/TrickTable.jpg>]
-<./Maintenance/Figures/ReviewTable.jpg, id=3051, 455.45157pt x 262.73157pt>
+<./Maintenance/Figures/ReviewTable.jpg, id=3061, 455.45157pt x 262.73157pt>
 File: ./Maintenance/Figures/ReviewTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/ReviewTable.jpg>
@@ -13484,7 +13496,7 @@ Package pdftex.def Info: ./Maintenance/Figures/ReviewTable.jpg used on input li
 ne 344.
 (pdftex.def)             Requested size: 345.0pt x 199.02058pt.
 
-<./Maintenance/Figures/ProductBrandTable.jpg, id=3052, 419.31656pt x 340.27126p
+<./Maintenance/Figures/ProductBrandTable.jpg, id=3062, 419.31656pt x 340.27126p
 t>
 File: ./Maintenance/Figures/ProductBrandTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductBrandTable.jpg>
@@ -13505,7 +13517,7 @@ l.354
 l.354 
        <U:/git/Comp4Coursework/Maintenance/Figures/SkateparkTable.jpg> <U:/git/
 Comp4Coursework/Maintenance/Figures/ReviewTable.jpg>]
-<./Maintenance/Figures/ProductSizeTable.jpg, id=3059, 420.82219pt x 350.05782pt
+<./Maintenance/Figures/ProductSizeTable.jpg, id=3069, 420.82219pt x 350.05782pt
 >
 File: ./Maintenance/Figures/ProductSizeTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductSizeTable.jpg>
@@ -13519,7 +13531,7 @@ ut line 358.
                                                   \fi \fi 
 l.361 
        <U:/git/Comp4Coursework/Maintenance/Figures/ProductBrandTable.jpg>]
-<./Maintenance/Figures/ProductTypeTable.jpg, id=3065, 419.31656pt x 341.77687pt
+<./Maintenance/Figures/ProductTypeTable.jpg, id=3075, 419.31656pt x 341.77687pt
 >
 File: ./Maintenance/Figures/ProductTypeTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductTypeTable.jpg>
@@ -13533,7 +13545,7 @@ ut line 365.
                                                   \fi \fi 
 l.368 
        <U:/git/Comp4Coursework/Maintenance/Figures/ProductSizeTable.jpg>]
-<./Maintenance/Figures/UserTrickTable.jpg, id=3071, 422.32782pt x 263.48438pt>
+<./Maintenance/Figures/UserTrickTable.jpg, id=3081, 422.32782pt x 263.48438pt>
 File: ./Maintenance/Figures/UserTrickTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/UserTrickTable.jpg>
@@ -13547,7 +13559,7 @@ Package pdftex.def Info: ./Maintenance/Figures/UserTrickTable.jpg used on input
                                                   \fi \fi 
 l.379 
        <U:/git/Comp4Coursework/Maintenance/Figures/ProductTypeTable.jpg>]
-<./Maintenance/Figures/UserSkateparkTable.jpg, id=3078, 421.575pt x 264.23718pt
+<./Maintenance/Figures/UserSkateparkTable.jpg, id=3088, 421.575pt x 264.23718pt
 >
 File: ./Maintenance/Figures/UserSkateparkTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/UserSkateparkTable.jpg>
@@ -13555,7 +13567,7 @@ Package pdftex.def Info: ./Maintenance/Figures/UserSkateparkTable.jpg used on i
 nput line 381.
 (pdftex.def)             Requested size: 345.0pt x 216.24446pt.
 
-<./Maintenance/Figures/UserReviewTable.jpg, id=3079, 419.31656pt x 262.73157pt>
+<./Maintenance/Figures/UserReviewTable.jpg, id=3089, 419.31656pt x 262.73157pt>
 File: ./Maintenance/Figures/UserReviewTable.jpg Graphic file (type jpg)
 <use ./Maintenance/Figures/UserReviewTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/UserReviewTable.jpg used on inpu
@@ -15360,14 +15372,14 @@ Chapter 5.
 
 
 
-] <./Manual/Images/BenGithub.pdf, id=6431, 597.23125pt x 782.925pt>
+] <./Manual/Images/BenGithub.pdf, id=6441, 597.23125pt x 782.925pt>
 File: ./Manual/Images/BenGithub.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/BenGithub.pdf>
 Package pdftex.def Info: ./Manual/Images/BenGithub.pdf used on input line 51.
 (pdftex.def)             Requested size: 345.0pt x 452.26901pt.
  [288]
-<./Manual/Images/ExtractZIP.pdf, id=6439, 597.23125pt x 626.34pt>
+<./Manual/Images/ExtractZIP.pdf, id=6449, 597.23125pt x 626.34pt>
 File: ./Manual/Images/ExtractZIP.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ExtractZIP.pdf>
@@ -15380,7 +15392,7 @@ Package pdftex.def Info: ./Manual/Images/ExtractZIP.pdf used on input line 58.
                                                   \fi \fi 
 l.61 
       <U:/git/Comp4Coursework/Manual/Images/BenGithub.pdf>]
-<./Manual/Images/RunningProgram.pdf, id=6452, 597.23125pt x 767.86874pt>
+<./Manual/Images/RunningProgram.pdf, id=6462, 597.23125pt x 767.86874pt>
 File: ./Manual/Images/RunningProgram.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RunningProgram.pdf>
@@ -15399,19 +15411,128 @@ dy used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \subsection
-                {Limitations} <U:/git/Comp4Coursework/Manual/Images/RunningProg
-ram.pdf>]) [292] (U:\git\Comp4Coursework\Evaluation\evaluation.tex
+l.87 
+      <U:/git/Comp4Coursework/Manual/Images/RunningProgram.pdf>]
+<./Manual/Images/SaveProfilePicture.pdf, id=6487, 597.23125pt x 731.73375pt>
+File: ./Manual/Images/SaveProfilePicture.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/SaveProfilePicture.pdf>
+Package pdftex.def Info: ./Manual/Images/SaveProfilePicture.pdf used on input l
+ine 94.
+(pdftex.def)             Requested size: 345.0pt x 422.69757pt.
+ [292] [293pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \item
+            Click on the 'Change Picture' button on the profile tool bar. <U:/g
+it/Comp4Coursework/Manual/Images/SaveProfilePicture.pdf>]
+<./Manual/Images/ChangeName.pdf, id=6510, 597.23125pt x 748.7975pt>
+File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/ChangeName.pdf>
+Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 108.
+
+(pdftex.def)             Requested size: 345.0pt x 432.55472pt.
+ [294] [295pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.116 \item T
+             his is the field available to put your Last Name in. <U:/git/Comp4
+Coursework/Manual/Images/ChangeName.pdf>]
+<./Manual/Images/ChangeEmail.pdf, id=6536, 597.23125pt x 748.7975pt>
+File: ./Manual/Images/ChangeEmail.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/ChangeEmail.pdf>
+Package pdftex.def Info: ./Manual/Images/ChangeEmail.pdf used on input line 124
+.
+(pdftex.def)             Requested size: 345.0pt x 432.55472pt.
+ [296] [297pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 \item C
+             lick edit to enter edit mode, which allows you to change your e...
+ <U:/git/Comp4Coursework/Manual/Images/ChangeEmail.pdf>]
+<./Manual/Images/AddTrick.pdf, id=6563, 597.23125pt x 580.1675pt>
+File: ./Manual/Images/AddTrick.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/AddTrick.pdf>
+Package pdftex.def Info: ./Manual/Images/AddTrick.pdf used on input line 139.
+(pdftex.def)             Requested size: 345.0pt x 335.14291pt.
+ [298pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.147 \item C
+             lick on the 'Add Trick' button in the tricks tool bar, this wil...
+ <U:/git/Comp4Coursework/Manual/Images/AddTrick.pdf>]
+<./Manual/Images/DeleteTrick.pdf, id=6585, 597.23125pt x 759.83875pt>
+File: ./Manual/Images/DeleteTrick.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/DeleteTrick.pdf>
+Package pdftex.def Info: ./Manual/Images/DeleteTrick.pdf used on input line 155
+.
+(pdftex.def)             Requested size: 345.0pt x 438.93286pt.
+ [299] [300pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 \item C
+             lick on the tricks tab. <U:/git/Comp4Coursework/Manual/Images/Dele
+teTrick.pdf>]
+File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
+ <use ./Manual/Images/ChangeName.pdf>
+Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 172.
+
+(pdftex.def)             Requested size: 345.0pt x 432.55472pt.
+ [301] [302pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.180 \end{enumerate}
+                     ]
+File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
+ <use ./Manual/Images/ChangeName.pdf>
+Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 185.
+
+(pdftex.def)             Requested size: 345.0pt x 432.55472pt.
+ [303pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.190 
+      ]
+File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
+ <use ./Manual/Images/ChangeName.pdf>
+Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 198.
+
+(pdftex.def)             Requested size: 345.0pt x 432.55472pt.
+ [304] [305pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.206 \end{enumerate}
+                     ]) [306] (U:\git\Comp4Coursework\Evaluation\evaluation.tex
 Chapter 6.
-[293
+[307
 
 
 
-] [294] [295]) [296] [297]
+] [308] [309]) [310] [311]
 Overfull \vbox (46.45798pt too high) has occurred while \output is active []
 
 
-[298]
+[312]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
  (U:\git\Comp4Coursework\coursework.aux
@@ -15424,7 +15545,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 17.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
 Package rerunfilecheck Info: File `coursework.out' has not changed.
-(rerunfilecheck)             Checksum: D428AE65B901DA42895D30CECCA9A611;16674.
+(rerunfilecheck)             Checksum: 11F126F3CD2A819D2DD658E0AC1F1AC9;16875.
 
 
 LaTeX Warning: There were undefined references.
@@ -15441,10 +15562,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 17.
 ### simple group (level 1) entered at line 544 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16606 strings out of 493921
- 262621 string characters out of 3144876
- 346430 words of memory out of 3000000
- 15491 multiletter control sequences out of 15000+200000
+ 16692 strings out of 493921
+ 264040 string characters out of 3144876
+ 346648 words of memory out of 3000000
+ 15521 multiletter control sequences out of 15000+200000
  11345 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,12n,45p,1834b,2536s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -15463,9 +15584,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on coursework.pdf (299 pages, 9005592 bytes).
+Output written on coursework.pdf (313 pages, 9865779 bytes).
 PDF statistics:
- 7342 PDF objects out of 7423 (max. 8388607)
- 3859 named destinations out of 4296 (max. 500000)
- 2089 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7526 PDF objects out of 8907 (max. 8388607)
+ 3911 named destinations out of 4296 (max. 500000)
+ 2130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
