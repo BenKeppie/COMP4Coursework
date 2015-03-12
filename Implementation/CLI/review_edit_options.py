@@ -35,15 +35,15 @@ def get_review_rating():
 
 
 def add_review():
-    ProductID= get_product_id
+    ProductID= 1
     ReviewCreator=get_review_creator()
     ReviewDescription=get_review_description()
     ReviewRating=get_review_rating()
     
-    values=(ProductID,ReviewCreator,ReviewDescription,ReviewRating)
+    values=[ProductID,ReviewCreator,ReviewDescription,ReviewRating]
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into Review(ProductID, ReviewCreator,ReviewDescription,ReviewRating) values (?,?,?,?)"
+        sql="insert into Review(ProductID, ReviewCreator, ReviewDescription, ReviewRating) values (?,?,?,?)"
         cursor.execute(sql,values)
         db.commit()
         print()
@@ -51,8 +51,9 @@ def add_review():
         print()
 
 def edit_review():
-    TrickID=int(input("Please enter the TrickID of the trick you wish to edit: "))
-    ProductID=get_product_id()
+    TrickID=int(input("Please enter the ReviewID of the review you wish to edit: "))
+    #ProductID=get_product_id()
+    ProductID=1
     ReviewCreator=get_review_creator()
     ReviewDescription=get_review_description()
     ReviewRating=get_review_rating()
@@ -60,7 +61,7 @@ def edit_review():
     values=(ProductID,ReviewCreator,ReviewDescription,ReviewRating,TrickID)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="update Review set ProductID=?, ReviewCreator=?, ReviewDescription=?, ReviewRating=?   where TrickID=?"
+        sql="update Review set ProductID=?, ReviewCreator=?, ReviewDescription=?, ReviewRating=?   where ReviewID=?"
         cursor.execute(sql,values)
         db.commit()
 

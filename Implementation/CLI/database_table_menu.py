@@ -179,7 +179,7 @@ def review_table():
             
             Finished=add_review()
         elif Choice == 2:
-            Finishededit_review()
+            Finished=edit_review()
         elif Choice == 3:
             Finished=delete_review()
         elif Choice==4:
