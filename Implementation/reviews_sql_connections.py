@@ -20,7 +20,7 @@ class ReviewsSQLConnections:
 
     def show_all_reviews(self):
         query = QSqlQuery()
-        query.prepare(""" SELECT ProductType,ProductName,ReviewDescription,ReviewRating,ProductBrand,ProductSize,ReviewCreator FROM review, product, productbrand,producttype,productsize""")
+        query.prepare(""" SELECT ProductType, ProductName, ReviewDescription, ReviewRating, ProductBrand, ProductSize, ReviewCreator FROM review, product, productbrand, producttype, productsize""")
         query.exec_()
         return query
 
@@ -55,5 +55,5 @@ class ReviewsSQLConnections:
     def get_all_product_brand(self):
         pass
 
-    def add_review_to_database(self,ReviewType,ReviewSize,ReviewBrand,ReviewName,ReviewRating,ReviewReview):
+    def add_review_to_database(self, ReviewType, ReviewSize, ReviewBrand, ReviewName, ReviewRating, ReviewReview):
         pass

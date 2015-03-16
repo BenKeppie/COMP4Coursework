@@ -111,7 +111,7 @@ class ViewOnlyMap(QWebView):
         padding: 0px
       }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg"></script>
+    <script src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg"> </script>
     <script>
      
         var map;

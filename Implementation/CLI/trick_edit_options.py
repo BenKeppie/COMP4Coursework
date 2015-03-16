@@ -63,10 +63,10 @@ def add_trick():
     TrickCompleted=get_trick_completed()
     TrickCompletedDate=get_trick_completed_date()
 
-    values=(DifficultyID,TrickCreator,TrickName,TrickDescription,TrickObsticle,TrickImage,TrickTutorialLink,TrickCompleted,TrickCompletedDate)
+    values=(DifficultyID, TrickCreator, TrickName, TrickDescription, TrickObsticle, TrickImage, TrickTutorialLink, TrickCompleted, TrickCompletedDate)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into Trick(DifficultyID, TrickCreator,TrickName,TrickDescription,TrickObsticle,TrickImage,TrickTutorialLink,TrickCompleted,TrickCompletedDate) values (?,?,?,?,?,?,?,?,?)"
+        sql="insert into Trick(DifficultyID, TrickCreator, TrickName, TrickDescription, TrickObsticle, TrickImage, TrickTutorialLink, TrickCompleted, TrickCompletedDate) values (?,?,?,?,?,?,?,?,?)"
         cursor.execute(sql,values)
         db.commit()
         print()
@@ -85,7 +85,7 @@ def edit_trick():
     TrickCompleted=get_trick_completed()
     TrickCompletedDate=get_trick_completed_date()
     
-    values=(DifficultyID,TrickCreator,TrickName,TrickDescription,TrickObsticle,TrickImage,TrickTutorialLink,TrickCompleted,TrickCompletedDate, TrickID)
+    values=(DifficultyID, TrickCreator, TrickName, TrickDescription, TrickObsticle, TrickImage, TrickTutorialLink, TrickCompleted, TrickCompletedDate, TrickID)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
         sql="update Trick set DifficultyID=?, TrickCreator=?, TrickName=?, TrickDescription=?, TrickObsticle=?,TrickImage=?, TrickTutorialLink=?,TrickCompleted=?, TrickCompletedDate=?  where TrickID=?"

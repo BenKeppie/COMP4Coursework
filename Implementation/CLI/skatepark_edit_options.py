@@ -24,10 +24,10 @@ def add_skatepark():
     SkateparkDescription=get_skatepark_description()
     SkateparkLongitude=get_skatepark_longitude()
     SkateparkLatitude=get_skatepark_latitude()
-    values=(SkateparkName,SkateparkLongitude,SkateparkLatitude,SkateparkDescription)
+    values=(SkateparkName,SkateparkLongitude, SkateparkLatitude, SkateparkDescription)
     with sqlite3.connect("skateboard_progress_tracker.db") as db:
         cursor = db.cursor()
-        sql="insert into Skatepark(SkateparkName,SkateparkLongitude,SkateparkLatitude,SkateparkDescription) values(?,?,?,?)"
+        sql="insert into Skatepark(SkateparkName, SkateparkLongitude, SkateparkLatitude, SkateparkDescription) values(?,?,?,?)"
         cursor.execute(sql,values)
         db.commit()
         print()

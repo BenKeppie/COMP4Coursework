@@ -118,7 +118,7 @@ class DisplaySkateparksWidget(QWidget):
         print("Save")
         Valid=self.validate_add_skatepark()
         if Valid:
-            self.SkateparksSQLConnections.add_skatepark(self.skatepark_name.text(),self.skatepark_description.text(),self.skatepark_latitude.text(),self.skatepark_longitude.text())
+            self.SkateparksSQLConnections.add_skatepark(self.skatepark_name.text(), self.skatepark_description.text(), self.skatepark_latitude.text(), self.skatepark_longitude.text())
             self.clear_skatepark_line_edit()
             self.add_skatepark_map.delete_all_markers()
             self.add_skatepark_map.get_marker_coordinates()

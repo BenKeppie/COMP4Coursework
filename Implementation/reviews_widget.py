@@ -67,7 +67,7 @@ class DisplayReviewsWidget(QWidget):
         ReviewRating=self.validate_review_rating()
         ReviewReview=self.validate_review_review()
         if (ReviewType==True) and (ReviewSize==True) and (ReviewName==True) and (ReviewName==True) and (ReviewRating==True) and (ReviewReview==True):
-            self.connection.add_review_to_database(self.review_type.currentText(),self.review_size.currentText(), self.review_brand.currentText(),self.review_name.text(),self.review_rating.currentText(), self.review_review.text())
+            self.connection.add_review_to_database(self.review_type.currentText(), self.review_size.currentText(), self.review_brand.currentText(), self.review_name.text(), self.review_rating.currentText(), self.review_review.text())
             query=self.connection.show_all_reviews()
             self.model.setModel(query)
             return True

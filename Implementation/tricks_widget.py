@@ -111,7 +111,7 @@ class DisplayTricksWidget(QWidget):
         
         
         if (TrickName==True) and (TrickDescription==True) and (TrickObsticle==True) and (TrickTutorial==True):
-            self.connection.add_trick_to_database(self.trick_difficulty.currentIndex()+1 ,self.trick_name.text(),self.trick_description.text(),self.trick_obsticle.text(),self.TrickFilePath, self.trick_tutorial.text())
+            self.connection.add_trick_to_database(self.trick_difficulty.currentIndex()+1, self.trick_name.text(), self.trick_description.text(), self.trick_obsticle.text(), self.TrickFilePath, self.trick_tutorial.text())
             self.parent.StatusBar.showMessage("Trick Successfully Saved.",2000)
             query = self.connection.show_all_tricks()
             self.model.setQuery(query)
@@ -159,7 +159,9 @@ class DisplayTricksWidget(QWidget):
 
     def validate_trick_tutorial(self):
         Text=self.trick_tutorial.text()
-        TrickTutorialExpression=re.compile("(?:.+?)?(?:\/v\/|watch\/|\?v=|\&v=|youtu\.be\/|\/v=|^youtu\.be\/)([a-zA-Z0-9_-]{11})+")
+        TrickTutorialExpression= re.compile("""
+(?:.+?)?(?:\/v\/|watch\/|\?v=|\&v=|youtu\.be\/|\/v=|^youtu\.be\/)
+([a-zA-Z0-9_-]{11})+""")
         Match=TrickTutorialExpression.match(Text)
         if Match:
             self.trick_tutorial.setStyleSheet(self.GreenBorder)

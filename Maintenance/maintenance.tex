@@ -25,9 +25,9 @@ The table below gives details of why I decided to use the software I used.
 \begin{center}
 \begin{tabular}{|p{3.5cm}|p{8cm}|} \hline
 \textbf{Software} & \textbf{Justification for Use} \\ \hline
-Python 3.4 & Python is the programming language I am most confident with as I have been learning it through the past two years at college. Python is also the most supported program at my college. \\ \hline
-IDLE (python GUI) & This programming editor comes with the free installation of Pyton, and is the only programming environment available at my college. \\ \hline
-PyQt 4 & This software is an add on to the python programming language which allowed for me to create a graphical user interface for my program. \\ \hline
+Python 3.4 & Python is the programming language I am most confident with as I have been learning it through the past two years at college. Python is also the most supported program at my college, whilst also containing a large stock library which allows functionality with important programming aspects like regular expressions.  \\ \hline
+IDLE (python GUI) & This programming editor comes with the free installation of Pyton, and is the only programming environment available at my college. It also contains functionality to run the python code and contains syntax highlighting. \\ \hline
+PyQt 4 & This software is an add on to the python programming language which allowed for me to create a graphical user interface for my program. It is an extremely compatible and established add on that has lots of help. For example, the class reference documentation. \\ \hline
 SQLite 3 & This software came along with the Python 3.4 library and I also had some previous experience of using it, therefore I used it to handle my SQL queries. \\ \hline
 smtplib & This module came along with the Python 3.4 library and allowed me to send emails to me (the developer) about any bugs in the program. \\ \hline
 pdb & This module came along with the python 3.4 library and was readily available to be imported \\ \hline
@@ -47,7 +47,7 @@ Another reason for using all the programs I have used is the fact that they are 
 \begin{center}
 \begin{tabular}{|p{3.5cm}|p{8cm}|} \hline
 \textbf{Software} & \textbf{Features Used} \\ \hline
-Python 3.4 & I used python to run my program which allowed me to test the graphical user interface of my program. I also used the code libraries which came with the installation of Python to code my system.  \\ \hline
+Python 3.4 & I used python to run my program which allowed me to test the graphical user interface of my program. I also used the code libraries which came with the installation of Python to code my system.  I also made use of its large stock library and used regular expression functionality and more.\\ \hline
 IDLE (python GUI) & I used IDLE to write out my code and save it as a python file. I took advantage of the colour coded syntax and also the code predictor. I also used IDLE to run the python file.\\ \hline
 PyQt 4 & I used PyQT extensively, from using pre-programmed classes such as QVBoxLayout to rewriting some classes such as the QWebPage class. PyQT was used to create the graphical user interface of my program.\\ \hline
 SQLite 3 & I used this piece of software to write SQL queries that would allow me to add,edit, delete and retrieve data from my database and ensure referential integrity was enforced. \\ \hline
@@ -69,7 +69,7 @@ On every part of my user interface a QMenuBar is at the top, allowing you to acc
 
 \subsection{Profile Tab User Interface}
 
-The profile tab consists of a QToolBar at the top of the tab labeled 'Change Picture' widget allowing you to change your profile picture which is displayed in a QGraphicsScene. Below the profile picture there are 2 QPushButtons labelled 'Edit' and 'Save'. To the right of this there are three QLineEdits showing the users first name, last name and email address, to the right of these QLineEdits is a Recently completed tricks list. Below the tabbed interface a QProgressBar which shows the percentage of completed tricks.
+The profile tab is available for the user to tailor the program to include their personal information and therefore make a program which is designed around them. The profile tab consists of a QToolBar at the top of the tab labeled 'Change Picture' widget allowing you to change your profile picture which is displayed in a QGraphicsScene. Below the profile picture there are 2 QPushButtons labelled 'Edit' and 'Save'. To the right of this there are three QLineEdits showing the users first name, last name and email address, to the right of these QLineEdits is a Recently completed tricks list. Below the tabbed interface a QProgressBar which shows the percentage of completed tricks.
 
 \subsection{Editing Profile Table Information}
 Once the edit button is clicked the QLineEdits containing the first name, last name and email address of the user become available to edit. Once the QLineEdits have been changed you may click the 'save' button to save the changes.Once the 'Change Picture' button is pressed a QFileDialog appears allowing you to choose an image from your documents to set as your profile picture.
@@ -78,7 +78,7 @@ Once the edit button is clicked the QLineEdits containing the first name, last n
 
 \subsection{Tricks Tab User Interface}
 
-The tricks tab also contains the QProgressBar below the tabbed interface. There is also a QToolBar with an option to add a trick. Below the QToolBar a QTableView displays all of the items in the tricks table of the database. Once the 'Add Trick' button is pressed a side form appears on the left hand side with QLineEdits, QPushButtons and QComboBoxes which allow you to fill in information about a trick.
+The tricks tab is available for the user to store all of the tricks that the user can do and keep a record of what they have learnt. The tricks tab also contains the QProgressBar below the tabbed interface. There is also a QToolBar with an option to add a trick. Below the QToolBar a QTableView displays all of the items in the tricks table of the database. Once the 'Add Trick' button is pressed a side form appears on the left hand side with QLineEdits, QPushButtons and QComboBoxes which allow you to fill in information about a trick.
 
 \subsection{Editing Trick Table Information}
 
@@ -88,7 +88,7 @@ Once the 'Add Trick' button has been pressed you can fill in information about a
 
 \subsection{Skateparks Tab User Interface}
 
-The Skateparks tab interface is similar to that of the Tricks tab, but the table is replaced with a QWebView of the Google map.
+The Skateparks tab is available for the user to add skateparks and skate spots which the user can then plan their day around where to go skating and how to get there. The Skateparks tab interface is similar to that of the Tricks tab, but the table is replaced with a QWebView of the Google map.
 
 \subsection{Editing Skatepark Table Information}
 
@@ -98,7 +98,7 @@ To add a skatepark you click on the Google Maps object, the program will then au
 
 \subsection{Reviews Tab User Interface}
 
-The Review user interface is similar to the tricks tab. But the table is replaced with information about reviews.
+The Review tab is available to allow the user to have access to unbiased reviews of skateboard products. This allows for the user to make informed decisions about the products that they wish to purchase. The Review user interface is similar to the tricks tab. But the table is replaced with information about reviews.
 
 \subsection{Editing Review Table Information}
 
@@ -108,7 +108,7 @@ To edit the review table you have to run through the CLI menu and run thorugh th
 
 \subsection{Support Tab User Interface}
 
-The support tab consists of a QLabel containing my details as the application developer and a series of QLineEdits allowing the user to enter information to send a bug. A 'submit' QPushButton is below this form.
+The support tab is available for the user to send emails to me about any issues or additions to the program that they wish to address. The support tab consists of a QLabel containing my details as the application developer and a series of QLineEdits allowing the user to enter information to send a bug. A 'submit' QPushButton is below this form.
 
 \subsection{Reporting a Bug}
 
@@ -196,7 +196,7 @@ This piece of code shows the main module for my main window.This is an example o
 My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pageref{tab:Data Dictionary}. My other variables that I implemented in my program can be found in the table below.
 
 \begin{center}
-\begin{longtable}{|p{3.5cm}|p{6cm}|p{3.5cm}|} \hline
+\begin{longtable}{|p{5cm}|p{6cm}|p{3.5cm}|} \hline
 \textbf{Variable} & \textbf{Purpose} & \textbf{Reference} \\ \hline
 splash\_pix & Stores a QPixmap image of the programs splash screen. & Subsection 4.10.1, line number 115 \\ \hline
 replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303 \\ \hline
@@ -242,17 +242,22 @@ Finished & A while loop condition that changes to True once the conditions are s
 
 \subsection{User Interface}
 
+\subsubsection{Changing the Profile Picture}
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ChangePicture.pdf}
     \caption{User interface, changing profile picture} \label{fig:Changing Picture UI}
 \end{figure}
 
 
+\subsubsection{Switching to the Tricks Tab}
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/TricksTab.pdf}
     \caption{User interface, switching to the tricks tab} \label{fig:Trick Tab UI}
 \end{figure}
 
+\subsubsection{Adding a Trick}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/AddTrick.pdf}
@@ -260,30 +265,35 @@ Finished & A while loop condition that changes to True once the conditions are s
 \end{figure}
 
 
+\subsubsection{Switching to the Skateparks Tab}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/SkateparkTab.pdf}
     \caption{User interface, switching to the skateparks tab} \label{fig:Skatepark Tab UI}
 \end{figure}
 
 
+\subsubsection{Adding a Skatepark}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/AddSkatepark.pdf}
     \caption{User interface, adding a skatepark} \label{fig:Add Skatepark UI}
 \end{figure}
 
 
+
+\subsubsection{Switching to the Review Tab}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ReviewTab.pdf}
     \caption{User interface, switching to the reviews tab} \label{fig:Review Tab UI}
 \end{figure}
 
 
+\subsubsection{Adding a Review}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/AddReview.pdf}
     \caption{User interface, adding a review} \label{fig:Add Review UI}
 \end{figure}
 
-
+\subsubsection{Switching to the Support Tab}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/SupportTab.pdf}
     \caption{User interface, switching to the support tab} \label{fig:Support Tab UI}
@@ -318,6 +328,7 @@ This ER diagram is identical to the ER diagram shown in my design section (Figur
 
 The figures below show all the entities and tables that I used in the creation of my program so far.
 
+\subsubsection{User Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/UserTable.jpg}
     \caption{The user table of the database} \label{fig:User Table}
@@ -325,6 +336,8 @@ The figures below show all the entities and tables that I used in the creation o
 
 The screen shot above shows the user table which contains information about the user.
 
+
+\subsubsection{Trick Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/TrickTable.jpg}
     \caption{The trick table of the database} \label{fig:Trick Table}
@@ -332,7 +345,7 @@ The screen shot above shows the user table which contains information about the 
 
 The screen shot above shows the tricks table which contains information about multiple tricks.
 
-
+\subsubsection{Skatepark Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/SkateparkTable.jpg}
     \caption{The skatepark table of the database} \label{fig:Skatepark Table}
@@ -340,6 +353,8 @@ The screen shot above shows the tricks table which contains information about mu
 
 The screen shot above shows the skatepark table which contains information about multiple skateparks.
 
+
+\subsubsection{Review Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ReviewTable.jpg}
     \caption{The review table of the database} \label{fig:Review Table}
@@ -347,6 +362,8 @@ The screen shot above shows the skatepark table which contains information about
 
 The screen shot above shows the review table which contains information about multiple reviews.
 
+
+\subsubsection{ProductBrand Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductBrandTable.jpg}
     \caption{The product brand table of the database} \label{fig:ProductBrand Table}
@@ -354,6 +371,8 @@ The screen shot above shows the review table which contains information about mu
 
 The screen shot above shows the product brand table which contains information about different product brands which you can review.
 
+
+\subsubsection{ProductSize Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductSizeTable.jpg}
     \caption{The product size table of the database} \label{fig:ProductSize Table}
@@ -361,6 +380,8 @@ The screen shot above shows the product brand table which contains information a
 
 The screen shot above shows the product size table which contains information about different product sizes which you can review.
 
+
+\subsubsection{ProductType Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/ProductTypeTable.jpg}
     \caption{The product type table of the database} \label{fig:ProductType Table}
@@ -372,16 +393,22 @@ The screen shot above shows the product type table which contains information ab
 
 The figures below show the tables that I will use in the future to implement a multi-user system. However, currently the program is a single user system and therefore they do not have any data inside the tables.
 
+\subsubsection{UserTrick Table of my Database}
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/UserTrickTable.jpg}
     \caption{The user trick table of the database} \label{fig:UserTrick Table}
 \end{figure}
 
+
+\subsubsection{UserSkatepark Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/UserSkateparkTable.jpg}
     \caption{The user skatepark table of the database} \label{fig:UserSkatepark Table}
 \end{figure}
 
+
+\subsubsection{UserReview Table of my Database}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/UserReviewTable.jpg}
     \caption{The user review table of the database} \label{fig:UserReview Table}
@@ -441,7 +468,7 @@ To see the full code please look at Subsection 4.10.22.
 
 \section {Testing}
 
-To view my full test plan look at Figure \ref{tab:Testing} on page \pageref{tab:Testing}
+To view my full test plan look at Figure \ref{tab:TestingResults} on page \pageref{tab:TestingResults}
 
 \subsection{Summary of Results}
 
@@ -449,7 +476,7 @@ My testing showed that my program was not a fully GUI operated program. It also 
 
 \subsection{Known Issues}
 
-There are a few known issues with my system. These are outlined below.
+There are a few known issues with my system, these were identified by my testing results table (Table \ref{tab:TestingResults} on page \pageref{tab:TestingResults}). These are outlined below.
 
 \subsubsection{Flashing Tables on Start-Up}
 
@@ -545,7 +572,7 @@ My program doesn't contain any complex, self-created algorithms.
 
 \section{Settings}
 
-No settings need to be changed on the client's computer to run my program. All of the neccesary modules required are supplied with python, PyQt and my public API key is used to run the google maps object.
+No settings need to be changed on the client's computer to run my program. All of the neccesary modules required are supplied with python, PyQt and my public API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg)  is used to run the google maps object.
 
 
 
@@ -558,7 +585,7 @@ No settings need to be changed on the client's computer to run my program. All o
 \item Acknowledgment 2 - Google Maps JavaScript API - Gained from Google's APIs Console. - \url{https://developers.google.com/maps/documentation/javascript/tutorial}
 \item Acknowledgment 3 - Javascript help on Stack Overflow - \url{http://stackoverflow.com/questions/28253168/running-a-javascript-function-from-qwebview-google-maps-api-pyqt} I posted a question to attempt to resolve an issue I had with my Javascript code.
 \end{itemize}
-
+\begin{landscape}
 \section{Code Listing}
 
 \subsection{Main Window}
@@ -684,7 +711,7 @@ No settings need to be changed on the client's computer to run my program. All o
 \subsection{CLI Make New Product}
 
 \pythonfile[firstline=1]{./Implementation/CLI/products.py}
-
+\end{landscape}
 
 
 
