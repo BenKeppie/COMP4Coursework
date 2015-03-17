@@ -139,20 +139,20 @@ My main window sets up the basis for my application. I have structured it to be 
 
 \subsection{Tabs}
 
-The code for the tabbed interface of my program can be  found in subsection 4.11.1, line numbers 77-112. And subsection 4.11.2.
+The code for the tabbed interface of my program can be  found in subsection 4.10.1, line numbers 77-112. And subsection 4.10.2.
 
 \pythonfile[firstline=5,lastline=12]{./Implementation/main_tab_widget.py}
 
 I created my own custom QTabWidget which allowed me to easily debug the problems which I was having in the early stages of programming my program. I pass 'parent' into the class so that when the CustomQTabWidget is instantiated I could call attributes and methods from the main window to aid the debugging of my program.
 \subsection{Menu Bar}
 
-The code for my whole menu bar can be found in subsection 4.11.3.
+The code for my whole menu bar can be found in subsection 4.10.3.
 
 My menu bar allowed for a shortcut to any functionality in the system from any page.
 
 \subsection{Tool Bar}
 
-My code for all the toolbars can be found in subsections: 4.11.6, 4.11.9, 4.11.13 and 4.11.16.
+My code for all the toolbars can be found in subsections: 4.10.6, 4.10.9, 4.10.13 and 4.10.16.
 
 \pythonfile[firstline=8,lastline=22]{./Implementation/tricks_toolbar.py}
 
@@ -160,7 +160,7 @@ The code shown above is the code for my tricks toolbar. The structured approach 
 
 \subsection{SQL Connections}
 
-My code for all the SQL connections can be found in subsections: 4.11.7, 4.11.10, 4.11.14 and 4.11.17.
+My code for all the SQL connections can be found in subsections: 4.10.7, 4.10.10, 4.10.14 and 4.10.17.
 
 \pythonfile[firstline=31,lastline=35]{./Implementation/tricks_sql_connections.py}
 
@@ -168,11 +168,11 @@ The SQL method shown above is taken from the tricks SQL connection code. This co
 
 \subsection{Validation}
 
-My code for validation can be found in subsection 4.11.8, line numbers 102 - 169. And subsection 4.11.11, line numbers 50-87.
+My code for validation can be found in subsection 4.10.8, line numbers 102 - 169. And subsection 4.10.11, line numbers 50-87.
 
 \pythonfile[firstline=125,lastline=135]{./Implementation/tricks_widget.py}
 
-This validation method is taken from the tricks widget (subsection 4.11.8). This code shows the structured approach I took to validating each field. First I gathered the text to be validated from the appropriate widget and then compiled a regular expression to compare it to. If the text fit the regular expression the boolean value True was returned and the field was coloured green. If the text did not fit the regular expression the boolean value False was returned and the field was coloured red.
+This validation method is taken from the tricks widget (subsection 4.10.8). This code shows the structured approach I took to validating each field. First I gathered the text to be validated from the appropriate widget and then compiled a regular expression to compare it to. If the text fit the regular expression the boolean value True was returned and the field was coloured green. If the text did not fit the regular expression the boolean value False was returned and the field was coloured red.
 
 
 \subsection{Main}
@@ -223,9 +223,9 @@ var ContentString & A Javascript variable for holding the text description for e
 Send & A variable to compile the SMTP protocol for sending an email & Subsection 4.10.18, line numbers: 32, 33, 34.  \\ \hline
 msg & A variable to format the email to send & Subsection 4.10.18, line numbers: 26, 27, 28, 29, 30. \\ \hline
 result & Stores the result of an sqlite3 query & Subsection 4.10.22, line numbers: 8, 11 \\ \hline
-db\_name & The name of the programs database & Subsection 4.11.22, line numbers: 5, 30, 32, 36, 38, 43, 46.\\ \hline 
-Choice & Stores the users choice whilst navigation the CLI & Subsection 4.11.19, line numbers: 22, 23, 26, 30, 33, 36, 39\\ \hline 
-Finished & A while loop condition that changes to True once the conditions are satisfied & Subsection 4.11.21, line numbers: 29, 30, 47, 91, 92, 98, 101, 103, 105, 107, 120,121. \\ \hline
+db\_name & The name of the programs database & Subsection 4.10.22, line numbers: 5, 30, 32, 36, 38, 43, 46.\\ \hline 
+Choice & Stores the users choice whilst navigation the CLI & Subsection 4.10.19, line numbers: 22, 23, 26, 30, 33, 36, 39\\ \hline 
+Finished & A while loop condition that changes to True once the conditions are satisfied & Subsection 4.10.21, line numbers: 29, 30, 47, 91, 92, 98, 101, 103, 105, 107, 120,121. \\ \hline
 
 
 
@@ -249,6 +249,8 @@ Finished & A while loop condition that changes to True once the conditions are s
     \caption{User interface, changing profile picture} \label{fig:Changing Picture UI}
 \end{figure}
 
+The figure above shows how to change your profile picture. This involves pressing the 'Change Picture' button in the profile toolbar, which loads up a QFileDialog (a dialog box that allows you to chose a file).
+
 
 \subsubsection{Switching to the Tricks Tab}
 
@@ -257,12 +259,16 @@ Finished & A while loop condition that changes to True once the conditions are s
     \caption{User interface, switching to the tricks tab} \label{fig:Trick Tab UI}
 \end{figure}
 
+This figure above shows the flow of user interface that occurs once the Tricks tab is pressed.
+
 \subsubsection{Adding a Trick}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/AddTrick.pdf}
     \caption{User interface, adding a trick} \label{fig:Add Trick UI}
 \end{figure}
+
+The figure above shows the flow of user interface that occurs when the 'Add Trick' button is pressed in the Tricks toolbar. By pressing this button, a side form loads allowing you to add a trick to the database.
 
 
 \subsubsection{Switching to the Skateparks Tab}
@@ -271,12 +277,16 @@ Finished & A while loop condition that changes to True once the conditions are s
     \caption{User interface, switching to the skateparks tab} \label{fig:Skatepark Tab UI}
 \end{figure}
 
+The figure above shows the flow of user interface that occurs once the Skateparks tab is pressed.
+
 
 \subsubsection{Adding a Skatepark}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/AddSkatepark.pdf}
     \caption{User interface, adding a skatepark} \label{fig:Add Skatepark UI}
 \end{figure}
+
+The figure above shows the flow of user interface that occurs when the 'Add Skatepark' button is pressed in the Skateparks toolbar. By pressing this button, a side form loads allowing you to add a skatepark to the database.
 
 
 
@@ -286,6 +296,8 @@ Finished & A while loop condition that changes to True once the conditions are s
     \caption{User interface, switching to the reviews tab} \label{fig:Review Tab UI}
 \end{figure}
 
+The figure above shows the flow of user interface that occurs once the Review tab has been pressed.
+
 
 \subsubsection{Adding a Review}
 \begin{figure}[H]
@@ -293,11 +305,15 @@ Finished & A while loop condition that changes to True once the conditions are s
     \caption{User interface, adding a review} \label{fig:Add Review UI}
 \end{figure}
 
+The figure above shows the flow of user interface that occurs when the 'Add Review' button is pressed in the Reviews toolbar. By pressing this button, a side form loads allowing you to add a review to the database.
+
 \subsubsection{Switching to the Support Tab}
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Maintenance/Figures/SupportTab.pdf}
     \caption{User interface, switching to the support tab} \label{fig:Support Tab UI}
 \end{figure}
+
+The figure above shows the flow of user interface that occurs once the Support tab has been pressed.
 
 
 
@@ -414,7 +430,7 @@ The figures below show the tables that I will use in the future to implement a m
     \caption{The user review table of the database} \label{fig:UserReview Table}
 \end{figure}
 
-
+\begin{landscape}
 \subsection{Database SQL}
 
 To create the entities I used the following SQL code:
@@ -428,43 +444,62 @@ To see the full code please look at Subsection 4.10.22.
 \subsubsection{Change Name SQL Query}
 
 \pythonfile[firstline=16, lastline=27]{./Implementation/profile_sql_connections.py}
-\section{Testing}
+
+The SQL query above is the code that I used to change the name of the users profile. The validation statement on line number 4 stops the field from being empty, therefore the name will not be changed if it is invalid. This updated the User table in my database by changing the 'FirstName' and 'LastName' fields.
 
 \subsubsection{Change Email SQL Query}
 \pythonfile[firstline=31, lastline=41]{./Implementation/profile_sql_connections.py}
 
+The SQL query above is the code that I used to change the email of the users profile, again there is a validation statement on line number 3 which stops nothing from being entered. This updated the User table in my database by changing the 'UserEmail' field.
+
 \subsubsection{Change Picture SQL Query}
 \pythonfile[firstline=45, lastline=54]{./Implementation/profile_sql_connections.py}
+
+The SQL query above is the code that I used to change the profile picture of the users profile. This updated the User table in my database by changing the 'UserPicture' field.
 
 \subsubsection{Select First Name SQL Query}
 \pythonfile[firstline=59, lastline=65]{./Implementation/profile_sql_connections.py}
 
+The SQL query above is the code that I used to select the users first name from the User table. This was used to fill in the user information when adding: Tricks, skateparks and reviews.
+
 \subsubsection{Select Last Name SQL Query}
 \pythonfile[firstline=66, lastline=71]{./Implementation/profile_sql_connections.py}
+
+The SQL query above is the code that I used to select the users last name from the User table. This was used to fill in the user information when adding: Tricks, skateparks and reviews.
 
 
 
 \subsubsection{Delete Trick Row SQL Query}
 \pythonfile[firstline=11,lastline=17]{./Implementation/tricks_sql_connections.py}
 
+The SQL query above is the code that I used to delete a selected row in the Tricks table. This deleted all of the information of a particular row in the tricks table.
+
 
 \subsubsection{Select All Tricks From the Trick Table SQL Query}
 \pythonfile[firstline=31,lastline=35]{./Implementation/tricks_sql_connections.py}
 
+The SQL query above is the code that I used to select all of the tricks from the Tricks table. I used this to get all of the information to display in the tricks' tab, trick table.
+
 \subsubsection{Add Trick to Database SQL Query}
 \pythonfile[firstline=37,lastline=48]{./Implementation/tricks_sql_connections.py}
+
+The SQL query above is the code that I used to add a trick to the database in the tricks table. 
 
 
 
 \subsubsection{Add Skatepark to Database SQL Query}
 \pythonfile[firstline=9,lastline=18]{./Implementation/skateparks_sql_connections.py}
 
+The SQL query above is the code that I used to add a skatepark to the database in the skateparks table. 
+
 
 
 \subsubsection{Select all Reviews Fom the Reviews Table SQL Query}
 \pythonfile[firstline=21,lastline=25]{./Implementation/reviews_sql_connections.py}
 
+The SQL query above is the code that I used to select all of the review information across multiple table. I used this to get all of the information to display in the reviews' tab, review table. 
 
+\end{landscape}
 
 \section {Testing}
 
@@ -472,7 +507,7 @@ To view my full test plan look at Figure \ref{tab:TestingResults} on page \pager
 
 \subsection{Summary of Results}
 
-My testing showed that my program was not a fully GUI operated program. It also identified key, minor issues with validation which I will fix then the next version in my program.
+My testing showed that my program was not a fully GUI operated program. It also identified key, minor issues with validation which I will fix then the next version in my program. Although my system is not completed, my client is happy with the program (shown by Test 5.00 evidence) which means that the system met enough of the clients objectives. The reliability and robustness of my program, as discussed before, is good as none of the test caused the system to crash and the functionality of my program is mainly complete. My full analysis of the reliability and robustness of my system can be found in sub-sections 3.4.5 and 3.4.6 respectively.
 
 \subsection{Known Issues}
 
@@ -506,25 +541,25 @@ My GUI is incomplete for my program as the review tabs functionality is not pres
 
 \pythonfile[firstline=8,lastline=18]{./Implementation/skatepark_view_only.py}
 
-As I was having issues with the javascript functioning correctly within the python webpage, I decided to override the QWebPage class in order to activate the Javascript console message method. From this I was able to print the error message along with the line number the error is on and the error messages source ID which helped me debug my Javascript code problem.
+As I was having issues with the javascript functioning correctly within the python webpage, I decided to override the QWebPage class in order to activate the Javascript console message method. From this I was able to print the error message along with the line number the error is on and the error messages source ID which helped me debug my Javascript code problem. The full code for this module can be found in subsection 4.10.12.
 
 \subsubsection{Google Maps Javascript}
 \pythonfile[firstline=100,lastline=206]{./Implementation/skatepark_view_only.py}
 
-For my program, I used multiple programming languages. For example: Python, Javascript, HTML and SQL. In my program I created an interactive google maps object in Javascript. I had to activate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg) to send requests to the Google maps server. My code above shows the HTML, Javascript hybrid I used to create the interactive google maps object. This code contains all of the functions involved in the processes that my map object can carry out. For example: adding markers, hiding markers and adding an info window to a marker.
+For my program, I used multiple programming languages. For example: Python, Javascript, HTML and SQL. In my program I created an interactive google maps object in Javascript. I had to activate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg) to send requests to the Google maps server. My code above shows the HTML, Javascript hybrid I used to create the interactive google maps object. This code contains all of the functions involved in the processes that my map object can carry out. For example: adding markers, hiding markers and adding an info window to a marker. The full code for this module can be found in subsection 4.10.12
 
 
 
 \subsubsection{Running Javascript From Python}
 \pythonfile[firstline=55,lastline=55]{./Implementation/skatepark_view_only.py}
 
-To run specific Javascript functions within my python file I had to access the custom pages' main frame and then run an 'evaluateJavaScript' function which then analyses my Javascript code and runs the corresponding function.
+To run specific Javascript functions within my python file I had to access the custom pages' main frame and then run an 'evaluateJavaScript' function which then analyses my Javascript code and runs the corresponding function. The full code for this module can be found in subsection 4.10.12.
 
 
 \subsubsection{Mouse Press Event To Allow for Coordinates To Be Calculated}
 \pythonfile[firstline=45,lastline=57]{./Implementation/skatepark_view_only.py}
 
-My code above shows the python code for listening for a mouse click on the google maps object. If 'add skatepark' form on the side of the tab was open then the coordinates would be filled into the longitude and latitude QLineEdits. 
+My code above shows the python code for listening for a mouse click on the google maps object. If 'add skatepark' form on the side of the tab was open then the coordinates would be filled into the longitude and latitude QLineEdits. The full code for this module can be found in subsection 4.10.12.
 
 
 
@@ -532,17 +567,19 @@ My code above shows the python code for listening for a mouse click on the googl
 
 Through setting the tricks result table selection behaviour to selecting rows (shown below) 
 \pythonfile[firstline=28,lastline=28]{./Implementation/tricks_widget.py}
-I was able to select the whole row and therefore gather all the information I needed to delete the row from the database.
+I was able to select the whole row and therefore gather all the information I needed to delete the row from the database. The full code for this module, and the next two below can be found in subsection 4.10.8.
 
 \pythonfile[firstline=59,lastline=64]{./Implementation/tricks_widget.py}
 
-The code above shows an overridden class that allowed me to monitor if the delete key had been pressed. If the delete key had been pressed the variable row would be assigned all of the relevant row information, and this is then passed into a QDialog method which allows the user to decide whether they wish to delete that row forever (QDialog code shown below).
+The code above shows an overridden class that allowed me to monitor if the delete key had been pressed. If the delete key had been pressed the variable row would be assigned all of the relevant row information, and this is then passed into a QDialog method which allows the user to decide whether they wish to delete that row forever (QDialog code shown below). 
 
 \pythonfile[firstline=68,lastline=96]{./Implementation/tricks_widget.py}
 
 Finally the code below shows the SQL query executed to delete the row. The results table automatically gets updated with any changes to the database.
 
 \pythonfile[firstline=11,lastline=18]{./Implementation/tricks_sql_connections.py}
+
+The full code for this module can be found in subsection  4.10.10
 
 
 
@@ -551,7 +588,7 @@ Finally the code below shows the SQL query executed to delete the row. The resul
 
 \pythonfile[firstline=25,lastline=34]{./Implementation/support_widget.py}
 
-The code above shows the python code I used to allow for an email to be sent to me with details about bugs in my program. First of all I set the MIMEText of the email to include the message that the user set, followed by their email address. I then set a preset subject of the email as 'Skateboard Progress Tracker Support' and then send the email from a specially make google email account, to my personal email. I then use Googles' SMTP protocols to automatically send the email from my google mail account to my personal email.
+The code above shows the python code I used to allow for an email to be sent to me with details about bugs in my program. First of all I set the MIMEText of the email to include the message that the user set, followed by their email address. I then set a preset subject of the email as 'Skateboard Progress Tracker Support' and then send the email from a specially make google email account, to my personal email. I then use Googles' SMTP protocols to automatically send the email from my google mail account to my personal email. The full code for this module can be found in subsection 4.10.18
 
 
 \subsection{Self-created Algorithms}
