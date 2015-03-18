@@ -108,7 +108,7 @@
 \contentsline {subsection}{\numberline {4.2.6}Skateparks Tab User Interface}{182}{subsection.4.2.6}
 \contentsline {subsection}{\numberline {4.2.7}Editing Skatepark Table Information}{182}{subsection.4.2.7}
 \contentsline {subsection}{\numberline {4.2.8}Reviews Tab User Interface}{182}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Editing Review Table Information}{182}{subsection.4.2.9}
+\contentsline {subsection}{\numberline {4.2.9}Editing Review Table Information}{183}{subsection.4.2.9}
 \contentsline {subsection}{\numberline {4.2.10}Support Tab User Interface}{183}{subsection.4.2.10}
 \contentsline {subsection}{\numberline {4.2.11}Reporting a Bug}{183}{subsection.4.2.11}
 \contentsline {section}{\numberline {4.3}Code Structure}{184}{section.4.3}
