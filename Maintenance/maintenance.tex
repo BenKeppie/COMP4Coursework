@@ -121,7 +121,7 @@ A series of QLineEdits must be filled in, in order to send a message about a bug
 
 
 
-
+\begin{landscape}
 
 \section{Code Structure}
 
@@ -189,7 +189,7 @@ My code for every main module can be found on every subsection of the Code Listi
 This piece of code shows the main module for my main window.This is an example of the IF statement which is run at the start of almost every module. This allows the module to be run individually which is extremely useful for implementation and testing purposes. It is also used to launch the application once the main window file is run.
 
 
-
+\end{landscape}
 
 
 
@@ -211,7 +211,7 @@ self.parent & Stores the parent of that specific class to allow access to the pa
 replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303 \\ \hline
 path & Contains the file path of a file. & Subsection 4.10.3, line numbers: 72, 74 and 79, Subsection 4.10.6, line numbers: 30,31 and 36. \\ \hline
 destination & Contains the destination of the file that is being  copied & Subsection 4.10.3, line numbers: 80,81 and 83, subsection 4.10.6, line numbers: 37, 38 and 42. \\ \hline
-self.FilePath  Contains the file path of a file. & Subsection 4.10.5, line numbers: 23 and 24.
+self.FilePath &  Contains the file path of a file. & Subsection 4.10.5, line numbers: 23 and 24. \\ \hline
 FirstName & A variable to temporarily hold the first name of the user & Subsection 4.10.7, line numbers:17,19,22. \\ \hline
 LastName & A variable to temporarily hold the last name of the user & Subsection 4.10.7, line numbers: 18,19,22. \\ \hline
 Email & A variable to temporarily hold the email address of the user & Subsection 4.10.7, line numbers: 32,36. \\ \hline
@@ -241,14 +241,11 @@ Description & Converts the Skateparks description into a string to be put into a
 
 self.html & Holds all of the HTML/Javascript for my google maps object & Subsection 4.10.12, line number: 100. \\ \hline
 
-var map & A Javascript variable that contains the Google maps object. & Subsection 4.10.12, line numbers: 117,
-var results
-var coords
-var centre
-var Skatepark
-var lat
-var lng
-
+var map & A Javascript variable that contains the Google maps object. & Subsection 4.10.12, line numbers: 117, 133, 135, 158 and 176. \\ \hline
+var centre & Sets the centre for the Google maps object & Subsection 4.10.2, line numbers: 127 and 131. \\ \hline
+var Skatepark & Gets passed in the coordinates for a skatepark from the database & Subsection 4.10.12, line numbers: 144 and 146. \\ \hline
+var lat & Converts a number to a latitude used to plot a marker on the Google maps object. & Subsection 4.10.12, line numbers: 162 and 164. \\ \hline
+var lng & Converts a number to a longitude used to plot a marker on the Google maps object & Subsection 4.10.12, line numbers: 163 and 164. \\ \hline
 var markers & A Javascript list for holding the markers coordinates & Subsection 4.10.12, line numbers: 118, 164, 187, 188, 195. \\ \hline
 var ContentString & A Javascript variable for holding the text description for each marker & Subsection 4.10.12, line number 166. \\ \hline
 Send & A variable to compile the SMTP protocol for sending an email & Subsection 4.10.18, line numbers: 32, 33, 34.  \\ \hline
@@ -563,7 +560,7 @@ My GUI is incomplete for my program as the review tabs functionality is not pres
 
 
 
-
+\begin{landscape}
 \section{Code Explanations}
 
 \subsection{Difficult Sections}
@@ -577,7 +574,7 @@ As I was having issues with the javascript functioning correctly within the pyth
 \subsubsection{Google Maps Javascript}
 \pythonfile[firstline=100,lastline=206]{./Implementation/skatepark_view_only.py}
 
-For my program, I used multiple programming languages. For example: Python, Javascript, HTML and SQL. In my program I created an interactive google maps object in Javascript. I had to activate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg) to send requests to the Google maps server. My code above shows the HTML, Javascript hybrid I used to create the interactive google maps object. This code contains all of the functions involved in the processes that my map object can carry out. For example: adding markers, hiding markers and adding an info window to a marker. The full code for this module can be found in subsection 4.10.12
+For my program, I used multiple programming languages. For example: Python, Javascript, HTML and SQL. In my program I created an interactive google maps object in Javascript. I had to activate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg) to send requests to the Google maps server. My code above shows the HTML, Javascript hybrid I used to create the interactive google maps object. This code contains all of the functions involved in the processes that my map object can carry out. For example: adding markers, hiding markers and adding an info window to a marker. The setHtml line of code at the bottom of the code snipper above (line number 107) is used to set the HTML code to my custom web page that I created. The web page is then set to a layout in the skateparks tab. The specific algorithms in the HTML code are discussed in the 'Self-Created Algorithms' (Subsection 4.7.2). The full code for this module can be found in subsection 4.10.12.
 
 
 
@@ -624,10 +621,32 @@ The code above shows the python code I used to allow for an email to be sent to 
 
 \subsection{Self-created Algorithms}
 
-My program doesn't contain any complex, self-created algorithms.
+\subsubsection{Adding Map Markers From a Database}
+
+\pythonfile[firstline=75,lastline=88]{./Implementation/skatepark_view_only.py}
+
+The code above shows the first step in adding a marker to the Google maps object. This involves an SQL statement which selects all of the skatepark information which is stored inside the Skateparks table of the database. Once this is done the Name of the skatepark is stored inside the variable 'Name' and the description of the skatepark is stored in the variable description after being converted to a string. Once this is done the web pages main frame is accessed to enable me to run a javascript function inside the HTML of the web page. This function is called 'MarkersFromDatabase' and the latitude, longitude, name and description of the skatepark are passed into it.
+
+
+\pythonfile[firstline=142,lastline=146]{./Implementation/skatepark_view_only.py}
+
+The above code shows the javascript function that is run. I create a javascript variable that contains a new google maps latitude longitude object. This function then passes this object, the description and name into the javacript function 'AddMarker'
 
 
 
+\pythonfile[firstline=151,lastline=180]{./Implementation/skatepark_view_only.py}
+
+The above code shows the 'AddMarker' function. First of all a marker object is created which gets placed at the location of the the latitude longitude object that was passed in. I then created a content string to contain the information about the skatepark (name and description) and assign an info window to the marker containing the content string. Next I added a listener that opens the info window whenever the mouse is over the marker. This means that the name and the description of the skatepark that you have your mouse over will be visible.  The full code for this module can be found in subsection 4.10.12.
+
+\subsubsection{Get Marker Information From Javacript Into Python}
+
+\pythonfile[firstline=186,lastline=191]{./Implementation/skatepark_view_only.py}
+
+The above code shows the process of getting the coordinates of all markers back into a python readable format. The javascript loop allows the function to return multiple coordinates and then these coordinates can be manipulated for use in python. For example, getting the longitude and latitude of a specific marker to display in a read-only QLineEdit. The full code for this module can be found in subsection 4.10.12.
+
+
+
+\end{landscape}
 
 
 

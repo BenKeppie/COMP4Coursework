@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.20)  17 MAR 2015 18:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.18)  18 MAR 2015 13:05
 entering extended mode
-**C:/Users/Ben/git/Comp4Coursework/coursework.tex
-(C:/Users/Ben/git/Comp4Coursework/coursework.tex
+**U:/git/Comp4Coursework/coursework.tex
+(U:/git/Comp4Coursework/coursework.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -32,7 +32,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 \@input{settings.aux}
-(C:\Users\Ben\git\Comp4Coursework\settings.tex
+(U:\git\Comp4Coursework\settings.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
@@ -250,7 +250,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
@@ -268,18 +268,18 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count93
 \lst@maxwidth=\dimen106
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\fancybox\fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -323,7 +323,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
 Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
@@ -339,7 +339,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count99
 \calc@Cskip=\skip45
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
@@ -492,7 +492,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count116
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -529,10 +529,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\marvosym\marvosym.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip51
 \enit@outerparindent=\dimen132
@@ -548,13 +548,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box34
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode
+.sty
 Package: algpseudocode 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.
+sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -570,13 +571,12 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip54
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+) (C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks30
 \c@algorithm=\count132
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+) (C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
 \CommentStream=\write4
 
 Excluding comment 'comment')
@@ -606,7 +606,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip59
 \f@ncyO@elh=\skip60
 \f@ncyO@erh=\skip61
@@ -617,7 +617,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \f@ncyO@olf=\skip66
 \f@ncyO@orf=\skip67
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -634,8 +634,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-(C:\Users\Ben\git\Comp4Coursework\coursework.aux
-(C:\Users\Ben\git\Comp4Coursework\Analysis\analysis.aux
+(U:\git\Comp4Coursework\coursework.aux
+(U:\git\Comp4Coursework\Analysis\analysis.aux
 
 LaTeX Warning: Label `tab:Proposed System Data Source and Destinations' multipl
 y defined.
@@ -643,7 +643,7 @@ y defined.
 
 LaTeX Warning: Label `tab:Review Class Definition' multiply defined.
 
-) (C:\Users\Ben\git\Comp4Coursework\Design\design.aux
+) (U:\git\Comp4Coursework\Design\design.aux
 
 LaTeX Warning: Label `fig:Profile Flowchart' multiply defined.
 
@@ -680,13 +680,13 @@ LaTeX Warning: Label `fig:Entity Diagram' multiply defined.
 
 LaTeX Warning: Label `tab:3NF User Database' multiply defined.
 
-) (C:\Users\Ben\git\Comp4Coursework\Testing\testing.aux)
-(C:\Users\Ben\git\Comp4Coursework\Maintenance\maintenance.aux)
-(C:\Users\Ben\git\Comp4Coursework\Manual\manual.aux
+) (U:\git\Comp4Coursework\Testing\testing.aux)
+(U:\git\Comp4Coursework\Maintenance\maintenance.aux)
+(U:\git\Comp4Coursework\Manual\manual.aux
 
 LaTeX Warning: Label `fig:Change Name' multiply defined.
 
-) (C:\Users\Ben\git\Comp4Coursework\Evaluation\evaluation.aux))
+) (U:\git\Comp4Coursework\Evaluation\evaluation.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -703,7 +703,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 \c@lstlisting=\count138
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
 \scratchdimen=\dimen134
@@ -731,30 +731,29 @@ LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
 
-(C:\Users\Ben\git\Comp4Coursework\coursework.out)
-(C:\Users\Ben\git\Comp4Coursework\coursework.out)
+(U:\git\Comp4Coursework\coursework.out) (U:\git\Comp4Coursework\coursework.out)
 \@outlinefile=\write5
- [1
+[1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (C:\Users\Ben\git\Comp4Co
-ursework\coursework.tocpdfTeX warning (ext4): destination with the same identif
-ier (name{page.1}) has been already used, duplicate ignored
+{C:/Users/31291/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(U:\git\Comp4Coursework\coursework.tocpdfTeX warning (ext4): destination with t
+he same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.44 ...ter}{\numberline {2}Design}{40}{chapter.2}
                                                    [1
 
 ] [2] [3] [4]
-Overfull \hbox (0.13947pt too wide) in paragraph at lines 244--244
+Overfull \hbox (0.13947pt too wide) in paragraph at lines 246--246
  [][] [][]\OT1/cmr/m/n/10 Ensure that the pro-file pic-ture can be changed eas-
 ily *NEW*[] [][]  
  []
 
 [5])
 \tf@toc=\write6
- [6] (C:\Users\Ben\git\Comp4Coursework\Analysis\analysis.tex
+ [6] (U:\git\Comp4Coursework\Analysis\analysis.tex
 Chapter 1.
 [7
 
@@ -880,7 +879,7 @@ Package pdftex.def Info: ./Analysis/WritingTricks.pdf used on input line 272.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.275 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/YouTubeVideoSearch.pdf>]
+       <U:/git/Comp4Coursework/Analysis/YouTubeVideoSearch.pdf>]
 <./Analysis/SearchingForSkatepark.pdf, id=1160, 597.23125pt x 483.8075pt>
 File: ./Analysis/SearchingForSkatepark.pdf Graphic file (type pdf)
 
@@ -894,7 +893,7 @@ e 277.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.280 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/WritingTricks.pdf>]
+       <U:/git/Comp4Coursework/Analysis/WritingTricks.pdf>]
 <./Analysis/SearchingForReviews.pdf, id=1175, 597.23125pt x 284.06125pt>
 File: ./Analysis/SearchingForReviews.pdf Graphic file (type pdf)
 
@@ -914,12 +913,12 @@ l.289
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.289 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/SearchingForSkatepark.pdf> <C
-:/Users/Ben/git/Comp4Coursework/Analysis/SearchingForReviews.pdf
+       <U:/git/Comp4Coursework/Analysis/SearchingForSkatepark.pdf> <U:/git/Comp
+4Coursework/Analysis/SearchingForReviews.pdf
 
-pdfTeX warning: pdflatex.EXE (file C:/Users/Ben/git/Comp4Coursework/Analysis/Se
-archingForReviews.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
+pdfTeX warning: pdflatex.EXE (file U:/git/Comp4Coursework/Analysis/SearchingFor
+Reviews.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
 >] <./Analysis/Notepad.pdf, id=1199, 596.2275pt x 843.15pt>
 File: ./Analysis/Notepad.pdf Graphic file (type pdf)
 
@@ -932,7 +931,7 @@ re.1.5}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.296 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/Notepad.pdf>]
+       <U:/git/Comp4Coursework/Analysis/Notepad.pdf>]
 Overfull \hbox (12.13702pt too wide) in paragraph at lines 298--299
 []\OT1/cmr/m/n/10 How To Ol-lie Tu-to-rial - []$\OT1/cmtt/m/n/10 https : / / ww
 w . youtube . com / watch ? v = FuyYBWuV7VU &$
@@ -1050,7 +1049,7 @@ ne 369.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.372 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/NewReviewSearch.pdf>]
+       <U:/git/Comp4Coursework/Analysis/NewReviewSearch.pdf>]
 <./Analysis/ReadingTricksFromDatabase.pdf, id=1262, 597.23125pt x 426.59375pt>
 File: ./Analysis/ReadingTricksFromDatabase.pdf Graphic file (type pdf)
 
@@ -1064,7 +1063,7 @@ Package pdftex.def Info: ./Analysis/ReadingTricksFromDatabase.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.379 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/AddingTricksToDatabase.pdf>]
+       <U:/git/Comp4Coursework/Analysis/AddingTricksToDatabase.pdf>]
 <./Analysis/NewTutorialSearch.pdf, id=1277, 597.23125pt x 483.8075pt>
 File: ./Analysis/NewTutorialSearch.pdf Graphic file (type pdf)
 
@@ -1078,8 +1077,8 @@ Package pdftex.def Info: ./Analysis/NewTutorialSearch.pdf used on input line 38
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.386 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/ReadingTricksFromDatabase.pdf
->] <./Analysis/SkateparkSearch.pdf, id=1292, 597.23125pt x 711.65875pt>
+       <U:/git/Comp4Coursework/Analysis/ReadingTricksFromDatabase.pdf>]
+<./Analysis/SkateparkSearch.pdf, id=1292, 597.23125pt x 711.65875pt>
 File: ./Analysis/SkateparkSearch.pdf Graphic file (type pdf)
 
 <use ./Analysis/SkateparkSearch.pdf>
@@ -1092,15 +1091,14 @@ Package pdftex.def Info: ./Analysis/SkateparkSearch.pdf used on input line 390.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.393 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/NewTutorialSearch.pdf>]
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-0}) has been already used, duplicate ignored
+       <U:/git/Comp4Coursework/Analysis/NewTutorialSearch.pdf>] [25pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.1.10}) has been al
+ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.403 \begin{landscape}
-                        <C:/Users/Ben/git/Comp4Coursework/Analysis/SkateparkSea
-rch.pdf>]
+                        <U:/git/Comp4Coursework/Analysis/SkateparkSearch.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []\OT1/cmr/m/n/10 Board is turned
  []
@@ -1227,7 +1225,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--549
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.549 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/EntityRelationships.pdf>]
+       <U:/git/Comp4Coursework/Analysis/EntityRelationships.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
@@ -1261,8 +1259,7 @@ re.1.12}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.610 \end{center}
-                   <C:/Users/Ben/git/Comp4Coursework/Analysis/RelationshipDiagr
-am.pdf>]
+                   <U:/git/Comp4Coursework/Analysis/RelationshipDiagram.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 622--626
 []\OT1/cmr/m/n/10 get[]skatepark[]id
  []
@@ -1290,8 +1287,7 @@ re.1.13}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.708 
-       <C:/Users/Ben/git/Comp4Coursework/Analysis/SkateparkMapping.pdf>]
-[36]
+       <U:/git/Comp4Coursework/Analysis/SkateparkMapping.pdf>] [36]
 Underfull \hbox (badness 10000) in paragraph at lines 753--754
 []\OT1/cmr/m/n/10 Can ac-cess any-where
  []
@@ -1325,7 +1321,7 @@ Overfull \hbox (117.79134pt too wide) in alignment at lines 746--837
 Underfull \vbox (badness 10000) detected at line 837
  []
 
-[37] [38]) [39] (C:\Users\Ben\git\Comp4Coursework\Design\design.tex
+[37] [38]) [39] (U:\git\Comp4Coursework\Design\design.tex
 Chapter 2.
 [40
 
@@ -1351,7 +1347,7 @@ Package pdftex.def Info: ./Design/StartFlowchart.pdf used on input line 181.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.184 
-       <C:/Users/Ben/git/Comp4Coursework/Design/FlowchartKey.pdf>]
+       <U:/git/Comp4Coursework/Design/FlowchartKey.pdf>]
 <./Design/ProfileFlowchart.pdf, id=1461, 597.23125pt x 767.86874pt>
 File: ./Design/ProfileFlowchart.pdf Graphic file (type pdf)
 
@@ -1364,7 +1360,7 @@ Package pdftex.def Info: ./Design/ProfileFlowchart.pdf used on input line 188.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.191 
-       <C:/Users/Ben/git/Comp4Coursework/Design/StartFlowchart.pdf>]
+       <U:/git/Comp4Coursework/Design/StartFlowchart.pdf>]
 <./Design/TrickFlowchart.pdf, id=1476, 597.23125pt x 767.86874pt>
 File: ./Design/TrickFlowchart.pdf Graphic file (type pdf)
 
@@ -1377,7 +1373,7 @@ Package pdftex.def Info: ./Design/TrickFlowchart.pdf used on input line 196.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.199 
-       <C:/Users/Ben/git/Comp4Coursework/Design/ProfileFlowchart.pdf>]
+       <U:/git/Comp4Coursework/Design/ProfileFlowchart.pdf>]
 <./Design/SkateparkFlowchart.pdf, id=1492, 597.23125pt x 767.86874pt>
 File: ./Design/SkateparkFlowchart.pdf Graphic file (type pdf)
 
@@ -1391,7 +1387,7 @@ Package pdftex.def Info: ./Design/SkateparkFlowchart.pdf used on input line 204
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.207 
-       <C:/Users/Ben/git/Comp4Coursework/Design/TrickFlowchart.pdf>]
+       <U:/git/Comp4Coursework/Design/TrickFlowchart.pdf>]
 <./Design/SkateparkFlowchart2.pdf, id=1507, 597.23125pt x 767.86874pt>
 File: ./Design/SkateparkFlowchart2.pdf Graphic file (type pdf)
 
@@ -1405,7 +1401,7 @@ Package pdftex.def Info: ./Design/SkateparkFlowchart2.pdf used on input line 21
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.215 
-       <C:/Users/Ben/git/Comp4Coursework/Design/SkateparkFlowchart.pdf>]
+       <U:/git/Comp4Coursework/Design/SkateparkFlowchart.pdf>]
 <./Design/ReviewFlowchart.pdf, id=1522, 597.23125pt x 767.86874pt>
 File: ./Design/ReviewFlowchart.pdf Graphic file (type pdf)
 
@@ -1418,7 +1414,7 @@ Package pdftex.def Info: ./Design/ReviewFlowchart.pdf used on input line 220.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.223 
-       <C:/Users/Ben/git/Comp4Coursework/Design/SkateparkFlowchart2.pdf>]
+       <U:/git/Comp4Coursework/Design/SkateparkFlowchart2.pdf>]
 <./Design/ReviewFlowchart2.pdf, id=1537, 597.23125pt x 767.86874pt>
 File: ./Design/ReviewFlowchart2.pdf Graphic file (type pdf)
 
@@ -1431,7 +1427,7 @@ Package pdftex.def Info: ./Design/ReviewFlowchart2.pdf used on input line 228.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.231 
-       <C:/Users/Ben/git/Comp4Coursework/Design/ReviewFlowchart.pdf>]
+       <U:/git/Comp4Coursework/Design/ReviewFlowchart.pdf>]
 <./Design/WizardUI.pdf, id=1552, 597.23125pt x 668.4975pt>
 File: ./Design/WizardUI.pdf Graphic file (type pdf)
 
@@ -1444,8 +1440,8 @@ Package pdftex.def Info: ./Design/WizardUI.pdf used on input line 240.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.242 \end{figure}
-                   <C:/Users/Ben/git/Comp4Coursework/Design/ReviewFlowchart2.pd
-f>] <./Design/ProfileUI.pdf, id=1567, 674.52pt x 711.65875pt>
+                   <U:/git/Comp4Coursework/Design/ReviewFlowchart2.pdf>]
+<./Design/ProfileUI.pdf, id=1567, 674.52pt x 711.65875pt>
 File: ./Design/ProfileUI.pdf Graphic file (type pdf)
 
 <use ./Design/ProfileUI.pdf>
@@ -1457,7 +1453,7 @@ Package pdftex.def Info: ./Design/ProfileUI.pdf used on input line 245.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.248 
-       <C:/Users/Ben/git/Comp4Coursework/Design/WizardUI.pdf>]
+       <U:/git/Comp4Coursework/Design/WizardUI.pdf>]
 <./Design/TrickUI.pdf, id=1586, 674.52pt x 711.65875pt>
 File: ./Design/TrickUI.pdf Graphic file (type pdf)
 
@@ -1470,7 +1466,7 @@ Package pdftex.def Info: ./Design/TrickUI.pdf used on input line 254.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.257 
-       <C:/Users/Ben/git/Comp4Coursework/Design/ProfileUI.pdf>]
+       <U:/git/Comp4Coursework/Design/ProfileUI.pdf>]
 <./Design/SkateparkUI.pdf, id=1605, 674.52pt x 711.65875pt>
 File: ./Design/SkateparkUI.pdf Graphic file (type pdf)
 
@@ -1483,7 +1479,7 @@ Package pdftex.def Info: ./Design/SkateparkUI.pdf used on input line 262.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.265 
-       <C:/Users/Ben/git/Comp4Coursework/Design/TrickUI.pdf>]
+       <U:/git/Comp4Coursework/Design/TrickUI.pdf>]
 <./Design/ReviewsUI.pdf, id=1623, 674.52pt x 711.65875pt>
 File: ./Design/ReviewsUI.pdf Graphic file (type pdf)
 
@@ -1496,7 +1492,7 @@ Package pdftex.def Info: ./Design/ReviewsUI.pdf used on input line 269.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.272 
-       <C:/Users/Ben/git/Comp4Coursework/Design/SkateparkUI.pdf>]
+       <U:/git/Comp4Coursework/Design/SkateparkUI.pdf>]
 <./Design/ReviewsUI2.pdf, id=1648, 674.52pt x 711.65875pt>
 File: ./Design/ReviewsUI2.pdf Graphic file (type pdf)
 
@@ -1509,7 +1505,7 @@ Package pdftex.def Info: ./Design/ReviewsUI2.pdf used on input line 277.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.280 
-       <C:/Users/Ben/git/Comp4Coursework/Design/ReviewsUI.pdf>]
+       <U:/git/Comp4Coursework/Design/ReviewsUI.pdf>]
 <./Design/SupportUI.pdf, id=1671, 674.52pt x 711.65875pt>
 File: ./Design/SupportUI.pdf Graphic file (type pdf)
 
@@ -1522,14 +1518,14 @@ Package pdftex.def Info: ./Design/SupportUI.pdf used on input line 284.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.287 
-       <C:/Users/Ben/git/Comp4Coursework/Design/ReviewsUI2.pdf>] [60pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.2.15}) has been a
-lready used, duplicate ignored
+       <U:/git/Comp4Coursework/Design/ReviewsUI2.pdf>] [60pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.2.15}) has been already use
+d, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.293 
-       <C:/Users/Ben/git/Comp4Coursework/Design/SupportUI.pdf>]
+       <U:/git/Comp4Coursework/Design/SupportUI.pdf>]
 <./design/HDiagrams/Profile.pdf, id=1701, 811.03pt x 597.23125pt>
 File: ./design/HDiagrams/Profile.pdf Graphic file (type pdf)
 
@@ -1550,7 +1546,7 @@ Package pdftex.def Info: ./design/HDiagrams/Tricks.pdf used on input line 304.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.307 
-       <C:/Users/Ben/git/Comp4Coursework/design/HDiagrams/Profile.pdf>]
+       <U:/git/Comp4Coursework/design/HDiagrams/Profile.pdf>]
 <./design/HDiagrams/Skateparks.pdf, id=1718, 767.86874pt x 483.8075pt>
 File: ./design/HDiagrams/Skateparks.pdf Graphic file (type pdf)
 
@@ -1578,12 +1574,12 @@ l.317
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.317 
-       <C:/Users/Ben/git/Comp4Coursework/design/HDiagrams/Tricks.pdf> <C:/Users
-/Ben/git/Comp4Coursework/design/HDiagrams/Skateparks.pdf
+       <U:/git/Comp4Coursework/design/HDiagrams/Tricks.pdf> <U:/git/Comp4Course
+work/design/HDiagrams/Skateparks.pdf
 
-pdfTeX warning: pdflatex.EXE (file C:/Users/Ben/git/Comp4Coursework/design/HDia
-grams/Skateparks.pdf): PDF inclusion: multiple pdfs with page group included in
- a single page
+pdfTeX warning: pdflatex.EXE (file U:/git/Comp4Coursework/design/HDiagrams/Skat
+eparks.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
 >] <./design/HDiagrams/ReviewFilters.pdf, id=1743, 767.86874pt x 455.7025pt>
 File: ./design/HDiagrams/ReviewFilters.pdf Graphic file (type pdf)
 
@@ -1603,12 +1599,12 @@ l.338
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.338 
-       <C:/Users/Ben/git/Comp4Coursework/design/HDiagrams/Reviews.pdf> <C:/User
-s/Ben/git/Comp4Coursework/design/HDiagrams/ReviewFilters.pdf
+       <U:/git/Comp4Coursework/design/HDiagrams/Reviews.pdf> <U:/git/Comp4Cours
+ework/design/HDiagrams/ReviewFilters.pdf
 
-pdfTeX warning: pdflatex.EXE (file C:/Users/Ben/git/Comp4Coursework/design/HDia
-grams/ReviewFilters.pdf): PDF inclusion: multiple pdfs with page group included
- in a single page
+pdfTeX warning: pdflatex.EXE (file U:/git/Comp4Coursework/design/HDiagrams/Revi
+ewFilters.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
 >]
 Underfull \hbox (badness 10000) in paragraph at lines 345--347
 [] \OT1/cmr/m/n/10 End-Lo-ca-tion-Co-or-di-nates $\OMS/cmsy/m/n/10  $ \OT1/cmr/
@@ -1645,9 +1641,8 @@ Overfull \hbox (13.2587pt too wide) in paragraph at lines 419--420
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.424 \end{center}
-                   <C:/Users/Ben/git/Comp4Coursework/Design/RelationshipDiagram
-.pdf>] [66]
-<./Design/Prototype/GoogleMaps.JPG, id=1795, 938.75719pt x 517.935pt>
+                   <U:/git/Comp4Coursework/Design/RelationshipDiagram.pdf>]
+[66] <./Design/Prototype/GoogleMaps.JPG, id=1795, 938.75719pt x 517.935pt>
 File: ./Design/Prototype/GoogleMaps.JPG Graphic file (type jpg)
 
 <use ./Design/Prototype/GoogleMaps.JPG>
@@ -1655,7 +1650,7 @@ Package pdftex.def Info: ./Design/Prototype/GoogleMaps.JPG used on input line 5
 08.
 (pdftex.def)             Requested size: 345.0pt x 190.34474pt.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
@@ -1666,8 +1661,7 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.515 import 
-             sys <C:/Users/Ben/git/Comp4Coursework/Design/Prototype/GoogleMaps.
-JPG>]
+             sys <U:/git/Comp4Coursework/Design/Prototype/GoogleMaps.JPG>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 515.
 
@@ -1701,14 +1695,14 @@ Package pdftex.def Info: ./Design/Prototype/PinMarker.JPG used on input line 56
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\design\prototype\BlankTabInterface.py)
-[69pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-3}) has been already used, duplicate ignored
+(U:\git\Comp4Coursework\design\prototype\BlankTabInterface.py) [69pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.2.23}) has been alr
+eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.580 
-       <C:/Users/Ben/git/Comp4Coursework/Design/Prototype/PinMarker.JPG>]
+       <U:/git/Comp4Coursework/Design/Prototype/PinMarker.JPG>]
 <./Design/Prototype/TabbedInterface.JPG, id=1854, 371.13657pt x 233.37187pt>
 File: ./Design/Prototype/TabbedInterface.JPG Graphic file (type jpg)
 
@@ -1736,8 +1730,8 @@ Overfull \hbox (121.1991pt too wide) in paragraph at lines 593--594
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.626 \end{center}
-                   <C:/Users/Ben/git/Comp4Coursework/Design/Prototype/TabbedInt
-erface.JPG>]
+                   <U:/git/Comp4Coursework/Design/Prototype/TabbedInterface.JPG
+>]
 Overfull \hbox (5.36412pt too wide) in paragraph at lines 639--639
 []\OT1/cmr/m/n/10 TrickCompletedDate| 
  []
@@ -1942,7 +1936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 760--761
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.761 
-       <C:/Users/Ben/git/Comp4Coursework/Design/EntityRelationships2.pdf>]
+       <U:/git/Comp4Coursework/Design/EntityRelationships2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 762--763
 
  []
@@ -2064,7 +2058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 900--902
  []
 
 [82] [83] [84]
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
@@ -4794,7 +4788,7 @@ Overfull \hbox (15.4704pt too wide) in alignment at lines 1315--1333
  []
 
 [100] [101] [102] [103] [104] [105])
-(C:\Users\Ben\git\Comp4Coursework\Testing\testing.tex
+(U:\git\Comp4Coursework\Testing\testing.tex
 Chapter 3.
 [106
 
@@ -12735,7 +12729,7 @@ has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.648 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test100.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test100.pdf>]
 <./Testing/AnnotatedSamples/Test105.pdf, id=2401, 457.71pt x 560.0925pt>
 File: ./Testing/AnnotatedSamples/Test105.pdf Graphic file (type pdf)
 
@@ -12749,7 +12743,7 @@ ine 656.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.659 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test103.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test103.pdf>]
 <./Testing/AnnotatedSamples/Test107p1.pdf, id=2412, 541.02126pt x 845.1575pt>
 File: ./Testing/AnnotatedSamples/Test107p1.pdf Graphic file (type pdf)
 
@@ -12763,8 +12757,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test107p1.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.668 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test105.pdf>]
-
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test105.pdf>]
 Overfull \vbox (24.8961pt too high) has occurred while \output is active []
 
 
@@ -12774,8 +12767,8 @@ Overfull \vbox (24.8961pt too high) has occurred while \output is active []
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.668 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p1.pdf
->] <./Testing/AnnotatedSamples/Test107p2.pdf, id=2442, 541.02126pt x 538.01pt>
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p1.pdf>]
+<./Testing/AnnotatedSamples/Test107p2.pdf, id=2442, 541.02126pt x 538.01pt>
 File: ./Testing/AnnotatedSamples/Test107p2.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test107p2.pdf>
@@ -12796,8 +12789,8 @@ ine 679.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.682 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p2.pdf
->] <./Testing/AnnotatedSamples/Test200p1.pdf, id=2460, 497.86pt x 731.73375pt>
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test107p2.pdf>]
+<./Testing/AnnotatedSamples/Test200p1.pdf, id=2460, 497.86pt x 731.73375pt>
 File: ./Testing/AnnotatedSamples/Test200p1.pdf Graphic file (type pdf)
 
 <use ./Testing/AnnotatedSamples/Test200p1.pdf>
@@ -12810,8 +12803,8 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test200p1.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.690 \end{figure}
-                   <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/T
-est112.pdf>] [158]
+                   <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test112.pdf
+>] [158]
 <./Testing/AnnotatedSamples/Test200p2.pdf, id=2477, 497.86pt x 731.73375pt>
 File: ./Testing/AnnotatedSamples/Test200p2.pdf Graphic file (type pdf)
 
@@ -12825,15 +12818,14 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test200p2.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.696 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test200p1.pdf
->] [160pdfTeX warning (ext4): destination with the same identifier (name{figure
-.3.8}) has been already used, duplicate ignored
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test200p1.pdf>]
+[160pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.698 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test200p2.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test200p2.pdf>]
 <./Testing/AnnotatedSamples/Test203p1.pdf, id=2498, 597.23125pt x 711.65875pt>
 File: ./Testing/AnnotatedSamples/Test203p1.pdf Graphic file (type pdf)
 
@@ -12855,8 +12847,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test203p2.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.710 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p1.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p1.pdf>]
 <./Testing/AnnotatedSamples/Test206p1.pdf, id=2516, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p1.pdf Graphic file (type pdf)
 
@@ -12870,8 +12861,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p1.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.719 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p2.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test203p2.pdf>]
 <./Testing/AnnotatedSamples/Test206p2.pdf, id=2535, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p2.pdf Graphic file (type pdf)
 
@@ -12885,8 +12875,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p2.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.724 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p1.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p1.pdf>]
 <./Testing/AnnotatedSamples/Test206p3.pdf, id=2553, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test206p3.pdf Graphic file (type pdf)
 
@@ -12900,8 +12889,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test206p3.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.729 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p2.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p2.pdf>]
 <./Testing/AnnotatedSamples/Test208p1.pdf, id=2571, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test208p1.pdf Graphic file (type pdf)
 
@@ -12915,8 +12903,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test208p1.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.742 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p3.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test206p3.pdf>]
 <./Testing/AnnotatedSamples/Test208p2.pdf, id=2589, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test208p2.pdf Graphic file (type pdf)
 
@@ -12930,8 +12917,7 @@ Package pdftex.def Info: ./Testing/AnnotatedSamples/Test208p2.pdf used on input
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.747 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test208p1.pdf
->]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test208p1.pdf>]
 <./Testing/AnnotatedSamples/Test300.pdf, id=2605, 597.23125pt x 446.66875pt>
 File: ./Testing/AnnotatedSamples/Test300.pdf Graphic file (type pdf)
 
@@ -12945,8 +12931,8 @@ ine 761.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.763 \end{figure}
-                   <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/T
-est208p2.pdf>]
+                   <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test208p2.p
+df>]
 <./Testing/AnnotatedSamples/Test301.pdf, id=2621, 597.23125pt x 733.74126pt>
 File: ./Testing/AnnotatedSamples/Test301.pdf Graphic file (type pdf)
 
@@ -12960,7 +12946,7 @@ ine 774.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.777 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test300.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test300.pdf>]
 <./Testing/AnnotatedSamples/Test303.pdf, id=2634, 597.23125pt x 589.20125pt>
 File: ./Testing/AnnotatedSamples/Test303.pdf Graphic file (type pdf)
 
@@ -12974,7 +12960,7 @@ ine 786.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.789 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test301.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test301.pdf>]
 <./Testing/AnnotatedSamples/Test309.pdf, id=2646, 597.23125pt x 594.22pt>
 File: ./Testing/AnnotatedSamples/Test309.pdf Graphic file (type pdf)
 
@@ -12988,8 +12974,9 @@ ine 795.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.798 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test303.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test303.pdf>]
 File: ./Testing/AnnotatedSamples/Test309.pdf Graphic file (type pdf)
+
 <use ./Testing/AnnotatedSamples/Test309.pdf>
 Package pdftex.def Info: ./Testing/AnnotatedSamples/Test309.pdf used on input l
 ine 804.
@@ -13000,7 +12987,7 @@ ine 804.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.807 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test309.pdf>]
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test309.pdf>]
 <./Testing/AnnotatedSamples/Test405.pdf, id=2680, 597.23125pt x 446.66875pt>
 File: ./Testing/AnnotatedSamples/Test405.pdf Graphic file (type pdf)
 
@@ -13028,16 +13015,15 @@ ut line 821.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.824 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/Test405.pdf>]
-[174pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-22}) has been already used, duplicate ignored
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/Test405.pdf>] [174pdfTe
+X warning (ext4): destination with the same identifier (name{figure.3.22}) has 
+been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.832 
-       <C:/Users/Ben/git/Comp4Coursework/Testing/AnnotatedSamples/StuartEmail.j
-pg>] [175]) [176] [177]
-(C:\Users\Ben\git\Comp4Coursework\Maintenance\maintenance.tex
+       <U:/git/Comp4Coursework/Testing/AnnotatedSamples/StuartEmail.jpg>]
+[175]) [176] [177] (U:\git\Comp4Coursework\Maintenance\maintenance.tex
 Chapter 4.
 
 Underfull \hbox (badness 1436) in paragraph at lines 35--35
@@ -13068,991 +13054,907 @@ Overfull \hbox (6.20668pt too wide) in paragraph at lines 48--62
  [] 
  []
 
-[179] [180] [181] [182]
+[179] [180] [181] [182] [183]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\main_window.pyw [183]
-Overfull \hbox (58.19922pt too wide) in paragraph at lines 53--56
-[][][][][][][][][][][][][][][][][][]  
- []
+(U:\git\Comp4Coursework\Implementation\main_window.pyw [184
 
-
-Overfull \hbox (39.29926pt too wide) in paragraph at lines 70--71
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (14.0993pt too wide) in paragraph at lines 86--87
-[][][][][][][][][][][][][][]  
- []
-
-[184]
-Overfull \hbox (39.29926pt too wide) in paragraph at lines 99--100
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (7.79932pt too wide) in paragraph at lines 100--101
-[][][][][][][][][][][][][][][][]  
- []
-
-)
-Overfull \hbox (26.69928pt too wide) in paragraph at lines 101--135
-[][][][][][][][][][][][][][][][]  
- []
-
+] [185]) [186]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\main_tab_widget.py) [185]
+(U:\git\Comp4Coursework\Implementation\main_tab_widget.py) [187]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_toolbar.py
-Overfull \hbox (77.09918pt too wide) in paragraph at lines 18--21
-[][][][][][][][][][][][][][][][][][]  
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(U:\git\Comp4Coursework\Implementation\menu_bar.py [188]) [189]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py)
-[186] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(U:\git\Comp4Coursework\Implementation\tricks_toolbar.py)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_widget.py
-Overfull \hbox (26.69928pt too wide) in paragraph at lines 130--131
-[][][][][][][][][][][][][][][][]  
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py [190])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\tricks_widget.py) [191]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\main_window.pyw) [192] [193]
+Underfull \hbox (badness 2790) in paragraph at lines 209--209
+\OT1/cmr/m/n/10 num-bers: 116, 117,
  []
 
 
-Overfull \hbox (14.0993pt too wide) in paragraph at lines 133--134
-[][][][][][][][][][][][][][][][]  
+Underfull \hbox (badness 1484) in paragraph at lines 210--210
+\OT1/cmr/m/n/10 4.10.3, line num-bers:
  []
 
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\main_window.pyw [187])
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 \OT1/cmr/m/n/10 num-bers: 78,79,80.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 \OT1/cmr/m/n/10 num-bers: 35,36,37.
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 205--205
+Underfull \hbox (badness 2035) in paragraph at lines 212--212
+\OT1/cmr/m/n/10 line num-bers: 30,31
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 213--213
+\OT1/cmr/m/n/10 num-bers: 80,81 and
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 217--217
 []|\OT1/cmr/m/n/10 A vari-able to tem-porar-ily hold the
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 210--210
+Underfull \hbox (badness 2790) in paragraph at lines 222--222
 \OT1/cmr/m/n/10 num-bers: 126, 128,
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 210--210
+Underfull \hbox (badness 2573) in paragraph at lines 222--222
 \OT1/cmr/m/n/10 139, 141, 150, 152.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 \OT1/cmr/m/n/10 Sub-sec-tion 4.10.11,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Overfull \hbox (103.56494pt too wide) in alignment at lines 204--224
+ [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 224
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/cmr/m/n/10 Subsection 4.10.11,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []|\OT1/cmr/m/n/10 Subsection 4.10.11,
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 217--217
+Underfull \hbox (badness 2726) in paragraph at lines 232--232
 []|\OT1/cmr/m/n/10 Matches the Text of a QLi-neEdit
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 217--217
+Underfull \hbox (badness 2790) in paragraph at lines 232--232
 \OT1/cmr/m/n/10 num-bers: 128, 141,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\OT1/cmr/m/n/10 Subsection 4.10.10,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/cmr/m/n/10 Sub-sec-tion 4.10.12,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/cmr/m/n/10 line num-bers: 78.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/cmr/m/n/10 Sub-sec-tion 4.10.14,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []|\OT1/cmr/m/n/10 Subsection 4.10.12,
  []
 
 
-Overfull \hbox (103.56494pt too wide) in alignment at lines 199--219
- [] [] [] 
+Underfull \hbox (badness 3039) in paragraph at lines 237--237
+[]|\OT1/cmr/m/n/10 Contains the co-or-di-nates from the
  []
 
 
-Underfull \vbox (badness 10000) detected at line 219
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 []|\OT1/cmr/m/n/10 Subsection 4.10.12,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []|\OT1/cmr/m/n/10 Subsection 4.10.12,
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 221--221
+Underfull \hbox (badness 1742) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/10 Converts the Skateparks de-scrip-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 244--244
+\OT1/cmr/m/n/10 line num-bers: 117,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]|\OT1/cmr/m/n/10 Subsection 4.10.12,
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 249--249
 \OT1/cmr/m/n/10 line num-bers: 118,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\OT1/cmr/m/n/10 Subsection 4.10.12,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/cmr/m/n/10 Subsection 4.10.18,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Overfull \hbox (103.56494pt too wide) in alignment at lines 224--251
+ [] [] [] 
+ []
+
+[194
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|\OT1/cmr/m/n/10 Subsection 4.10.18,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\OT1/cmr/m/n/10 Subsection 4.10.22,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]|\OT1/cmr/m/n/10 Subsection 4.11.22,
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]|\OT1/cmr/m/n/10 Subsection 4.10.22,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/cmr/m/n/10 Subsection 4.11.19,
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+[]|\OT1/cmr/m/n/10 Subsection 4.10.19,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
-[]|\OT1/cmr/m/n/10 Subsection 4.11.21,
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[]|\OT1/cmr/m/n/10 Subsection 4.10.21,
  []
 
 
-Overfull \hbox (103.56494pt too wide) in alignment at lines 219--232
+Overfull \hbox (103.56494pt too wide) in alignment at lines 251--260
  [] [] [] 
  []
 
-[188] [189]
-<./Maintenance/Figures/ChangePicture.pdf, id=2915, 483.8075pt x 728.7225pt>
+[195] [196]
+<./Maintenance/Figures/ChangePicture.pdf, id=2992, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/ChangePicture.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/ChangePicture.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/ChangePicture.pdf used on input 
-line 248.
+line 276.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [190] [191]
+ [197] [198]
 Overfull \vbox (89.37321pt too high) has occurred while \output is active []
 
 
-[192pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[199pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ChangePicture.pdf>
-] <./Maintenance/Figures/TricksTab.pdf, id=2937, 483.8075pt x 728.7225pt>
+l.279 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ChangePicture.pdf>]
+<./Maintenance/Figures/TricksTab.pdf, id=3014, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/TricksTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/TricksTab.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/TricksTab.pdf used on input line
- 258.
+ 286.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [193]
+ [200]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[194pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[201pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.261 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/TricksTab.pdf>]
-<./Maintenance/Figures/AddTrick.pdf, id=2955, 483.8075pt x 728.7225pt>
+l.289 
+       <U:/git/Comp4Coursework/Maintenance/Figures/TricksTab.pdf>]
+<./Maintenance/Figures/AddTrick.pdf, id=3032, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddTrick.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddTrick.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/AddTrick.pdf used on input line 
-267.
+295.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [195]
+ [202]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[196pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[203pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/AddTrick.pdf>]
-<./Maintenance/Figures/SkateparkTab.pdf, id=2974, 483.8075pt x 728.7225pt>
+l.298 
+       <U:/git/Comp4Coursework/Maintenance/Figures/AddTrick.pdf>]
+<./Maintenance/Figures/SkateparkTab.pdf, id=3051, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/SkateparkTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/SkateparkTab.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/SkateparkTab.pdf used on input l
-ine 276.
+ine 304.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [197]
+ [204]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[198pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[205pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/SkateparkTab.pdf>]
-<./Maintenance/Figures/AddSkatepark.pdf, id=2992, 483.8075pt x 728.7225pt>
+l.307 
+       <U:/git/Comp4Coursework/Maintenance/Figures/SkateparkTab.pdf>]
+<./Maintenance/Figures/AddSkatepark.pdf, id=3069, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddSkatepark.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddSkatepark.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/AddSkatepark.pdf used on input l
-ine 285.
+ine 313.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [199]
+ [206]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[200pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[207pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.288 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/AddSkatepark.pdf>]
-<./Maintenance/Figures/ReviewTab.pdf, id=3009, 483.8075pt x 728.7225pt>
+l.316 
+       <U:/git/Comp4Coursework/Maintenance/Figures/AddSkatepark.pdf>]
+<./Maintenance/Figures/ReviewTab.pdf, id=3086, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/ReviewTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/ReviewTab.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/ReviewTab.pdf used on input line
- 295.
+ 323.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [201]
+ [208]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[202pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[209pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.298 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ReviewTab.pdf>]
-<./Maintenance/Figures/AddReview.pdf, id=3026, 483.8075pt x 728.7225pt>
+l.326 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ReviewTab.pdf>]
+<./Maintenance/Figures/AddReview.pdf, id=3103, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/AddReview.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/AddReview.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/AddReview.pdf used on input line
- 304.
+ 332.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [203]
+ [210]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[204pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[211pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/AddReview.pdf>]
-<./Maintenance/Figures/SupportTab.pdf, id=3044, 483.8075pt x 728.7225pt>
+l.335 
+       <U:/git/Comp4Coursework/Maintenance/Figures/AddReview.pdf>]
+<./Maintenance/Figures/SupportTab.pdf, id=3121, 483.8075pt x 728.7225pt>
 File: ./Maintenance/Figures/SupportTab.pdf Graphic file (type pdf)
 
 <use ./Maintenance/Figures/SupportTab.pdf>
 Package pdftex.def Info: ./Maintenance/Figures/SupportTab.pdf used on input lin
-e 312.
+e 340.
 (pdftex.def)             Requested size: 345.0pt x 519.66495pt.
- [205]
+ [212]
 Overfull \vbox (35.01215pt too high) has occurred while \output is active []
 
 
-[206pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+[213pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.315 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/SupportTab.pdf>]
+l.343 
+       <U:/git/Comp4Coursework/Maintenance/Figures/SupportTab.pdf>]
 File: ./Design/EntityRelationships2.pdf Graphic file (type pdf)
 
 <use ./Design/EntityRelationships2.pdf>
 Package pdftex.def Info: ./Design/EntityRelationships2.pdf used on input line 3
-33.
+61.
 (pdftex.def)             Requested size: 345.0pt x 369.93285pt.
- [207pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [214pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.347 \subsubsection
+l.375 \subsubsection
                     {User Table of my Database}]
-<./Maintenance/Figures/UserTable.jpg, id=3068, 435.12563pt x 262.73157pt>
+<./Maintenance/Figures/UserTable.jpg, id=3145, 435.12563pt x 262.73157pt>
 File: ./Maintenance/Figures/UserTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/UserTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/UserTable.jpg used on input line
- 349.
+ 377.
 (pdftex.def)             Requested size: 345.0pt x 208.32536pt.
 
-<./Maintenance/Figures/TrickTable.jpg, id=3069, 822.07124pt x 398.23781pt>
+<./Maintenance/Figures/TrickTable.jpg, id=3146, 822.07124pt x 398.23781pt>
 File: ./Maintenance/Figures/TrickTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/TrickTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/TrickTable.jpg used on input lin
-e 358.
+e 386.
 (pdftex.def)             Requested size: 345.0pt x 167.12505pt.
- [208pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [215pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.361 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/UserTable.jpg>]
-<./Maintenance/Figures/SkateparkTable.jpg, id=3076, 822.07124pt x 401.24907pt>
+l.389 
+       <U:/git/Comp4Coursework/Maintenance/Figures/UserTable.jpg>]
+<./Maintenance/Figures/SkateparkTable.jpg, id=3153, 822.07124pt x 401.24907pt>
 File: ./Maintenance/Figures/SkateparkTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/SkateparkTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/SkateparkTable.jpg used on input
- line 366.
+ line 394.
 (pdftex.def)             Requested size: 345.0pt x 168.38875pt.
- [209pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [216pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.373 \subsubsection
+l.401 \subsubsection
                     {Review Table of my Database}pdfTeX warning (ext4): destina
 tion with the same identifier (name{figure.4.12}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.373 \subsubsection
-                    {Review Table of my Database} <C:/Users/Ben/git/Comp4Course
-work/Maintenance/Figures/TrickTable.jpg> <C:/Users/Ben/git/Comp4Coursework/Main
-tenance/Figures/SkateparkTable.jpg>]
-<./Maintenance/Figures/ReviewTable.jpg, id=3085, 455.45157pt x 262.73157pt>
+l.401 \subsubsection
+                    {Review Table of my Database} <U:/git/Comp4Coursework/Maint
+enance/Figures/TrickTable.jpg> <U:/git/Comp4Coursework/Maintenance/Figures/Skat
+eparkTable.jpg>]
+<./Maintenance/Figures/ReviewTable.jpg, id=3163, 455.45157pt x 262.73157pt>
 File: ./Maintenance/Figures/ReviewTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/ReviewTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/ReviewTable.jpg used on input li
-ne 375.
+ne 403.
 (pdftex.def)             Requested size: 345.0pt x 199.02058pt.
 
-<./Maintenance/Figures/ProductBrandTable.jpg, id=3086, 419.31656pt x 340.27126p
+<./Maintenance/Figures/ProductBrandTable.jpg, id=3164, 419.31656pt x 340.27126p
 t>
 File: ./Maintenance/Figures/ProductBrandTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductBrandTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/ProductBrandTable.jpg used on in
-put line 384.
+put line 412.
 (pdftex.def)             Requested size: 345.0pt x 279.964pt.
- [210pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [217pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.387 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ReviewTable.jpg>]
-<./Maintenance/Figures/ProductSizeTable.jpg, id=3094, 420.82219pt x 350.05782pt
+l.415 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ReviewTable.jpg>]
+<./Maintenance/Figures/ProductSizeTable.jpg, id=3171, 420.82219pt x 350.05782pt
 >
 File: ./Maintenance/Figures/ProductSizeTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductSizeTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/ProductSizeTable.jpg used on inp
-ut line 393.
+ut line 421.
 (pdftex.def)             Requested size: 345.0pt x 286.9905pt.
- [211pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [218pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.396 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ProductBrandTable.
-jpg>]
-<./Maintenance/Figures/ProductTypeTable.jpg, id=3101, 419.31656pt x 341.77687pt
+l.424 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ProductBrandTable.jpg>]
+<./Maintenance/Figures/ProductTypeTable.jpg, id=3178, 419.31656pt x 341.77687pt
 >
 File: ./Maintenance/Figures/ProductTypeTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/ProductTypeTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/ProductTypeTable.jpg used on inp
-ut line 402.
+ut line 430.
 (pdftex.def)             Requested size: 345.0pt x 281.20277pt.
- [212pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [219pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.405 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ProductSizeTable.j
-pg>]
-<./Maintenance/Figures/UserTrickTable.jpg, id=3108, 422.32782pt x 263.48438pt>
+l.433 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ProductSizeTable.jpg>]
+<./Maintenance/Figures/UserTrickTable.jpg, id=3185, 422.32782pt x 263.48438pt>
 File: ./Maintenance/Figures/UserTrickTable.jpg Graphic file (type jpg)
 
 <use ./Maintenance/Figures/UserTrickTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/UserTrickTable.jpg used on input
- line 415.
+ line 443.
 (pdftex.def)             Requested size: 345.0pt x 215.24644pt.
- [213pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [220pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.418 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/ProductTypeTable.j
-pg>]
-<./Maintenance/Figures/UserSkateparkTable.jpg, id=3115, 421.575pt x 264.23718pt
+l.446 
+       <U:/git/Comp4Coursework/Maintenance/Figures/ProductTypeTable.jpg>]
+<./Maintenance/Figures/UserSkateparkTable.jpg, id=3192, 421.575pt x 264.23718pt
 >
 File: ./Maintenance/Figures/UserSkateparkTable.jpg Graphic file (type jpg)
  <use ./Maintenance/Figures/UserSkateparkTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/UserSkateparkTable.jpg used on i
-nput line 422.
+nput line 450.
 (pdftex.def)             Requested size: 345.0pt x 216.24446pt.
- [214pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [221pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.425 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/UserTrickTable.jpg
->]
-<./Maintenance/Figures/UserReviewTable.jpg, id=3122, 419.31656pt x 262.73157pt>
+l.453 
+       <U:/git/Comp4Coursework/Maintenance/Figures/UserTrickTable.jpg>]
+<./Maintenance/Figures/UserReviewTable.jpg, id=3199, 419.31656pt x 262.73157pt>
 File: ./Maintenance/Figures/UserReviewTable.jpg Graphic file (type jpg)
 <use ./Maintenance/Figures/UserReviewTable.jpg>
 Package pdftex.def Info: ./Maintenance/Figures/UserReviewTable.jpg used on inpu
-t line 429.
+t line 457.
 (pdftex.def)             Requested size: 345.0pt x 216.16689pt.
- [215pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+ [222pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.432 
-       <C:/Users/Ben/git/Comp4Coursework/Maintenance/Figures/UserSkateparkTable
-.jpg>] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\database.py [216pdfTeX war
-ning (ext4): destination with the same identifier (name{figure.4.19}) has been 
-already used, duplicate ignored
+l.460 
+       <U:/git/Comp4Coursework/Maintenance/Figures/UserSkateparkTable.jpg>]
+[223pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42 def 
-         create_trick_table(): <C:/Users/Ben/git/Comp4Coursework/Maintenance/Fi
-gures/UserReviewTable.jpg>] [217] [218])
+l.461 \begin{landscape}
+                        <U:/git/Comp4Coursework/Maintenance/Figures/UserReviewT
+able.jpg>] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\database.py [224
+
+] [225] [226])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-Overfull \hbox (65.59924pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-[219]
-Overfull \hbox (65.59924pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 49--50
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 60--61
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [220] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 67--68
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 13--14
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py)
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py [227])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py
-[221]
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 41--42
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skateparks_sql_connections.py
-Overfull \hbox (166.39905pt too wide) in paragraph at lines 9--10
-[][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (95.99915pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 13--14
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\reviews_sql_connections.py
-[222]) [223] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skatepark_view_only.py
-Overfull \hbox (71.89923pt too wide) in paragraph at lines 14--15
-[][][][][][][][][][][][]  
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skatepark_view_only.py
-[224]
-Overfull \hbox (248.29889pt too wide) in paragraph at lines 114--115
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (65.59924pt too wide) in paragraph at lines 127--128
-[][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (141.1991pt too wide) in paragraph at lines 133--135
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (160.09906pt too wide) in paragraph at lines 142--144
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (15.19934pt too wide) in paragraph at lines 144--146
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-[225]
-Overfull \hbox (26.69928pt too wide) in paragraph at lines 164--166
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-[226])
-Overfull \hbox (125.73947pt too wide) in paragraph at lines 529--530
-\OT1/cmr/m/n/10 ob-ject in Javascript. I had to ac-ti-vate my own API key (AIza
-SyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg)
- []
-
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py) [228]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skatepark_view_only.py)
-Overfull \hbox (115.99915pt too wide) in paragraph at lines 55--534
-[][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-[227] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skatepark_view_only.py
-Overfull \hbox (115.99915pt too wide) in paragraph at lines 55--56
-[][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_widget.py)
-Overfull \hbox (140.09906pt too wide) in paragraph at lines 28--549
-[][][][][][][][][][][][][][][][]  
- []
-
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_widget.py
-Overfull \hbox (70.7992pt too wide) in paragraph at lines 60--61
-[][][][][][][][][][][][][][][][][]  
- []
-
-) [228] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_widget.py
-Overfull \hbox (64.4992pt too wide) in paragraph at lines 74--75
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (77.09918pt too wide) in paragraph at lines 77--78
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (64.4992pt too wide) in paragraph at lines 80--81
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (77.09918pt too wide) in paragraph at lines 81--82
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (32.99927pt too wide) in paragraph at lines 82--83
-[][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (95.99915pt too wide) in paragraph at lines 84--85
-[][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (95.99915pt too wide) in paragraph at lines 85--87
-[][][][][][][][][][][][][][][][][][][][]  
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py
-Overfull \hbox (40.39929pt too wide) in paragraph at lines 13--14
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[229]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\support_widget.py
-Overfull \hbox (1.49933pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.0993pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-)
-Overfull \hbox (59.99673pt too wide) in paragraph at lines 599--600
-$\OT1/cmtt/m/n/10 stackoverflow . com / questions / 3717115 / regular-[]express
-ion-[]for-[]youtube-[]links$[]
- []
-
-
-Overfull \hbox (21.3314pt too wide) in paragraph at lines 599--600
-\OT1/cmr/m/n/10 by Stack Over-flow user []$\OT1/cmtt/m/n/10 http : / / stackove
-rflow . com / users / 3652125 / fanmade$[] 
- []
-
-[230]
-Overfull \hbox (7.68306pt too wide) in paragraph at lines 600--601
-\OT1/cmr/m/n/10 APIs Con-sole. - []$\OT1/cmtt/m/n/10 https : / / developers . g
-oogle . com / maps / documentation /$
- []
-
-
-Overfull \hbox (31.61055pt too wide) in paragraph at lines 601--602
-[]\OT1/cmr/m/n/10 Acknowledgment 3 - Javascript help on Stack Over-flow - []$\O
-T1/cmtt/m/n/10 http : / / stackoverflow .$
- []
-
-
-Overfull \hbox (141.24605pt too wide) in paragraph at lines 601--602
-$\OT1/cmtt/m/n/10 com / questions / 28253168 / running-[]a-[]javascript-[]funct
-ion-[]from-[]qwebview-[]google-[]maps-[]api-[]pyqt$[]
- []
-
-[231] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\main_window.pyw [232
-
-] [233]
-[234] [235]) [236] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) (C:\Users\Ben\git\Comp4Coursework\Implementation\main_tab_widget.py)
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py [229])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\menu_bar.py [237] [238]
-[239]
-Overfull \hbox (16.9989pt too wide) in paragraph at lines 80--81
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
- []
-
-[240]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_widget.py [241]
-[242] [243] [244]
-Overfull \hbox (29.59888pt too wide) in paragraph at lines 125--126
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-) [245] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_picture.py [246])
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_toolbar.py [247]
-Overfull \hbox (16.9989pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
- []
-
-[248]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\profile_sql_connections.py
-[249] [250] [251]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) (C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_widget.py [252]
-[253] [254] [255]
-Overfull \hbox (16.9989pt too wide) in paragraph at lines 114--115
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-[256] [257] [258] [259] [260] [261] [262])
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py [230])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_toolbar.py [263])
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\tricks_sql_connections.py
-[264] [265]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py [231])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skateparks_widget.py [266]
-[267]
-Overfull \hbox (23.29889pt too wide) in paragraph at lines 46--47
-[][][][][][][][][][][][][][][][][][]  
- []
+(U:\git\Comp4Coursework\Implementation\skateparks_sql_connections.py) [232]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\reviews_sql_connections.py) [233]
+[234
 
-[268] [269] [270] [271] [272]) [273]
+] [235] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skatepark_view_only.py
-[274] [275] [276] [277]
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py [236
+
+]
 Overfull \hbox (43.29889pt too wide) in paragraph at lines 114--115
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[278] [279] [280]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) (C:\Users\Ben\git\Comp4Coursework\Implementation\skateparks_toolbar.py
-[281]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+[237] [238] [239])
+Overfull \hbox (70.29527pt too wide) in paragraph at lines 577--578
+\OT1/cmr/m/n/10 cre-ated an in-ter-ac-tive google maps ob-ject in Javascript. I
+ had to ac-ti-vate my own API key (AIzaSyC5RcJ7vLSEYF32KqDusnuRcLJiHW8EbDg)
+ []
+
+[240] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\skateparks_sql_connections.py
-[282]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\reviews_widget.py [283]
-[284] [285] [286] [287] [288] [289] [290] [291])
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\reviews_toolbar.py [292])
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py [241])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\reviews_sql_connections.py
-[293] [294]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\support_widget.py [295]
-[296] [297]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\menu.py [298] [299])
+(U:\git\Comp4Coursework\Implementation\tricks_widget.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\get_menu_option.py)
+(U:\git\Comp4Coursework\Implementation\tricks_widget.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\database_table_menu.py
-[300] [301] [302] [303] [304] [305] [306])
+(U:\git\Comp4Coursework\Implementation\tricks_widget.py [242]) [243]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\database.py [307] [308]
-[309] [310] [311]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) (C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\profile_edit_options.py
-[312] [313] [314] [315] [316])
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\trick_edit_options.py
-[317] [318] [319] [320])
+(U:\git\Comp4Coursework\Implementation\support_widget.py) [244]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\skatepark_edit_options.py
-[321] [322]
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py) [245]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py [246]) [247]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py) [248]
+Overfull \hbox (59.99673pt too wide) in paragraph at lines 671--672
+$\OT1/cmtt/m/n/10 stackoverflow . com / questions / 3717115 / regular-[]express
+ion-[]for-[]youtube-[]links$[]
+ []
+
+
+Overfull \hbox (21.3314pt too wide) in paragraph at lines 671--672
+\OT1/cmr/m/n/10 by Stack Over-flow user []$\OT1/cmtt/m/n/10 http : / / stackove
+rflow . com / users / 3652125 / fanmade$[] 
+ []
+
+
+Overfull \hbox (7.68306pt too wide) in paragraph at lines 672--673
+\OT1/cmr/m/n/10 APIs Con-sole. - []$\OT1/cmtt/m/n/10 https : / / developers . g
+oogle . com / maps / documentation /$
+ []
+
+
+Overfull \hbox (31.61055pt too wide) in paragraph at lines 673--674
+[]\OT1/cmr/m/n/10 Acknowledgment 3 - Javascript help on Stack Over-flow - []$\O
+T1/cmtt/m/n/10 http : / / stackoverflow .$
+ []
+
+
+Overfull \hbox (141.24605pt too wide) in paragraph at lines 673--674
+$\OT1/cmtt/m/n/10 com / questions / 28253168 / running-[]a-[]javascript-[]funct
+ion-[]from-[]qwebview-[]google-[]maps-[]api-[]pyqt$[]
+ []
+
+[249
+
+] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\main_window.pyw [250
+
+] [251] [252]
+[253]) [254] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\main_tab_widget.py)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\menu_bar.py [255] [256] [257]
+Overfull \hbox (16.9989pt too wide) in paragraph at lines 80--81
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]  
+ []
+
+[258]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\profile_widget.py [259] [260] [261]
+[262]
+Overfull \hbox (29.59888pt too wide) in paragraph at lines 125--126
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) [263] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\profile_picture.py [264])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\profile_toolbar.py [265]
+Overfull \hbox (16.9989pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]  
+ []
+
+[266]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\profile_sql_connections.py [267]
+[268] [269]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\tricks_widget.py [270] [271] [272]
+[273]
+Overfull \hbox (16.9989pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[274] [275] [276] [277] [278] [279] [280])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\tricks_toolbar.py [281])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\tricks_sql_connections.py [282] [283])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skateparks_widget.py [284] [285]
+Overfull \hbox (23.29889pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+[286] [287] [288] [289] [290]) [291]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skatepark_view_only.py [292] [293]
+[294] [295]
+Overfull \hbox (43.29889pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[296] [297] [298]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+) (U:\git\Comp4Coursework\Implementation\skateparks_toolbar.py [299])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\skateparks_sql_connections.py [300])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\reviews_widget.py [301] [302] [303]
+[304] [305] [306] [307] [308] [309])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\reviews_toolbar.py [310])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\reviews_sql_connections.py [311]
+[312]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\support_widget.py [313] [314] [315])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\menu.py [316] [317])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\get_menu_option.py)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\database_table_menu.py [318]
+[319] [320] [321] [322] [323] [324])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\database.py [325] [326] [327]
+[328] [329]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\profile_edit_options.py [330]
+[331] [332] [333] [334])
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\trick_edit_options.py [335] [336]
+[337] [338]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(U:\git\Comp4Coursework\Implementation\CLI\skatepark_edit_options.py [339]
+[340]
 Overfull \hbox (24.39893pt too wide) in paragraph at lines 43--44
 [][][][][][][][][][][]  
  []
 
-) [323] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+) [341] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\review_edit_options.py
-[324] [325] [326]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(U:\git\Comp4Coursework\Implementation\CLI\review_edit_options.py [342]
+[343] [344]) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) (C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\difficulty.py [327])
+)
+(U:\git\Comp4Coursework\Implementation\CLI\difficulty.py [345])
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-(C:\Users\Ben\git\Comp4Coursework\Implementation\CLI\products.py [328] [329])
-[330]) (C:\Users\Ben\git\Comp4Coursework\Manual\manual.tex
+(U:\git\Comp4Coursework\Implementation\CLI\products.py [346] [347]) [348])
+(U:\git\Comp4Coursework\Manual\manual.tex
 Chapter 5.
-[331
+[349
 
 
 
 
 ]
-<./Manual/Images/DownloadingPython.pdf, id=6625, 597.23125pt x 787.94376pt>
+<./Manual/Images/DownloadingPython.pdf, id=6809, 597.23125pt x 787.94376pt>
 File: ./Manual/Images/DownloadingPython.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DownloadingPython.pdf>
 Package pdftex.def Info: ./Manual/Images/DownloadingPython.pdf used on input li
 ne 45.
 (pdftex.def)             Requested size: 345.0pt x 455.16817pt.
- [332]
-<./Manual/Images/InstallingPython.pdf, id=6632, 597.23125pt x 725.71124pt>
+ [350]
+<./Manual/Images/InstallingPython.pdf, id=6816, 597.23125pt x 725.71124pt>
 File: ./Manual/Images/InstallingPython.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPython.pdf>
 Package pdftex.def Info: ./Manual/Images/InstallingPython.pdf used on input lin
 e 52.
 (pdftex.def)             Requested size: 345.0pt x 419.21858pt.
- [333pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [351pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.55 
-      <C:/Users/Ben/git/Comp4Coursework/Manual/Images/DownloadingPython.pdf>]
+      <U:/git/Comp4Coursework/Manual/Images/DownloadingPython.pdf>]
 Overfull \hbox (37.499pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/10 To in-stall PyQt 4, first you must go to the web page: []$\OT1/
 cmtt/m/n/10 http : / / www . riverbankcomputing .$
  []
 
-<./Manual/Images/DownloadingPyQt.pdf, id=6645, 597.23125pt x 759.83875pt>
+<./Manual/Images/DownloadingPyQt.pdf, id=6829, 597.23125pt x 759.83875pt>
 File: ./Manual/Images/DownloadingPyQt.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DownloadingPyQt.pdf>
 Package pdftex.def Info: ./Manual/Images/DownloadingPyQt.pdf used on input line
  63.
 (pdftex.def)             Requested size: 345.0pt x 438.93286pt.
- [334pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [352pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.65 \end{figure}
-                  <C:/Users/Ben/git/Comp4Coursework/Manual/Images/InstallingPyt
-hon.pdf>] [335pdfTeX warning (ext4): destination with the same identifier (name
-{figure.5.3}) has been already used, duplicate ignored
+                  <U:/git/Comp4Coursework/Manual/Images/InstallingPython.pdf>]
+[353pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.68 
-      <C:/Users/Ben/git/Comp4Coursework/Manual/Images/DownloadingPyQt.pdf>]
-<./Manual/Images/InstallingPyQt.pdf, id=6670, 597.23125pt x 651.43375pt>
+      <U:/git/Comp4Coursework/Manual/Images/DownloadingPyQt.pdf>]
+<./Manual/Images/InstallingPyQt.pdf, id=6854, 597.23125pt x 651.43375pt>
 File: ./Manual/Images/InstallingPyQt.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPyQt.pdf>
@@ -14060,301 +13962,300 @@ Package pdftex.def Info: ./Manual/Images/InstallingPyQt.pdf used on input line
 70.
 (pdftex.def)             Requested size: 345.0pt x 376.311pt.
 
-<./Manual/Images/InstallingPyQtp2.pdf, id=6671, 597.23125pt x 651.43375pt>
+<./Manual/Images/InstallingPyQtp2.pdf, id=6855, 597.23125pt x 651.43375pt>
 File: ./Manual/Images/InstallingPyQtp2.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPyQtp2.pdf>
 Package pdftex.def Info: ./Manual/Images/InstallingPyQtp2.pdf used on input lin
 e 75.
 (pdftex.def)             Requested size: 345.0pt x 376.311pt.
- [336pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [354pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.78 
-      <C:/Users/Ben/git/Comp4Coursework/Manual/Images/InstallingPyQt.pdf>]
-<./Manual/Images/BenGithub.pdf, id=6689, 597.23125pt x 782.925pt>
+      <U:/git/Comp4Coursework/Manual/Images/InstallingPyQt.pdf>]
+<./Manual/Images/BenGithub.pdf, id=6873, 597.23125pt x 782.925pt>
 File: ./Manual/Images/BenGithub.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/BenGithub.pdf>
 Package pdftex.def Info: ./Manual/Images/BenGithub.pdf used on input line 86.
 (pdftex.def)             Requested size: 345.0pt x 452.26901pt.
- [337pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [355pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.88 \end{figure}
-                  <C:/Users/Ben/git/Comp4Coursework/Manual/Images/InstallingPyQ
-tp2.pdf>] [338pdfTeX warning (ext4): destination with the same identifier (name
-{figure.5.6}) has been already used, duplicate ignored
+                  <U:/git/Comp4Coursework/Manual/Images/InstallingPyQtp2.pdf>]
+[356pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.91 
-      <C:/Users/Ben/git/Comp4Coursework/Manual/Images/BenGithub.pdf>]
-<./Manual/Images/ExtractZIP.pdf, id=6713, 597.23125pt x 626.34pt>
+      <U:/git/Comp4Coursework/Manual/Images/BenGithub.pdf>]
+<./Manual/Images/ExtractZIP.pdf, id=6897, 597.23125pt x 626.34pt>
 File: ./Manual/Images/ExtractZIP.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ExtractZIP.pdf>
 Package pdftex.def Info: ./Manual/Images/ExtractZIP.pdf used on input line 93.
 (pdftex.def)             Requested size: 345.0pt x 361.8152pt.
- [339pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [357pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.103 
-       <C:/Users/Ben/git/Comp4Coursework/Manual/Images/ExtractZIP.pdf>]
-<./Manual/Images/RunningProgram.pdf, id=6725, 597.23125pt x 767.86874pt>
+       <U:/git/Comp4Coursework/Manual/Images/ExtractZIP.pdf>]
+<./Manual/Images/RunningProgram.pdf, id=6909, 597.23125pt x 767.86874pt>
 File: ./Manual/Images/RunningProgram.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RunningProgram.pdf>
 Package pdftex.def Info: ./Manual/Images/RunningProgram.pdf used on input line 
 105.
 (pdftex.def)             Requested size: 345.0pt x 443.57152pt.
- [340pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [358pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.121 \subsection
-                 {Assumptions} <C:/Users/Ben/git/Comp4Coursework/Manual/Images/
-RunningProgram.pdf>]
-<./Manual/Images/SaveProfilePicture.pdf, id=6739, 597.23125pt x 731.73375pt>
+                 {Assumptions} <U:/git/Comp4Coursework/Manual/Images/RunningPro
+gram.pdf>]
+<./Manual/Images/SaveProfilePicture.pdf, id=6923, 597.23125pt x 731.73375pt>
 File: ./Manual/Images/SaveProfilePicture.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/SaveProfilePicture.pdf>
 Package pdftex.def Info: ./Manual/Images/SaveProfilePicture.pdf used on input l
 ine 130.
 (pdftex.def)             Requested size: 345.0pt x 422.69757pt.
- [341] [342pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [359] [360pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.136 \item
-            Click on the 'Change Picture' button on the profile tool bar. <C:/U
-sers/Ben/git/Comp4Coursework/Manual/Images/SaveProfilePicture.pdf>]
-<./Manual/Images/ChangeName.pdf, id=6763, 597.23125pt x 748.7975pt>
+            Click on the 'Change Picture' button on the profile tool bar. <U:/g
+it/Comp4Coursework/Manual/Images/SaveProfilePicture.pdf>]
+<./Manual/Images/ChangeName.pdf, id=6947, 597.23125pt x 748.7975pt>
 File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ChangeName.pdf>
 Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 144.
 
 (pdftex.def)             Requested size: 345.0pt x 432.55472pt.
- [343] [344pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [361] [362pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.152 \item T
-             his is the field available to put your Last Name in. <C:/Users/Ben
-/git/Comp4Coursework/Manual/Images/ChangeName.pdf>]
-<./Manual/Images/ChangeEmail.pdf, id=6788, 597.23125pt x 748.7975pt>
+             his is the field available to put your Last Name in. <U:/git/Comp4
+Coursework/Manual/Images/ChangeName.pdf>]
+<./Manual/Images/ChangeEmail.pdf, id=6972, 597.23125pt x 748.7975pt>
 File: ./Manual/Images/ChangeEmail.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ChangeEmail.pdf>
 Package pdftex.def Info: ./Manual/Images/ChangeEmail.pdf used on input line 160
 .
 (pdftex.def)             Requested size: 345.0pt x 432.55472pt.
- [345] [346pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [363] [364pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.168 \item C
              lick edit to enter edit mode, which allows you to change your e...
- <C:/Users/Ben/git/Comp4Coursework/Manual/Images/ChangeEmail.pdf>]
-<./Manual/Images/AddTrick.pdf, id=6815, 597.23125pt x 580.1675pt>
+ <U:/git/Comp4Coursework/Manual/Images/ChangeEmail.pdf>]
+<./Manual/Images/AddTrick.pdf, id=6999, 597.23125pt x 580.1675pt>
 File: ./Manual/Images/AddTrick.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddTrick.pdf>
 Package pdftex.def Info: ./Manual/Images/AddTrick.pdf used on input line 175.
 (pdftex.def)             Requested size: 345.0pt x 335.14291pt.
- [347pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [365pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.183 \item C
              lick on the 'Add Trick' button in the tricks tool bar, this wil...
- <C:/Users/Ben/git/Comp4Coursework/Manual/Images/AddTrick.pdf>]
-<./Manual/Images/DeleteTrick.pdf, id=6837, 597.23125pt x 759.83875pt>
+ <U:/git/Comp4Coursework/Manual/Images/AddTrick.pdf>]
+<./Manual/Images/DeleteTrick.pdf, id=7021, 597.23125pt x 759.83875pt>
 File: ./Manual/Images/DeleteTrick.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DeleteTrick.pdf>
 Package pdftex.def Info: ./Manual/Images/DeleteTrick.pdf used on input line 191
 .
 (pdftex.def)             Requested size: 345.0pt x 438.93286pt.
- [348] [349pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [366] [367pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.198 \item C
-             lick on the 'Tricks' tab. <C:/Users/Ben/git/Comp4Coursework/Manual
-/Images/DeleteTrick.pdf>]
-<./Manual/Images/AddSkatepark.pdf, id=6868, 597.23125pt x 634.37pt>
+             lick on the 'Tricks' tab. <U:/git/Comp4Coursework/Manual/Images/De
+leteTrick.pdf>]
+<./Manual/Images/AddSkatepark.pdf, id=7052, 597.23125pt x 634.37pt>
 File: ./Manual/Images/AddSkatepark.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddSkatepark.pdf>
 Package pdftex.def Info: ./Manual/Images/AddSkatepark.pdf used on input line 20
 8.
 (pdftex.def)             Requested size: 345.0pt x 366.45386pt.
- [350] [351pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [368] [369pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.218 \item O
              nce all the fields have been filled in, click save to add the s...
- <C:/Users/Ben/git/Comp4Coursework/Manual/Images/AddSkatepark.pdf>]
-<./Manual/Images/SkateparkDetails.pdf, id=6897, 597.23125pt x 770.88pt>
+ <U:/git/Comp4Coursework/Manual/Images/AddSkatepark.pdf>]
+<./Manual/Images/SkateparkDetails.pdf, id=7081, 597.23125pt x 770.88pt>
 File: ./Manual/Images/SkateparkDetails.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/SkateparkDetails.pdf>
 Package pdftex.def Info: ./Manual/Images/SkateparkDetails.pdf used on input lin
 e 224.
 (pdftex.def)             Requested size: 345.0pt x 445.31104pt.
- [352] [353pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [370] [371pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.229 
-       <C:/Users/Ben/git/Comp4Coursework/Manual/Images/SkateparkDetails.pdf>]
-<./Manual/Images/HideSkatepark.pdf, id=6921, 597.23125pt x 770.88pt>
+       <U:/git/Comp4Coursework/Manual/Images/SkateparkDetails.pdf>]
+<./Manual/Images/HideSkatepark.pdf, id=7105, 597.23125pt x 770.88pt>
 File: ./Manual/Images/HideSkatepark.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/HideSkatepark.pdf>
 Package pdftex.def Info: ./Manual/Images/HideSkatepark.pdf used on input line 2
 39.
 (pdftex.def)             Requested size: 345.0pt x 445.31104pt.
- [354] [355pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [372] [373pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.244 
-       <C:/Users/Ben/git/Comp4Coursework/Manual/Images/HideSkatepark.pdf>]
-<./Manual/Images/Support.pdf, id=6948, 597.23125pt x 446.66875pt>
+       <U:/git/Comp4Coursework/Manual/Images/HideSkatepark.pdf>]
+<./Manual/Images/Support.pdf, id=7132, 597.23125pt x 446.66875pt>
 File: ./Manual/Images/Support.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/Support.pdf>
 Package pdftex.def Info: ./Manual/Images/Support.pdf used on input line 257.
 (pdftex.def)             Requested size: 345.0pt x 258.02525pt.
- [356pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [374pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.267 \item F
-             ill your query in the field labeled: Message. <C:/Users/Ben/git/Co
-mp4Coursework/Manual/Images/Support.pdf>]
-<./Manual/Images/LoadingCLI.pdf, id=6971, 597.23125pt x 759.83875pt>
+             ill your query in the field labeled: Message. <U:/git/Comp4Coursew
+ork/Manual/Images/Support.pdf>]
+<./Manual/Images/LoadingCLI.pdf, id=7155, 597.23125pt x 759.83875pt>
 File: ./Manual/Images/LoadingCLI.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/LoadingCLI.pdf>
 Package pdftex.def Info: ./Manual/Images/LoadingCLI.pdf used on input line 277.
 
 (pdftex.def)             Requested size: 345.0pt x 438.93286pt.
- [357]
-<./Manual/Images/AddReview.pdf, id=6979, 597.23125pt x 589.20125pt>
+ [375]
+<./Manual/Images/AddReview.pdf, id=7163, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/AddReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddReview.pdf>
 Package pdftex.def Info: ./Manual/Images/AddReview.pdf used on input line 292.
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
- [358pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [376pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.294 \end{figure}
-                   <C:/Users/Ben/git/Comp4Coursework/Manual/Images/LoadingCLI.p
-df>] <./Manual/Images/EditReview.pdf, id=7000, 597.23125pt x 589.20125pt>
+                   <U:/git/Comp4Coursework/Manual/Images/LoadingCLI.pdf>]
+<./Manual/Images/EditReview.pdf, id=7184, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/EditReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/EditReview.pdf>
 Package pdftex.def Info: ./Manual/Images/EditReview.pdf used on input line 303.
 
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
- [359pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [377pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.306 
-       <C:/Users/Ben/git/Comp4Coursework/Manual/Images/AddReview.pdf>]
-<./Manual/Images/DeleteReview.pdf, id=7014, 597.23125pt x 589.20125pt>
+       <U:/git/Comp4Coursework/Manual/Images/AddReview.pdf>]
+<./Manual/Images/DeleteReview.pdf, id=7198, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/DeleteReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DeleteReview.pdf>
 Package pdftex.def Info: ./Manual/Images/DeleteReview.pdf used on input line 31
 3.
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
- [360pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [378pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.316 
-       <C:/Users/Ben/git/Comp4Coursework/Manual/Images/EditReview.pdf>]
-[361pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-21}) has been already used, duplicate ignored
+       <U:/git/Comp4Coursework/Manual/Images/EditReview.pdf>] [379pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.5.21}) has been alr
+eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.337 \section
-              {System Recovery} <C:/Users/Ben/git/Comp4Coursework/Manual/Images
-/DeleteReview.pdf>]
-<./Manual/Images/BackUp.pdf, id=7038, 597.23125pt x 753.81625pt>
+              {System Recovery} <U:/git/Comp4Coursework/Manual/Images/DeleteRev
+iew.pdf>] <./Manual/Images/BackUp.pdf, id=7222, 597.23125pt x 753.81625pt>
 File: ./Manual/Images/BackUp.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/BackUp.pdf>
 Package pdftex.def Info: ./Manual/Images/BackUp.pdf used on input line 344.
 (pdftex.def)             Requested size: 345.0pt x 435.45389pt.
- [362] [363pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [380] [381pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.353 \item W
              ait for the copying process to finish, and the back up of the p...
- <C:/Users/Ben/git/Comp4Coursework/Manual/Images/BackUp.pdf>]
-<./Manual/Images/RestoringData.pdf, id=7063, 597.23125pt x 739.76375pt>
+ <U:/git/Comp4Coursework/Manual/Images/BackUp.pdf>]
+<./Manual/Images/RestoringData.pdf, id=7247, 597.23125pt x 739.76375pt>
 File: ./Manual/Images/RestoringData.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RestoringData.pdf>
 Package pdftex.def Info: ./Manual/Images/RestoringData.pdf used on input line 3
 61.
 (pdftex.def)             Requested size: 345.0pt x 427.33623pt.
- [364] [365pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [382] [383pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.370 \item S
              elect copy and replace until the program has been fully replaced. 
-<C:/Users/Ben/git/Comp4Coursework/Manual/Images/RestoringData.pdf>]) [366]
-(C:\Users\Ben\git\Comp4Coursework\Evaluation\evaluation.tex
+<U:/git/Comp4Coursework/Manual/Images/RestoringData.pdf>]) [384]
+(U:\git\Comp4Coursework\Evaluation\evaluation.tex
 Chapter 6.
-[367
+[385
 
 
 
-] [368] [369] [370]) [371]
+] [386] [387] [388]) [389]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
- (C:\Users\Ben\git\Comp4Coursework\coursework.aux (C:\Users\Ben\git\Comp4Course
-work\Analysis\analysis.aux)
-(C:\Users\Ben\git\Comp4Coursework\Design\design.aux)
-(C:\Users\Ben\git\Comp4Coursework\Testing\testing.aux)
-(C:\Users\Ben\git\Comp4Coursework\Maintenance\maintenance.aux)
-(C:\Users\Ben\git\Comp4Coursework\Manual\manual.aux)
-(C:\Users\Ben\git\Comp4Coursework\Evaluation\evaluation.aux))
+ (U:\git\Comp4Coursework\coursework.aux
+(U:\git\Comp4Coursework\Analysis\analysis.aux)
+(U:\git\Comp4Coursework\Design\design.aux)
+(U:\git\Comp4Coursework\Testing\testing.aux)
+(U:\git\Comp4Coursework\Maintenance\maintenance.aux)
+(U:\git\Comp4Coursework\Manual\manual.aux)
+(U:\git\Comp4Coursework\Evaluation\evaluation.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 17.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
 Package rerunfilecheck Info: File `coursework.out' has not changed.
@@ -14372,13 +14273,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 17.
 ### simple group (level 1) entered at line 544 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16888 strings out of 493921
- 268938 string characters out of 3144881
+ 17103 strings out of 493921
+ 271461 string characters out of 3144876
  347453 words of memory out of 3000000
- 15588 multiletter control sequences out of 15000+200000
+ 15656 multiletter control sequences out of 15000+200000
  11345 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,12n,45p,1844b,2544s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,45p,1834b,2544s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -14394,9 +14295,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on coursework.pdf (372 pages, 14158585 bytes).
+Output written on coursework.pdf (390 pages, 14201297 bytes).
 PDF statistics:
- 7987 PDF objects out of 8907 (max. 8388607)
- 4027 named destinations out of 4296 (max. 500000)
+ 8197 PDF objects out of 8907 (max. 8388607)
+ 4154 named destinations out of 4296 (max. 500000)
  2165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
