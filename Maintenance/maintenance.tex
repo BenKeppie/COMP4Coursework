@@ -47,13 +47,13 @@ Another reason for using all the programs I have used is the fact that they are 
 \begin{center}
 \begin{tabular}{|p{3.5cm}|p{8cm}|} \hline
 \textbf{Software} & \textbf{Features Used} \\ \hline
-Python 3.4 & I used python to run my program which allowed me to test the graphical user interface of my program. I also used the code libraries which came with the installation of Python to code my system.  I also made use of its large stock library and used regular expression functionality and more.\\ \hline
+Python 3.4 & I used python to run my program which allowed me to test the graphical user interface of my program. I also used the code libraries which came with the installation of Python to code my system which allowed me to use regular expression functionality and more.\\ \hline
 IDLE (python GUI) & I used IDLE to write out my code and save it as a python file. I took advantage of the colour coded syntax and also the code predictor. I also used IDLE to run the python file.\\ \hline
 PyQt 4 & I used PyQT extensively, from using pre-programmed classes such as QVBoxLayout to rewriting some classes such as the QWebPage class. PyQT was used to create the graphical user interface of my program.\\ \hline
 SQLite 3 & I used this piece of software to write SQL queries that would allow me to add,edit, delete and retrieve data from my database and ensure referential integrity was enforced. \\ \hline
 smtplib & I used the email sending capabilities of this module. \\ \hline
 pbd & I used this module as an interactive debugger to help debug my code \\ \hline
-SQLite Inspector & I used SQLite inspector for two functions. First of all I used it to check that data had been added/edited/deleted properly. Secondly I used it to check that my SQL statements were correct. \\ \hline
+SQLite Inspector & I used SQLite inspector for two functions. First of all I used it to check that data had been added/edited/deleted properly by using the 'Browse Data' tab. Secondly I used it to check that my SQL statements were correct by using the 'Execute SQL' feature.. \\ \hline
 Notepad ++ v6.6.7 & I used this piece of software to debug and write the Javascript for my google maps integration found in the 'skatepark' tab of my program. \\ \hline
 Google Chrome & I used Google Chrome to check that my Javascript code functioned properly inside a web browser. I also took advantage of the 'developer' features of google chrome to debug my Javascript.\\ \hline
 
@@ -134,7 +134,7 @@ The full main window code can be found in subsection 4.11.1.
 
 \pythonfile[firstline=29,lastline=101]{./Implementation/main_window.pyw}
 
-My main window sets up the basis for my application. I have structured it to be a class which means that it can be used and edited easily with broken up methods. My code structure splits up every different function of the main window into each method which allows for easy debugging and the ability to individually operate certain functions. My class extends QMainWindow and calls the super class to get all of the functionality of the PyQt object 'QMainWindow'.
+My main window sets up the basis for my application. I have structured it to be a class which means that it can be used and edited easily with broken up methods. My code structure splits up every different function of the main window into each method which allows for easy debugging and the ability to individually operate certain functions. My class extends QMainWindow and calls the super class to get all of the functionality of the PyQt object 'QMainWindow'. I implemented this code as a class so it can parent all other modules in my program. This meant that I did not have to repeat code if I wanted to use the same functionality again, which saved time and duplication errors.
 
 
 \subsection{Tabs}
@@ -144,11 +144,16 @@ The code for the tabbed interface of my program can be  found in subsection 4.10
 \pythonfile[firstline=5,lastline=12]{./Implementation/main_tab_widget.py}
 
 I created my own custom QTabWidget which allowed me to easily debug the problems which I was having in the early stages of programming my program. I pass 'parent' into the class so that when the CustomQTabWidget is instantiated I could call attributes and methods from the main window to aid the debugging of my program.
+
+
 \subsection{Menu Bar}
 
 The code for my whole menu bar can be found in subsection 4.10.3.
 
-My menu bar allowed for a shortcut to any functionality in the system from any page.
+\pythonfile[firstline=9, lastline=55]{./Implementation/menu_bar.py}
+
+
+My menu bar allowed for a shortcut to any functionality in the system from any page. I structured this class in a uniformed way by first of all creating the actions, then creating the options, then adding the actions to the menu and finally, linking them to a connection. By doing this I could structure each connection as an individual method which gave me full control over individual functionality and allowed the code to be re-used from anywhere.
 
 \subsection{Tool Bar}
 
@@ -164,7 +169,7 @@ My code for all the SQL connections can be found in subsections: 4.10.7, 4.10.10
 
 \pythonfile[firstline=31,lastline=35]{./Implementation/tricks_sql_connections.py}
 
-The SQL method shown above is taken from the tricks SQL connection code. This code shows the structured process for preparing a query and passing the executed query back down to the widget, therefore allowing for the query results to be displayed in a QTableView.
+The SQL method shown above is taken from the tricks SQL connection code. This code shows the structured process for preparing a query and passing the executed query back down to the widget, therefore allowing for the query results to be displayed in a QTableView. I structured the class to contain individual methods for individual functionality so I could call individual bits of code when it was needed. Structuring it in a class allowed me to create a single object which then allowed me to call all methods from within a single instance.
 
 \subsection{Validation}
 
@@ -198,8 +203,15 @@ My data dictionary can be found on Figure \ref{tab:Data Dictionary} on page \pag
 \begin{center}
 \begin{longtable}{|p{5cm}|p{6cm}|p{3.5cm}|} \hline
 \textbf{Variable} & \textbf{Purpose} & \textbf{Reference} \\ \hline
+Application & Holds the QApplication for my program & subsection 4.10.1, line numbers: 123 and 130. \\ \hline
+window & Stores the instance of my main window and displays it. & Subsection 4.10.1, line numbers: 124, 128 and 129. \\ \hline
 splash\_pix & Stores a QPixmap image of the programs splash screen. & Subsection 4.10.1, line number 115 \\ \hline
+splash & Stores the QSplashScreen object and displays it. & Subsection 4.10.1, line numbers: 116, 117, 118, 119 and 120. \\ \hline
+self.parent & Stores the parent of that specific class to allow access to the parents methods. & Subsection 4.10.2, line number 6, Subsection 4.10.3, line numbers: 13, 59, 63, 64, 69, 70. \\ \hline
 replace & A string to replace another variables string & Subsection 4.10.3, line numbers: 78,79,80. Subsection 4.10.6, line numbers: 35,36,37. Subsection 4.10.8, line numbers: 302,303 \\ \hline
+path & Contains the file path of a file. & Subsection 4.10.3, line numbers: 72, 74 and 79, Subsection 4.10.6, line numbers: 30,31 and 36. \\ \hline
+destination & Contains the destination of the file that is being  copied & Subsection 4.10.3, line numbers: 80,81 and 83, subsection 4.10.6, line numbers: 37, 38 and 42. \\ \hline
+self.FilePath  Contains the file path of a file. & Subsection 4.10.5, line numbers: 23 and 24.
 FirstName & A variable to temporarily hold the first name of the user & Subsection 4.10.7, line numbers:17,19,22. \\ \hline
 LastName & A variable to temporarily hold the last name of the user & Subsection 4.10.7, line numbers: 18,19,22. \\ \hline
 Email & A variable to temporarily hold the email address of the user & Subsection 4.10.7, line numbers: 32,36. \\ \hline
@@ -211,13 +223,32 @@ Text & Holds the text of a QLineEdit whilst the data entry is being validated &S
 TrickNameExpression & Holds the compiled regular expression for the trick name & Subsection 4.10.8, line numbers:127, 128. \\ \hline
 TrickDescriptionExpression & Holds the compiled regular expression for the trick description & Subsection 4.10.8, line numbers: 140, 141 \\ \hline
 TrickObsticleExpression & Holds the compiled regular expression for the trick obsticle &Subsection 4.10.8, line numbers: 151, 152. \\ \hline
+
+self.TrickFilePath & Contains the file path of the trick image. & Subsection 4.10.8, line numbers: 17, 114 and 307. \\ \hline
+
 TrickTutorialExpression & Holds the compiled regular expression for the trick tutorial link & Subsection 4.10.8, line numbers: 162, 163. \\ \hline
 SkateparkNameExpression & Holds the compiled regular expression for the skatepark name& Subsection 4.10.11, line numbers: 63, 64. \\ \hline
 SkateparkDescriptionExpression & Holds the compiled regular expression for the skatepark description & Subsection 4.10.11, line numbers: 52 ,53. \\ \hline
 Match & Matches the Text of a QLineEdit against the appropriate regular expression & Subsection 4.10.8, line numbers: 128, 141, 152, 163. Subsection 4.10.11, line numbers: 53, 54, 64, 65. \\ \hline
 sql & holds the sql text for sqlite3 queries & Subsection 4.10.10, line numbers: 15, 43. Subsection 4.10.12, line numbers: 78. Subsection 4.10.14, line numbers: 13. \\ \hline
 self.LastMarker & Holds the coordinates of the last marker placed on the google map & Subsection 4.10.12, line numbers: 55, 57. \\ \hline
+
+
+self.Coordinates & Contains the coordinates from the database to be plotted onto the map. & Subsection 4.10.12, line numbers: 37, 80 and 81. \\ \hline
+
+Name & Converts the Skateparks name into a string to be put into an info box for a specific skatepark. & Subsection 4.10.12, line numbers: 82, 83 and 88. \\ \hline
+Description & Converts the Skateparks description into a string to be put into an info box for a specific skatepark. & Subsection 4.10.12, line numbers: 85, 86 and 89. \\ \hline
+
 self.html & Holds all of the HTML/Javascript for my google maps object & Subsection 4.10.12, line number: 100. \\ \hline
+
+var map & A Javascript variable that contains the Google maps object. & Subsection 4.10.12, line numbers: 117,
+var results
+var coords
+var centre
+var Skatepark
+var lat
+var lng
+
 var markers & A Javascript list for holding the markers coordinates & Subsection 4.10.12, line numbers: 118, 164, 187, 188, 195. \\ \hline
 var ContentString & A Javascript variable for holding the text description for each marker & Subsection 4.10.12, line number 166. \\ \hline
 Send & A variable to compile the SMTP protocol for sending an email & Subsection 4.10.18, line numbers: 32, 33, 34.  \\ \hline
