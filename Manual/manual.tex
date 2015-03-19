@@ -1,5 +1,9 @@
 \chapter{User Manual}
 
+\startcontents[chapters]
+\printcontents[chapters]{}{1}{}
+
+
 \section{Introduction}
 
 The purpose of my program is to act as a skateboarding progress tracker and personal assistant. The program was built to aid skateboarding progress, maximise physical performance and enhance muscle memory by reminding the user of newly learnt tricks. The skateboard progress tracker also caters for the users skateboarding buying needs as it includes its very own skateboard part review hub. The integrated Google maps keeps a store of all of the skateparks and skate spots in the world, which skaters using the program can add to.
@@ -18,7 +22,7 @@ Currently, the version of the skateboard progress tracker includes a personalise
 
 \textbf{System Requirements}
 
-Before installing, your computer must meet the system requirements. As discussed in the analysis and design section (Subsections 1.7.1  and 2.3 respectively) I am developing this program for my client, therefore the system is built to run on:
+Before installing, your computer must meet the system requirements. I am developing this program for my client, therefore the system is built to run on:
 
 \begin{itemize}
     \item 15.6" HD 1366x768 Screen
@@ -29,6 +33,15 @@ Before installing, your computer must meet the system requirements. As discussed
     \item Windows 7 Operating System
 \end{itemize}
 
+Although the program will be optimised to run on this specification, the minimum requirements to run my program would be the minimum requirements for the Windows 7 operating system. This is listed below.
+
+\begin{itemize}
+\item 1 GHz or faster 32-bit (x86) or 64-bit (x64) processor
+\item 1 GB RAM (32-bit) or 2 GB RAM (64-bit)
+\item 16 GB available disk space (32-bit) or 20 GB (64-bit) 
+\item DirectX 9 graphics processor with Windows Display Driver Model (WDDM) 1.0 or higher
+
+\end{itemize} 
 My program has been tested, and works on Windows 7 and Vista. Although the program hasn't been tested on Mac computers or windows 8, the program should still work fine as long as the required programs are installed correctly as discussed below.
 
 
@@ -104,6 +117,11 @@ To run the system, open the file location that you extracted the zip file to pre
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/RunningProgram.pdf}
     \caption{Starting up the program} \label{fig:Running Program}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/RunningProgram2.pdf}
+    \caption{Program loading stages} \label{fig:Running Program2}
 \end{figure}
 
 
@@ -240,6 +258,11 @@ The figure above shows you a step by step graphical tutorial in how to change yo
     \caption{Hiding Skatepark Markers} \label{fig:Hide Skatepark}
 \end{figure}
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/HideSkatepark2.pdf}
+    \caption{Hiding Skatepark Markers part 2} \label{fig:Hide Skatepark2}
+\end{figure}
+
 The figure above shows you a step by step graphical tutorial in how to change your profile picture. Below, a text tutorial will guide you through the numbers represented on the figure.
 
 \begin{enumerate}
@@ -276,6 +299,11 @@ For the next tutorials you will need to open up the command line interface menu.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/LoadingCLI.pdf}
     \caption{Loading The CLI Menu} \label{fig:Loading CLI}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/LoadingCLI2.pdf}
+    \caption{Loading The CLI Menu part 2} \label{fig:Loading CLI2}
 \end{figure}
 
 \begin{enumerate}
@@ -327,7 +355,7 @@ As discussed in the introduction some sections are not fully implemented into a 
 
 
 
-\section{Error Recovery}
+\section{Error Recovery} %VALIDATION
 
 My program contains no errors which lead to the program needing to be recovered in any way.
 
@@ -336,7 +364,7 @@ My program contains no errors which lead to the program needing to be recovered 
 
 \section{System Recovery}
 
-\subsection{Backing-up Data}
+\subsection{Backing-up Data} %Change step by step to just USB
 
 To back up the program, you need to copy the folder that you extracted during the installation to an external hard drive/USB drive. The figure below shows the backing up of the system to a USB drive.
 
@@ -347,7 +375,7 @@ To back up the program, you need to copy the folder that you extracted during th
 
 \begin{enumerate}
 \item Find the location of the folder that you extracted during the installation of the program.
-\item Right click on the folder and select 'copy'.
+\item Go into the folder and click 'implementation', then on the 'skateboard_progress_tracker.db' file right click and press 'copy'.
 \item Find the USB drive folder and open it.
 \item Right click in the folder and select 'paste' 
 \item Wait for the copying process to finish, and the back up of the program will be on your USB drive.
@@ -369,3 +397,4 @@ The process for restoring the program data is shown below.
 \item Tick the 'Do this for the next X conflicts'.
 \item Select copy and replace until the program has been fully replaced.
 \end{enumerate}
+

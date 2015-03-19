@@ -203,72 +203,73 @@
 \contentsline {subsection}{\numberline {4.10.27}CLI Make New Difficulty}{345}{subsection.4.10.27}
 \contentsline {subsection}{\numberline {4.10.28}CLI Make New Product}{346}{subsection.4.10.28}
 \contentsline {chapter}{\numberline {5}User Manual}{349}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{349}{section.5.1}
-\contentsline {section}{\numberline {5.2}Installation}{350}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{350}{subsection.5.2.1}
-\contentsline {subsubsection}{Installing Python 3.4}{350}{section*.54}
-\contentsline {subsubsection}{Installing PyQt 4}{353}{section*.55}
-\contentsline {subsection}{\numberline {5.2.2}System Installation}{355}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Running the System}{357}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Tutorial}{359}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Introduction}{359}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Assumptions}{359}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{360}{subsection.5.3.3}
-\contentsline {subsubsection}{How Do I Change My Profile Picture?}{360}{section*.56}
-\contentsline {subsubsection}{How Do I Change My Profile Name?}{362}{section*.57}
-\contentsline {subsubsection}{How Do I Change My Profile Email Address?}{364}{section*.58}
-\contentsline {subsubsection}{How Do I Add a Trick?}{365}{section*.59}
-\contentsline {subsubsection}{How Do I Delete a Trick?}{367}{section*.60}
-\contentsline {subsubsection}{How Do I Add a Skatepark?}{369}{section*.61}
-\contentsline {subsubsection}{How Do I Access Existing Skatepark Details?}{371}{section*.62}
-\contentsline {subsubsection}{How Do I Hide Skateparks?}{373}{section*.63}
-\contentsline {subsubsection}{How Do I Contact Support?}{374}{section*.64}
-\contentsline {subsubsection}{How Do I Add a Review?}{377}{section*.65}
-\contentsline {subsubsection}{How Do I Edit a Review?}{377}{section*.66}
-\contentsline {subsubsection}{How Do I Delete a Review?}{378}{section*.67}
-\contentsline {subsection}{\numberline {5.3.4}Saving}{379}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Limitations}{379}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Error Recovery}{380}{section.5.4}
-\contentsline {section}{\numberline {5.5}System Recovery}{380}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{380}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{382}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Evaluation}{385}{chapter.6}
-\contentsline {section}{\numberline {6.1}Customer Requirements}{385}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{385}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{385}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{385}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{385}{subsection.6.1.4}
-\contentsline {subsection}{\numberline {6.1.5}Non-biased reviews.}{386}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Clear database with a list of tricks in.}{386}{subsection.6.1.6}
-\contentsline {subsection}{\numberline {6.1.7} Easy to filter through tricks known.}{386}{subsection.6.1.7}
-\contentsline {subsection}{\numberline {6.1.8}Display status bar messages at appropriate times to inform the user of changes *NEW*}{386}{subsection.6.1.8}
-\contentsline {subsection}{\numberline {6.1.9}Allow for the user to contact the developer *NEW*}{386}{subsection.6.1.9}
-\contentsline {subsection}{\numberline {6.1.10}Ensure that the profile picture can be changed easily *NEW*}{386}{subsection.6.1.10}
-\contentsline {subsection}{\numberline {6.1.11}Ensure that the profile name can be edited easily *NEW*}{386}{subsection.6.1.11}
-\contentsline {subsection}{\numberline {6.1.12}Ensure that the profile email can be edited easily *NEW*}{386}{subsection.6.1.12}
-\contentsline {subsection}{\numberline {6.1.13}Ensure that videos can be filtered by categories. e.g easy, medium, hard tricks.}{386}{subsection.6.1.13}
-\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{387}{subsection.6.1.14}
-\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{387}{subsection.6.1.15}
-\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{387}{subsection.6.1.16}
-\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{387}{subsection.6.1.17}
-\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{387}{subsection.6.1.18}
-\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{387}{subsection.6.1.19}
-\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{387}{subsection.6.1.20}
-\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{388}{subsection.6.1.21}
-\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{388}{subsection.6.1.22}
-\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{388}{subsection.6.1.23}
-\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{388}{subsection.6.1.24}
-\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{388}{subsection.6.1.25}
-\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{388}{subsection.6.1.26}
-\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{388}{subsection.6.1.27}
-\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{389}{subsection.6.1.28}
-\contentsline {section}{\numberline {6.2}Effectiveness}{389}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{389}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Learnability}{389}{section.6.3}
-\contentsline {section}{\numberline {6.4}Usability}{389}{section.6.4}
-\contentsline {section}{\numberline {6.5}Maintainability}{389}{section.6.5}
-\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{389}{section.6.6}
-\contentsline {section}{\numberline {6.7}End User Evidence}{389}{section.6.7}
-\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{389}{subsection.6.7.1}
-\contentsline {subsection}{\numberline {6.7.2}Graphs}{389}{subsection.6.7.2}
-\contentsline {subsection}{\numberline {6.7.3}Written Statements}{389}{subsection.6.7.3}
+\contentsline {section}{\numberline {5.1}Introduction}{351}{section.5.1}
+\contentsline {section}{\numberline {5.2}Installation}{352}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prerequisite Installation}{353}{subsection.5.2.1}
+\contentsline {subsubsection}{Installing Python 3.4}{353}{section*.54}
+\contentsline {subsubsection}{Installing PyQt 4}{356}{section*.55}
+\contentsline {subsection}{\numberline {5.2.2}System Installation}{360}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Running the System}{363}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Tutorial}{366}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Introduction}{366}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Assumptions}{366}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Tutorial Questions}{368}{subsection.5.3.3}
+\contentsline {subsubsection}{How Do I Change My Profile Picture?}{368}{section*.56}
+\contentsline {subsubsection}{How Do I Change My Profile Name?}{370}{section*.57}
+\contentsline {subsubsection}{How Do I Change My Profile Email Address?}{372}{section*.58}
+\contentsline {subsubsection}{How Do I Add a Trick?}{373}{section*.59}
+\contentsline {subsubsection}{How Do I Delete a Trick?}{375}{section*.60}
+\contentsline {subsubsection}{How Do I Add a Skatepark?}{377}{section*.61}
+\contentsline {subsubsection}{How Do I Access Existing Skatepark Details?}{379}{section*.62}
+\contentsline {subsubsection}{How Do I Hide Skateparks?}{381}{section*.63}
+\contentsline {subsubsection}{How Do I Contact Support?}{382}{section*.64}
+\contentsline {subsubsection}{How Do I Add a Review?}{385}{section*.65}
+\contentsline {subsubsection}{How Do I Edit a Review?}{385}{section*.66}
+\contentsline {subsubsection}{How Do I Delete a Review?}{386}{section*.67}
+\contentsline {subsection}{\numberline {5.3.4}Saving}{387}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Limitations}{387}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Error Recovery}{388}{section.5.4}
+\contentsline {section}{\numberline {5.5}System Recovery}{388}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Backing-up Data}{388}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Restoring Data}{390}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Evaluation}{394}{chapter.6}
+\contentsline {section}{\numberline {6.1}Customer Requirements}{394}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Aesthetically pleasing, easy to navigate GUI.}{394}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Videos organised and filtering capabilities.}{394}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Correct and accurate mapping to the skate parks/spots.}{394}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Correct directions from current location to skate park/ spot on the map.}{394}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Non-biased reviews.}{395}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Clear database with a list of tricks in.}{395}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7} Easy to filter through tricks known.}{395}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Display status bar messages at appropriate times to inform the user of changes *NEW*}{395}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Allow for the user to contact the developer *NEW*}{395}{subsection.6.1.9}
+\contentsline {subsection}{\numberline {6.1.10}Ensure that the profile picture can be changed easily *NEW*}{395}{subsection.6.1.10}
+\contentsline {subsection}{\numberline {6.1.11}Ensure that the profile name can be edited easily *NEW*}{395}{subsection.6.1.11}
+\contentsline {subsection}{\numberline {6.1.12}Ensure that the profile email can be edited easily *NEW*}{395}{subsection.6.1.12}
+\contentsline {subsection}{\numberline {6.1.13}Ensure that videos can be filtered by categories. e.g easy, medium, hard tricks.}{395}{subsection.6.1.13}
+\contentsline {subsection}{\numberline {6.1.14}Ensure that videos load correctly and are linked to the right video.}{396}{subsection.6.1.14}
+\contentsline {subsection}{\numberline {6.1.15}Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.}{396}{subsection.6.1.15}
+\contentsline {subsection}{\numberline {6.1.16}Ensure the database can add, edit and remove trick data (Name, description, image, completed status and tutorial link).}{396}{subsection.6.1.16}
+\contentsline {subsection}{\numberline {6.1.17}Ensure that the database is displayed correctly inside the application at all resolutions.}{396}{subsection.6.1.17}
+\contentsline {subsection}{\numberline {6.1.18}Ensure that the tricks are marked by how hard they are by a three way scale of: Easy, Medium or Hard.}{396}{subsection.6.1.18}
+\contentsline {subsection}{\numberline {6.1.19}Ensure a checkbox is by the side of a trick to represent whether the user has completed that trick or not.}{396}{subsection.6.1.19}
+\contentsline {subsection}{\numberline {6.1.20}Ensure there is a search bar for a specific trick name.}{396}{subsection.6.1.20}
+\contentsline {subsection}{\numberline {6.1.21}Ensure there are filters for tricks e.g Switch trick filters.}{397}{subsection.6.1.21}
+\contentsline {subsection}{\numberline {6.1.22}Ensure that the map is accurate to current roads.}{397}{subsection.6.1.22}
+\contentsline {subsection}{\numberline {6.1.23}Ensure location of the user is not revealed to anyone else.}{397}{subsection.6.1.23}
+\contentsline {subsection}{\numberline {6.1.24}Ensure that the current location marker is accurate.}{397}{subsection.6.1.24}
+\contentsline {subsection}{\numberline {6.1.25}Ensure that when giving directions to skate parks from your current location that the mapping route is correct and on viable roads. }{397}{subsection.6.1.25}
+\contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{397}{subsection.6.1.26}
+\contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{397}{subsection.6.1.27}
+\contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{398}{subsection.6.1.28}
+\contentsline {section}{\numberline {6.2}Effectiveness}{398}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{398}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Learnability}{398}{section.6.3}
+\contentsline {section}{\numberline {6.4}Usability}{398}{section.6.4}
+\contentsline {section}{\numberline {6.5}Maintainability}{398}{section.6.5}
+\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{398}{section.6.6}
+\contentsline {section}{\numberline {6.7}End User Evidence}{398}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{398}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Graphs}{398}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}Written Statements}{398}{subsection.6.7.3}
+\contentsfinish 
