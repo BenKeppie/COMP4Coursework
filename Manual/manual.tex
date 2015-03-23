@@ -9,9 +9,9 @@
 
 The purpose of my program is to act as a skateboarding progress tracker and personal assistant. The program was built to aid skateboarding progress, maximise physical performance and enhance muscle memory by reminding the user of newly learnt tricks. The skateboard progress tracker also caters for the users skateboarding buying needs as it includes its very own skateboard part review hub. The integrated Google maps keeps a store of all of the skateparks and skate spots in the world, which skaters using the program can add to.
 
-The intended audience of my program is currently purely for my client; however in the future, once a multi-user platform has been integrated the intended audience will be for the whole skating community.
+The intended audience of my program is purely for my client, Stuart Keppie.
 
-The skateboard progress tracker includes a personalised profile tab where you can change the profile picture, email address and name to your own personal information. The tricks tab contains a table with a list of all the tricks in the database. You may delete tricks from your database by selecting the desired row and pressing delete. Another function on the tricks tab is the ability to add a trick to the database. With an easy to fill, side form that appears when 'add trick' is selected.This tab is used to keep a record of all the tricks that the user can do. The skatepark tab contains a customisable Google maps object which allows you to add and remove skateparks. This tab is used so that the user can plan on visiting new skateparks that they have never been to before. The review tab contains a table which displays all the reviews in the database. Functionality with the graphical user interface will be integrated in the next version of the program. The support tab allows the user to report any problems with the program, and request any additional functionality that they wish me to implement.
+The skateboard progress tracker includes a personalised profile tab where you can change the profile picture, email address and name to your own personal information. The tricks tab contains a table with a list of all the tricks in the database. You may delete tricks from your database by selecting the desired row and pressing delete. Another function on the tricks tab is the ability to add a trick to the database. With an easy to fill, side form that appears when 'add trick' is selected. This tab is used to keep a record of all the tricks that the user can do. The skatepark tab contains a customisable Google maps object which allows you to add and remove skateparks. This tab is used so that the user can plan on visiting new skateparks that they have never been to before. The review tab contains a table which displays all the reviews in the database. The support tab allows the user to report any problems with the program, and request any additional functionality that they wish me to implement. The command line interface functionality of my program allows the user to add, edit and delete all information from any table within the database. For example, reviews can be added which you would then be able to view in the reviews tab.
 
 
 
@@ -333,7 +333,7 @@ For the next tutorials you will need to open up the command line interface menu.
 \item Press F5 to start up the Command Line Interface.
 \end{enumerate}
 
-\subsubsection{How Do I Add a Review?} \label{AddReview} %WALKTHROUGH TEXT AFTER COMMAND LINE INTERFACE
+\subsubsection{How Do I Add a Review?} \label{AddReview} 
 
 The figure below shows the options you need to choose in order to add a review. 
 
@@ -368,7 +368,7 @@ The figure below shows the options you need to choose in order to delete a revie
 
 My program saves information automatically due to the underlying SQL framework.
 
-\subsection{Limitations} %DISCUSS LIMITATIONS MORE
+\subsection{Limitations} 
 
 As discussed in the introduction some sections are not fully implemented into a graphical user interface. This limitation has occurred due to the time limit that I had in order to complete the project. The part of my system which hasn't been implemented into a graphical user interface yet is the review section. The user interface is in place, but there is currently no functionality which enables the user to add, edit or delete reviews; However this functionality is available in a command line interface.
 
@@ -378,11 +378,79 @@ Some of the functionality which was meant to be implemented, has not been comple
 
 
 
-\section{Error Recovery} %VALIDATION
+\section{Error Recovery} 
 
-My program contains no errors which causes the program to crash; however some validation is not correctly handled.
+My program contains no errors which causes the program to crash; however some validation is not correctly handled on the profile tab.
 
+\textbf{Profile Picture File Type Validation Error Recovery}
 
+When changing the profile picture on the profile tab, the program does not check if it is a valid file type. Therefore you are able to change your profile picture to any file. An example of this is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/PictureValidation.pdf}
+    \caption{Choosing an Incorrect File Type for the Profile Picture} \label{fig:PictureError}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/PictureValidation2.pdf}
+    \caption{Choosing an Incorrect File Type for the Profile Picture part 2} \label{fig:PictureError2}
+\end{figure}
+
+\begin{enumerate} 
+\item Click the 'Change Picture' button in the profile tabs tool bar.
+\item Selecting a file which is not a .JPEG image.
+\item Changes the profile picture to a blank space.
+\end{enumerate}
+
+ This error can be recovered by changing the profile picture again to a suitable picture file type. This is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/PictureValidationR1.pdf}
+    \caption{Incorrect File Type for the Profile Picture Error Recovery} \label{fig:PictureErrorR1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/PictureValidationR2.pdf}
+    \caption{Incorrect File Type for the Profile Picture Error Recovery part 2} \label{fig:PictureErrorR2}
+\end{figure}
+
+\begin{enumerate}
+\item Click the 'Change Picture' button in the profile tabs tool bar.
+\item Selecting a file which is a .JPEG image.
+\item Changes the profile picture to that JPEG image.
+\end{enumerate}
+
+\textbf{Name and Email Field Validation Error Recovery}
+
+When changing your name and email address on the profile tab, the program doesn't validate the name and email being put in. Therefore you are able to put anything, or nothing in these fields. This error can be recovered by correctly entering your first name, last name and email in edit mode. This is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/FieldValidation.pdf}
+    \caption{Name and Email Validation Error} \label{fig:ValidationError}
+\end{figure}
+
+The figure above shows an example of where the validation for the profile fields are not present. This is shown by the number indicators, there are explained below.
+
+\begin{enumerate}
+\item The First Name field contains numbers, which isn't a valid name.
+\item The Last Name field contains nothing, this also isn't a valid name.
+\item The Email Address field contains an incorrect format of an email address.
+\end{enumerate}
+
+The only way to fix the validation error is by changing the fields to contain the correct information. To do this you need to enter edit mode and change each text field to a correct value. This is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/FieldValidation2.pdf}
+    \caption{Name and Email Validation Error Recovery} \label{fig:ValidationErrorRecovery}
+\end{figure}
+
+\begin{enumerate}
+\item Click on the edit button to enter edit mode.
+\item Change the First Name field to contain your first name.
+\item Change the Last Name field to contain your last name.
+\item Change the Email Address field to contain your email address.
+\item Click the save button to save your changes.
+\end{enumerate}
 
 
 \section{System Recovery}
