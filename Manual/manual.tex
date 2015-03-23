@@ -1,7 +1,8 @@
 \chapter{User Manual}
 
 
-%CONTENTS PAGE
+\startcontents[chapters]
+\printcontents[chapters]{}{1}{}
 
 
 \section{Introduction}
@@ -10,9 +11,7 @@ The purpose of my program is to act as a skateboarding progress tracker and pers
 
 The intended audience of my program is currently purely for my client; however in the future, once a multi-user platform has been integrated the intended audience will be for the whole skating community.
 
-As the skateboard progress tracker is still an uncompleted program, some of the functionality is not currently available in a graphical user interface format and not all of the validation is fully functional.
-
-Currently, the version of the skateboard progress tracker includes a personalised profile tab where you can change the profile picture, email address and name to your own personal information. The tricks tab contains a table with a list of all the tricks in the database. You may delete tricks from your database by selecting the desired row and pressing delete. Another function on the tricks tab is the ability to add a trick to the database. With an easy to fill, side form that appears when 'add trick' is selected.This tab is used to keep a record of all the tricks that the user can do. The skatepark tab contains a customisable Google maps object which allows you to add and remove skateparks. This tab is used so that the user can plan on visiting new skateparks that they have never been to before. The review tab contains a table which displays all the reviews in the database. Functionality with the graphical user interface will be integrated in the next version of the program. The support tab allows the user to report any problems with the program, and request any additional functionality that they wish me to implement.
+The skateboard progress tracker includes a personalised profile tab where you can change the profile picture, email address and name to your own personal information. The tricks tab contains a table with a list of all the tricks in the database. You may delete tricks from your database by selecting the desired row and pressing delete. Another function on the tricks tab is the ability to add a trick to the database. With an easy to fill, side form that appears when 'add trick' is selected.This tab is used to keep a record of all the tricks that the user can do. The skatepark tab contains a customisable Google maps object which allows you to add and remove skateparks. This tab is used so that the user can plan on visiting new skateparks that they have never been to before. The review tab contains a table which displays all the reviews in the database. Functionality with the graphical user interface will be integrated in the next version of the program. The support tab allows the user to report any problems with the program, and request any additional functionality that they wish me to implement.
 
 
 
@@ -142,7 +141,29 @@ I am assuming that the user has basic computer operating skills. These include: 
 
 \subsection{Tutorial Questions}
 
-\subsubsection{How Do I Change My Profile Picture?}
+\begin{center}
+\begin{tabular}{|p{6cm}|p{2cm}|}
+    \hline
+ \textbf{Question} & \textbf{Page Reference} \\ \hline
+How Do I Change My Profile Picture? & Page \pageref{ChangePic} \\ \hline
+How Do I Change My Profile Name? & Page \pageref{ChangeName} \\ \hline
+How Do I Change My Profile Email Address? & Page \pageref{ChangeEmail} \\ \hline
+How Do I Add a Trick? & Page \pageref{AddTrick} \\ \hline
+How Do I Delete a Trick? & Page \pageref{DeleteTrick} \\ \hline
+How Do I Add a Skatepark? & Page \pageref{AddSkatepark} \\ \hline
+How Do I Access Existing Skatepark Details? & Page \pageref{SkateparkDetails} \\ \hline
+How Do I Hide Skateparks? & Page \pageref{HideSkatepark} \\ \hline
+How Do I Contact Support? & Page \pageref{ContactSupport}\\ \hline
+How Do I Add a Review? & Page \pageref{AddReview} \\ \hline
+How Do I Edit a Review? & Page \pageref{EditReview} \\ \hline
+How Do I Delete a Review? & Page \pageref{DeleteReview} \\ \hline
+
+
+\end{tabular}
+\label{tab:Tutorial Question List}
+\end{center}
+
+\subsubsection{How Do I Change My Profile Picture?} \label{ChangePic}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/SaveProfilePicture.pdf}
@@ -156,7 +177,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \end{enumerate}
 
 
-\subsubsection{How Do I Change My Profile Name?}
+\subsubsection{How Do I Change My Profile Name?} \label{ChangeName}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/ChangeName.pdf}
@@ -172,7 +193,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item Once you have changed your name, save the changes by clicking save.
 \end{enumerate}
 
-\subsubsection{How Do I Change My Profile Email Address?}
+\subsubsection{How Do I Change My Profile Email Address?} \label{ChangeEmail}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/ChangeEmail.pdf}
@@ -187,7 +208,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item Once you have changed your email address, save the changes by clicking save.
 \end{enumerate}
 
-\subsubsection{How Do I Add a Trick?}
+\subsubsection{How Do I Add a Trick?} \label{AddTrick}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/AddTrick.pdf}
@@ -203,7 +224,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item Once you have filled in the information you wish about the trick, click save to add the trick to the database.
 \end{enumerate}
 
-\subsubsection{How Do I Delete a Trick?}
+\subsubsection{How Do I Delete a Trick?} \label{DeleteTrick}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/DeleteTrick.pdf}
@@ -220,7 +241,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item If the delete button is pressed the trick will be removed from the database.
 \end{enumerate}
 
-\subsubsection{How Do I Add a Skatepark?}
+\subsubsection{How Do I Add a Skatepark?} \label{AddSkatepark}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/AddSkatepark.pdf}
@@ -236,7 +257,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item Once all the fields have been filled in, click save to add the skatepark to the database, only the last marker you placed will be saved.
 \end{enumerate}
 
-\subsubsection{How Do I Access Existing Skatepark Details?}
+\subsubsection{How Do I Access Existing Skatepark Details?}\label{SkateparkDetails}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/SkateparkDetails.pdf}
@@ -251,7 +272,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 \item Hover your mouse over that marker, and an information window will appear, giving you details about that specific skatepark.
 \end{enumerate}
 
-\subsubsection{How Do I Hide Skateparks?} 
+\subsubsection{How Do I Hide Skateparks?}  \label{HideSkatepark}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/HideSkatepark.pdf}
@@ -274,7 +295,7 @@ The figure above shows you a step by step graphical tutorial in how to change yo
 
 
 
-\subsubsection{How Do I Contact Support?}
+\subsubsection{How Do I Contact Support?} \label{ContactSupport}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/Support.pdf}
@@ -312,7 +333,7 @@ For the next tutorials you will need to open up the command line interface menu.
 \item Press F5 to start up the Command Line Interface.
 \end{enumerate}
 
-\subsubsection{How Do I Add a Review?}
+\subsubsection{How Do I Add a Review?} \label{AddReview} %WALKTHROUGH TEXT AFTER COMMAND LINE INTERFACE
 
 The figure below shows the options you need to choose in order to add a review. 
 
@@ -323,7 +344,7 @@ The figure below shows the options you need to choose in order to add a review.
 
 
 
-\subsubsection{How Do I Edit a Review?}
+\subsubsection{How Do I Edit a Review?} \label{EditReview}
 
 The figure below shows the options you need to choose in order to edit a review.
 
@@ -332,8 +353,8 @@ The figure below shows the options you need to choose in order to edit a review.
     \caption{Editing a Review in CLI} \label{fig:Edit Review}
 \end{figure}
 
-
-\subsubsection{How Do I Delete a Review?}
+ 
+\subsubsection{How Do I Delete a Review?} \label{DeleteReview}
 
 The figure below shows the options you need to choose in order to delete a review.
 
@@ -347,9 +368,11 @@ The figure below shows the options you need to choose in order to delete a revie
 
 My program saves information automatically due to the underlying SQL framework.
 
-\subsection{Limitations}
+\subsection{Limitations} %DISCUSS LIMITATIONS MORE
 
-As discussed in the introduction some sections are not fully implemented into a graphical user interface. This limitation has occurred due to the time limit that I had in order to complete the project.
+As discussed in the introduction some sections are not fully implemented into a graphical user interface. This limitation has occurred due to the time limit that I had in order to complete the project. The part of my system which hasn't been implemented into a graphical user interface yet is the review section. The user interface is in place, but there is currently no functionality which enables the user to add, edit or delete reviews; However this functionality is available in a command line interface.
+
+Some of the functionality which was meant to be implemented, has not been complete. For example, the ability to tick whether you are able to perform a specific trick, and the progress bar which shows the percentage of tricks that you have completed. 
 
 
 
@@ -357,14 +380,14 @@ As discussed in the introduction some sections are not fully implemented into a 
 
 \section{Error Recovery} %VALIDATION
 
-My program contains no errors which lead to the program needing to be recovered in any way.
+My program contains no errors which causes the program to crash; however some validation is not correctly handled.
 
 
 
 
 \section{System Recovery}
 
-\subsection{Backing-up Data} %Change step by step to just database file
+\subsection{Backing-up Data} 
 
 To back up the program, you need to copy the folder that you extracted during the installation to an external hard drive/USB drive. The figure below shows the backing up of the system to a USB drive.
 
@@ -387,14 +410,19 @@ The process for restoring the program data is shown below.
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{./Manual/Images/RestoringData.pdf}
-    \caption{Restoring The Skateboard Progress Tracker Data} \label{fig:Restoring Data}
+    \caption{Restoring The Skateboard Progress Tracker Data part 1} \label{fig:Restoring Data}
+\end{figure}
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Manual/Images/RestoringData2.pdf}
+    \caption{Restoring The Skateboard Progress Tracker Data part 2} \label{fig:Restoring Data2}
 \end{figure}
 
 \begin{enumerate}
 \item Find the device that you used to back up the program and right click on the folder and press 'copy'.
 \item Go to the location of the program on your computer.
 \item Right click in the folder location and select 'paste'.
-\item Tick the 'Do this for the next X conflicts'.
-\item Select copy and replace until the program has been fully replaced.
+\item Select copy and replace, then the database back up will be restored.
 \end{enumerate}
+
+\stopcontents[chapters]
 

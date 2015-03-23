@@ -1,18 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  23 MAR 2015 13:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  23 MAR 2015 15:47
 entering extended mode
 **U:/git/Comp4Coursework/coursework.tex
 (U:/git/Comp4Coursework/coursework.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -34,7 +25,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \@input{settings.aux}
 (U:\git\Comp4Coursework\settings.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
@@ -250,14 +241,17 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titletoc.sty
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titletoc.
+sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen103
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\minitoc.sty
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\minitoc.st
+y
 Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\mtcmess.sty
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\mtcmess.st
+y
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
@@ -276,8 +270,7 @@ Package minitoc Info: I0003
 \mtc@hstrutbox=\box27
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
-
-(U:\git\Comp4Coursework\coursework.mtc0)
+ (U:\git\Comp4Coursework\coursework.mtc0)
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
@@ -292,19 +285,20 @@ Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\english.mld
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\english.ml
+d
 File: english.mld 2006/01/13
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\english.mld
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\minitoc\english.ml
+d
 File: english.mld 2006/01/13
 ))
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count92
-)
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
 \lst@mode=\count93
@@ -320,18 +314,18 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count98
 \lst@maxwidth=\dimen107
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count99
 \lst@skipnumbers=\count100
 \lst@framebox=\box29
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\fancybox\fancybox.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -345,7 +339,7 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \Verbatim@Outfile=\write4
 \Verbatim@Infile=\read1
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -375,7 +369,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
 Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
@@ -386,12 +380,12 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip46
 \calc@Bskip=\skip47
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count104
 \calc@Cskip=\skip48
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
@@ -544,7 +538,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count121
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -581,10 +575,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\marvosym.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\marvosym\marvosym.sty"
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen133
@@ -600,14 +594,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks30
 \@floatcapt=\box36
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.
-sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -623,12 +616,14 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip57
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+)
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorit
+hm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks31
 \c@algorithm=\count137
-) (C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write5
 
 Excluding comment 'comment')
@@ -658,7 +653,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip62
 \f@ncyO@elh=\skip63
 \f@ncyO@erh=\skip64
@@ -669,7 +664,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \f@ncyO@olf=\skip69
 \f@ncyO@orf=\skip70
 )
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -784,7 +779,9 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 \c@lstlisting=\count143
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:\Users\31291.COLLEGE\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count144
 \scratchdimen=\dimen135
@@ -818,7 +815,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 
 
-{C:/Users/31291/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/31291.COLLEGE/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (U:\git\Comp4Coursework\coursework.tocpdfTeX warning (ext4): destination with t
 he same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1731,7 +1728,7 @@ Package pdftex.def Info: ./Design/Prototype/GoogleMaps.JPG used on input line 5
 08.
 (pdftex.def)             Requested size: 345.0pt x 190.34474pt.
 
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
@@ -2139,7 +2136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 900--902
  []
 
 [82] [83] [84]
-(C:\Users\31291\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
@@ -13981,160 +13978,165 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 (U:\git\Comp4Coursework\Implementation\CLI\products.py [346] [347]) [348])
 (U:\git\Comp4Coursework\Manual\manual.tex
 Chapter 5.
-[349
+\c@ttl@toc@chapters=\count151
+(U:\git\Comp4Coursework\coursework.ptc) [349
 
 
 
 
-]
-Overfull \hbox (5.86057pt too wide) in paragraph at lines 42--43
+] [350]
+Overfull \hbox (5.86057pt too wide) in paragraph at lines 41--42
 []\OT1/cmr/m/n/10 DirectX 9 graph-ics pro-ces-sor with Win-dows Dis-play Driver
  Model (WDDM)
  []
 
-<./Manual/Images/DownloadingPython.pdf, id=6810, 528.22993pt x 738.47133pt>
+<./Manual/Images/DownloadingPython.pdf, id=6829, 528.22993pt x 738.47133pt>
 File: ./Manual/Images/DownloadingPython.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DownloadingPython.pdf>
 Package pdftex.def Info: ./Manual/Images/DownloadingPython.pdf used on input li
-ne 58.
+ne 57.
 (pdftex.def)             Requested size: 345.0pt x 482.32191pt.
- [350]
-<./Manual/Images/InstallingPython.pdf, id=6817, 496.69644pt x 668.17519pt>
+ [351]
+<./Manual/Images/InstallingPython.pdf, id=6836, 496.69644pt x 668.17519pt>
 File: ./Manual/Images/InstallingPython.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPython.pdf>
 Package pdftex.def Info: ./Manual/Images/InstallingPython.pdf used on input lin
-e 65.
+e 64.
 (pdftex.def)             Requested size: 345.0pt x 464.11023pt.
- [351pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [352pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.67 \end{figure}
+l.66 \end{figure}
                   <U:/git/Comp4Coursework/Manual/Images/DownloadingPython.pdf>]
-[352pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+[353pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
+l.69 
       <U:/git/Comp4Coursework/Manual/Images/InstallingPython.pdf>]
-Overfull \hbox (37.499pt too wide) in paragraph at lines 73--74
+Overfull \hbox (37.499pt too wide) in paragraph at lines 72--73
 \OT1/cmr/m/n/10 To in-stall PyQt 4, first you must go to the web page: []$\OT1/
 cmtt/m/n/10 http : / / www . riverbankcomputing .$
  []
 
-<./Manual/Images/DownloadingPyQt.pdf, id=6841, 515.42134pt x 721.3928pt>
+<./Manual/Images/DownloadingPyQt.pdf, id=6860, 515.42134pt x 721.3928pt>
 File: ./Manual/Images/DownloadingPyQt.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DownloadingPyQt.pdf>
 Package pdftex.def Info: ./Manual/Images/DownloadingPyQt.pdf used on input line
- 76.
+ 75.
 (pdftex.def)             Requested size: 345.0pt x 482.87936pt.
- [353]
-<./Manual/Images/InstallingPyQt.pdf, id=6848, 517.39195pt x 612.00134pt>
+ [354]
+<./Manual/Images/InstallingPyQt.pdf, id=6868, 517.39195pt x 612.00134pt>
 File: ./Manual/Images/InstallingPyQt.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPyQt.pdf>
 Package pdftex.def Info: ./Manual/Images/InstallingPyQt.pdf used on input line 
-83.
+82.
 (pdftex.def)             Requested size: 345.0pt x 408.09639pt.
- [354pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [355pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 \end{figure}
+l.84 \end{figure}
                   <U:/git/Comp4Coursework/Manual/Images/DownloadingPyQt.pdf>]
-<./Manual/Images/InstallingPyQtp2.pdf, id=6861, 511.47887pt x 610.03047pt>
+<./Manual/Images/InstallingPyQtp2.pdf, id=6880, 511.47887pt x 610.03047pt>
 File: ./Manual/Images/InstallingPyQtp2.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/InstallingPyQtp2.pdf>
 Package pdftex.def Info: ./Manual/Images/InstallingPyQtp2.pdf used on input lin
-e 88.
+e 87.
 (pdftex.def)             Requested size: 345.0pt x 411.47354pt.
- [355pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [356pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 
-      <U:/git/Comp4Coursework/Manual/Images/InstallingPyQt.pdf>] [356pdfTeX war
+l.90 
+      <U:/git/Comp4Coursework/Manual/Images/InstallingPyQt.pdf>] [357pdfTeX war
 ning (ext4): destination with the same identifier (name{figure.5.5}) has been a
 lready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 
+l.96 
       <U:/git/Comp4Coursework/Manual/Images/InstallingPyQtp2.pdf>]
-<./Manual/Images/BenGithub.pdf, id=6889, 505.77617pt x 731.60289pt>
+<./Manual/Images/BenGithub.pdf, id=6908, 505.77617pt x 731.60289pt>
 File: ./Manual/Images/BenGithub.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/BenGithub.pdf>
-Package pdftex.def Info: ./Manual/Images/BenGithub.pdf used on input line 99.
+Package pdftex.def Info: ./Manual/Images/BenGithub.pdf used on input line 98.
 (pdftex.def)             Requested size: 345.0pt x 499.05742pt.
- [357] [358pdfTeX warning (ext4): destination with the same identifier (name{fi
+ [358] [359pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 
+l.103 
        <U:/git/Comp4Coursework/Manual/Images/BenGithub.pdf>]
-<./Manual/Images/ExtractZIP.pdf, id=6906, 521.22206pt x 547.50269pt>
+<./Manual/Images/ExtractZIP.pdf, id=6925, 521.22206pt x 547.50269pt>
 File: ./Manual/Images/ExtractZIP.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ExtractZIP.pdf>
-Package pdftex.def Info: ./Manual/Images/ExtractZIP.pdf used on input line 106.
+Package pdftex.def Info: ./Manual/Images/ExtractZIP.pdf used on input line 105.
 
 (pdftex.def)             Requested size: 345.0pt x 362.38881pt.
- [359pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [360pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 
+l.115 
        <U:/git/Comp4Coursework/Manual/Images/ExtractZIP.pdf>]
-<./Manual/Images/RunningProgram.pdf, id=6918, 597.23125pt x 767.86874pt>
+<./Manual/Images/RunningProgram.pdf, id=6938, 597.23125pt x 767.86874pt>
 File: ./Manual/Images/RunningProgram.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RunningProgram.pdf>
 Package pdftex.def Info: ./Manual/Images/RunningProgram.pdf used on input line 
-118.
+117.
 (pdftex.def)             Requested size: 345.0pt x 443.57152pt.
- [360]
-<./Manual/Images/RunningProgram2.pdf, id=6924, 597.23125pt x 767.86874pt>
+ [361]
+<./Manual/Images/RunningProgram2.pdf, id=6943, 597.23125pt x 767.86874pt>
 File: ./Manual/Images/RunningProgram2.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RunningProgram2.pdf>
 Package pdftex.def Info: ./Manual/Images/RunningProgram2.pdf used on input line
- 123.
+ 122.
 (pdftex.def)             Requested size: 345.0pt x 443.57152pt.
- [361pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+ [362pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.126 
-       <U:/git/Comp4Coursework/Manual/Images/RunningProgram.pdf>] [362pdfTeX wa
+l.125 
+       <U:/git/Comp4Coursework/Manual/Images/RunningProgram.pdf>] [363pdfTeX wa
 rning (ext4): destination with the same identifier (name{figure.5.9}) has been 
 already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \subsection
+l.138 \subsection
                  {Assumptions} <U:/git/Comp4Coursework/Manual/Images/RunningPro
 gram2.pdf>]
-<./Manual/Images/SaveProfilePicture.pdf, id=6947, 480.92613pt x 683.28271pt>
+Underfull \hbox (badness 6412) in paragraph at lines 147--147
+[]\OT1/cmr/bx/n/10 Page Ref-
+ []
+
+<./Manual/Images/SaveProfilePicture.pdf, id=6978, 480.92613pt x 683.28271pt>
 File: ./Manual/Images/SaveProfilePicture.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/SaveProfilePicture.pdf>
 Package pdftex.def Info: ./Manual/Images/SaveProfilePicture.pdf used on input l
-ine 148.
+ine 169.
 (pdftex.def)             Requested size: 345.0pt x 490.18031pt.
- [363] [364]
-Overfull \vbox (29.98582pt too high) has occurred while \output is active []
+ [364]
+Overfull \vbox (5.52751pt too high) has occurred while \output is active []
 
 
 [365pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
@@ -14142,13 +14144,13 @@ Overfull \vbox (29.98582pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.151 
+l.172 
        <U:/git/Comp4Coursework/Manual/Images/SaveProfilePicture.pdf>]
-<./Manual/Images/ChangeName.pdf, id=6974, 494.43883pt x 713.09845pt>
+<./Manual/Images/ChangeName.pdf, id=7012, 494.43883pt x 713.09845pt>
 File: ./Manual/Images/ChangeName.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ChangeName.pdf>
-Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 162.
+Package pdftex.def Info: ./Manual/Images/ChangeName.pdf used on input line 183.
 
 (pdftex.def)             Requested size: 345.0pt x 497.566pt.
  [366]
@@ -14160,13 +14162,13 @@ Overfull \vbox (12.9132pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.165 
+l.186 
        <U:/git/Comp4Coursework/Manual/Images/ChangeName.pdf>]
-<./Manual/Images/ChangeEmail.pdf, id=7000, 499.6535pt x 712.52332pt>
+<./Manual/Images/ChangeEmail.pdf, id=7037, 499.6535pt x 712.52332pt>
 File: ./Manual/Images/ChangeEmail.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/ChangeEmail.pdf>
-Package pdftex.def Info: ./Manual/Images/ChangeEmail.pdf used on input line 178
+Package pdftex.def Info: ./Manual/Images/ChangeEmail.pdf used on input line 199
 .
 (pdftex.def)             Requested size: 345.0pt x 492.0004pt.
  [368]
@@ -14178,26 +14180,26 @@ Overfull \vbox (7.3476pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.181 
+l.202 
        <U:/git/Comp4Coursework/Manual/Images/ChangeEmail.pdf>]
-<./Manual/Images/AddTrick.pdf, id=7027, 519.36356pt x 506.55138pt>
+<./Manual/Images/AddTrick.pdf, id=7063, 519.36356pt x 506.55138pt>
 File: ./Manual/Images/AddTrick.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddTrick.pdf>
-Package pdftex.def Info: ./Manual/Images/AddTrick.pdf used on input line 193.
+Package pdftex.def Info: ./Manual/Images/AddTrick.pdf used on input line 214.
 (pdftex.def)             Requested size: 345.0pt x 336.49687pt.
  [370pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.198 
+l.219 
        <U:/git/Comp4Coursework/Manual/Images/AddTrick.pdf>]
-<./Manual/Images/DeleteTrick.pdf, id=7049, 490.78406pt x 721.39323pt>
+<./Manual/Images/DeleteTrick.pdf, id=7084, 490.78406pt x 721.39323pt>
 File: ./Manual/Images/DeleteTrick.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DeleteTrick.pdf>
-Package pdftex.def Info: ./Manual/Images/DeleteTrick.pdf used on input line 209
+Package pdftex.def Info: ./Manual/Images/DeleteTrick.pdf used on input line 230
 .
 (pdftex.def)             Requested size: 345.0pt x 507.10728pt.
  [371]
@@ -14209,94 +14211,94 @@ Overfull \vbox (20.51004pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.212 
+l.233 
        <U:/git/Comp4Coursework/Manual/Images/DeleteTrick.pdf>]
-<./Manual/Images/AddSkatepark.pdf, id=7080, 525.2767pt x 547.94322pt>
+<./Manual/Images/AddSkatepark.pdf, id=7114, 525.2767pt x 547.94322pt>
 File: ./Manual/Images/AddSkatepark.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddSkatepark.pdf>
-Package pdftex.def Info: ./Manual/Images/AddSkatepark.pdf used on input line 22
-6.
+Package pdftex.def Info: ./Manual/Images/AddSkatepark.pdf used on input line 24
+7.
 (pdftex.def)             Requested size: 345.0pt x 359.90457pt.
  [373] [374pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.236 \item O
+l.257 \item O
              nce all the fields have been filled in, click save to add the s...
  <U:/git/Comp4Coursework/Manual/Images/AddSkatepark.pdf>]
-<./Manual/Images/SkateparkDetails.pdf, id=7109, 516.40425pt x 634.665pt>
+<./Manual/Images/SkateparkDetails.pdf, id=7142, 516.40425pt x 634.665pt>
 File: ./Manual/Images/SkateparkDetails.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/SkateparkDetails.pdf>
 Package pdftex.def Info: ./Manual/Images/SkateparkDetails.pdf used on input lin
-e 242.
+e 263.
 (pdftex.def)             Requested size: 345.0pt x 424.0225pt.
  [375] [376pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.250 \item F
+l.271 \item F
              ind the marker of the skatepark which you wish to find the deta...
  <U:/git/Comp4Coursework/Manual/Images/SkateparkDetails.pdf>]
-<./Manual/Images/HideSkatepark.pdf, id=7133, 597.23125pt x 770.88pt>
+<./Manual/Images/HideSkatepark.pdf, id=7165, 597.23125pt x 770.88pt>
 File: ./Manual/Images/HideSkatepark.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/HideSkatepark.pdf>
 Package pdftex.def Info: ./Manual/Images/HideSkatepark.pdf used on input line 2
-57.
+78.
 (pdftex.def)             Requested size: 345.0pt x 445.31104pt.
  [377]
-<./Manual/Images/HideSkatepark2.pdf, id=7141, 597.23125pt x 770.88pt>
+<./Manual/Images/HideSkatepark2.pdf, id=7173, 597.23125pt x 770.88pt>
 File: ./Manual/Images/HideSkatepark2.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/HideSkatepark2.pdf>
 Package pdftex.def Info: ./Manual/Images/HideSkatepark2.pdf used on input line 
-262.
+283.
 (pdftex.def)             Requested size: 345.0pt x 445.31104pt.
  [378pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.265 
+l.286 
        <U:/git/Comp4Coursework/Manual/Images/HideSkatepark.pdf>] [379pdfTeX war
 ning (ext4): destination with the same identifier (name{figure.5.18}) has been 
 already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 \item F
+l.291 \item F
              ind the marker of the skatepark which you want to hide. <U:/git/Co
 mp4Coursework/Manual/Images/HideSkatepark2.pdf>]
-<./Manual/Images/Support.pdf, id=7175, 597.23125pt x 446.66875pt>
+<./Manual/Images/Support.pdf, id=7206, 597.23125pt x 446.66875pt>
 File: ./Manual/Images/Support.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/Support.pdf>
-Package pdftex.def Info: ./Manual/Images/Support.pdf used on input line 280.
+Package pdftex.def Info: ./Manual/Images/Support.pdf used on input line 301.
 (pdftex.def)             Requested size: 345.0pt x 258.02525pt.
  [380pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.292 \end{enumerate}
+l.313 \end{enumerate}
                       <U:/git/Comp4Coursework/Manual/Images/Support.pdf>]
-<./Manual/Images/LoadingCLI.pdf, id=7200, 597.23125pt x 759.83875pt>
+<./Manual/Images/LoadingCLI.pdf, id=7230, 597.23125pt x 759.83875pt>
 File: ./Manual/Images/LoadingCLI.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/LoadingCLI.pdf>
-Package pdftex.def Info: ./Manual/Images/LoadingCLI.pdf used on input line 300.
+Package pdftex.def Info: ./Manual/Images/LoadingCLI.pdf used on input line 321.
 
 (pdftex.def)             Requested size: 345.0pt x 438.93286pt.
 
-<./Manual/Images/LoadingCLI2.pdf, id=7201, 597.23125pt x 474.77374pt>
+<./Manual/Images/LoadingCLI2.pdf, id=7231, 597.23125pt x 474.77374pt>
 File: ./Manual/Images/LoadingCLI2.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/LoadingCLI2.pdf>
-Package pdftex.def Info: ./Manual/Images/LoadingCLI2.pdf used on input line 305
+Package pdftex.def Info: ./Manual/Images/LoadingCLI2.pdf used on input line 326
 .
 (pdftex.def)             Requested size: 345.0pt x 274.26056pt.
  [381pdfTeX warning (ext4): destination with the same identifier (name{figure.5
@@ -14304,26 +14306,26 @@ Package pdftex.def Info: ./Manual/Images/LoadingCLI2.pdf used on input line 305
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.308 
+l.329 
        <U:/git/Comp4Coursework/Manual/Images/LoadingCLI.pdf>]
-<./Manual/Images/AddReview.pdf, id=7218, 597.23125pt x 589.20125pt>
+<./Manual/Images/AddReview.pdf, id=7248, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/AddReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/AddReview.pdf>
-Package pdftex.def Info: ./Manual/Images/AddReview.pdf used on input line 320.
+Package pdftex.def Info: ./Manual/Images/AddReview.pdf used on input line 341.
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
  [382pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.323 
+l.344 
        <U:/git/Comp4Coursework/Manual/Images/LoadingCLI2.pdf>]
-<./Manual/Images/EditReview.pdf, id=7238, 597.23125pt x 589.20125pt>
+<./Manual/Images/EditReview.pdf, id=7267, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/EditReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/EditReview.pdf>
-Package pdftex.def Info: ./Manual/Images/EditReview.pdf used on input line 331.
+Package pdftex.def Info: ./Manual/Images/EditReview.pdf used on input line 352.
 
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
  [383pdfTeX warning (ext4): destination with the same identifier (name{figure.5
@@ -14331,37 +14333,37 @@ Package pdftex.def Info: ./Manual/Images/EditReview.pdf used on input line 331.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334 
+l.355 
        <U:/git/Comp4Coursework/Manual/Images/AddReview.pdf>]
-<./Manual/Images/DeleteReview.pdf, id=7251, 597.23125pt x 589.20125pt>
+<./Manual/Images/DeleteReview.pdf, id=7279, 597.23125pt x 589.20125pt>
 File: ./Manual/Images/DeleteReview.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/DeleteReview.pdf>
-Package pdftex.def Info: ./Manual/Images/DeleteReview.pdf used on input line 34
-1.
+Package pdftex.def Info: ./Manual/Images/DeleteReview.pdf used on input line 36
+2.
 (pdftex.def)             Requested size: 345.0pt x 340.3614pt.
  [384pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.344 
+l.365 
        <U:/git/Comp4Coursework/Manual/Images/EditReview.pdf>] [385pdfTeX warnin
 g (ext4): destination with the same identifier (name{figure.5.24}) has been alr
 eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.365 \section
+l.386 \section
               {System Recovery} <U:/git/Comp4Coursework/Manual/Images/DeleteRev
-iew.pdf>] <./Manual/Images/BackUp.pdf, id=7275, 516.40701pt x 695.7693pt>
+iew.pdf>] <./Manual/Images/BackUp.pdf, id=7302, 597.23125pt x 753.81625pt>
 File: ./Manual/Images/BackUp.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/BackUp.pdf>
-Package pdftex.def Info: ./Manual/Images/BackUp.pdf used on input line 372.
-(pdftex.def)             Requested size: 345.0pt x 464.84656pt.
+Package pdftex.def Info: ./Manual/Images/BackUp.pdf used on input line 393.
+(pdftex.def)             Requested size: 345.0pt x 435.45389pt.
  [386]
-Overfull \hbox (66.71466pt too wide) in paragraph at lines 378--379
+Overfull \hbox (66.71466pt too wide) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 Go into the folder and click 'im-ple-men-ta-tion', then on th
 e 'skate-board[]progress[]tracker.db'
  []
@@ -14371,31 +14373,46 @@ e 'skate-board[]progress[]tracker.db'
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.379 \item F
-             ind the USB drive folder and open it. <U:/git/Comp4Coursework/Manu
-al/Images/BackUp.pdf>]
-<./Manual/Images/RestoringData.pdf, id=7298, 514.43541pt x 677.04524pt>
+l.401 \item R
+             ight click in the folder and select 'paste' <U:/git/Comp4Coursewor
+k/Manual/Images/BackUp.pdf>]
+<./Manual/Images/RestoringData.pdf, id=7325, 597.23125pt x 662.475pt>
 File: ./Manual/Images/RestoringData.pdf Graphic file (type pdf)
 
 <use ./Manual/Images/RestoringData.pdf>
-Package pdftex.def Info: ./Manual/Images/RestoringData.pdf used on input line 3
-89.
-(pdftex.def)             Requested size: 345.0pt x 454.07251pt.
- [388] [389pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.5.26}) has been already used, duplicate ignored
+Package pdftex.def Info: ./Manual/Images/RestoringData.pdf used on input line 4
+10.
+(pdftex.def)             Requested size: 345.0pt x 382.68916pt.
+
+<./Manual/Images/RestoringData2.pdf, id=7326, 597.23125pt x 463.7325pt>
+File: ./Manual/Images/RestoringData2.pdf Graphic file (type pdf)
+
+<use ./Manual/Images/RestoringData2.pdf>
+Package pdftex.def Info: ./Manual/Images/RestoringData2.pdf used on input line 
+414.
+(pdftex.def)             Requested size: 345.0pt x 267.8824pt.
+ [388pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.397 \item T
-             ick the 'Do this for the next X conflicts'. <U:/git/Comp4Coursewor
-k/Manual/Images/RestoringData.pdf>]) [390]
-(U:\git\Comp4Coursework\Evaluation\evaluation.tex
+l.417 
+       <U:/git/Comp4Coursework/Manual/Images/RestoringData.pdf>]) [389pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.5.27}) has been
+ already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.15 \include{./Manual/manual}
+                               <U:/git/Comp4Coursework/Manual/Images/RestoringD
+ata2.pdf>] (U:\git\Comp4Coursework\Evaluation\evaluation.tex
 Chapter 6.
-[391
+[390
 
 
 
-] [392] [393] [394]) [395]
+] [391] [392] [393]) [394]
+\tf@ptc=\write8
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the coursework.maf file.
@@ -14411,7 +14428,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the coursework.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
-[396
+[395
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
@@ -14439,12 +14456,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 17.
 ### simple group (level 1) entered at line 544 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18983 strings out of 493921
- 297072 string characters out of 3144876
- 484986 words of memory out of 3000000
- 17289 multiletter control sequences out of 15000+200000
+ 19012 strings out of 493705
+ 297486 string characters out of 3142200
+ 489899 words of memory out of 3000000
+ 17343 multiletter control sequences out of 15000+200000
  11345 words of font info for 41 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 1025 hyphenation exceptions out of 8191
  40i,12n,45p,1834b,2544s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -14461,9 +14478,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on coursework.pdf (397 pages, 14033487 bytes).
+Output written on coursework.pdf (396 pages, 14184922 bytes).
 PDF statistics:
- 8257 PDF objects out of 8907 (max. 8388607)
- 4164 named destinations out of 4296 (max. 500000)
- 2180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8287 PDF objects out of 8907 (max. 8388607)
+ 4163 named destinations out of 4296 (max. 500000)
+ 2185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
