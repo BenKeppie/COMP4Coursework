@@ -262,14 +262,16 @@
 \contentsline {subsection}{\numberline {6.1.26}Ensure that the program can mark skate park locations.}{400}{subsection.6.1.26}
 \contentsline {subsection}{\numberline {6.1.27}Ensure no biased reviews are posted to the app and that they're moderated before they are universally posted.}{400}{subsection.6.1.27}
 \contentsline {subsection}{\numberline {6.1.28}Ensure the program runs fast without lag when navigating between areas of the application.}{401}{subsection.6.1.28}
-\contentsline {section}{\numberline {6.2}Effectiveness}{401}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{401}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Learnability}{401}{section.6.3}
-\contentsline {section}{\numberline {6.4}Usability}{401}{section.6.4}
-\contentsline {section}{\numberline {6.5}Maintainability}{401}{section.6.5}
-\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{401}{section.6.6}
-\contentsline {section}{\numberline {6.7}End User Evidence}{401}{section.6.7}
-\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{401}{subsection.6.7.1}
-\contentsline {subsection}{\numberline {6.7.2}Graphs}{401}{subsection.6.7.2}
-\contentsline {subsection}{\numberline {6.7.3}Written Statements}{401}{subsection.6.7.3}
+\contentsline {section}{\numberline {6.2}Effectiveness}{403}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Objective Evaluation}{403}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Learnability}{403}{section.6.3}
+\contentsline {section}{\numberline {6.4}Usability}{403}{section.6.4}
+\contentsline {section}{\numberline {6.5}Maintainability}{403}{section.6.5}
+\contentsline {section}{\numberline {6.6}Suggestions for Improvement}{403}{section.6.6}
+\contentsline {section}{\numberline {6.7}End User Evidence}{403}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Questionnaires}{403}{subsection.6.7.1}
+\contentsline {subsubsection}{Client Feedback Questionnaire}{403}{section*.68}
+\contentsline {subsubsection}{General Feedback Questionnaire}{406}{section*.69}
+\contentsline {subsection}{\numberline {6.7.2}Graphs}{412}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}Written Statements}{412}{subsection.6.7.3}
 \contentsfinish 
