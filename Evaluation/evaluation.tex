@@ -6,12 +6,23 @@ Below is a list of all my general and specific objectives that I set myself in t
 
 \subsection{Aesthetically pleasing, easy to navigate GUI.} %Need feedback
 
+This objective has been met.
+
 
 
 
 \subsection{Videos organised and filtering capabilities.}
 
-This objective has been partially met. The video links are organised in the tricks table in the order of TrickID; however there are no fitering capabilities implemented in the program at this stage. 
+This objective has been partially met. The video links (tricks tutorial link) are organised in the tricks table in the order of TrickID; however there are no fitering capabilities implemented in the program at this stage. 
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/OrganisedTricks.jpg}
+    \caption{Tricks Organised by TrickID} \label{fig:TricksOrganised}
+\end{figure}
+
+The figue above shows that the video links have been organised by TrickID. With the first TrickID being at the top of the table and the last being at the bottom; however, from the figure above you can see that there are no filtering capabilities within the Tricks tab which contribute to the functionality of filtering the tricks table.
+
 
 
 
@@ -29,7 +40,7 @@ This objective has not been met.
 
 \subsection{Non-biased reviews.}
 
-This objective has been met to an extent.
+This objective has been met to an extent. As the program is currently a single user application, the only reviews that will be in place will be the reviews that my client adds. Therefore the only way the review would be biased is if my client specifically made a biased review. 
 
 
 
@@ -40,11 +51,11 @@ This objective has been met.
 
 \subsection{ Easy to filter through tricks known.}
 
-This objective has not been met. As discussed before filtering capabilities have not been implemented in this version of the program.
+This objective has not been met. As discussed before, filtering capabilities have not been implemented in this version of the program.
 
 
 
-\subsection {Display status bar messages at appropriate times to inform the user of changes *NEW*}
+\subsection {Display status bar messages at appropriate times to inform the user of changes *NEW*} %FEEDBACK
 
 This objective has been met.
 
@@ -53,6 +64,14 @@ This objective has been met.
 \subsection {Allow for the user to contact the developer *NEW*}
 
 This objective has been met.
+
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/Contactsupport.jpg}
+    \caption{Contacting Developer Form} \label{fig:ContactSupportEVD}
+\end{figure}
+
+The figure above shows the form in the support tab which users can fill in, in order to contact the developer with any problems or queries about the program.
 
 
 
@@ -85,7 +104,7 @@ This objective hasn't been met.
 
 \subsection {Ensure that videos load correctly and are linked to the right video.}
 
-This objective hasn't been met.
+This objective has been met. I have used a regular expression to validate an official YouTube video link, and on top of that referential integrity has been enforced in the database so that the tutorial link will be assigned to the trick that it was added to by the user. 
 
 
 
