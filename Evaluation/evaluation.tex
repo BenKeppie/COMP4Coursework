@@ -11,7 +11,12 @@ Below is a list of all my general and specific objectives that I set myself in t
 
 \textbf{This objective has been met.}
 
-From the bar chart in Figure \ref{fig:AestheticsGraph} on page \pageref{fig:AestheticsGraph}, which gives a bar chart analysis of all of the questionnaire responses to asking about the aesthetics and ease of navigating the program. you can see that 60\% of the questionnaires that were filled in responded that they strongly agree that the program is aesthetically pleasing and easy to navigate, with a further 40\% agreeing. Making a total of 100\% positive feedback in response to the question posed. Therefore I believe that my program is aesthetically pleasing and easy to navigate.
+From the bar chart in Figure \ref{fig:AestheticsGraph} on page \pageref{fig:AestheticsGraph} (also shown below), which gives a bar chart analysis of all of the questionnaire responses to asking about the aesthetics and ease of navigating the program. you can see that 60\% of the questionnaires that were filled in responded that they strongly agree that the program is aesthetically pleasing and easy to navigate, with a further 40\% agreeing. Making a total of 100\% positive feedback in response to the question posed. Therefore I believe that my program is aesthetically pleasing and easy to navigate.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/AestheticsGraph.pdf}
+    \caption{Bar Chart for Aesthetics and Navigation Opinions.} \label{fig:AestheticsGraphCopy}
+\end{figure}
 
 
 
@@ -39,6 +44,13 @@ The figue above shows that the video links have been organised by TrickID. With 
 
 I am using the most recent Google maps image available and therefore the roads in between skate parks and spots are up to date.
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/RecentMap.pdf}
+    \caption{2015 Google Maps} \label{fig:RecentMap}
+\end{figure}
+
+The figure above shows that the map data is the 2015 map which is currently the most up to date Google maps object available and therefore the map is as accurate to current roads as I could possibly get.
+
 
 
 \subsubsection {Correct directions from current location to skate park/ spot on the map.}
@@ -61,7 +73,12 @@ As the program is currently a single user application, the only reviews that wil
 
 \textbf{This objective has been met.}
 
-My bar chart in Figure \ref{fig:TricksTableGraph} on page \pageref{fig:TricksTableGraph} shows that 80\% of the feedback that I received on my questionnaire agreed with the fact that it was easy to read, with a further 20\% of feedback strongly agreeing which leaves a 100\% turn over of positive feedback.
+My bar chart in Figure \ref{fig:TricksTableGraph} on page \pageref{fig:TricksTableGraph} (also shown below) shows that 80\% of the feedback that I received on my questionnaire agreed with the fact that it was easy to read, with a further 20\% of feedback strongly agreeing which leaves a 100\% turn over of positive feedback.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/TricksTableGraph.pdf}
+    \caption{Bar Chart for Tricks Table Format} \label{fig:TricksTableGraphCopy}
+\end{figure}
 
 
 \begin{figure}[H]
@@ -85,13 +102,23 @@ As discussed before, filtering capabilities have not been implemented in this ve
 
 
 
-\subsubsection {Display status bar messages at appropriate times to inform the user of changes *NEW*} %show some images
+\subsubsection {Display status bar messages at appropriate times to inform the user of changes *NEW*} 
 
 \textbf{This objective has been met.}
 
-I have decided this as 100\% of my questionnaires that I received back strongly agree with the statement. This is shown by my questionnaire section (\ref{QSub}) of my evaluation on page \pageref{QSub}.
+I have decided this as 100\% of my questionnaires that I received back strongly agree with the statement. This is shown by my questionnaire section (\ref{QSub}) of my evaluation on page \pageref{QSub}. Below an illustrated example of one of the status bar messages is shown.
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/StatusBarEvidence.pdf}
+    \caption{Appropriate Status Bar Message Example} \label{fig:StatusBarEvidence}
+\end{figure}
 
+\begin{enumerate}
+\item 'Change Picture' in the tool bar is clicked to bring up a file dialog.
+\item A status bar message is shown, alerting the user that they are changing the profile picture.
+\item Cancel is pressed in the file dialog.
+\item As the profile picture function was cancelled a message on the status bar is displayed to alert the user that the profile picture has not been changed.
+\end{enumerate}
 
 \subsubsection {Allow for the user to contact the developer *NEW*}
 
@@ -141,20 +168,54 @@ As discussed before, filtering capabilities have not been implemented in this ve
 
 
 
-\subsubsection {Ensure that videos load correctly and are linked to the right video.} %Show images
+\subsubsection {Ensure that videos load correctly and are linked to the right video.} 
 
 \textbf{This objective has been met.}
 
  I have used a regular expression to validate an official YouTube video link, and on top of that referential integrity has been enforced in the database so that the tutorial link will be assigned to the trick that it was added to by the user. 
 
 
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/FailedYouTubeLink.pdf}
+    \caption{Failed YouTube Link} \label{fig:FailedYouTubeLink}
+\end{figure}
+
+From the figure above you can see that as the Tutorial Link field is incorrect a red border is displayed around the field and a message on the status bar is displayed informing the user that a field is not valid, this function works due to a regular expression validation the official YouTube link. However when a valid link is added a green border is around the field and therefore the trick can be saved to the database, this is shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/ValidYouTubeLink.pdf}
+    \caption{Valid YouTube Link} \label{fig:ValidYouTubeLink}
+\end{figure}
+
+The next figure shows that the Tutorial link can be copied from the table and pasted into a web browser to display the same video. Due to the underlying SQL framework, referential integrity and regular expressions the link field is assigned to the correct trick.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/LoadYouTube.pdf}
+    \caption{Copying Trick YouTube Link Part 1} \label{fig:loadYouTube1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/LoadYouTube2.pdf}
+    \caption{Copying Trick YouTube Link Part 2} \label{fig:loadYouTube2}
+\end{figure}
+
+\begin{enumerate}
+\item Selecting the row of the newly added trick and clicking on the YouTube link and pressing 'ctrl+c' (copy).
+\item Opening up a web browser and pressing 'ctrl+v' (paste) in the URL bar.
+\item The correct video loads.
+\end{enumerate}
 
 
-\subsubsection {Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.} %Show images
+\subsubsection {Ensure that videos are displayed at the correct size/resolution that the monitor of the computer is.} 
 
 \textbf{This objective has been met.}
 
-As the videos are viewed in the computers default web browser, the videos will be shown in the correct size/resolution that the monitor is.
+As the videos are viewed in the computers default web browser, the videos will be shown in the correct size/resolution that the monitor is. An example of this is shown below from the previous example where a trick tutorial URL was copied from the table and pasted into a web browser.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/LoadYouTube2.pdf}
+    \caption{YouTube Displaying Videos at the correct size.} \label{fig:loadYouTube2}
+\end{figure}
 
 
 
@@ -214,6 +275,13 @@ As discussed before, filtering capabilities have not been implemented in this ve
 \textbf{This objective has been met.}
 
 I am using the most recent Google maps image available and therefore the maps object is as up to date with current roads as possible. The way that I have implemented my Google maps object means that the map will be automatically updated to the most recent version of Google maps.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/RecentMap.pdf}
+    \caption{2015 Google Maps} \label{fig:RecentMap}
+\end{figure}
+
+The figure above shows that the map data is the 2015 map which is currently the most up to date Google maps object available and therefore the map is as accurate to current roads as I could possibly get.
 
 \subsubsection {Ensure location of the user is not revealed to anyone else.}
 
@@ -338,7 +406,14 @@ As discussed before, all of my received feedback rated my application the fastes
 
 	\subsubsection{Aesthetically pleasing, easy to navigate GUI.}
 
-My client has said that a bit more colour within the application would make the aesthetics of the program better, this can be found in Stuarts questionnaire, Figure \ref{fig:StuFeedback3} on page \pageref{fig:StuFeedback3}. Therefore my GUI is not currently fully effective.
+My client has said that a bit more colour within the application would make the aesthetics of the program better, 
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/StuImprovements.jpg}
+    \caption{Stuart's Feedback for improvements} \label{fig:StuImprovementFeedback}
+\end{figure}
+
+Stuarts questionnaire can be found in, Figure \ref{fig:StuFeedback3} on page \pageref{fig:StuFeedback3}. Therefore my GUI is not currently fully effective for my client. To make it more effective I would have to add a custom style sheet to make the design of my program less plain. 
 
 \subsubsection{Clear database with a list of tricks in effectiveness}
 
@@ -379,7 +454,7 @@ As there is no way of filtering biased reviews from being added to the database,
 
 Although I have implemented a number system to correspond to the difficulty of a trick, my feedback form shown by Figure \ref{fig:SueFeedback1} on page \pageref{fig:SueFeedback1} states that it would be a lot easier for tricks to be marked by the words rather than a number rating system. This leads me to believe that my solution to that objective is not fully effective. I also agree that the program should display an English language trick difficulty scale so that the users of the program do not need to look up in the user manual what the data means.
 
-	\subsubsection{Ensure the database can add, edit and remove trick data (Name,description, image, completed status and tutorial link).}
+	\subsubsection{Ensure the database can add, edit and remove trick data (name, description, image, completed status and tutorial link).}
 
 As editing trick information is only available in command line interface, the solution is not completely effective. In order for the solution to be fully effective I would have to implement an easy, intuitive way of editing trick information by interacting with the tricks table displayed in the tricks tab.
 
@@ -405,9 +480,28 @@ My program doesn't need any prior knowledge in order to operate it. This means t
 
 \section{Usability} %More detail and evidence
 
+	\subsection{Latency}
+
+As discussed previously latency is not noticeable or disruptive between tasks. This is shown by the user feedback of the highest possible mark (of 10) on all of the questionnaires in section \ref{QSub} on page {QSub}. This is also backed up by my use of the systems on multiple computers. I have tested my program on multiple computers at my college and also my laptop at home which further gives me confidence in my systems quick response to tasks. Most importantly my client was extremely satisfied by the latency time between functions, as outlined in the questionnaire which he carried out and rated my systems speed 10 out of 10.
+
 	\subsection{Readability}
 
-My programs text is presented on a white background with black text, this high contrast of colours allows for text within my program to be easily read. Backgrounds of similar shades have been specifically avoided in order to make the users experience of the program better due to an increased ease of readability. This is backed up by my 100\% positive feedback on the aesthetics of my program (Figure \ref{fig:AestheticsGraph} on page \pageref{fig:AestheticsGraph}).
+My programs text is presented on a white background with black text, this high contrast of colours allows for text within my program to be easily read. Backgrounds of similar shades have been specifically avoided in order to make the users experience of the program better due to an increased ease of readability. An example tab (profile tab) is shown below to illustrate this. 
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/Text.pdf}
+    \caption{Tab Example To Illustrate Readability.} \label{fig:Text}
+\end{figure}
+
+
+This is backed up by my 100\% positive feedback from my questionnaires on the aesthetics of my program shown below.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/AestheticsGraph.pdf}
+    \caption{Bar Chart for Aesthetics and Navigation Opinions.} \label{fig:AestheticsGraphCopy}
+\end{figure}
+
+(Figure \ref{fig:AestheticsGraph} on page \pageref{fig:AestheticsGraph}).
 
 I have not changed the size of the text in my program, and am therefore using the standard font size that comes with the PyQt module. This has been optimised for neat looking and an easy to read size for all monitor resolutions. 
 
@@ -419,9 +513,18 @@ My program contains a tab format which allows for different information to be di
 
 I have used a familiar format for all programs. I have implemented a status bar with the functionality of a particular tab; however all functionality, from any tab, can be accessed by the menu bar. By selecting a function from a different tab from the menu bar, the user is taken to the tab with the functionality that they chose. This use of navigation shortcuts allows for ease of navigation.
 
+My user feedback also gave a 100\% positive turn over of participants agreeing that the program is easy to navigate. This is shown below in a bar chart.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{./Evaluation/images/AestheticsGraph.pdf}
+    \caption{Bar Chart for Aesthetics and Navigation Opinions.} \label{fig:AestheticsGraphCopy}
+\end{figure}
+
+(Figure \ref{fig:AestheticsGraph} on page \pageref{fig:AestheticsGraph}).
+
 	\subsection{Ease of Use}
 
-I chose to implement the program in a way which makes the program self explanatory. In my questionnaire I asked if the participant understood that the skatepark map was implemented so that the user can find new skateparks and spots. The feedback that I received shows that 100\% of the participants understood. This shows that my program is easy to use.
+I chose to implement the program in a way which makes the program self explanatory. In my questionnaire I asked if the participant understood that the skatepark map was implemented so that the user can find new skateparks and spots. The feedback that I received shows that 100\% of the participants understood. This shows that my program is easy to use along with the fact that in the open style questions my client did not mention anything about the program being hard to use, which leads me to believe that he is satisfied with the usability of my program.
 
 
 
